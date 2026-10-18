@@ -32,6 +32,7 @@ text=cfg.read_text(encoding='utf-8')
 cfg.write_text('\n'.join(line for line in text.splitlines() if not any(line.endswith(Path(r).name) for r in excluded))+'\n',encoding='utf-8')
 for filename in ['LICENSE.txt','NOTICE.md','THIRD-PARTY-NOTICES.md','MODIFICATIONS.md']:
     shutil.copy2(ROOT/filename,dest/filename)
+shutil.copytree(ROOT/'licenses',dest/'licenses')
 (dest/'Start-Game.cmd').write_text('@echo off\ncd /d "%~dp0"\nstart "" "%~dp0Arknights Pixel Dungeon\\Arknights Pixel Dungeon.exe"\n',encoding='ascii',newline='\r\n')
 commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
 (dest/'README.txt').write_text('Arknights Pixel Dungeon 0.0.1 — holy1ow\nWindows x64 / bundled Java 17.0.17\n\n完整解压后运行 Start-Game.cmd。首次运行创建全新进度，仅赫拉格默认解锁，原版新手引导保留。\n这是开发快照，全角色美术尚未全部验收；医疗阿米娅未选型，特色技能尚未实装。\n基于 Shattered Pixel Dungeon 4.0.2，游戏代码 GNU GPL v3 或后续版本。\n对应源码：https://github.com/holy1ow/arknights-pixel-dungeon/tree/v0.0.1\nCommit: '+commit+'\n第三方源码：同一 GitHub Release 的 third-party-sources.zip。普通玩家无需下载源码。\n个人存档不在本目录内，游戏使用独立用户目录。\n',encoding='utf-8')

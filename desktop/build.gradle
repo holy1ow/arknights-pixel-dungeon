@@ -12,6 +12,7 @@ processResources {
     from new File(project(':desktop').projectDir,"/src/main/assets")
     from rootProject.file('LICENSE.txt')
     from(rootProject.projectDir) { include 'NOTICE.md', 'THIRD-PARTY-NOTICES.md', 'MODIFICATIONS.md' }
+    from(rootProject.file('licenses')) { into 'licenses' }
 }
 
 def osName = System.getProperty('os.name').toLowerCase(Locale.ROOT)

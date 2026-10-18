@@ -1,6 +1,6 @@
 # Third-party notices
 
-This file supplements LICENSE.txt, copyright headers, the in-game About screen, dependency archives and the bundled runtime's `legal/` directory. Original notices must be retained when redistributing.
+This file supplements LICENSE.txt, copyright headers, the in-game About screen, the complete license texts in `licenses/`, dependency archives and the bundled runtime's `legal/` directory. Original notices must be retained when redistributing. Some upstream JARs omit license metadata, so the applicable license texts are included separately in the game archive and this source repository.
 
 ## Game and media credits
 
@@ -41,5 +41,7 @@ Creative Commons Zero:
 - JLayer 1.0.1-gdx (JavaZoom) and JOrbis 0.0.17 (JCraft): GNU LGPL, as specified in their source distributions. Their exact Maven source archives and POMs are included in `third-party-sources.zip`. The Windows application keeps them as separate JARs; users may replace/relink these libraries subject to the applicable licenses. Jamepad 2.26.5.0 and its SDL/native components retain their Apache/zlib and component-specific notices in their source/archive metadata.
 - Gradle Wrapper / Gradle: Apache License 2.0. https://github.com/gradle/gradle . Build plugin `org.beryx.runtime` 2.0.1: Apache License 2.0, https://github.com/beryx/badass-runtime-plugin . They are build tools, not part of the game runtime.
 - Eclipse Temurin / OpenJDK 17.0.17+10, Windows x64: GNU GPL v2 with the Classpath Exception, plus component-specific notices in the runtime's `legal/` directory. The package contains a jlink module subset with unchanged runtime implementations. Exact upstream source: https://github.com/adoptium/jdk17u/tree/jdk-17.0.17%2B10 ; source archive: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.17%2B10/OpenJDK17U-jdk-sources_17.0.17_10.tar.gz . Runtime binaries: https://github.com/adoptium/temurin17-binaries/releases/tag/jdk-17.0.17%2B10 .
+
+OpenAL Soft 1.23.1 is the native audio implementation bundled with LWJGL 3.3.3 (verified from the packaged DLL version string). Its LGPL source and the LWJGL 3.3.3 native binding/build source are included alongside the Java library sources. Portions of this software are copyright © the FreeType Project (www.freetype.org). All rights reserved. FreeType is distributed under its FreeType License option, reproduced in `licenses/FreeType-FTL.txt`.
 
 The GPL license of the game does not erase these component notices or grant third-party trademark rights. Source and license metadata for bundled libraries are archived alongside the Windows Release as `third-party-sources.zip`; that archive is development/legal material and is not installed into the game.

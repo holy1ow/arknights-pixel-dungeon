@@ -5,6 +5,7 @@
 *.cmd text eol=crlf
 gradlew text eol=lf
 art/** -text
+licenses/** -text
 core/src/main/assets/** -text
 desktop/src/main/assets/** -text
 *.png -text
