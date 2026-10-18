@@ -1,8 +1,8 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "sourceBaseline": "981b647dbb8978a21e3ea03d51689631f4354863",
   "artAcceptance": "incomplete",
-  "amiyaMedicalSelection": null,
+  "amiyaMedicalSelection": "white-staff-blue-tip",
   "amiyaCandidateInstallation": false,
   "assets": [
     {
@@ -10,19 +10,35 @@
       "character": "amiya",
       "kind": "sprite",
       "form": "base",
-      "note": "用户确认 v3；基础、近卫、医疗目前共用此套外观，三个源文件独立保留，供后续分别修改。",
-      "sha256": "f4020c753986961a2f06f6431cfd6fd66c78ef66a583c6c1b4a62b93e7638f54",
-      "sourceSha256": "0322730f61530732f9941bc3289754e2acb49725b111c68b057b09f33ee0361b",
+      "note": "用户确认v4；术师手托蓝光、近卫持剑、医疗贴身白杖及蓝色杖头施法。仅换皮，机制不变。",
+      "sha256": "37d5cfa02506f7529c62da3476444347801c1f5433a1ae19054350e5be73899c",
+      "sourceSha256": "e0ddb67f9a154f59a69e4cffb7a65e24135457c6d5158260f9acce98702124fe",
       "runtime": "core/src/main/assets/sprites/amiya.png",
-      "sourceFrames": 1,
+      "sourceFrames": 21,
       "sourceSize": [
-        512,
-        256
+        24,
+        24
       ],
-      "source": "art/source/0322730f61530732f9941bc3289754e2acb49725b111c68b057b09f33ee0361b.aseprite",
-      "reviewStatus": "development-art-not-final",
+      "version": "amiya-reskin-polish-v4",
+      "frameSize": [
+        24,
+        24
+      ],
+      "bodyRect": [
+        2,
+        2,
+        16,
+        21
+      ],
+      "source": "art/source/e0ddb67f9a154f59a69e4cffb7a65e24135457c6d5158260f9acce98702124fe.aseprite",
+      "export": "core/src/main/assets/sprites/amiya.png",
+      "reviewStatus": "approved",
       "implementationStatus": "installed",
-      "export": "core/src/main/assets/sprites/amiya.png"
+      "provenance": "art/provenance/amiya-0.0.2.json",
+      "animationSource": "art/source/85f1b11b15bf69796b2fa3f2b3d6b0a59d0b94da83f3c69ed70564899d8c35bf.aseprite",
+      "animationSourceSha256": "85f1b11b15bf69796b2fa3f2b3d6b0a59d0b94da83f3c69ed70564899d8c35bf",
+      "animationMetadata": "art/animations/amiya/base.json",
+      "animationMetadataSha256": "2d744719159bf7d93159d560ded64646d74060f08bd7160e321ad98df428c135"
     },
     {
       "id": "portrait:amiya_base",
@@ -53,19 +69,35 @@
       "character": "amiya",
       "kind": "sprite",
       "form": "guard",
-      "note": "用户确认 v3；基础、近卫、医疗目前共用此套外观，三个源文件独立保留，供后续分别修改。",
-      "sha256": "f4020c753986961a2f06f6431cfd6fd66c78ef66a583c6c1b4a62b93e7638f54",
-      "sourceSha256": "0322730f61530732f9941bc3289754e2acb49725b111c68b057b09f33ee0361b",
+      "note": "用户确认v4；术师手托蓝光、近卫持剑、医疗贴身白杖及蓝色杖头施法。仅换皮，机制不变。",
+      "sha256": "3338647d5e7e0c666d1edf4ce951b391c1e2f04c57842bc2b6db988f9e09bac8",
+      "sourceSha256": "45e08c3944b6776c2bb97a89d993da8fa68dddbafa989b5d0988030d5cb06029",
       "runtime": "core/src/main/assets/sprites/operators/amiya_guard.png",
-      "sourceFrames": 1,
+      "sourceFrames": 21,
       "sourceSize": [
-        512,
-        256
+        24,
+        24
       ],
-      "source": "art/source/0322730f61530732f9941bc3289754e2acb49725b111c68b057b09f33ee0361b.aseprite",
-      "reviewStatus": "development-art-not-final",
+      "version": "amiya-reskin-polish-v4",
+      "frameSize": [
+        24,
+        24
+      ],
+      "bodyRect": [
+        2,
+        2,
+        16,
+        21
+      ],
+      "source": "art/source/45e08c3944b6776c2bb97a89d993da8fa68dddbafa989b5d0988030d5cb06029.aseprite",
+      "export": "core/src/main/assets/sprites/operators/amiya_guard.png",
+      "reviewStatus": "approved",
       "implementationStatus": "installed",
-      "export": "core/src/main/assets/sprites/operators/amiya_guard.png"
+      "provenance": "art/provenance/amiya-0.0.2.json",
+      "animationSource": "art/source/ed86bde9a1f230dc43a2b34412915e30daa0775d4a6831d5ae927427e29ed3ec.aseprite",
+      "animationSourceSha256": "ed86bde9a1f230dc43a2b34412915e30daa0775d4a6831d5ae927427e29ed3ec",
+      "animationMetadata": "art/animations/amiya/guard.json",
+      "animationMetadataSha256": "2d744719159bf7d93159d560ded64646d74060f08bd7160e321ad98df428c135"
     },
     {
       "id": "portrait:amiya_guard",
@@ -120,19 +152,35 @@
       "character": "amiya",
       "kind": "sprite",
       "form": "medic",
-      "note": "用户确认 v3；基础、近卫、医疗目前共用此套外观，三个源文件独立保留，供后续分别修改。",
-      "sha256": "f4020c753986961a2f06f6431cfd6fd66c78ef66a583c6c1b4a62b93e7638f54",
-      "sourceSha256": "0322730f61530732f9941bc3289754e2acb49725b111c68b057b09f33ee0361b",
+      "note": "用户确认v4；术师手托蓝光、近卫持剑、医疗贴身白杖及蓝色杖头施法。仅换皮，机制不变。",
+      "sha256": "7d335f8997efff9f905fa2578078c125893357f8a970af5898e92dc565417a51",
+      "sourceSha256": "6dda32e70a4e2b5a132a842bc42b23c008136879cae6fe48e291750a8200fe6e",
       "runtime": "core/src/main/assets/sprites/operators/amiya_medic.png",
-      "sourceFrames": 1,
+      "sourceFrames": 21,
       "sourceSize": [
-        512,
-        256
+        24,
+        24
       ],
-      "source": "art/source/0322730f61530732f9941bc3289754e2acb49725b111c68b057b09f33ee0361b.aseprite",
-      "reviewStatus": "development-art-not-final",
+      "version": "amiya-reskin-polish-v4",
+      "frameSize": [
+        24,
+        24
+      ],
+      "bodyRect": [
+        2,
+        2,
+        16,
+        21
+      ],
+      "source": "art/source/6dda32e70a4e2b5a132a842bc42b23c008136879cae6fe48e291750a8200fe6e.aseprite",
+      "export": "core/src/main/assets/sprites/operators/amiya_medic.png",
+      "reviewStatus": "approved",
       "implementationStatus": "installed",
-      "export": "core/src/main/assets/sprites/operators/amiya_medic.png"
+      "provenance": "art/provenance/amiya-0.0.2.json",
+      "animationSource": "art/source/d5c5fb35a8bf01aa16ed7d2073dcb20ab90659b50f3eb12da08467e6f412b0e0.aseprite",
+      "animationSourceSha256": "d5c5fb35a8bf01aa16ed7d2073dcb20ab90659b50f3eb12da08467e6f412b0e0",
+      "animationMetadata": "art/animations/amiya/medic.json",
+      "animationMetadataSha256": "2d744719159bf7d93159d560ded64646d74060f08bd7160e321ad98df428c135"
     },
     {
       "id": "portrait:amiya_medic",
@@ -1150,6 +1198,185 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "core/src/main/assets/splashes/amiya.jpg"
+    },
+    {
+      "id": "effect:amiya_arts-projectile",
+      "character": "amiya",
+      "kind": "effect",
+      "form": "shared",
+      "note": "术式弹道；仅阿米娅外观，元素法杖语义与原版机制保留。",
+      "sha256": "bc17bd4914557e214fd5f0bb6696986c693ae0ae4a2131d8b932ea02520057b3",
+      "sourceSha256": "afebdf1355c8ecc38e9038c26bf2da8adc1e67c23b55ac592e3db5348b0dd08c",
+      "runtime": "core/src/main/assets/effects/operators/amiya/arts-projectile.png",
+      "sourceFrames": 4,
+      "version": "amiya-effects-core-v1",
+      "frameSize": [
+        24,
+        24
+      ],
+      "durationsMs": [
+        80,
+        80,
+        80,
+        80
+      ],
+      "source": "art/source/afebdf1355c8ecc38e9038c26bf2da8adc1e67c23b55ac592e3db5348b0dd08c.aseprite",
+      "export": "core/src/main/assets/effects/operators/amiya/arts-projectile.png",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/amiya-0.0.2.json",
+      "animationMetadata": "art/animations/amiya/arts-projectile.json",
+      "animationMetadataSha256": "45db2785875eb22b65242bd1dbc5892a4c59c11aed9893f60bb7c13462a0eb2e"
+    },
+    {
+      "id": "effect:amiya_arts-impact",
+      "character": "amiya",
+      "kind": "effect",
+      "form": "shared",
+      "note": "法术命中；仅阿米娅外观，元素法杖语义与原版机制保留。",
+      "sha256": "b45e72c6dc84363f3b14926f92ea4bbbf0364840516361643a4511ce388abc91",
+      "sourceSha256": "587607d8b2ab39883777ec81152c0dab0d59bcd146f4065b144dc558e08a8efa",
+      "runtime": "core/src/main/assets/effects/operators/amiya/arts-impact.png",
+      "sourceFrames": 4,
+      "version": "amiya-effects-core-v1",
+      "frameSize": [
+        24,
+        24
+      ],
+      "durationsMs": [
+        45,
+        65,
+        80,
+        100
+      ],
+      "source": "art/source/587607d8b2ab39883777ec81152c0dab0d59bcd146f4065b144dc558e08a8efa.aseprite",
+      "export": "core/src/main/assets/effects/operators/amiya/arts-impact.png",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/amiya-0.0.2.json",
+      "animationMetadata": "art/animations/amiya/arts-impact.json",
+      "animationMetadataSha256": "0df3e1b37e3c8e949d7b42f76aee695cfaa86ae95101ceea16cb7e0545067981"
+    },
+    {
+      "id": "effect:amiya_sword-arc",
+      "character": "amiya",
+      "kind": "effect",
+      "form": "shared",
+      "note": "挥剑轨迹；仅阿米娅外观，元素法杖语义与原版机制保留。",
+      "sha256": "94af4f10fee914f075dcd40c3d7f3935ac2bda6fbf7114d3ca48e26d705bc119",
+      "sourceSha256": "7ca5b642040d1bbe71e9bbad5faf7df1ea3279e0cdf86b6446b53e8b73e0aabf",
+      "runtime": "core/src/main/assets/effects/operators/amiya/sword-arc.png",
+      "sourceFrames": 4,
+      "version": "amiya-effects-core-v1",
+      "frameSize": [
+        24,
+        24
+      ],
+      "durationsMs": [
+        35,
+        45,
+        45,
+        65
+      ],
+      "source": "art/source/7ca5b642040d1bbe71e9bbad5faf7df1ea3279e0cdf86b6446b53e8b73e0aabf.aseprite",
+      "export": "core/src/main/assets/effects/operators/amiya/sword-arc.png",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/amiya-0.0.2.json",
+      "animationMetadata": "art/animations/amiya/sword-arc.json",
+      "animationMetadataSha256": "00580fce0b394ecd81d9d325af867166e693eabbbce54b1f1cd689d79e1301ee"
+    },
+    {
+      "id": "effect:amiya_sword-impact",
+      "character": "amiya",
+      "kind": "effect",
+      "form": "shared",
+      "note": "剑击命中；仅阿米娅外观，元素法杖语义与原版机制保留。",
+      "sha256": "89c0e505c72b643cfd9cac4473ebc7f72fef1f14922a835bd92c946fd133def2",
+      "sourceSha256": "74af97754b15281fcbe5eb882338840996080ea02d6446d804a5c53102881d93",
+      "runtime": "core/src/main/assets/effects/operators/amiya/sword-impact.png",
+      "sourceFrames": 4,
+      "version": "amiya-effects-core-v1",
+      "frameSize": [
+        24,
+        24
+      ],
+      "durationsMs": [
+        35,
+        45,
+        55,
+        75
+      ],
+      "source": "art/source/74af97754b15281fcbe5eb882338840996080ea02d6446d804a5c53102881d93.aseprite",
+      "export": "core/src/main/assets/effects/operators/amiya/sword-impact.png",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/amiya-0.0.2.json",
+      "animationMetadata": "art/animations/amiya/sword-impact.json",
+      "animationMetadataSha256": "986f81f22e62d51de1a055d453afd6b5d6da275de1c2cda745558814c718a32b"
+    },
+    {
+      "id": "effect:amiya_staff-release",
+      "character": "amiya",
+      "kind": "effect",
+      "form": "shared",
+      "note": "白杖施法；仅阿米娅外观，元素法杖语义与原版机制保留。",
+      "sha256": "09c586a773aced94f4f00c023252e21c7bbe68d75164e5e7a4ae4bfac665e273",
+      "sourceSha256": "a7eaa5350c9468d22e3c1a17dbc4ec2278c75f5bb2060afd32aaafc397a632f2",
+      "runtime": "core/src/main/assets/effects/operators/amiya/staff-release.png",
+      "sourceFrames": 4,
+      "version": "amiya-effects-core-v1",
+      "frameSize": [
+        24,
+        24
+      ],
+      "durationsMs": [
+        40,
+        50,
+        60,
+        80
+      ],
+      "source": "art/source/a7eaa5350c9468d22e3c1a17dbc4ec2278c75f5bb2060afd32aaafc397a632f2.aseprite",
+      "export": "core/src/main/assets/effects/operators/amiya/staff-release.png",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/amiya-0.0.2.json",
+      "animationMetadata": "art/animations/amiya/staff-release.json",
+      "animationMetadataSha256": "4182012ee2d953127c505d651e5c0d0a9366bdf26560a79b49e3123cb0d2f264"
+    },
+    {
+      "id": "effect:amiya_heal-return",
+      "character": "amiya",
+      "kind": "effect",
+      "form": "shared",
+      "note": "恢复反馈；仅阿米娅外观，元素法杖语义与原版机制保留。",
+      "sha256": "27841852b585bbb465aee81c7edbfcf9c54e27ea644885c31fb0713a2b7553c0",
+      "sourceSha256": "ec92c2b98015e20503417dda8d8a2712e15aad1f62d2c19bb6adf26713c56cfb",
+      "runtime": "core/src/main/assets/effects/operators/amiya/heal-return.png",
+      "sourceFrames": 4,
+      "version": "amiya-effects-core-v1",
+      "frameSize": [
+        24,
+        24
+      ],
+      "durationsMs": [
+        120,
+        140,
+        160,
+        180
+      ],
+      "source": "art/source/ec92c2b98015e20503417dda8d8a2712e15aad1f62d2c19bb6adf26713c56cfb.aseprite",
+      "export": "core/src/main/assets/effects/operators/amiya/heal-return.png",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/amiya-0.0.2.json",
+      "animationMetadata": "art/animations/amiya/heal-return.json",
+      "animationMetadataSha256": "4669ac8d00dc85532980b39a10961396d8fb7df12ef237f4f7e806dc2fe9f1d1"
     }
+  ],
+  "publicationBaseline": "39bd1a7132bf61bd05534a7f072d596ecb899670",
+  "amiyaApprovedVersions": [
+    "reskin-polish-v4",
+    "effects-core-v1"
   ]
 }

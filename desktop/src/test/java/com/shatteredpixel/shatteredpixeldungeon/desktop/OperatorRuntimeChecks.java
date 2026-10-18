@@ -49,7 +49,7 @@ public class OperatorRuntimeChecks {
     }
     static void correct(Hero h) {
         HeroAppearance a=HeroAppearance.of(h);check(h.sprite.texture==TextureCache.get(a.sprite),"actual sprite texture "+a.key);
-        eq(h.sprite.width,a.width);eq(h.sprite.height,a.height);
+        eq(h.sprite.width,a.displayWidth());eq(h.sprite.height,a.displayHeight());
     }
     public static void main(String[] args) throws Exception {
         output=Path.of(args[0]);java.nio.file.Files.createDirectories(output);
@@ -58,7 +58,7 @@ public class OperatorRuntimeChecks {
         SPDSettings.set(new Lwjgl3Preferences(new Lwjgl3FileHandle(profile.resolve("settings.xml").toString(),Files.FileType.Absolute)));
         FileUtils.setDefaultFileProperties(Files.FileType.Absolute,profile.toString()+"/");
         SPDSettings.language(Languages.CHI_SMPL);SPDSettings.music(false);SPDSettings.soundFx(false);SPDSettings.intro(false);
-        Game.version="4.0.2";Game.versionCode=922;
+        Game.version="0.0.2";Game.versionCode=922;
         Lwjgl3ApplicationConfiguration config=new Lwjgl3ApplicationConfiguration();
         config.setInitialVisible(false);config.setWindowedMode(1280,720);config.setForegroundFPS(60);config.setIdleFPS(60);
         config.setPreferencesConfig(profile.toString(),Files.FileType.Absolute);
@@ -111,7 +111,7 @@ public class OperatorRuntimeChecks {
                     }
                     switch(step++) {
                         case 0:
-                            if(cls()==HeroClass.SHINING && !basePosesChecked) {
+                            if((cls()==HeroClass.SHINING || cls()==HeroClass.AMIYA) && !basePosesChecked) {
                                 basePosesChecked=true;beginPoseChecks(h,0);break;
                             }
                             correct(h);capture(prefix()+"-base");
@@ -167,7 +167,7 @@ public class OperatorRuntimeChecks {
                             h.HP=0;h.sprite.die();waitFrames=25;break;
                         case 12:
                             correct(h);capture(prefix()+"-death-animation");
-                            if(cls()==HeroClass.SHINING) {beginPoseChecks(h,17);break;}
+                            if(cls()==HeroClass.SHINING || cls()==HeroClass.AMIYA) {beginPoseChecks(h,17);break;}
                             if (cls()==HeroClass.TYPHON || cls()==HeroClass.DEGENBRECHER) {
                                 h.sprite.paused=true;h.sprite.flipHorizontal=false;
                                 h.sprite.frame(HeroSprite.film(HeroAppearance.of(h)).get(11));break;

@@ -366,6 +366,9 @@ public class PowerOfMany extends ArmorAbility {
 			logicalBodyWidth = cls.isOperator() ? 16 : 0;
 			float footX = x + width()/2f;
 			float footY = y + height();
+			com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroAppearance appearance =
+					com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroAppearance.resolve(cls, null, 6);
+			setArtPadding(appearance.paddingLeft, appearance.paddingTop, appearance.paddingRight, appearance.paddingBottom);
 			texture(cls.spritesheet());
 
 			TextureFilm film = HeroSprite.film( cls, 6 );

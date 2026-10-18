@@ -13,12 +13,16 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parents[1]
 def sha(data): return hashlib.sha256(data).hexdigest()
 manifest = json.loads((ROOT / 'art/manifest.json').read_text(encoding='utf-8'))
-assert manifest['amiyaMedicalSelection'] is None
+assert manifest['version'] == '0.0.2'
+assert manifest['amiyaMedicalSelection'] == 'white-staff-blue-tip'
 assert manifest['amiyaCandidateInstallation'] is False
 cells = 0
 for a in manifest['assets']:
     assert sha((ROOT/a['source']).read_bytes()) == a['sourceSha256'], a['id']
     assert sha((ROOT/a['export']).read_bytes()) == a['sha256'], a['id']
+    for field in ['animationSource', 'animationMetadata']:
+        if field in a:
+            assert sha((ROOT/a[field]).read_bytes()) == a[field+'Sha256'], a['id']
     if 'runtime' in a:
         assert sha((ROOT/a['runtime']).read_bytes()) == a['sha256'], a['id']
     else:
@@ -31,8 +35,17 @@ for a in manifest['assets']:
             assert im.convert('RGBA').crop((x,y,x+w,y+h)).tobytes() == cell.convert('RGBA').tobytes(), a['id']
         cells += 1
 amiya = [a['sha256'] for a in manifest['assets'] if a['character']=='amiya' and a['kind']=='sprite']
-assert len(amiya)==3 and len(set(amiya))==1, 'Amiya shared base appearance changed'
-result = {'artItems':len(manifest['assets']), 'atlasCells':cells, 'amiyaCandidatesInstalled':False}
+assert len(amiya)==3 and len(set(amiya))==3, 'Expected three distinct approved Amiya forms'
+effects = [a for a in manifest['assets'] if a['character']=='amiya' and a['kind']=='effect']
+assert {a['id'].split('_',1)[1] for a in effects} == {'arts-projectile','arts-impact','sword-arc','sword-impact','staff-release','heal-return'}
+for a in effects:
+    meta=json.loads((ROOT/a['animationMetadata']).read_text(encoding='utf-8'))
+    assert [f['duration'] for f in meta['frames']]==a['durationsMs'], a['id']
+    assert Image.open(ROOT/a['runtime']).size == (96,24), a['id']
+for a in manifest['assets']:
+    if a['character']=='amiya' and a['kind'] in {'sprite','effect'}:
+        assert a['reviewStatus']=='approved' and a['implementationStatus']=='installed', a['id']
+result = {'artItems':len(manifest['assets']), 'atlasCells':cells, 'approvedAmiyaForms':3, 'approvedCoreEffects':len(effects), 'unapprovedCandidatesInstalled':False}
 if len(sys.argv)>1:
     app=Path(sys.argv[1])/'app'
     entries={}

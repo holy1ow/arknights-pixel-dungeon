@@ -498,6 +498,7 @@ public class Hero extends Char {
 	@Override
 	public boolean attack(Char enemy, float dmgMulti, float dmgBonus, float accMulti) {
 		boolean result = super.attack(enemy, dmgMulti, dmgBonus, accMulti);
+		com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaEffects.swordHit(this, enemy, result);
 		if (!(belongings.attackingWeapon() instanceof MissileWeapon)){
 			if (buff(Talent.PreciseAssaultTracker.class) != null){
 				buff(Talent.PreciseAssaultTracker.class).detach();

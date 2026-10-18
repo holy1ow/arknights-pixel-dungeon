@@ -45,3 +45,7 @@ Creative Commons Zero:
 OpenAL Soft 1.23.1 is the native audio implementation bundled with LWJGL 3.3.3 (verified from the packaged DLL version string). Its LGPL source and the LWJGL 3.3.3 native binding/build source are included alongside the Java library sources. Portions of this software are copyright © the FreeType Project (www.freetype.org). All rights reserved. FreeType is distributed under its FreeType License option, reproduced in `licenses/FreeType-FTL.txt`.
 
 The GPL license of the game does not erase these component notices or grant third-party trademark rights. Source and license metadata for bundled libraries are archived alongside the Windows Release as `third-party-sources.zip`; that archive is development/legal material and is not installed into the game.
+
+## 0.0.2 dependency reuse
+
+0.0.2 uses the same external runtime JARs, Java 17 runtime and license files as v0.0.1; only the game modules changed. The corresponding source attachment remains available at https://github.com/holy1ow/arknights-pixel-dungeon/releases/download/v0.0.1/third-party-sources.zip . Its SHA-256 and byte-for-byte dependency comparison are recorded in the 0.0.2 verification report. It is intentionally not uploaded a second time. The complete license texts remain included in every game package and source checkout.

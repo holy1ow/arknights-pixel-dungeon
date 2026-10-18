@@ -1,3 +1,13 @@
+# Modification notice — 0.0.2
+
+Adapted by **holy1ow**, 2026-10-18, on top of published v0.0.1 (`39bd1a7132bf61bd05534a7f072d596ecb899670`). Approved Amiya v4 sprite sources and six effects were selectively imported from the developer workspace. All approved image/source bytes are preserved and tracked by `art/manifest.json` and `art/provenance/amiya-0.0.2.json`.
+
+Production changes are limited to Amiya frame padding/body placement (`HeroAppearance`, `CharSprite`, `HeroSprite`, `MirrorSprite`, and the `LightAllySprite` display in `PowerOfMany`), the display-only `AmiyaEffects` class, and visual calls in `Hero`, `Mob`, `Wand`, `WandOfMagicMissile`, and `HeroSprite`. The About screen's displayed release number is updated. Elemental wand implementations, damage/healing/charge formulas, class/subclass rules, languages, shared textures including the yellow charge marker, and other characters' artwork are unchanged. The original missile instance, trajectory, timing, random calls and combat callback remain in control.
+
+The public six-reskin roster, independent application/save identity, original unlock/tutorial behavior, disabled trainer bridge, JSON-java 20240303, license texts and credits remain. Version-only build metadata, targeted tests, previews, asset verification and archive scripts are updated. Dependency versions are unchanged; their matching source attachment is reused from v0.0.1.
+
+## Historical 0.0.1 modification record
+
 # Modification notice — 0.0.1
 
 Publication follow-up: `SPD-classes/build.gradle` changes JSON-java from 20170516 to the public-domain 20240303 release for the desktop distribution. The original copyright notices are retained. Publication documents, the asset verification script and source/art manifests were added on 2026-10-18. The final roster render check uses a clean profile with only Hellagur unlocked.

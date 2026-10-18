@@ -58,6 +58,7 @@ import com.watabou.noosa.tweeners.Tweener;
 import com.watabou.utils.Callback;
 import com.watabou.utils.PointF;
 import com.watabou.utils.Random;
+import com.watabou.utils.RectF;
 
 import java.nio.Buffer;
 import java.util.HashSet;
@@ -81,6 +82,38 @@ public class CharSprite extends MovieClip implements Tweener.Listener, MovieClip
 	// Optional logical body width. Extra art canvas still renders at full size.
 	// Used by operator sprites so weapons/padding do not enlarge clicks and effects.
 	protected float logicalBodyWidth;
+	private int artPaddingLeft, artPaddingTop, artPaddingRight, artPaddingBottom;
+
+	// Keep actor placement, effects and clicks on the original body rectangle.
+	// The complete art frame is rendered outside it, without cropping any pixels.
+	protected void setArtPadding(int left, int top, int right, int bottom) {
+		artPaddingLeft=left; artPaddingTop=top; artPaddingRight=right; artPaddingBottom=bottom;
+	}
+
+	@Override
+	public void frame(RectF frame) {
+		super.frame(frame);
+		width -= artPaddingLeft + artPaddingRight;
+		height -= artPaddingTop + artPaddingBottom;
+		updateVertices();
+	}
+
+	@Override
+	protected void updateFrame() {
+		super.updateFrame();
+		updateVertices();
+	}
+
+	@Override
+	protected void updateVertices() {
+		super.updateVertices();
+		float left = -(flipHorizontal ? artPaddingRight : artPaddingLeft);
+		float top = -(flipVertical ? artPaddingBottom : artPaddingTop);
+		float right = left + width + artPaddingLeft + artPaddingRight;
+		float bottom = top + height + artPaddingTop + artPaddingBottom;
+		vertices[0]=vertices[12]=left; vertices[4]=vertices[8]=right;
+		vertices[1]=vertices[5]=top; vertices[9]=vertices[13]=bottom;
+	}
 
 	public float bodyWidth() {
 		return logicalBodyWidth > 0 ? Math.min(width(), logicalBodyWidth * scale.x) : width();

@@ -62,14 +62,22 @@ public final class HeroAppearance {
     public final HeroSubClass subclass;
     public final String key, sprite;
     public final int portraitSlot, iconSlot, armorTier, width, height;
+    public final int paddingLeft, paddingTop, paddingRight, paddingBottom;
     private HeroAppearance(HeroClass cls, HeroSubClass sub, String key, int portrait, int icon, int tier) {
         identity=cls; subclass=sub; this.key=key; portraitSlot=portrait; iconSlot=icon; armorTier=tier;
         // Extra canvas preserves horns, weapons, and complete attack/death poses.
         // This changes frame bounds, not the character's pixel scale.
-        width=(cls==HeroClass.DEGENBRECHER || cls==HeroClass.SHINING)?36:cls==HeroClass.TYPHON?32:cls==HeroClass.HELLAGUR?20:cls.isOperator()?16:12;
-        height=cls.isOperator()?21:15;
+        width=(cls==HeroClass.DEGENBRECHER || cls==HeroClass.SHINING)?36:cls==HeroClass.TYPHON?32:cls==HeroClass.AMIYA?24:cls==HeroClass.HELLAGUR?20:cls.isOperator()?16:12;
+        height=cls==HeroClass.AMIYA?24:cls.isOperator()?21:15;
+        // v4 keeps the approved 16x21 body at (2,2) inside a 24x24 art frame.
+        paddingLeft=cls==HeroClass.AMIYA?2:0;
+        paddingTop=cls==HeroClass.AMIYA?2:0;
+        paddingRight=cls==HeroClass.AMIYA?6:0;
+        paddingBottom=cls==HeroClass.AMIYA?1:0;
         sprite=cls.isOperator() ? (key.equals("amiya_base")?Assets.Sprites.AMIYA:"sprites/operators/"+key+".png") : cls.spritesheet();
     }
+    public int displayWidth() { return width-paddingLeft-paddingRight; }
+    public int displayHeight() { return height-paddingTop-paddingBottom; }
     public static HeroAppearance resolve(HeroClass identity, HeroSubClass sub, int tier) {
         return resolve(identity, sub, tier, null);
     }

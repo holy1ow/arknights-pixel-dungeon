@@ -207,6 +207,13 @@ tasks.register('verifyOperatorCanvas', JavaExec) {
     dependsOn tasks.named('testClasses'), tasks.named('release')
     classpath = files(tasks.named('release', Jar).flatMap { it.archiveFile }) + sourceSets.test.output
     mainClass = 'com.shatteredpixel.shatteredpixeldungeon.desktop.OperatorCanvasChecks'
-    args rootProject.file('docs/qa/operator-canvas-20261018/' + providers.gradleProperty('canvasMode').getOrElse('after')).absolutePath,
+    args layout.buildDirectory.dir('release-0.0.2-qa/canvas').get().asFile.absolutePath,
             providers.gradleProperty('canvasMode').getOrElse('after')
+}
+
+tasks.register('verifyAmiyaEffects', JavaExec) {
+    dependsOn tasks.named('testClasses'), tasks.named('release')
+    classpath = files(tasks.named('release', Jar).flatMap { it.archiveFile }) + sourceSets.test.output
+    mainClass = 'com.shatteredpixel.shatteredpixeldungeon.desktop.AmiyaEffectChecks'
+    args layout.buildDirectory.dir('release-0.0.2-qa/effects').get().asFile.absolutePath
 }

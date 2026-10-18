@@ -70,10 +70,18 @@ public class OperatorCanvasChecks {
                 s.turnTo(h.pos,h.pos+(side==0?1:-1));
                 s.frame(HeroSprite.film(HeroAppearance.resolve(h.heroClass,sub,tier)).get(frame));
                 eq(s.x,x);eq(s.y,y);eq(s.x+s.width()/2,tile.x);eq(s.y+s.height(),footY);
-                eq(s.width(),a.width);eq(s.height(),a.height);
+                eq(s.width(),a.displayWidth());eq(s.height(),a.displayHeight());
                 float[] v=(float[])field(s,Image.class,"vertices");RectF f=s.frame();
                 eq(v[2],side==0?f.left:f.right);eq(v[6],side==0?f.right:f.left);
-                eq(v[0],0);eq(v[4],a.width);eq(v[9],a.height);
+                float left=side==0?-a.paddingLeft:-a.paddingRight;
+                eq(v[0],left);eq(v[4],left+a.width);eq(v[9],a.height-a.paddingTop);
+                if (h.heroClass==HeroClass.AMIYA) {
+                    // The original body's (8,21) anchor becomes (10,23) in v4.
+                    // Verify both UV orientations put that actual art anchor on the tile.
+                    eq(s.x+left+(side==0?10:14),tile.x);
+                    eq(s.y-a.paddingTop+23,footY);
+                    eq(s.width(),16);eq(s.height(),21);
+                }
                 check(f.left>=0&&f.top>=0&&f.right<=1&&f.bottom<=1,"UV in atlas");frames++;
             }
         }
@@ -154,7 +162,7 @@ public class OperatorCanvasChecks {
         SPDSettings.set(new Lwjgl3Preferences(new Lwjgl3FileHandle(profile.resolve("settings.xml").toString(),Files.FileType.Absolute)));
         FileUtils.setDefaultFileProperties(Files.FileType.Absolute,profile+"/");
         SPDSettings.language(Languages.CHI_SMPL);SPDSettings.music(false);SPDSettings.soundFx(false);SPDSettings.intro(false);
-        Game.version="4.0.2";Game.versionCode=922;
+        Game.version="0.0.2";Game.versionCode=922;
         Lwjgl3ApplicationConfiguration config=new Lwjgl3ApplicationConfiguration();
         config.setInitialVisible(false);config.setWindowedMode(1280,720);config.setForegroundFPS(60);config.setIdleFPS(60);
         new Lwjgl3Application(new ShatteredPixelDungeon(new DesktopPlatformSupport(){@Override public void updateSystemUI(){}}){

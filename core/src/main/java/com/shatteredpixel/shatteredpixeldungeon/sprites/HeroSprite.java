@@ -31,6 +31,7 @@ import com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroClass;
 import com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroSubClass;
 import com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroAppearance;
 import com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene;
+import com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaEffects;
 import com.watabou.gltextures.SmartTexture;
 import com.watabou.gltextures.TextureCache;
 import com.watabou.noosa.Camera;
@@ -47,7 +48,6 @@ public class HeroSprite extends CharSprite {
 	private static final int FRAME_HEIGHT	= 15;
 	// Amiya keeps the stock body height; her ears extend into extra frame space.
 	private static final int AMIYA_FRAME_WIDTH = 16;
-	private static final int AMIYA_FRAME_HEIGHT = 21;
 	
 	private static final int RUN_FRAMERATE	= 20;
 	
@@ -87,6 +87,7 @@ public class HeroSprite extends CharSprite {
 
 		HeroAppearance appearance = HeroAppearance.resolve(visualClass, Dungeon.hero.subClass, Dungeon.hero.tier());
 		logicalBodyWidth = appearance.identity.isOperator() ? AMIYA_FRAME_WIDTH : 0;
+		setArtPadding(appearance.paddingLeft, appearance.paddingTop, appearance.paddingRight, appearance.paddingBottom);
 		texture(appearance.sprite);
 		TextureFilm film = film(appearance);
 		
@@ -140,6 +141,12 @@ public class HeroSprite extends CharSprite {
 		if (ch != null && ch.flying) {
 			play( fly );
 		}
+	}
+
+	@Override
+	public synchronized void attack(int cell, Callback callback) {
+		super.attack(cell, callback);
+		if (ch instanceof Hero) AmiyaEffects.swordSwing((Hero) ch, cell);
 	}
 
 	@Override
@@ -197,7 +204,7 @@ public class HeroSprite extends CharSprite {
 	}
 
 	public static int frameHeight(HeroClass cl) {
-		return cl.isOperator() ? AMIYA_FRAME_HEIGHT : FRAME_HEIGHT;
+		return HeroAppearance.resolve(cl, HeroSubClass.NONE, 0).height;
 	}
 
 	public static TextureFilm film(HeroClass cl, int armorTier) {
@@ -208,7 +215,7 @@ public class HeroSprite extends CharSprite {
 		HeroClass cl = appearance.identity;
 		int armorTier = appearance.armorTier;
 		SmartTexture texture = TextureCache.get(appearance.sprite);
-		TextureFilm rows = new TextureFilm(texture, texture.width, frameHeight(cl));
+		TextureFilm rows = new TextureFilm(texture, texture.width, appearance.height);
 		return new TextureFilm(rows, armorTier, appearance.width, appearance.height);
 	}
 

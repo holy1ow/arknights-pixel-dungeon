@@ -28,6 +28,7 @@ import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
 import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Buff;
 import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.FlavourBuff;
 import com.shatteredpixel.shatteredpixeldungeon.effects.SpellSprite;
+import com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaEffects;
 import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.MagesStaff;
 import com.shatteredpixel.shatteredpixeldungeon.mechanics.Ballistica;
 import com.shatteredpixel.shatteredpixeldungeon.messages.Messages;
@@ -63,6 +64,7 @@ public class WandOfMagicMissile extends DamageWand {
 			Sample.INSTANCE.play( Assets.Sounds.HIT_MAGIC, 1, Random.Float(0.87f, 1.15f) );
 
 			ch.sprite.burst(0xFFFFFFFF, buffedLvl() / 2 + 2);
+			AmiyaEffects.magicHit(curUser, this, ch);
 
 			//apply the magic charge buff if we have another wand in inventory of a lower level, or already have the buff
 			for (Wand.Charger wandCharger : curUser.buffs(Wand.Charger.class)){

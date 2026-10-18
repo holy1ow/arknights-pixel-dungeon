@@ -893,6 +893,7 @@ public abstract class Mob extends Char {
 					int heal = (int)Math.ceil(restoration * 0.4f);
 					Dungeon.hero.HP = Math.min(Dungeon.hero.HT, Dungeon.hero.HP + heal);
 					Dungeon.hero.sprite.showStatusWithIcon(CharSprite.POSITIVE, Integer.toString(heal), FloatingText.HEALING);
+					com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaEffects.soulRecovery(Dungeon.hero);
 				}
 			}
 		}

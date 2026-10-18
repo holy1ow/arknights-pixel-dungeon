@@ -66,6 +66,7 @@ public class MirrorSprite extends MobSprite {
 		armorTier = tier;
 		if (Dungeon.hero != null) appearance = HeroAppearance.of(Dungeon.hero);
 		logicalBodyWidth = appearance.identity.isOperator() ? 16 : 0;
+		setArtPadding(appearance.paddingLeft, appearance.paddingTop, appearance.paddingRight, appearance.paddingBottom);
 		texture(appearance.sprite);
 		TextureFilm film = HeroSprite.film(HeroAppearance.resolve(appearance.identity, appearance.subclass, tier));
 		

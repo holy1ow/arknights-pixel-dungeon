@@ -1,0 +1,10 @@
+{
+  "status": "installed_validated",
+  "approvedBy": "user",
+  "approval": "这版效果可以，先保存并接入换皮版，保持原版机制和元素法杖效果，不影响其他角色，再给我看实机表现。",
+  "completedAt": "2026-10-18T21:13:47.569377+08:00",
+  "version": "effects-core-v1",
+  "report": "docs/qa/amiya-effects-installed-20261018/handoff.md",
+  "runtimePreview": "docs/qa/amiya-effects-installed-20261018/previews/index.html",
+  "originalDeliveryPreserved": true
+}

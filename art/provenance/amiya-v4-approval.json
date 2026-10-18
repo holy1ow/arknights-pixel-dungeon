@@ -1,0 +1,11 @@
+{
+  "version": "reskin-polish-v4",
+  "reviewStatus": "approved",
+  "installationStatus": "installed_validated",
+  "approvedByUser": "蓝光这样可以，先按v4保存这三种形态，安装到作为换皮的版本。",
+  "completedAt": "2026-10-18T20:29:21.973437+08:00",
+  "report": "docs/qa/amiya-v4-installed-20261018/handoff.md",
+  "originalDeliveryFilesPreserved": true,
+  "authoritativeSourceRoot": "art-source/library/current/amiya/sprites",
+  "launcher": "Start-Game.cmd"
+}

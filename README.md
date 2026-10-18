@@ -1,14 +1,14 @@
 # Arknights Pixel Dungeon · 明日方舟像素地牢
 
-**作者 / 维护者：holy1ow · 当前版本：0.0.1**
+**作者 / 维护者：holy1ow · 当前版本：0.0.2**
 
 基于 [Shattered Pixel Dungeon（破碎的像素地牢）4.0.2](https://github.com/00-Evan/shattered-pixel-dungeon/tree/v4.0.2) 开发的非官方同人项目；破碎的像素地牢又基于 [Pixel Dungeon（像素地牢）](https://github.com/watabou/pixel-dungeon)。感谢 Oleg Dolya（Watabou）、Evan Debenham 和所有上游贡献者。
 
-**0.0.1 是当前开发快照，以角色贴图替换及必要的显示适配为主。** 角色选择界面只保留六位换皮角色，职业、战斗、成长、道具机制及职业解锁条件沿用破碎的像素地牢，没有加入角色专属技能或新机制。全角色美术尚未全部验收，本版本不代表美术最终完成。
+**0.0.2 是当前开发快照，以角色贴图替换及必要的显示适配为主。** 角色选择界面只保留六位换皮角色，职业、战斗、成长、道具机制及职业解锁条件沿用破碎的像素地牢，没有加入角色专属技能或新机制。全角色美术尚未全部验收，本版本不代表美术最终完成。
 
 ## 下载与运行
 
-前往 [Releases](https://github.com/holy1ow/arknights-pixel-dungeon/releases) 下载 `arknights-pixel-dungeon-0.0.1-windows-x64.zip`，完整解压后运行 `Start-Game.cmd`，或进入游戏目录双击 `Arknights Pixel Dungeon.exe`。Windows 10/11 x64，显卡需支持 OpenGL 2.0；包内含 Java 17 运行时，无需另装 Java。不要直接在压缩包内启动。
+前往 [Releases](https://github.com/holy1ow/arknights-pixel-dungeon/releases) 下载 `arknights-pixel-dungeon-0.0.2-windows-x64.zip`，完整解压后运行 `Start-Game.cmd`，或进入游戏目录双击 `Arknights Pixel Dungeon.exe`。Windows 10/11 x64，显卡需支持 OpenGL 2.0；包内含 Java 17 运行时，无需另装 Java。不要直接在压缩包内启动。
 
 发行包不附带存档。首次运行创建全新进度，默认仅解锁战士对应的 **赫拉格**，其他角色按原版条件解锁；新手引导及教程提示保留。存档目录独立于上游游戏：`%USERPROFILE%\AppData\Roaming\.holy1ow\Arknights Pixel Dungeon\`。测试存档、个人存档、制作候选稿和 trainer 均不随包发布。
 
@@ -29,7 +29,25 @@
 
 上图使用全新进度展示，只有赫拉格默认解锁；其他角色的暗色图标表示尚未解锁。
 
-阿米娅当前术师、近卫、医疗人物动画暂时共用已经认可的基础外观。新持剑、蓝光托手、白杖全动作稿仍为待审候选；**医疗阿米娅尚未选型**，候选稿没有安装进 0.0.1，也不包含在这个精简发布仓库中。完整制作材料仍由本地共同开发保全包保留。
+### 0.0.2：阿米娅三形态与六组核心效果
+
+阿米娅 **v4 三形态完整动作已接入**：转职前术师手托蓝色术式；原版战斗法师使用持剑近卫外观；原版术士使用医疗外观。**医疗造型已确定为贴近身体的白色法杖，带蓝色杖端光。** 原认可稿的像素、动作与帧时长保持不变。
+
+| 术师：原法师 | 近卫：原战斗法师 | 医疗：原术士 |
+| --- | --- | --- |
+| ![术师](docs/images/amiya-idle.gif) | ![近卫](docs/images/amiya-guard-idle.gif) | ![医疗白杖](docs/images/amiya-medic-idle.gif) |
+
+已接入六组核心效果：`arts-projectile`、`arts-impact`、`sword-arc`、`sword-impact`、`staff-release`、`heal-return`。以下是**本次发布工程实际 GameScene/OpenGL 渲染**的局部录制预览，使用隔离测试存档，不是离线特效叠图。
+
+| 蓝色通用法术 | 近卫挥剑 |
+| --- | --- |
+| ![术师实机](docs/images/0.0.2/caster-right.gif) | ![近卫实机](docs/images/0.0.2/guard-right.gif) |
+| **白杖出手** | **原版实际恢复** |
+| ![白杖实机](docs/images/0.0.2/medic-right.gif) | ![恢复实机](docs/images/0.0.2/medic-recovery.gif) |
+
+蓝色弹道与命中仅对白名单内、非诅咒的通用魔弹法杖生效，并要求当前真实身份和显示外观都是阿米娅。火焰、冰霜、雷电及其他法杖保留原版弹道、命中和机制；白杖可显示局部出手提示。恢复光只在原版灵魂标记确实恢复生命时触发。**没有新增免费远程攻击、主动治疗、自由形态切换或专属技能，其他角色和黄色充能标记保持。**
+
+详细验证见 [0.0.2 记录](docs/RELEASE-0.0.2.md)，包含左右朝向、身体定位、镜像/分身、元素法杖及其他角色对照。Release 的 `runtime-previews.zip` 提供全部 13 组精简实机录制；完整测试帧仅在本地归档，不上传大量截图。旧版“未选型”说明保留在 v0.0.1 历史记录中，不代表当前状态。
 
 ## 后续制作计划
 
@@ -40,7 +58,7 @@
 1. **原版机制换皮版**：保留原版职业、战斗、成长和道具机制，继续替换美术及必要展示内容。
 2. **角色特色机制版**：共用角色美术，再开发角色专属技能和机制。
 
-这份 0.0.1 发布副本属于当前纯换皮方向的开发快照；特色机制尚未进入本轮，也没有提前创建特色机制开发分支。
+这份 0.0.2 发布副本属于当前纯换皮方向的开发快照；特色机制尚未进入本轮，也没有提前创建特色机制开发分支。
 
 ## 源码与构建
 
@@ -49,17 +67,17 @@
 安装 JDK 21，设置 `JAVA_HOME` 后运行：
 
 ```bat
-gradlew.bat desktop:check desktop:verifyHeroSelection desktop:verifyPackagedOperators --console=plain --max-workers=2 --no-daemon
+gradlew.bat desktop:check desktop:verifyHeroSelection desktop:verifyPackagedOperators desktop:verifyOperatorCanvas desktop:verifyAmiyaEffects --console=plain --max-workers=2 --no-daemon
 Build-Desktop.cmd
 Start-Game.cmd
 ```
 
-首次构建会下载 Gradle、Maven 依赖和打包用 Temurin JDK 17，需联网。构建产物位于 `desktop/build/`。详见 [构建与验证说明](docs/RELEASE-0.0.1.md)、[美术编辑入口](art/README.md) 和 [接续说明](docs/HANDOFF.md)。
+首次构建会下载 Gradle、Maven 依赖和打包用 Temurin JDK 17，需联网。构建产物位于 `desktop/build/`。详见 [构建与验证说明](docs/RELEASE-0.0.2.md)、[美术编辑入口](art/README.md) 和 [接续说明](docs/HANDOFF.md)。
 
 ## 开源协议与署名
 
 游戏代码采用 **GNU GPL v3 或后续版本（GPL-3.0-or-later）**，完整协议见 [LICENSE.txt](LICENSE.txt)。继承的版权声明和贡献者署名保留；本项目改编署名为 holy1ow。修改范围与日期见 [MODIFICATIONS.md](MODIFICATIONS.md)，第三方素材、依赖及 Java 运行时另见 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) 与 [NOTICE.md](NOTICE.md)。软件按现状提供，不作担保。
 
-分发修改版时须遵守 GPL，保留版权和许可声明、注明修改，并提供对应版本的完整可修改源码及构建脚本。此仓库的 `v0.0.1` 标签对应本次 Windows 发行；当前实装美术的可编辑文件也随源码提供。
+分发修改版时须遵守 GPL，保留版权和许可声明、注明修改，并提供对应版本的完整可修改源码及构建脚本。此仓库的 `v0.0.2` 标签对应本次 Windows 发行；当前实装美术的可编辑文件也随源码提供。
 
 本项目与鹰角网络、Hypergryph、Gryphline/Yostar 及 Pixel Dungeon、Shattered Pixel Dungeon 官方均无隶属或授权背书关系。《明日方舟》角色设计、名称及相关商标的权利归各自权利人所有；GPL 声明不授予这些第三方商标或角色 IP 的额外权利。本项目新增代码及由贡献者可授权的原创修改按 GPL-3.0-or-later 提供。

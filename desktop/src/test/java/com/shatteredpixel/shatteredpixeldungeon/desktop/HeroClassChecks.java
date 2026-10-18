@@ -59,7 +59,7 @@ public class HeroClassChecks {
             if (m.getName().equals("log") || m.getName().equals("error")) System.out.println(Arrays.toString(a));
             return null;
         });
-        Game.version="4.0.2"; Game.versionCode=922;
+        Game.version="0.0.2"; Game.versionCode=922;
         Game.platform=new DesktopPlatformSupport();
         new ShatteredPixelDungeon(Game.platform);
         SPDSettings.challenges(0);
@@ -112,7 +112,7 @@ public class HeroClassChecks {
             System.out.println("PASS new run and save/load: "+cl);
         }
         for(HeroClass cl:HeroClass.values()) {
-            int w=(cl==HeroClass.DEGENBRECHER || cl==HeroClass.SHINING)?36:cl==HeroClass.TYPHON?32:cl==HeroClass.HELLAGUR?20:cl.isOperator()?16:12,h=cl.isOperator()?21:15;
+            int w=(cl==HeroClass.DEGENBRECHER || cl==HeroClass.SHINING)?36:cl==HeroClass.TYPHON?32:cl==HeroClass.AMIYA?24:cl==HeroClass.HELLAGUR?20:cl.isOperator()?16:12,h=cl==HeroClass.AMIYA?24:cl.isOperator()?21:15;
             if (cl==HeroClass.TYPHON || cl==HeroClass.DEGENBRECHER || cl==HeroClass.SHINING) {
                 for (HeroSubClass sub : new HeroSubClass[]{HeroSubClass.NONE,cl.subClasses()[0],cl.subClasses()[1]}) {
                     HeroAppearance appearance=HeroAppearance.resolve(cl,sub,0);
@@ -180,10 +180,10 @@ public class HeroClassChecks {
             float footX=sprite.x+sprite.width()/2,footY=sprite.y+sprite.height();
             for(HeroClass disguise:HeroClass.values()) {
                 sprite.disguise(disguise);eq(sprite.x+sprite.width()/2,footX);eq(sprite.y+sprite.height(),footY);
-                sprite.updateArmor();eq(sprite.height(),HeroSprite.frameHeight(disguise));
+                sprite.updateArmor();eq(sprite.height(),disguise==HeroClass.AMIYA?21:HeroSprite.frameHeight(disguise));
             }
-            MirrorSprite mirror=new MirrorSprite(); mirror.updateArmor(6);eq(mirror.width,w);eq(mirror.height,h);
-            LightAllySprite ally=new LightAllySprite();ally.setup(cl);eq(ally.width,w);eq(ally.height,h);
+            MirrorSprite mirror=new MirrorSprite(); mirror.updateArmor(6);eq(mirror.width,cl==HeroClass.AMIYA?16:w);eq(mirror.height,cl==HeroClass.AMIYA?21:h);
+            LightAllySprite ally=new LightAllySprite();ally.setup(cl);eq(ally.width,cl==HeroClass.AMIYA?16:w);eq(ally.height,cl==HeroClass.AMIYA?21:h);
             System.out.println("PASS frames, icons, disguises and clones: "+cl);
         }
         OperatorChecks.run();

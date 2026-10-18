@@ -49,6 +49,7 @@ import com.shatteredpixel.shatteredpixeldungeon.actors.hero.spells.GuidingLight;
 import com.shatteredpixel.shatteredpixeldungeon.effects.Flare;
 import com.shatteredpixel.shatteredpixeldungeon.effects.FloatingText;
 import com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile;
+import com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaEffects;
 import com.shatteredpixel.shatteredpixeldungeon.items.Item;
 import com.shatteredpixel.shatteredpixeldungeon.items.artifacts.TalismanOfForesight;
 import com.shatteredpixel.shatteredpixeldungeon.items.bags.Bag;
@@ -441,11 +442,12 @@ public abstract class Wand extends Item {
 	}
 	
 	public void fx(Ballistica bolt, Callback callback) {
-		MagicMissile.boltFromChar( curUser.sprite.parent,
+		MagicMissile missile = MagicMissile.boltFromChar( curUser.sprite.parent,
 				MagicMissile.MAGIC_MISSILE,
 				curUser.sprite,
 				bolt.collisionPos,
 				callback);
+		AmiyaEffects.decorateMissile(curUser, this, missile, bolt.collisionPos);
 		Sample.INSTANCE.play( Assets.Sounds.ZAP );
 	}
 
@@ -766,6 +768,7 @@ public abstract class Wand extends Item {
 									}
 								});
 					} else {
+						AmiyaEffects.wandRelease(curUser);
 						curWand.fx(shot, new Callback() {
 							public void call() {
 								curWand.onZap(shot);

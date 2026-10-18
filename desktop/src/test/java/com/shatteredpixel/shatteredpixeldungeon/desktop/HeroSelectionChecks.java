@@ -30,7 +30,7 @@ public class HeroSelectionChecks {
         SPDSettings.set(new Lwjgl3Preferences(new Lwjgl3FileHandle(profile.resolve("settings.xml").toString(),Files.FileType.Absolute)));
         FileUtils.setDefaultFileProperties(Files.FileType.Absolute,profile.toString()+"/");
         SPDSettings.language(args.length>3 && args[3].equals("en")?Languages.ENGLISH:Languages.CHI_SMPL);SPDSettings.music(false);SPDSettings.soundFx(false);
-        Game.version="0.0.1";Game.versionCode=922;
+        Game.version="0.0.2";Game.versionCode=922;
         if(!SPDSettings.intro()) throw new AssertionError("fresh profile must enable introduction");
         Badges.loadGlobal();
         int unlocked=0;
