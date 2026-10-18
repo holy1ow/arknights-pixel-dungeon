@@ -1,0 +1,16 @@
+* text=auto
+*.java text eol=lf
+*.gradle text eol=lf
+*.md text eol=lf
+*.cmd text eol=crlf
+gradlew text eol=lf
+art/** -text
+core/src/main/assets/** -text
+desktop/src/main/assets/** -text
+*.png -text
+*.jpg -text
+*.gif -text
+*.ogg -text
+*.mp3 -text
+*.aseprite -text
+*.jar -text

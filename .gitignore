@@ -1,0 +1,16 @@
+# Generated or local files only.
+.gradle/
+build/
+release/
+save-backups/
+.idea/
+*.iml
+local.properties
+.env
+.env.*
+*.jks
+*.keystore
+*.pem
+*.p12
+__pycache__/
+*.pyc

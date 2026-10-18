@@ -1,0 +1,1155 @@
+{
+  "version": "0.0.1",
+  "sourceBaseline": "981b647dbb8978a21e3ea03d51689631f4354863",
+  "artAcceptance": "incomplete",
+  "amiyaMedicalSelection": null,
+  "amiyaCandidateInstallation": false,
+  "assets": [
+    {
+      "id": "sprite:amiya_base",
+      "character": "amiya",
+      "kind": "sprite",
+      "form": "base",
+      "note": "用户确认 v3；基础、近卫、医疗目前共用此套外观，三个源文件独立保留，供后续分别修改。",
+      "sha256": "f4020c753986961a2f06f6431cfd6fd66c78ef66a583c6c1b4a62b93e7638f54",
+      "sourceSha256": "0322730f61530732f9941bc3289754e2acb49725b111c68b057b09f33ee0361b",
+      "runtime": "core/src/main/assets/sprites/amiya.png",
+      "sourceFrames": 1,
+      "sourceSize": [
+        512,
+        256
+      ],
+      "source": "art/source/0322730f61530732f9941bc3289754e2acb49725b111c68b057b09f33ee0361b.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/sprites/amiya.png"
+    },
+    {
+      "id": "portrait:amiya_base",
+      "character": "amiya",
+      "kind": "portrait",
+      "form": "base",
+      "sha256": "5493d8c062bd3f312a4b53c1b92cc3a1e3da3567df66574f367582ba24c2cf0d",
+      "sourceSha256": "b7d61b95c793ba72a82d27beb548db32b0e284c13cd02f0968303d4408735a76",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 0,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "source": "art/source/b7d61b95c793ba72a82d27beb548db32b0e284c13cd02f0968303d4408735a76.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/5493d8c062bd3f312a4b53c1b92cc3a1e3da3567df66574f367582ba24c2cf0d.png",
+      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+    },
+    {
+      "id": "sprite:amiya_guard",
+      "character": "amiya",
+      "kind": "sprite",
+      "form": "guard",
+      "note": "用户确认 v3；基础、近卫、医疗目前共用此套外观，三个源文件独立保留，供后续分别修改。",
+      "sha256": "f4020c753986961a2f06f6431cfd6fd66c78ef66a583c6c1b4a62b93e7638f54",
+      "sourceSha256": "0322730f61530732f9941bc3289754e2acb49725b111c68b057b09f33ee0361b",
+      "runtime": "core/src/main/assets/sprites/operators/amiya_guard.png",
+      "sourceFrames": 1,
+      "sourceSize": [
+        512,
+        256
+      ],
+      "source": "art/source/0322730f61530732f9941bc3289754e2acb49725b111c68b057b09f33ee0361b.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/sprites/operators/amiya_guard.png"
+    },
+    {
+      "id": "portrait:amiya_guard",
+      "character": "amiya",
+      "kind": "portrait",
+      "form": "guard",
+      "sha256": "d0a55cd8264b1047b753eaf516b3b1953a3211034b2c2ca351b83c4a194e4b5b",
+      "sourceSha256": "631e4b1b0743de157f7213d19864552794df397082e7bfe4fcd5183142c9b8b0",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 1,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "source": "art/source/631e4b1b0743de157f7213d19864552794df397082e7bfe4fcd5183142c9b8b0.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/d0a55cd8264b1047b753eaf516b3b1953a3211034b2c2ca351b83c4a194e4b5b.png",
+      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+    },
+    {
+      "id": "icon:amiya_guard",
+      "character": "amiya",
+      "kind": "icon",
+      "form": "guard",
+      "sha256": "65e173f8f8753eb1c2803a21e9dbf0b7e70cf6cc255c6f5cc6fcc3366eb53493",
+      "sourceSha256": "4341e0b44e65e7c6fa847754c0d0f2ae98ae7313b5637c2fd23d1a0fc72e2cc2",
+      "runtimeAtlas": "core/src/main/assets/interfaces/operators/subclasses.png",
+      "slot": 0,
+      "cellSize": [
+        16,
+        16
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ],
+      "source": "art/source/4341e0b44e65e7c6fa847754c0d0f2ae98ae7313b5637c2fd23d1a0fc72e2cc2.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/65e173f8f8753eb1c2803a21e9dbf0b7e70cf6cc255c6f5cc6fcc3366eb53493.png",
+      "runtimeAtlasSha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+    },
+    {
+      "id": "sprite:amiya_medic",
+      "character": "amiya",
+      "kind": "sprite",
+      "form": "medic",
+      "note": "用户确认 v3；基础、近卫、医疗目前共用此套外观，三个源文件独立保留，供后续分别修改。",
+      "sha256": "f4020c753986961a2f06f6431cfd6fd66c78ef66a583c6c1b4a62b93e7638f54",
+      "sourceSha256": "0322730f61530732f9941bc3289754e2acb49725b111c68b057b09f33ee0361b",
+      "runtime": "core/src/main/assets/sprites/operators/amiya_medic.png",
+      "sourceFrames": 1,
+      "sourceSize": [
+        512,
+        256
+      ],
+      "source": "art/source/0322730f61530732f9941bc3289754e2acb49725b111c68b057b09f33ee0361b.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/sprites/operators/amiya_medic.png"
+    },
+    {
+      "id": "portrait:amiya_medic",
+      "character": "amiya",
+      "kind": "portrait",
+      "form": "medic",
+      "sha256": "c459fd20569d07090134d3e0e046ab805a6dc325f746b0286cd196ba12a2f75e",
+      "sourceSha256": "279f2f94e51a0018628444f80bb9580f258fbadb6ab4f3753edcde750553efb0",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 2,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "source": "art/source/279f2f94e51a0018628444f80bb9580f258fbadb6ab4f3753edcde750553efb0.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/c459fd20569d07090134d3e0e046ab805a6dc325f746b0286cd196ba12a2f75e.png",
+      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+    },
+    {
+      "id": "icon:amiya_medic",
+      "character": "amiya",
+      "kind": "icon",
+      "form": "medic",
+      "sha256": "19c5a9981e538b76bf20cf9e1cec69046a0799eff6df82b4720e3a1afbee6314",
+      "sourceSha256": "1cda0257a683228bf3d5fccccfdab63704faaac6095ae0cd476e535e8aebc225",
+      "runtimeAtlas": "core/src/main/assets/interfaces/operators/subclasses.png",
+      "slot": 1,
+      "cellSize": [
+        16,
+        16
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ],
+      "source": "art/source/1cda0257a683228bf3d5fccccfdab63704faaac6095ae0cd476e535e8aebc225.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/19c5a9981e538b76bf20cf9e1cec69046a0799eff6df82b4720e3a1afbee6314.png",
+      "runtimeAtlasSha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+    },
+    {
+      "id": "sprite:hellagur_base",
+      "character": "hellagur",
+      "kind": "sprite",
+      "form": "base",
+      "note": "用户确认头部右移2像素；基础、不屈、连斩暂共用，左右各2像素原帧留边保持身体中心，倒地不裁切。",
+      "sha256": "74df83e923eb60bd6dc97f518756a6dfc22523790a07a1cb304bd85fcb24b902",
+      "sourceSha256": "cccda7b9ac58125698b4189203a10d82fa4018bdd91eeb8dd66a047d95766775",
+      "runtime": "core/src/main/assets/sprites/operators/hellagur_base.png",
+      "sourceFrames": 21,
+      "sourceSize": [
+        20,
+        21
+      ],
+      "source": "art/source/cccda7b9ac58125698b4189203a10d82fa4018bdd91eeb8dd66a047d95766775.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/sprites/operators/hellagur_base.png"
+    },
+    {
+      "id": "portrait:hellagur_base",
+      "character": "hellagur",
+      "kind": "portrait",
+      "form": "base",
+      "sha256": "2a4c1aaafe6d38e7ad0415c7d927e8326a502bf3c8a6ca4e779a20fee43b7441",
+      "sourceSha256": "210979a8474c4758a8539aea5c1fd3eee387a2ddc06d2b0e550189cd988cc7b0",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 3,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "source": "art/source/210979a8474c4758a8539aea5c1fd3eee387a2ddc06d2b0e550189cd988cc7b0.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/2a4c1aaafe6d38e7ad0415c7d927e8326a502bf3c8a6ca4e779a20fee43b7441.png",
+      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+    },
+    {
+      "id": "sprite:hellagur_berserker",
+      "character": "hellagur",
+      "kind": "sprite",
+      "form": "berserker",
+      "note": "用户确认头部右移2像素；基础、不屈、连斩暂共用，左右各2像素原帧留边保持身体中心，倒地不裁切。",
+      "sha256": "74df83e923eb60bd6dc97f518756a6dfc22523790a07a1cb304bd85fcb24b902",
+      "sourceSha256": "cccda7b9ac58125698b4189203a10d82fa4018bdd91eeb8dd66a047d95766775",
+      "runtime": "core/src/main/assets/sprites/operators/hellagur_berserker.png",
+      "sourceFrames": 21,
+      "sourceSize": [
+        20,
+        21
+      ],
+      "source": "art/source/cccda7b9ac58125698b4189203a10d82fa4018bdd91eeb8dd66a047d95766775.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/sprites/operators/hellagur_berserker.png"
+    },
+    {
+      "id": "portrait:hellagur_berserker",
+      "character": "hellagur",
+      "kind": "portrait",
+      "form": "berserker",
+      "sha256": "7bef4c35a93a258fc027c9e2d88aa06e0aa38e643e76f1b85ff51e1c072edd79",
+      "sourceSha256": "1e1a94fb7d49c520daf9285d05c3c07d346be4f6696aa85a31daea05cf7e3aec",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 4,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "source": "art/source/1e1a94fb7d49c520daf9285d05c3c07d346be4f6696aa85a31daea05cf7e3aec.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/7bef4c35a93a258fc027c9e2d88aa06e0aa38e643e76f1b85ff51e1c072edd79.png",
+      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+    },
+    {
+      "id": "icon:hellagur_berserker",
+      "character": "hellagur",
+      "kind": "icon",
+      "form": "berserker",
+      "sha256": "3296bc8d1585c2bbfbaed6b8f63032471577a37474463c2a5b4b2fbb3adeaa8c",
+      "sourceSha256": "2683e95afab53072473118be191d798d3aefea4c7da0546cd74b923323afc9bd",
+      "runtimeAtlas": "core/src/main/assets/interfaces/operators/subclasses.png",
+      "slot": 2,
+      "cellSize": [
+        16,
+        16
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ],
+      "source": "art/source/2683e95afab53072473118be191d798d3aefea4c7da0546cd74b923323afc9bd.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/3296bc8d1585c2bbfbaed6b8f63032471577a37474463c2a5b4b2fbb3adeaa8c.png",
+      "runtimeAtlasSha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+    },
+    {
+      "id": "sprite:hellagur_gladiator",
+      "character": "hellagur",
+      "kind": "sprite",
+      "form": "gladiator",
+      "note": "用户确认头部右移2像素；基础、不屈、连斩暂共用，左右各2像素原帧留边保持身体中心，倒地不裁切。",
+      "sha256": "74df83e923eb60bd6dc97f518756a6dfc22523790a07a1cb304bd85fcb24b902",
+      "sourceSha256": "cccda7b9ac58125698b4189203a10d82fa4018bdd91eeb8dd66a047d95766775",
+      "runtime": "core/src/main/assets/sprites/operators/hellagur_gladiator.png",
+      "sourceFrames": 21,
+      "sourceSize": [
+        20,
+        21
+      ],
+      "source": "art/source/cccda7b9ac58125698b4189203a10d82fa4018bdd91eeb8dd66a047d95766775.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/sprites/operators/hellagur_gladiator.png"
+    },
+    {
+      "id": "portrait:hellagur_gladiator",
+      "character": "hellagur",
+      "kind": "portrait",
+      "form": "gladiator",
+      "sha256": "3836b636bcd1fa4491fc4cb30a23eaab187071bdc377ca35e47313a585b679c1",
+      "sourceSha256": "8dd50365e1eb66330c5f65c96a48120cf2901a2fdd8bfc8623acad607548ec46",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 5,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "source": "art/source/8dd50365e1eb66330c5f65c96a48120cf2901a2fdd8bfc8623acad607548ec46.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/3836b636bcd1fa4491fc4cb30a23eaab187071bdc377ca35e47313a585b679c1.png",
+      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+    },
+    {
+      "id": "icon:hellagur_gladiator",
+      "character": "hellagur",
+      "kind": "icon",
+      "form": "gladiator",
+      "sha256": "36805d37b089f8aed5649b52c474013461ac47b05df9d6d454b86ccb699f6fc1",
+      "sourceSha256": "2913c81e412acd1f19f829b6aad7b91305aa61628db9d4250e6e985c84fc9481",
+      "runtimeAtlas": "core/src/main/assets/interfaces/operators/subclasses.png",
+      "slot": 3,
+      "cellSize": [
+        16,
+        16
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ],
+      "source": "art/source/2913c81e412acd1f19f829b6aad7b91305aa61628db9d4250e6e985c84fc9481.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/36805d37b089f8aed5649b52c474013461ac47b05df9d6d454b86ccb699f6fc1.png",
+      "runtimeAtlasSha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+    },
+    {
+      "id": "splash:hellagur",
+      "character": "hellagur",
+      "kind": "splash",
+      "form": "base",
+      "note": "已选立绘；可编辑源为单层栅格，高分辨率原图另存。",
+      "sha256": "7081cc5922aceb8db1bf7e48cebad58de58a88710bb4bcd079d44388d6dd21d6",
+      "sourceSha256": "e3e639ed8bd2ce9055c480e48302f923efd541c075d272e4fbe55d2ee2f1a590",
+      "runtime": "core/src/main/assets/splashes/operators/hellagur.jpg",
+      "source": "art/source/e3e639ed8bd2ce9055c480e48302f923efd541c075d272e4fbe55d2ee2f1a590.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/splashes/operators/hellagur.jpg"
+    },
+    {
+      "id": "sprite:crownslayer_base",
+      "character": "crownslayer",
+      "kind": "sprite",
+      "form": "base",
+      "note": "用户确认两像素眼睛v8；基础及两转职共用，动作保持v7。",
+      "sha256": "59ece8c500a9d9d91f763134979f08f095b3880908e43744c4ee6d8a69a957f8",
+      "sourceSha256": "62c3b04a5fd2c40da2b98d60de97d6e61126bce2b1c15748dee68da9f574d55a",
+      "runtime": "core/src/main/assets/sprites/operators/crownslayer_base.png",
+      "sourceFrames": 21,
+      "sourceSize": [
+        16,
+        21
+      ],
+      "source": "art/source/62c3b04a5fd2c40da2b98d60de97d6e61126bce2b1c15748dee68da9f574d55a.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/sprites/operators/crownslayer_base.png"
+    },
+    {
+      "id": "portrait:crownslayer_base",
+      "character": "crownslayer",
+      "kind": "portrait",
+      "form": "base",
+      "sha256": "16fd0f59ed589da799ffa72d9f2c03f78a59856bcf5b99d18c18caeb9436d5ce",
+      "sourceSha256": "75940315af404e52dd86d5b180292c1bb6f25e892837cb7cfc080d128a36f1fa",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 6,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "source": "art/source/75940315af404e52dd86d5b180292c1bb6f25e892837cb7cfc080d128a36f1fa.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/16fd0f59ed589da799ffa72d9f2c03f78a59856bcf5b99d18c18caeb9436d5ce.png",
+      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+    },
+    {
+      "id": "sprite:crownslayer_assassin",
+      "character": "crownslayer",
+      "kind": "sprite",
+      "form": "assassin",
+      "note": "用户确认两像素眼睛v8；基础及两转职共用，动作保持v7。",
+      "sha256": "59ece8c500a9d9d91f763134979f08f095b3880908e43744c4ee6d8a69a957f8",
+      "sourceSha256": "62c3b04a5fd2c40da2b98d60de97d6e61126bce2b1c15748dee68da9f574d55a",
+      "runtime": "core/src/main/assets/sprites/operators/crownslayer_assassin.png",
+      "sourceFrames": 21,
+      "sourceSize": [
+        16,
+        21
+      ],
+      "source": "art/source/62c3b04a5fd2c40da2b98d60de97d6e61126bce2b1c15748dee68da9f574d55a.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/sprites/operators/crownslayer_assassin.png"
+    },
+    {
+      "id": "portrait:crownslayer_assassin",
+      "character": "crownslayer",
+      "kind": "portrait",
+      "form": "assassin",
+      "sha256": "83c79c9c738eb9736008e81802a156c2d816895616e85667459ac5d2e49edfdc",
+      "sourceSha256": "a7013974398e33e85125123fbc70a4612b0b4a8b24923a67763c43b95e1a5460",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 7,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "source": "art/source/a7013974398e33e85125123fbc70a4612b0b4a8b24923a67763c43b95e1a5460.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/83c79c9c738eb9736008e81802a156c2d816895616e85667459ac5d2e49edfdc.png",
+      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+    },
+    {
+      "id": "icon:crownslayer_assassin",
+      "character": "crownslayer",
+      "kind": "icon",
+      "form": "assassin",
+      "sha256": "f775c3fe3608820962bd3d4eaa93f3de93c5d2c96e56f85763acdbd43a693454",
+      "sourceSha256": "9dcba2f63ae06cccf575e4316e760aace4898c4ecdc4740caaae0f0d80bb7b47",
+      "runtimeAtlas": "core/src/main/assets/interfaces/operators/subclasses.png",
+      "slot": 4,
+      "cellSize": [
+        16,
+        16
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ],
+      "source": "art/source/9dcba2f63ae06cccf575e4316e760aace4898c4ecdc4740caaae0f0d80bb7b47.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/f775c3fe3608820962bd3d4eaa93f3de93c5d2c96e56f85763acdbd43a693454.png",
+      "runtimeAtlasSha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+    },
+    {
+      "id": "sprite:crownslayer_freerunner",
+      "character": "crownslayer",
+      "kind": "sprite",
+      "form": "freerunner",
+      "note": "用户确认两像素眼睛v8；基础及两转职共用，动作保持v7。",
+      "sha256": "59ece8c500a9d9d91f763134979f08f095b3880908e43744c4ee6d8a69a957f8",
+      "sourceSha256": "62c3b04a5fd2c40da2b98d60de97d6e61126bce2b1c15748dee68da9f574d55a",
+      "runtime": "core/src/main/assets/sprites/operators/crownslayer_freerunner.png",
+      "sourceFrames": 21,
+      "sourceSize": [
+        16,
+        21
+      ],
+      "source": "art/source/62c3b04a5fd2c40da2b98d60de97d6e61126bce2b1c15748dee68da9f574d55a.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/sprites/operators/crownslayer_freerunner.png"
+    },
+    {
+      "id": "portrait:crownslayer_freerunner",
+      "character": "crownslayer",
+      "kind": "portrait",
+      "form": "freerunner",
+      "sha256": "4d5651cc0d48506f0f43ca3bb0216175bb8785c2a66b6631e910f56afde1224c",
+      "sourceSha256": "e26ce105452b4148dee1c47073ddfb90060703a70dd1726ec58b487cc280a27e",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 8,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "source": "art/source/e26ce105452b4148dee1c47073ddfb90060703a70dd1726ec58b487cc280a27e.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/4d5651cc0d48506f0f43ca3bb0216175bb8785c2a66b6631e910f56afde1224c.png",
+      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+    },
+    {
+      "id": "icon:crownslayer_freerunner",
+      "character": "crownslayer",
+      "kind": "icon",
+      "form": "freerunner",
+      "sha256": "214f3f7d704e1a6ae803577677296dbb83ff499e9e42cc1681716e35c332ccb0",
+      "sourceSha256": "78752ccffec9ed936a3a1ef4805d32ece2807a7bc21356eef5139f70c2237327",
+      "runtimeAtlas": "core/src/main/assets/interfaces/operators/subclasses.png",
+      "slot": 5,
+      "cellSize": [
+        16,
+        16
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ],
+      "source": "art/source/78752ccffec9ed936a3a1ef4805d32ece2807a7bc21356eef5139f70c2237327.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/214f3f7d704e1a6ae803577677296dbb83ff499e9e42cc1681716e35c332ccb0.png",
+      "runtimeAtlasSha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+    },
+    {
+      "id": "splash:crownslayer",
+      "character": "crownslayer",
+      "kind": "splash",
+      "form": "base",
+      "note": "已选立绘；可编辑源为单层栅格，高分辨率原图另存。",
+      "sha256": "f81563984128bd99e6a14ec9380e2a14adc8ec91ee14a5c926b6a49a1b5432ba",
+      "sourceSha256": "c28fd003e0a670494e141bf2ac3dffb6da73572cbb91103f61d91e1cdfb61c4a",
+      "runtime": "core/src/main/assets/splashes/operators/crownslayer.jpg",
+      "source": "art/source/c28fd003e0a670494e141bf2ac3dffb6da73572cbb91103f61d91e1cdfb61c4a.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/splashes/operators/crownslayer.jpg"
+    },
+    {
+      "id": "sprite:typhon_base",
+      "character": "typhon",
+      "kind": "sprite",
+      "form": "base",
+      "note": "用户确认完整v10：v9跑步+v7倒地；基础及两转职共用，32×21完整帧，人物不缩放。",
+      "sha256": "0ed0a3056b69ddfc8a6d2779cb4193b1e8f775377be0ebd7f1aa13c99cd3b046",
+      "sourceSha256": "3ee6c84535aad4de3ab33437ad9ccf671bebe828a04c6fb7d1094db73123269f",
+      "runtime": "core/src/main/assets/sprites/operators/typhon_base.png",
+      "sourceFrames": 21,
+      "sourceSize": [
+        32,
+        21
+      ],
+      "source": "art/source/3ee6c84535aad4de3ab33437ad9ccf671bebe828a04c6fb7d1094db73123269f.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/sprites/operators/typhon_base.png"
+    },
+    {
+      "id": "portrait:typhon_base",
+      "character": "typhon",
+      "kind": "portrait",
+      "form": "base",
+      "sha256": "8be41ecf839e2b9620dd9336c1b7bb3dc162e0df86eadb2e3f12536fbd2d0c15",
+      "sourceSha256": "cc4dc657ad9d2223961b0bcce3ee3e8a6f4b8736e108f82e5f8e3ad0d52f65b5",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 9,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "source": "art/source/cc4dc657ad9d2223961b0bcce3ee3e8a6f4b8736e108f82e5f8e3ad0d52f65b5.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/8be41ecf839e2b9620dd9336c1b7bb3dc162e0df86eadb2e3f12536fbd2d0c15.png",
+      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+    },
+    {
+      "id": "sprite:typhon_sniper",
+      "character": "typhon",
+      "kind": "sprite",
+      "form": "sniper",
+      "note": "用户确认完整v10：v9跑步+v7倒地；基础及两转职共用，32×21完整帧，人物不缩放。",
+      "sha256": "0ed0a3056b69ddfc8a6d2779cb4193b1e8f775377be0ebd7f1aa13c99cd3b046",
+      "sourceSha256": "3ee6c84535aad4de3ab33437ad9ccf671bebe828a04c6fb7d1094db73123269f",
+      "runtime": "core/src/main/assets/sprites/operators/typhon_sniper.png",
+      "sourceFrames": 21,
+      "sourceSize": [
+        32,
+        21
+      ],
+      "source": "art/source/3ee6c84535aad4de3ab33437ad9ccf671bebe828a04c6fb7d1094db73123269f.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/sprites/operators/typhon_sniper.png"
+    },
+    {
+      "id": "portrait:typhon_sniper",
+      "character": "typhon",
+      "kind": "portrait",
+      "form": "sniper",
+      "sha256": "4a245712818cf8618f7038e17f42998dc025f4705369077a2ad18af7eaa27e3e",
+      "sourceSha256": "52e91616a288fdd3371105261c4208f17d3bd6937628bbb63a11bf737bafff2b",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 10,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "source": "art/source/52e91616a288fdd3371105261c4208f17d3bd6937628bbb63a11bf737bafff2b.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/4a245712818cf8618f7038e17f42998dc025f4705369077a2ad18af7eaa27e3e.png",
+      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+    },
+    {
+      "id": "icon:typhon_sniper",
+      "character": "typhon",
+      "kind": "icon",
+      "form": "sniper",
+      "sha256": "be1b8fa256c2f581f74de92d86f28bdaed8f359b5d10afec16420dcd010358ea",
+      "sourceSha256": "c66bdd59ea1e2498eb927279e0010fe3c1b1d5017027b668eaa965d80d7df2ee",
+      "runtimeAtlas": "core/src/main/assets/interfaces/operators/subclasses.png",
+      "slot": 6,
+      "cellSize": [
+        16,
+        16
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ],
+      "source": "art/source/c66bdd59ea1e2498eb927279e0010fe3c1b1d5017027b668eaa965d80d7df2ee.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/be1b8fa256c2f581f74de92d86f28bdaed8f359b5d10afec16420dcd010358ea.png",
+      "runtimeAtlasSha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+    },
+    {
+      "id": "sprite:typhon_warden",
+      "character": "typhon",
+      "kind": "sprite",
+      "form": "warden",
+      "note": "用户确认完整v10：v9跑步+v7倒地；基础及两转职共用，32×21完整帧，人物不缩放。",
+      "sha256": "0ed0a3056b69ddfc8a6d2779cb4193b1e8f775377be0ebd7f1aa13c99cd3b046",
+      "sourceSha256": "3ee6c84535aad4de3ab33437ad9ccf671bebe828a04c6fb7d1094db73123269f",
+      "runtime": "core/src/main/assets/sprites/operators/typhon_warden.png",
+      "sourceFrames": 21,
+      "sourceSize": [
+        32,
+        21
+      ],
+      "source": "art/source/3ee6c84535aad4de3ab33437ad9ccf671bebe828a04c6fb7d1094db73123269f.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/sprites/operators/typhon_warden.png"
+    },
+    {
+      "id": "portrait:typhon_warden",
+      "character": "typhon",
+      "kind": "portrait",
+      "form": "warden",
+      "sha256": "4d374b30cbf626065f3d9a6e98d355aa16a2b81f6adaaa82bf9f626c68d77115",
+      "sourceSha256": "787c5b91cb3d4a7c852049f773f3ada6eef27dd880a12be2e0cfdb549423d008",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 11,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "source": "art/source/787c5b91cb3d4a7c852049f773f3ada6eef27dd880a12be2e0cfdb549423d008.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/4d374b30cbf626065f3d9a6e98d355aa16a2b81f6adaaa82bf9f626c68d77115.png",
+      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+    },
+    {
+      "id": "icon:typhon_warden",
+      "character": "typhon",
+      "kind": "icon",
+      "form": "warden",
+      "sha256": "553fd7f28d61f1d12165dbe56679d8084ed8a169c35ba77b17dbe9e0485a79ce",
+      "sourceSha256": "ff71daa2e471fa9f4115c0d242ca978ed30fc031a2c6e8f6536b446dff7e3309",
+      "runtimeAtlas": "core/src/main/assets/interfaces/operators/subclasses.png",
+      "slot": 7,
+      "cellSize": [
+        16,
+        16
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ],
+      "source": "art/source/ff71daa2e471fa9f4115c0d242ca978ed30fc031a2c6e8f6536b446dff7e3309.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/553fd7f28d61f1d12165dbe56679d8084ed8a169c35ba77b17dbe9e0485a79ce.png",
+      "runtimeAtlasSha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+    },
+    {
+      "id": "splash:typhon",
+      "character": "typhon",
+      "kind": "splash",
+      "form": "base",
+      "note": "已选立绘；可编辑源为单层栅格，高分辨率原图另存。",
+      "sha256": "affd4e57e72c684c47c1c310f1b41003a82aa02c4f89769a4278c2f3fb680369",
+      "sourceSha256": "f6ad6d978513a88af160a5e9136adfe338338976d54f35a569e8029143c6872a",
+      "runtime": "core/src/main/assets/splashes/operators/typhon.jpg",
+      "source": "art/source/f6ad6d978513a88af160a5e9136adfe338338976d54f35a569e8029143c6872a.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/splashes/operators/typhon.jpg"
+    },
+    {
+      "id": "sprite:degenbrecher_base",
+      "character": "degenbrecher",
+      "kind": "sprite",
+      "form": "base",
+      "note": "用户确认完整v4；基础/兵刃大师/破阵武者暂共用，36×21完整帧。",
+      "sha256": "934c20b1d951c1370d43b36312e2b4c173545aac34e946515638fb193fe07a8b",
+      "sourceSha256": "822b05a83a0d9608344f1ee4bd24e42c8eaa47c599101145eaf3cac269f1c977",
+      "runtime": "core/src/main/assets/sprites/operators/degenbrecher_base.png",
+      "sourceFrames": 21,
+      "sourceSize": [
+        36,
+        21
+      ],
+      "source": "art/source/822b05a83a0d9608344f1ee4bd24e42c8eaa47c599101145eaf3cac269f1c977.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/sprites/operators/degenbrecher_base.png"
+    },
+    {
+      "id": "portrait:degenbrecher_base",
+      "character": "degenbrecher",
+      "kind": "portrait",
+      "form": "base",
+      "sha256": "d7ccd0184769c2f8705fe695b69f5cfe6eecea45e0986ee3e449fb111fb47ad3",
+      "sourceSha256": "a4ccf63bed5baac0da36f1a30ab17f55f08b04b9ef5c4c90d01dce637003165e",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 12,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "source": "art/source/a4ccf63bed5baac0da36f1a30ab17f55f08b04b9ef5c4c90d01dce637003165e.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/d7ccd0184769c2f8705fe695b69f5cfe6eecea45e0986ee3e449fb111fb47ad3.png",
+      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+    },
+    {
+      "id": "sprite:degenbrecher_champion",
+      "character": "degenbrecher",
+      "kind": "sprite",
+      "form": "champion",
+      "note": "用户确认完整v4；基础/兵刃大师/破阵武者暂共用，36×21完整帧。",
+      "sha256": "934c20b1d951c1370d43b36312e2b4c173545aac34e946515638fb193fe07a8b",
+      "sourceSha256": "822b05a83a0d9608344f1ee4bd24e42c8eaa47c599101145eaf3cac269f1c977",
+      "runtime": "core/src/main/assets/sprites/operators/degenbrecher_champion.png",
+      "sourceFrames": 21,
+      "sourceSize": [
+        36,
+        21
+      ],
+      "source": "art/source/822b05a83a0d9608344f1ee4bd24e42c8eaa47c599101145eaf3cac269f1c977.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/sprites/operators/degenbrecher_champion.png"
+    },
+    {
+      "id": "portrait:degenbrecher_champion",
+      "character": "degenbrecher",
+      "kind": "portrait",
+      "form": "champion",
+      "sha256": "a4f625b155f29a48b23a6beddea2704abb3d0ae12e6b7a743a765ec7391fd71e",
+      "sourceSha256": "61626d415a1797d4db463b50bd28ad4e525de4a83bd25dc1d22e71532ad0107d",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 13,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "source": "art/source/61626d415a1797d4db463b50bd28ad4e525de4a83bd25dc1d22e71532ad0107d.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/a4f625b155f29a48b23a6beddea2704abb3d0ae12e6b7a743a765ec7391fd71e.png",
+      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+    },
+    {
+      "id": "icon:degenbrecher_champion",
+      "character": "degenbrecher",
+      "kind": "icon",
+      "form": "champion",
+      "sha256": "522844bbb5c3ee1d1ccf4d0ec15c1dc5935e3e3729c8c7e9491cd30469cea058",
+      "sourceSha256": "d0b6cd088020ef056274288117e3bda98d0b3f9bbee4c9bdcd7c6d3da3706107",
+      "runtimeAtlas": "core/src/main/assets/interfaces/operators/subclasses.png",
+      "slot": 8,
+      "cellSize": [
+        16,
+        16
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ],
+      "source": "art/source/d0b6cd088020ef056274288117e3bda98d0b3f9bbee4c9bdcd7c6d3da3706107.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/522844bbb5c3ee1d1ccf4d0ec15c1dc5935e3e3729c8c7e9491cd30469cea058.png",
+      "runtimeAtlasSha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+    },
+    {
+      "id": "sprite:degenbrecher_monk",
+      "character": "degenbrecher",
+      "kind": "sprite",
+      "form": "monk",
+      "note": "用户确认完整v4；基础/兵刃大师/破阵武者暂共用，36×21完整帧。",
+      "sha256": "934c20b1d951c1370d43b36312e2b4c173545aac34e946515638fb193fe07a8b",
+      "sourceSha256": "822b05a83a0d9608344f1ee4bd24e42c8eaa47c599101145eaf3cac269f1c977",
+      "runtime": "core/src/main/assets/sprites/operators/degenbrecher_monk.png",
+      "sourceFrames": 21,
+      "sourceSize": [
+        36,
+        21
+      ],
+      "source": "art/source/822b05a83a0d9608344f1ee4bd24e42c8eaa47c599101145eaf3cac269f1c977.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/sprites/operators/degenbrecher_monk.png"
+    },
+    {
+      "id": "portrait:degenbrecher_monk",
+      "character": "degenbrecher",
+      "kind": "portrait",
+      "form": "monk",
+      "sha256": "e7ce1ec32e040b66d00c7d5cacc510b528b99ad99f2450fa15f5c7f0eb3ebbd8",
+      "sourceSha256": "d438f857ae4e1c933e5241ad7e70a09790e6f3fe9d063c3246de6553f8ea01b5",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 14,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "source": "art/source/d438f857ae4e1c933e5241ad7e70a09790e6f3fe9d063c3246de6553f8ea01b5.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/e7ce1ec32e040b66d00c7d5cacc510b528b99ad99f2450fa15f5c7f0eb3ebbd8.png",
+      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+    },
+    {
+      "id": "icon:degenbrecher_monk",
+      "character": "degenbrecher",
+      "kind": "icon",
+      "form": "monk",
+      "sha256": "f01f65007e889ae7918a361fc4115e506a10b2bb7e07430b946834a1f6100f6d",
+      "sourceSha256": "56fb86b1873d340c4a07ea8b6a751e64f53c7c3b4c896fde24a25f605891ca86",
+      "runtimeAtlas": "core/src/main/assets/interfaces/operators/subclasses.png",
+      "slot": 9,
+      "cellSize": [
+        16,
+        16
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ],
+      "source": "art/source/56fb86b1873d340c4a07ea8b6a751e64f53c7c3b4c896fde24a25f605891ca86.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/f01f65007e889ae7918a361fc4115e506a10b2bb7e07430b946834a1f6100f6d.png",
+      "runtimeAtlasSha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+    },
+    {
+      "id": "splash:degenbrecher",
+      "character": "degenbrecher",
+      "kind": "splash",
+      "form": "base",
+      "note": "已选立绘；可编辑源为单层栅格，高分辨率原图另存。",
+      "sha256": "047fe6f6c5bc1faeaf82b6d02c04e147e4a52d99fcae50a9ebfa3f13beea706d",
+      "sourceSha256": "02168c0fed2a108756fb492000ee8c944a4c9dc4651d7b6635eea5dbdd187fa8",
+      "runtime": "core/src/main/assets/splashes/operators/degenbrecher.jpg",
+      "source": "art/source/02168c0fed2a108756fb492000ee8c944a4c9dc4651d7b6635eea5dbdd187fa8.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/splashes/operators/degenbrecher.jpg"
+    },
+    {
+      "id": "sprite:shining_base",
+      "character": "shining",
+      "kind": "sprite",
+      "form": "base",
+      "note": "用户确认完整v7；基础/执灯守护/执剑守护暂共用，36×21完整帧。",
+      "sha256": "7b39f5b0958a42da59edd107aa0b30af474969a8885769f1071847ce5677e4ab",
+      "sourceSha256": "ebc32b6cc9f0ce3cc764048540fbb62694951b5d53b7737211ade7f3cffdc06e",
+      "runtime": "core/src/main/assets/sprites/operators/shining_base.png",
+      "sourceFrames": 21,
+      "sourceSize": [
+        36,
+        21
+      ],
+      "source": "art/source/ebc32b6cc9f0ce3cc764048540fbb62694951b5d53b7737211ade7f3cffdc06e.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/sprites/operators/shining_base.png"
+    },
+    {
+      "id": "portrait:shining_base",
+      "character": "shining",
+      "kind": "portrait",
+      "form": "base",
+      "sha256": "92f9ae81c61955203b04906b8385399f5c9c112154279704e43d09bfb2b9ac6d",
+      "sourceSha256": "2849ad89f1b7722450ce1b65ce496ffede229c490e7a0c042075071710d58c14",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 15,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "source": "art/source/2849ad89f1b7722450ce1b65ce496ffede229c490e7a0c042075071710d58c14.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/92f9ae81c61955203b04906b8385399f5c9c112154279704e43d09bfb2b9ac6d.png",
+      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+    },
+    {
+      "id": "sprite:shining_priest",
+      "character": "shining",
+      "kind": "sprite",
+      "form": "priest",
+      "note": "用户确认完整v7；基础/执灯守护/执剑守护暂共用，36×21完整帧。",
+      "sha256": "7b39f5b0958a42da59edd107aa0b30af474969a8885769f1071847ce5677e4ab",
+      "sourceSha256": "ebc32b6cc9f0ce3cc764048540fbb62694951b5d53b7737211ade7f3cffdc06e",
+      "runtime": "core/src/main/assets/sprites/operators/shining_priest.png",
+      "sourceFrames": 21,
+      "sourceSize": [
+        36,
+        21
+      ],
+      "source": "art/source/ebc32b6cc9f0ce3cc764048540fbb62694951b5d53b7737211ade7f3cffdc06e.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/sprites/operators/shining_priest.png"
+    },
+    {
+      "id": "portrait:shining_priest",
+      "character": "shining",
+      "kind": "portrait",
+      "form": "priest",
+      "sha256": "3f67a60ccd156192363dcdc8338f9fc2d76697b0581860016a3f482785ff7fd8",
+      "sourceSha256": "5f33b8cf36da4354102f3bc97ad1407653d8249b65e715ad4dee68d1e0ddec17",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 16,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "source": "art/source/5f33b8cf36da4354102f3bc97ad1407653d8249b65e715ad4dee68d1e0ddec17.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/3f67a60ccd156192363dcdc8338f9fc2d76697b0581860016a3f482785ff7fd8.png",
+      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+    },
+    {
+      "id": "icon:shining_priest",
+      "character": "shining",
+      "kind": "icon",
+      "form": "priest",
+      "sha256": "776445536c4a26bfb4ad1454628da3e0120f33b1f6a728c03582a5d39fc7df9b",
+      "sourceSha256": "0907cfb7e41d6daa1e56dc6c1f2ee86683e8b2465dc69e6badf3dc0f400bf513",
+      "runtimeAtlas": "core/src/main/assets/interfaces/operators/subclasses.png",
+      "slot": 10,
+      "cellSize": [
+        16,
+        16
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ],
+      "source": "art/source/0907cfb7e41d6daa1e56dc6c1f2ee86683e8b2465dc69e6badf3dc0f400bf513.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/776445536c4a26bfb4ad1454628da3e0120f33b1f6a728c03582a5d39fc7df9b.png",
+      "runtimeAtlasSha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+    },
+    {
+      "id": "sprite:shining_paladin",
+      "character": "shining",
+      "kind": "sprite",
+      "form": "paladin",
+      "note": "用户确认完整v7；基础/执灯守护/执剑守护暂共用，36×21完整帧。",
+      "sha256": "7b39f5b0958a42da59edd107aa0b30af474969a8885769f1071847ce5677e4ab",
+      "sourceSha256": "ebc32b6cc9f0ce3cc764048540fbb62694951b5d53b7737211ade7f3cffdc06e",
+      "runtime": "core/src/main/assets/sprites/operators/shining_paladin.png",
+      "sourceFrames": 21,
+      "sourceSize": [
+        36,
+        21
+      ],
+      "source": "art/source/ebc32b6cc9f0ce3cc764048540fbb62694951b5d53b7737211ade7f3cffdc06e.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/sprites/operators/shining_paladin.png"
+    },
+    {
+      "id": "portrait:shining_paladin",
+      "character": "shining",
+      "kind": "portrait",
+      "form": "paladin",
+      "sha256": "ae16d08608240eefd536680a0f8e9df163f712b7439cb57c821bc9e4943edd29",
+      "sourceSha256": "79314dc172423d11e6afd6279274bda5dc61f2a0ff8bee651efe4457fdb09d22",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 17,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "source": "art/source/79314dc172423d11e6afd6279274bda5dc61f2a0ff8bee651efe4457fdb09d22.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/ae16d08608240eefd536680a0f8e9df163f712b7439cb57c821bc9e4943edd29.png",
+      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+    },
+    {
+      "id": "icon:shining_paladin",
+      "character": "shining",
+      "kind": "icon",
+      "form": "paladin",
+      "sha256": "d929f44362215b0d7bcec31cd35f51995d7cbbc81a0359607e69659ab51f5d1c",
+      "sourceSha256": "4770269abb2fcdd029beddc543085a7fba48c343a84ffedcd8f6fd3acc9c0a00",
+      "runtimeAtlas": "core/src/main/assets/interfaces/operators/subclasses.png",
+      "slot": 11,
+      "cellSize": [
+        16,
+        16
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ],
+      "source": "art/source/4770269abb2fcdd029beddc543085a7fba48c343a84ffedcd8f6fd3acc9c0a00.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "art/exports/d929f44362215b0d7bcec31cd35f51995d7cbbc81a0359607e69659ab51f5d1c.png",
+      "runtimeAtlasSha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+    },
+    {
+      "id": "splash:shining",
+      "character": "shining",
+      "kind": "splash",
+      "form": "base",
+      "note": "已选立绘；可编辑源为单层栅格，高分辨率原图另存。",
+      "sha256": "a1b6d1394fe1b2aa83f916c9662f579fa67ece0cbddde3a68b3f94c6dbc1caa2",
+      "sourceSha256": "ca388b50805baff3d70a8815eba78608a850b3a4ee85d901696dab110c16b8b5",
+      "runtime": "core/src/main/assets/splashes/operators/shining.jpg",
+      "source": "art/source/ca388b50805baff3d70a8815eba78608a850b3a4ee85d901696dab110c16b8b5.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/splashes/operators/shining.jpg"
+    },
+    {
+      "id": "splash:amiya",
+      "character": "amiya",
+      "kind": "splash",
+      "form": "base",
+      "note": "既有阿米娅立绘，未修改。",
+      "sha256": "f71c6fbce642be6f44c489746bd1ca91c3c18a9ab8eff0d15c02f00e96a6272e",
+      "sourceSha256": "8add8132f9df8ac6770545ce78b7e37c0f58a00b08e368472927b41525c9f76e",
+      "runtime": "core/src/main/assets/splashes/amiya.jpg",
+      "source": "art/source/8add8132f9df8ac6770545ce78b7e37c0f58a00b08e368472927b41525c9f76e.aseprite",
+      "reviewStatus": "development-art-not-final",
+      "implementationStatus": "installed",
+      "export": "core/src/main/assets/splashes/amiya.jpg"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+rootProject.name = 'arknights-pixel-dungeon'
+include ':SPD-classes', ':core', ':desktop', ':services'
+include ':services:updates:offlineUpdates', ':services:news:offlineNews'

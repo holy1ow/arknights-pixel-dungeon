@@ -1,0 +1,15 @@
+// Arknights Pixel Dungeon: desktop release configuration, holy1ow, 2026-10-18.
+allprojects {
+    ext {
+        appName = 'Arknights Pixel Dungeon'
+        appPackageName = 'com.holy1ow.arknightspixeldungeon'
+        // Keep upstream's save-format/migration version; this is not the public release number.
+        appVersionCode = 922
+        appVersionName = '0.0.1'
+        appJavaCompatibility = JavaVersion.VERSION_11
+        gdxVersion = '1.14.0'
+        gdxControllersVersion = '2.2.4'
+    }
+    version = appVersionName
+    repositories { mavenCentral() }
+}
