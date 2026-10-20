@@ -1,5 +1,6 @@
 // Arknights Pixel Dungeon: modified/adapted by holy1ow, 2026-10-18.
 // SPDX-License-Identifier: GPL-3.0-or-later
+
 /*
  * Pixel Dungeon
  * Copyright (C) 2012-2015 Oleg Dolya
@@ -24,6 +25,9 @@
 package com.shatteredpixel.shatteredpixeldungeon.ui;
 
 import com.shatteredpixel.shatteredpixeldungeon.Assets;
+import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
+import com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroClass;
+import com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaItemVisuals;
 import com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroSubClass;
 import com.shatteredpixel.shatteredpixeldungeon.actors.hero.abilities.ArmorAbility;
 import com.shatteredpixel.shatteredpixeldungeon.actors.hero.spells.ClericSpell;
@@ -35,6 +39,9 @@ public class HeroIcon extends Image {
 
 	private static TextureFilm film;
 	private static final int SIZE = 16;
+	private int armorAbilityIcon = -1;
+	private HeroClass displayedClass;
+	private String armorTexture;
 
 	//transparent icon
 	public static final int NONE    = 127;
@@ -133,11 +140,35 @@ public class HeroIcon extends Image {
 	}
 
 	public HeroIcon(ArmorAbility abil){
+		this(Dungeon.hero == null ? null : Dungeon.hero.heroClass, abil);
+	}
+
+	public HeroIcon(HeroClass cls, ArmorAbility abil){
 		super( Assets.Interfaces.HERO_ICONS );
 		if (film == null){
 			film = new TextureFilm(texture, SIZE, SIZE);
 		}
 		frame(film.get(abil.icon()));
+		displayedClass = cls;
+		armorAbilityIcon = abil.icon();
+		refreshArmorAppearance();
+	}
+
+	private void refreshArmorAppearance(){
+		if (armorAbilityIcon < 0) return;
+		String selected = AmiyaItemVisuals.armorAbilityTexture(displayedClass, armorAbilityIcon);
+		if (!java.util.Objects.equals(selected, armorTexture)) {
+			armorTexture = selected;
+			texture(selected == null ? Assets.Interfaces.HERO_ICONS : selected);
+			if (selected == null) frame(film.get(armorAbilityIcon));
+			else frame(0, 0, SIZE, SIZE);
+		}
+	}
+
+	@Override
+	public void draw(){
+		refreshArmorAppearance();
+		super.draw();
 	}
 
 	public HeroIcon(ActionIndicator.Action action){

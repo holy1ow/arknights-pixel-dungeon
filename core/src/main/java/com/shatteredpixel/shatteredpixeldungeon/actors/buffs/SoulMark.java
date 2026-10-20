@@ -1,3 +1,6 @@
+// Arknights Pixel Dungeon: Amiya frozen visual integration, holy1ow, 2026-10-20.
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 /*
  * Pixel Dungeon
  * Copyright (C) 2012-2015 Oleg Dolya
@@ -21,12 +24,23 @@
 
 package com.shatteredpixel.shatteredpixeldungeon.actors.buffs;
 
+import com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaItemVisuals;
 import com.shatteredpixel.shatteredpixeldungeon.sprites.CharSprite;
 import com.shatteredpixel.shatteredpixeldungeon.ui.BuffIndicator;
 import com.watabou.noosa.Image;
 
 public class SoulMark extends FlavourBuff {
 
+    // Cosmetic provenance only; absent on old saves means original visuals.
+    private boolean amiyaSource;
+    private Image amiyaIcon;
+    public boolean amiyaVisual(){return amiyaSource && AmiyaItemVisuals.active();}
+    public void visualSource(com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero hero){
+        amiyaSource=com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaEffects.eligible(hero);
+        if(amiyaSource && (amiyaIcon==null || amiyaIcon.parent==null))amiyaIcon=AmiyaItemVisuals.soul(this,target);
+    }
+    @Override public void storeInBundle(com.watabou.utils.Bundle b){super.storeInBundle(b);b.put("amiya_visual_source",amiyaSource);}
+    @Override public void restoreFromBundle(com.watabou.utils.Bundle b){super.restoreFromBundle(b);amiyaSource=b.getBoolean("amiya_visual_source");}
 	public static final float DURATION	= 10f;
 
 	{
@@ -53,5 +67,10 @@ public class SoulMark extends FlavourBuff {
 	public void fx(boolean on) {
 		if (on) target.sprite.add(CharSprite.State.MARKED);
 		else target.sprite.remove(CharSprite.State.MARKED);
+        if(on && amiyaSource){
+            if(amiyaIcon!=null && amiyaIcon.parent!=target.sprite.parent){amiyaIcon.killAndErase();amiyaIcon=null;}
+            if(amiyaIcon==null)amiyaIcon=AmiyaItemVisuals.soul(this,target);
+        }
+        if(!on && amiyaIcon!=null){amiyaIcon.killAndErase();amiyaIcon=null;}
 	}
 }

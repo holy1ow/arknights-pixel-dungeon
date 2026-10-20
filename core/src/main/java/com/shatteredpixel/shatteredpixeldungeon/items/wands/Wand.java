@@ -1,5 +1,6 @@
 // Arknights Pixel Dungeon: modified/adapted by holy1ow, 2026-10-18.
 // SPDX-License-Identifier: GPL-3.0-or-later
+
 /*
  * Pixel Dungeon
  * Copyright (C) 2012-2015 Oleg Dolya
@@ -23,6 +24,7 @@
 
 package com.shatteredpixel.shatteredpixeldungeon.items.wands;
 
+import com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaItemVisuals;
 import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.Badges;
 import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
@@ -162,6 +164,7 @@ public abstract class Wand extends Item {
 			return true;
 		} else {
 			GLog.w(Messages.get(this, "fizzles"));
+			AmiyaItemVisuals.insufficient(owner);
 			return false;
 		}
 	}
@@ -220,7 +223,7 @@ public abstract class Wand extends Item {
 				Dungeon.hero.subClass == HeroSubClass.WARLOCK &&
 				//standard 1 - 0.92^x chance, plus 7%. Starts at 15%
 				Random.Float() > (Math.pow(0.92f, (wandLevel*chargesUsed)+1) - 0.07f)){
-			SoulMark.prolong(target, SoulMark.class, SoulMark.DURATION + wandLevel);
+			SoulMark.prolong(target, SoulMark.class, SoulMark.DURATION + wandLevel).visualSource(Dungeon.hero);
 		}
 
 		if (Dungeon.hero.subClass == HeroSubClass.PRIEST && target.buff(GuidingLight.Illuminated.class) != null) {
@@ -693,6 +696,7 @@ public abstract class Wand extends Item {
 
 						if (curWand.curCharges == 0){
 							GLog.w( Messages.get(Wand.class, "fizzles") );
+							AmiyaItemVisuals.insufficient(curUser);
 							return;
 						}
 

@@ -10,15 +10,6 @@
       "character": "amiya",
       "kind": "sprite",
       "form": "base",
-      "note": "用户确认v4；术师手托蓝光、近卫持剑、医疗贴身白杖及蓝色杖头施法。仅换皮，机制不变。",
-      "sha256": "37d5cfa02506f7529c62da3476444347801c1f5433a1ae19054350e5be73899c",
-      "sourceSha256": "e0ddb67f9a154f59a69e4cffb7a65e24135457c6d5158260f9acce98702124fe",
-      "runtime": "core/src/main/assets/sprites/amiya.png",
-      "sourceFrames": 21,
-      "sourceSize": [
-        24,
-        24
-      ],
       "version": "amiya-reskin-polish-v4",
       "frameSize": [
         24,
@@ -30,11 +21,19 @@
         16,
         21
       ],
+      "sourceFrames": 21,
+      "sourceSize": [
+        24,
+        24
+      ],
+      "runtime": "core/src/main/assets/sprites/amiya.png",
+      "sha256": "37d5cfa02506f7529c62da3476444347801c1f5433a1ae19054350e5be73899c",
+      "sourceSha256": "e0ddb67f9a154f59a69e4cffb7a65e24135457c6d5158260f9acce98702124fe",
       "source": "art/source/e0ddb67f9a154f59a69e4cffb7a65e24135457c6d5158260f9acce98702124fe.aseprite",
       "export": "core/src/main/assets/sprites/amiya.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
       "reviewStatus": "approved",
       "implementationStatus": "installed",
-      "provenance": "art/provenance/amiya-0.0.2.json",
       "animationSource": "art/source/85f1b11b15bf69796b2fa3f2b3d6b0a59d0b94da83f3c69ed70564899d8c35bf.aseprite",
       "animationSourceSha256": "85f1b11b15bf69796b2fa3f2b3d6b0a59d0b94da83f3c69ed70564899d8c35bf",
       "animationMetadata": "art/animations/amiya/base.json",
@@ -45,39 +44,31 @@
       "character": "amiya",
       "kind": "portrait",
       "form": "base",
-      "sha256": "5493d8c062bd3f312a4b53c1b92cc3a1e3da3567df66574f367582ba24c2cf0d",
-      "sourceSha256": "b7d61b95c793ba72a82d27beb548db32b0e284c13cd02f0968303d4408735a76",
-      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
-      "slot": 0,
-      "cellSize": [
-        24,
-        32
-      ],
       "sourceFrames": 1,
       "sourceSize": [
         24,
         32
       ],
+      "slot": 0,
+      "cellSize": [
+        24,
+        32
+      ],
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "sha256": "5493d8c062bd3f312a4b53c1b92cc3a1e3da3567df66574f367582ba24c2cf0d",
+      "sourceSha256": "b7d61b95c793ba72a82d27beb548db32b0e284c13cd02f0968303d4408735a76",
       "source": "art/source/b7d61b95c793ba72a82d27beb548db32b0e284c13cd02f0968303d4408735a76.aseprite",
-      "reviewStatus": "development-art-not-final",
-      "implementationStatus": "installed",
       "export": "art/exports/5493d8c062bd3f312a4b53c1b92cc3a1e3da3567df66574f367582ba24c2cf0d.png",
-      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
     },
     {
       "id": "sprite:amiya_guard",
       "character": "amiya",
       "kind": "sprite",
       "form": "guard",
-      "note": "用户确认v4；术师手托蓝光、近卫持剑、医疗贴身白杖及蓝色杖头施法。仅换皮，机制不变。",
-      "sha256": "3338647d5e7e0c666d1edf4ce951b391c1e2f04c57842bc2b6db988f9e09bac8",
-      "sourceSha256": "45e08c3944b6776c2bb97a89d993da8fa68dddbafa989b5d0988030d5cb06029",
-      "runtime": "core/src/main/assets/sprites/operators/amiya_guard.png",
-      "sourceFrames": 21,
-      "sourceSize": [
-        24,
-        24
-      ],
       "version": "amiya-reskin-polish-v4",
       "frameSize": [
         24,
@@ -89,11 +80,19 @@
         16,
         21
       ],
+      "sourceFrames": 21,
+      "sourceSize": [
+        24,
+        24
+      ],
+      "runtime": "core/src/main/assets/sprites/operators/amiya_guard.png",
+      "sha256": "3338647d5e7e0c666d1edf4ce951b391c1e2f04c57842bc2b6db988f9e09bac8",
+      "sourceSha256": "45e08c3944b6776c2bb97a89d993da8fa68dddbafa989b5d0988030d5cb06029",
       "source": "art/source/45e08c3944b6776c2bb97a89d993da8fa68dddbafa989b5d0988030d5cb06029.aseprite",
       "export": "core/src/main/assets/sprites/operators/amiya_guard.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
       "reviewStatus": "approved",
       "implementationStatus": "installed",
-      "provenance": "art/provenance/amiya-0.0.2.json",
       "animationSource": "art/source/ed86bde9a1f230dc43a2b34412915e30daa0775d4a6831d5ae927427e29ed3ec.aseprite",
       "animationSourceSha256": "ed86bde9a1f230dc43a2b34412915e30daa0775d4a6831d5ae927427e29ed3ec",
       "animationMetadata": "art/animations/amiya/guard.json",
@@ -104,47 +103,50 @@
       "character": "amiya",
       "kind": "portrait",
       "form": "guard",
-      "sha256": "d0a55cd8264b1047b753eaf516b3b1953a3211034b2c2ca351b83c4a194e4b5b",
-      "sourceSha256": "631e4b1b0743de157f7213d19864552794df397082e7bfe4fcd5183142c9b8b0",
-      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
-      "slot": 1,
-      "cellSize": [
-        24,
-        32
-      ],
+      "version": "portrait-face-v1",
       "sourceFrames": 1,
       "sourceSize": [
         24,
         32
       ],
-      "source": "art/source/631e4b1b0743de157f7213d19864552794df397082e7bfe4fcd5183142c9b8b0.aseprite",
-      "reviewStatus": "development-art-not-final",
+      "slot": 1,
+      "cellSize": [
+        24,
+        32
+      ],
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "sha256": "22e9b9f3c4bd3865d0f114a49f628521e89431896dbd33d46c76a3f595c36e43",
+      "sourceSha256": "45cd642e3e74c2a8c1c39b05a7ee35bc07fcc859f241fb1d29c5c82d176a3ef4",
+      "source": "art/source/45cd642e3e74c2a8c1c39b05a7ee35bc07fcc859f241fb1d29c5c82d176a3ef4.aseprite",
+      "export": "art/exports/22e9b9f3c4bd3865d0f114a49f628521e89431896dbd33d46c76a3f595c36e43.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
       "implementationStatus": "installed",
-      "export": "art/exports/d0a55cd8264b1047b753eaf516b3b1953a3211034b2c2ca351b83c4a194e4b5b.png",
-      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
     },
     {
       "id": "icon:amiya_guard",
       "character": "amiya",
       "kind": "icon",
       "form": "guard",
-      "sha256": "65e173f8f8753eb1c2803a21e9dbf0b7e70cf6cc255c6f5cc6fcc3366eb53493",
-      "sourceSha256": "4341e0b44e65e7c6fa847754c0d0f2ae98ae7313b5637c2fd23d1a0fc72e2cc2",
-      "runtimeAtlas": "core/src/main/assets/interfaces/operators/subclasses.png",
-      "slot": 0,
-      "cellSize": [
-        16,
-        16
-      ],
       "sourceFrames": 1,
       "sourceSize": [
         16,
         16
       ],
+      "slot": 0,
+      "cellSize": [
+        16,
+        16
+      ],
+      "runtimeAtlas": "core/src/main/assets/interfaces/operators/subclasses.png",
+      "sha256": "65e173f8f8753eb1c2803a21e9dbf0b7e70cf6cc255c6f5cc6fcc3366eb53493",
+      "sourceSha256": "4341e0b44e65e7c6fa847754c0d0f2ae98ae7313b5637c2fd23d1a0fc72e2cc2",
       "source": "art/source/4341e0b44e65e7c6fa847754c0d0f2ae98ae7313b5637c2fd23d1a0fc72e2cc2.aseprite",
-      "reviewStatus": "development-art-not-final",
-      "implementationStatus": "installed",
       "export": "art/exports/65e173f8f8753eb1c2803a21e9dbf0b7e70cf6cc255c6f5cc6fcc3366eb53493.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
       "runtimeAtlasSha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
     },
     {
@@ -152,15 +154,6 @@
       "character": "amiya",
       "kind": "sprite",
       "form": "medic",
-      "note": "用户确认v4；术师手托蓝光、近卫持剑、医疗贴身白杖及蓝色杖头施法。仅换皮，机制不变。",
-      "sha256": "7d335f8997efff9f905fa2578078c125893357f8a970af5898e92dc565417a51",
-      "sourceSha256": "6dda32e70a4e2b5a132a842bc42b23c008136879cae6fe48e291750a8200fe6e",
-      "runtime": "core/src/main/assets/sprites/operators/amiya_medic.png",
-      "sourceFrames": 21,
-      "sourceSize": [
-        24,
-        24
-      ],
       "version": "amiya-reskin-polish-v4",
       "frameSize": [
         24,
@@ -172,63 +165,1066 @@
         16,
         21
       ],
+      "sourceFrames": 21,
+      "sourceSize": [
+        24,
+        24
+      ],
+      "runtime": "core/src/main/assets/sprites/operators/amiya_medic.png",
+      "sha256": "7d335f8997efff9f905fa2578078c125893357f8a970af5898e92dc565417a51",
+      "sourceSha256": "6dda32e70a4e2b5a132a842bc42b23c008136879cae6fe48e291750a8200fe6e",
       "source": "art/source/6dda32e70a4e2b5a132a842bc42b23c008136879cae6fe48e291750a8200fe6e.aseprite",
       "export": "core/src/main/assets/sprites/operators/amiya_medic.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
       "reviewStatus": "approved",
       "implementationStatus": "installed",
-      "provenance": "art/provenance/amiya-0.0.2.json",
       "animationSource": "art/source/d5c5fb35a8bf01aa16ed7d2073dcb20ab90659b50f3eb12da08467e6f412b0e0.aseprite",
       "animationSourceSha256": "d5c5fb35a8bf01aa16ed7d2073dcb20ab90659b50f3eb12da08467e6f412b0e0",
       "animationMetadata": "art/animations/amiya/medic.json",
       "animationMetadataSha256": "2d744719159bf7d93159d560ded64646d74060f08bd7160e321ad98df428c135"
     },
     {
-      "id": "portrait:amiya_medic",
-      "character": "amiya",
-      "kind": "portrait",
-      "form": "medic",
-      "sha256": "c459fd20569d07090134d3e0e046ab805a6dc325f746b0286cd196ba12a2f75e",
-      "sourceSha256": "279f2f94e51a0018628444f80bb9580f258fbadb6ab4f3753edcde750553efb0",
-      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
-      "slot": 2,
-      "cellSize": [
-        24,
-        32
-      ],
-      "sourceFrames": 1,
-      "sourceSize": [
-        24,
-        32
-      ],
-      "source": "art/source/279f2f94e51a0018628444f80bb9580f258fbadb6ab4f3753edcde750553efb0.aseprite",
-      "reviewStatus": "development-art-not-final",
-      "implementationStatus": "installed",
-      "export": "art/exports/c459fd20569d07090134d3e0e046ab805a6dc325f746b0286cd196ba12a2f75e.png",
-      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
-    },
-    {
       "id": "icon:amiya_medic",
       "character": "amiya",
       "kind": "icon",
       "form": "medic",
-      "sha256": "19c5a9981e538b76bf20cf9e1cec69046a0799eff6df82b4720e3a1afbee6314",
-      "sourceSha256": "1cda0257a683228bf3d5fccccfdab63704faaac6095ae0cd476e535e8aebc225",
-      "runtimeAtlas": "core/src/main/assets/interfaces/operators/subclasses.png",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ],
       "slot": 1,
       "cellSize": [
         16,
         16
       ],
+      "runtimeAtlas": "core/src/main/assets/interfaces/operators/subclasses.png",
+      "sha256": "19c5a9981e538b76bf20cf9e1cec69046a0799eff6df82b4720e3a1afbee6314",
+      "sourceSha256": "1cda0257a683228bf3d5fccccfdab63704faaac6095ae0cd476e535e8aebc225",
+      "source": "art/source/1cda0257a683228bf3d5fccccfdab63704faaac6095ae0cd476e535e8aebc225.aseprite",
+      "export": "art/exports/19c5a9981e538b76bf20cf9e1cec69046a0799eff6df82b4720e3a1afbee6314.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "runtimeAtlasSha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+    },
+    {
+      "id": "splash:amiya",
+      "character": "amiya",
+      "kind": "splash",
+      "form": "base",
+      "runtime": "core/src/main/assets/splashes/amiya.jpg",
+      "sha256": "f71c6fbce642be6f44c489746bd1ca91c3c18a9ab8eff0d15c02f00e96a6272e",
+      "sourceSha256": "8add8132f9df8ac6770545ce78b7e37c0f58a00b08e368472927b41525c9f76e",
+      "source": "art/source/8add8132f9df8ac6770545ce78b7e37c0f58a00b08e368472927b41525c9f76e.aseprite",
+      "export": "core/src/main/assets/splashes/amiya.jpg",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "effect:amiya_arts-projectile",
+      "character": "amiya",
+      "kind": "effect",
+      "form": "shared",
+      "version": "amiya-effects-core-v1",
+      "frameSize": [
+        24,
+        24
+      ],
+      "sourceFrames": 4,
+      "durationsMs": [
+        80,
+        80,
+        80,
+        80
+      ],
+      "runtime": "core/src/main/assets/effects/operators/amiya/arts-projectile.png",
+      "sha256": "bc17bd4914557e214fd5f0bb6696986c693ae0ae4a2131d8b932ea02520057b3",
+      "sourceSha256": "afebdf1355c8ecc38e9038c26bf2da8adc1e67c23b55ac592e3db5348b0dd08c",
+      "source": "art/source/afebdf1355c8ecc38e9038c26bf2da8adc1e67c23b55ac592e3db5348b0dd08c.aseprite",
+      "export": "core/src/main/assets/effects/operators/amiya/arts-projectile.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "animationMetadata": "art/animations/amiya/arts-projectile.json",
+      "animationMetadataSha256": "45db2785875eb22b65242bd1dbc5892a4c59c11aed9893f60bb7c13462a0eb2e"
+    },
+    {
+      "id": "effect:amiya_arts-impact",
+      "character": "amiya",
+      "kind": "effect",
+      "form": "shared",
+      "version": "amiya-effects-core-v1",
+      "frameSize": [
+        24,
+        24
+      ],
+      "sourceFrames": 4,
+      "durationsMs": [
+        45,
+        65,
+        80,
+        100
+      ],
+      "runtime": "core/src/main/assets/effects/operators/amiya/arts-impact.png",
+      "sha256": "b45e72c6dc84363f3b14926f92ea4bbbf0364840516361643a4511ce388abc91",
+      "sourceSha256": "587607d8b2ab39883777ec81152c0dab0d59bcd146f4065b144dc558e08a8efa",
+      "source": "art/source/587607d8b2ab39883777ec81152c0dab0d59bcd146f4065b144dc558e08a8efa.aseprite",
+      "export": "core/src/main/assets/effects/operators/amiya/arts-impact.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "animationMetadata": "art/animations/amiya/arts-impact.json",
+      "animationMetadataSha256": "0df3e1b37e3c8e949d7b42f76aee695cfaa86ae95101ceea16cb7e0545067981"
+    },
+    {
+      "id": "effect:amiya_sword-arc",
+      "character": "amiya",
+      "kind": "effect",
+      "form": "shared",
+      "version": "amiya-effects-core-v1",
+      "frameSize": [
+        24,
+        24
+      ],
+      "sourceFrames": 4,
+      "durationsMs": [
+        35,
+        45,
+        45,
+        65
+      ],
+      "runtime": "core/src/main/assets/effects/operators/amiya/sword-arc.png",
+      "sha256": "94af4f10fee914f075dcd40c3d7f3935ac2bda6fbf7114d3ca48e26d705bc119",
+      "sourceSha256": "7ca5b642040d1bbe71e9bbad5faf7df1ea3279e0cdf86b6446b53e8b73e0aabf",
+      "source": "art/source/7ca5b642040d1bbe71e9bbad5faf7df1ea3279e0cdf86b6446b53e8b73e0aabf.aseprite",
+      "export": "core/src/main/assets/effects/operators/amiya/sword-arc.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "animationMetadata": "art/animations/amiya/sword-arc.json",
+      "animationMetadataSha256": "00580fce0b394ecd81d9d325af867166e693eabbbce54b1f1cd689d79e1301ee"
+    },
+    {
+      "id": "effect:amiya_sword-impact",
+      "character": "amiya",
+      "kind": "effect",
+      "form": "shared",
+      "version": "amiya-effects-core-v1",
+      "frameSize": [
+        24,
+        24
+      ],
+      "sourceFrames": 4,
+      "durationsMs": [
+        35,
+        45,
+        55,
+        75
+      ],
+      "runtime": "core/src/main/assets/effects/operators/amiya/sword-impact.png",
+      "sha256": "89c0e505c72b643cfd9cac4473ebc7f72fef1f14922a835bd92c946fd133def2",
+      "sourceSha256": "74af97754b15281fcbe5eb882338840996080ea02d6446d804a5c53102881d93",
+      "source": "art/source/74af97754b15281fcbe5eb882338840996080ea02d6446d804a5c53102881d93.aseprite",
+      "export": "core/src/main/assets/effects/operators/amiya/sword-impact.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "animationMetadata": "art/animations/amiya/sword-impact.json",
+      "animationMetadataSha256": "986f81f22e62d51de1a055d453afd6b5d6da275de1c2cda745558814c718a32b"
+    },
+    {
+      "id": "effect:amiya_staff-release",
+      "character": "amiya",
+      "kind": "effect",
+      "form": "shared",
+      "version": "amiya-effects-core-v1",
+      "frameSize": [
+        24,
+        24
+      ],
+      "sourceFrames": 4,
+      "durationsMs": [
+        40,
+        50,
+        60,
+        80
+      ],
+      "runtime": "core/src/main/assets/effects/operators/amiya/staff-release.png",
+      "sha256": "09c586a773aced94f4f00c023252e21c7bbe68d75164e5e7a4ae4bfac665e273",
+      "sourceSha256": "a7eaa5350c9468d22e3c1a17dbc4ec2278c75f5bb2060afd32aaafc397a632f2",
+      "source": "art/source/a7eaa5350c9468d22e3c1a17dbc4ec2278c75f5bb2060afd32aaafc397a632f2.aseprite",
+      "export": "core/src/main/assets/effects/operators/amiya/staff-release.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "animationMetadata": "art/animations/amiya/staff-release.json",
+      "animationMetadataSha256": "4182012ee2d953127c505d651e5c0d0a9366bdf26560a79b49e3123cb0d2f264"
+    },
+    {
+      "id": "effect:amiya_heal-return",
+      "character": "amiya",
+      "kind": "effect",
+      "form": "shared",
+      "version": "amiya-effects-core-v1",
+      "frameSize": [
+        24,
+        24
+      ],
+      "sourceFrames": 4,
+      "durationsMs": [
+        120,
+        140,
+        160,
+        180
+      ],
+      "runtime": "core/src/main/assets/effects/operators/amiya/heal-return.png",
+      "sha256": "27841852b585bbb465aee81c7edbfcf9c54e27ea644885c31fb0713a2b7553c0",
+      "sourceSha256": "ec92c2b98015e20503417dda8d8a2712e15aad1f62d2c19bb6adf26713c56cfb",
+      "source": "art/source/ec92c2b98015e20503417dda8d8a2712e15aad1f62d2c19bb6adf26713c56cfb.aseprite",
+      "export": "core/src/main/assets/effects/operators/amiya/heal-return.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "animationMetadata": "art/animations/amiya/heal-return.json",
+      "animationMetadataSha256": "4669ac8d00dc85532980b39a10961396d8fb7df12ef237f4f7e806dc2fe9f1d1"
+    },
+    {
+      "id": "item-visual:amiya_caster-focus",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "version": "items-status-v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/caster-focus.png",
+      "sha256": "4782eb5a617f6b5b48a367083bc596625908738d99370b6a4ff150c03a577a25",
+      "sourceSha256": "c89c664338b89480f3756b40148e8e98ff2ef039fb773f9ef55c877385befdac",
+      "source": "art/source/c89c664338b89480f3756b40148e8e98ff2ef039fb773f9ef55c877385befdac.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/caster-focus.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "item-visual:amiya_guard-sword",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "version": "items-status-v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/guard-sword.png",
+      "sha256": "56dd8b72e2d9ee842d64ae50ce105cb66add95c9474e6ac79a0d6cb5ed31ab82",
+      "sourceSha256": "9fa17c9bdd247a1ab16b480017fcb9149033a2ce9042fa21bbbefd72758a50b2",
+      "source": "art/source/9fa17c9bdd247a1ab16b480017fcb9149033a2ce9042fa21bbbefd72758a50b2.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/guard-sword.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "item-visual:amiya_medic-staff",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "version": "items-status-v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/medic-staff.png",
+      "sha256": "0ed2d54e676e37c0b74d89f7d8df62e7370f9fb5d59293a6658b7ea457e668fd",
+      "sourceSha256": "42b9e735003c676f3f0fb273cc21e4deca6e901ebef9855fc1e9f33e9e80259b",
+      "source": "art/source/42b9e735003c676f3f0fb273cc21e4deca6e901ebef9855fc1e9f33e9e80259b.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/medic-staff.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "item-visual:amiya_charge-feedback",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "version": "items-status-v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/charge-feedback.png",
+      "sha256": "27b8dda265491a30c00cb810edccac21829b66cd0c3d951732c77ee127736cfa",
+      "sourceSha256": "506e19da009bdfbab1c9d04eff58d2dd7166919c34b954122c28016898a4b33f",
+      "source": "art/source/506e19da009bdfbab1c9d04eff58d2dd7166919c34b954122c28016898a4b33f.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/charge-feedback.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "item-visual:amiya_charge-insufficient",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "version": "items-status-v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/charge-insufficient.png",
+      "sha256": "a9dbc4d0467d62c427101437d91ac910cfb8bb231c901a9c6d390bd3bf047a41",
+      "sourceSha256": "147fe5e03f1e62e3304e8f8719a1434b71b67d07fbafc6aac483139bc36334f9",
+      "source": "art/source/147fe5e03f1e62e3304e8f8719a1434b71b67d07fbafc6aac483139bc36334f9.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/charge-insufficient.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "item-visual:amiya_imbue-transfer",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "version": "items-status-v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/imbue-transfer.png",
+      "sha256": "a7ebf7997f55a04899cb2b3f4b21e18c0b25f1dfcde2ea10156d7f661b82e3d2",
+      "sourceSha256": "cbcdb880132be3fe4d8726e7b093e54dc855cf9e9c8764ab10338a5179e26f94",
+      "source": "art/source/cbcdb880132be3fe4d8726e7b093e54dc855cf9e9c8764ab10338a5179e26f94.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/imbue-transfer.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "item-visual:amiya_soul-mark",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "version": "items-status-v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/soul-mark.png",
+      "sha256": "2db3886a19a12e25fb6752b7c612597519dd687d4d38823b1c10a7086044405d",
+      "sourceSha256": "f0a62c1a1c7488492b0014bef7b89e54b5524bbf34cee8d21bd0badc7c706645",
+      "source": "art/source/f0a62c1a1c7488492b0014bef7b89e54b5524bbf34cee8d21bd0badc7c706645.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/soul-mark.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "item-visual:amiya_soul-mark-small",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "version": "items-status-v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/soul-mark-small.png",
+      "sha256": "12a5b06969f177f46221d9d4ee995bbb02eade31f2791e07739259b069d7e88d",
+      "sourceSha256": "21e779b8fb792158d471c564e16bb7745f8b82cbba8909f451b8d3f5f51d41b4",
+      "source": "art/source/21e779b8fb792158d471c564e16bb7745f8b82cbba8909f451b8d3f5f51d41b4.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/soul-mark-small.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "item-visual:amiya_civilight-item",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "version": "advancement-crowns-v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/civilight-item.png",
+      "sha256": "14a00c13fdfe1218a4d28cf91f171fb3675a565dcf089f28847975455d25c618",
+      "sourceSha256": "793bc33095371a045b233c42574940614b203c27c2df238d900a899c0d12ed6d",
+      "source": "art/source/793bc33095371a045b233c42574940614b203c27c2df238d900a899c0d12ed6d.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/civilight-item.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "item-visual:amiya_echo-item",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "version": "advancement-crowns-v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/echo-item.png",
+      "sha256": "fa8008abd4f24991dcabf0b2404de0682515253e1ca9e5ab549fb9c1fcb6ea30",
+      "sourceSha256": "eb5ee0c54c56d1d9c1391cced1fa4c18d375256de99dd5b57d6f8b4c2315ca17",
+      "source": "art/source/eb5ee0c54c56d1d9c1391cced1fa4c18d375256de99dd5b57d6f8b4c2315ca17.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/echo-item.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "item-visual:amiya_echo-use",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "version": "advancement-crowns-v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/echo-use.png",
+      "sha256": "0003c75505e91d5d76ba4dc0e7460e56be018158e4b251537e8a1a6b3c7c6407",
+      "sourceSha256": "450e195272888c538154072a93191ebc6f2e643c1b4db12c650c1dc0373093a6",
+      "source": "art/source/450e195272888c538154072a93191ebc6f2e643c1b4db12c650c1dc0373093a6.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/echo-use.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "item-visual:amiya_civilight-use",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "version": "advancement-crowns-v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/civilight-use.png",
+      "sha256": "e5f4915fc79949d4a5a49b31a757072c8a7c31729fd69d37ee3d098702b6a0b4",
+      "sourceSha256": "f327a1565a0433839e71908c7a609eea92f6a6d35380f1db2b54efcf419add68",
+      "source": "art/source/f327a1565a0433839e71908c7a609eea92f6a6d35380f1db2b54efcf419add68.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/civilight-use.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "armor-ui:amiya_class-armor",
+      "character": "amiya",
+      "kind": "armor-ui",
+      "form": "shared",
+      "version": "armor-ui-v2",
       "sourceFrames": 1,
       "sourceSize": [
         16,
         16
       ],
-      "source": "art/source/1cda0257a683228bf3d5fccccfdab63704faaac6095ae0cd476e535e8aebc225.aseprite",
-      "reviewStatus": "development-art-not-final",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/class-armor.png",
+      "sha256": "f5ccf9a56577e58634675da1f33306ab02fcd47ff01bdf1bf23b3736430739c2",
+      "sourceSha256": "c2d3ed8f93ea55ccaf6f5a84a1233100f172d22c1def54d8b14cbd68933c6e99",
+      "source": "art/source/c2d3ed8f93ea55ccaf6f5a84a1233100f172d22c1def54d8b14cbd68933c6e99.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/class-armor.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "armor-ui:amiya_elemental-blast",
+      "character": "amiya",
+      "kind": "armor-ui",
+      "form": "shared",
+      "version": "armor-ui-v2",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ],
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/elemental-blast.png",
+      "sha256": "e9434e70f7eb760eb0d0ef9e9707e25d3f7c228fcc615cc7ea4fe2466b2d8c6b",
+      "sourceSha256": "f337fe0c1a6ae78c052d790fa252fd35d6de2d38a04d9004d8bd0ea9e9a5557c",
+      "source": "art/source/f337fe0c1a6ae78c052d790fa252fd35d6de2d38a04d9004d8bd0ea9e9a5557c.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/elemental-blast.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "armor-ui:amiya_wild-magic",
+      "character": "amiya",
+      "kind": "armor-ui",
+      "form": "shared",
+      "version": "armor-ui-v2",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ],
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/wild-magic.png",
+      "sha256": "5cf66142636904a5e77949a10de289372ff4d0097683ee8f124854da85b4d45c",
+      "sourceSha256": "e4909f1024bd0c6ba1a84864c3c8d8a9eacf30b416dcb48fcb852019b14c5269",
+      "source": "art/source/e4909f1024bd0c6ba1a84864c3c8d8a9eacf30b416dcb48fcb852019b14c5269.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/wild-magic.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "armor-ui:amiya_warp-beacon",
+      "character": "amiya",
+      "kind": "armor-ui",
+      "form": "shared",
+      "version": "armor-ui-v2",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ],
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/warp-beacon.png",
+      "sha256": "e3a6ca6c36a3d5453f974b60f1beba0c3c5c1153f4a4f24346c6701a08fdd6c9",
+      "sourceSha256": "3895f9d0b361baf289b40093c84c2552bb5252df97567e8ac59135a6def3d696",
+      "source": "art/source/3895f9d0b361baf289b40093c84c2552bb5252df97567e8ac59135a6def3d696.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/warp-beacon.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "portrait:amiya_medic",
+      "character": "amiya",
+      "kind": "portrait",
+      "form": "medic",
+      "version": "portrait-face-v1",
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "slot": 2,
+      "cellSize": [
+        24,
+        32
+      ],
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "sha256": "1a3263f16433bfa477ca78f0655304b558b4dc0f2b9b6d420e1bd716fc8f0b39",
+      "sourceSha256": "44dfc67b40d5d446cc8dae3e859e159219059e5631de7832f84180fdd49fe74f",
+      "source": "art/source/44dfc67b40d5d446cc8dae3e859e159219059e5631de7832f84180fdd49fe74f.aseprite",
+      "export": "art/exports/1a3263f16433bfa477ca78f0655304b558b4dc0f2b9b6d420e1bd716fc8f0b39.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
       "implementationStatus": "installed",
-      "export": "art/exports/19c5a9981e538b76bf20cf9e1cec69046a0799eff6df82b4720e3a1afbee6314.png",
-      "runtimeAtlasSha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+    },
+    {
+      "id": "amiya-talent:empowering_meal",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v2",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/empowering_meal.png",
+      "sha256": "0c8f20018e5e914ae6cd38655226b42667743f79694897845b6ca16957569a8e",
+      "sourceSha256": "c91f684f54c8188d12972cacbaf10cd037bfcfc4eb096896cf7bc103b4b3968d",
+      "source": "art/source/c91f684f54c8188d12972cacbaf10cd037bfcfc4eb096896cf7bc103b4b3968d.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/empowering_meal.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:scholars_intuition",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v2",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/scholars_intuition.png",
+      "sha256": "46599d355ee87556cb4469af506367acb3ccfa93fb167152750f36239afab1bf",
+      "sourceSha256": "26ab7bb60a32fd1efaeb5eded896015207d58912e2b803bedd3d3777e92c5ae0",
+      "source": "art/source/26ab7bb60a32fd1efaeb5eded896015207d58912e2b803bedd3d3777e92c5ae0.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/scholars_intuition.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:lingering_magic",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/lingering_magic.png",
+      "sha256": "a43f038284b70a4202f9f8b5548772abedbc163801e6ed7331e5172f5fef4cf4",
+      "sourceSha256": "d50c827dfc0462848a9bbf8f3572a3e27eca2157b755cb2f0b0771944cd1f4aa",
+      "source": "art/source/d50c827dfc0462848a9bbf8f3572a3e27eca2157b755cb2f0b0771944cd1f4aa.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/lingering_magic.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:backup_barrier",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/backup_barrier.png",
+      "sha256": "caa521881fac26dd78b99254036b6ddab8eac8eef4af9849e87bbaeb046cfb2b",
+      "sourceSha256": "641351beafc0a0158f26e13b3f022f7d635bc5d3615f794a20100351ddb014e7",
+      "source": "art/source/641351beafc0a0158f26e13b3f022f7d635bc5d3615f794a20100351ddb014e7.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/backup_barrier.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:energizing_meal",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/energizing_meal.png",
+      "sha256": "06810a44c66216d197161422c02b0b520e60fe209c41d66022d06efbbec0209b",
+      "sourceSha256": "6f5e758b3eda921efae72fb138069927a733cfad5272a5b34bc1ab55805c18a2",
+      "source": "art/source/6f5e758b3eda921efae72fb138069927a733cfad5272a5b34bc1ab55805c18a2.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/energizing_meal.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:inscribed_power",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v2",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/inscribed_power.png",
+      "sha256": "7ba394986600ac001b6d424d9eccb7c87edbb6b886aedb4eed99482f241f72d6",
+      "sourceSha256": "6aecd6bb45792c180b677fce665781994cae9a3d04e85613ee8312d22f3ea30b",
+      "source": "art/source/6aecd6bb45792c180b677fce665781994cae9a3d04e85613ee8312d22f3ea30b.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/inscribed_power.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:wand_preservation",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/wand_preservation.png",
+      "sha256": "9adc188c5d0afa6e6fdeb5b258415ec2291c075c4a30f97fb85d4adefe7a4f7b",
+      "sourceSha256": "1825cb79c08d3ba428db2b9393fdfc8cc759ae1d6dce597f6c64ed472207a538",
+      "source": "art/source/1825cb79c08d3ba428db2b9393fdfc8cc759ae1d6dce597f6c64ed472207a538.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/wand_preservation.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:arcane_vision",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/arcane_vision.png",
+      "sha256": "933dee967786ffac3cf8066d9fe7c8800429bdefc444c64354f5e4cad72d86ec",
+      "sourceSha256": "b8673e945a74eb0851c0c13271602918807076396af9cc5ab94d887e76dfcf38",
+      "source": "art/source/b8673e945a74eb0851c0c13271602918807076396af9cc5ab94d887e76dfcf38.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/arcane_vision.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:shield_battery",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v2",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/shield_battery.png",
+      "sha256": "8f1660f6621c287ee38d8fd7fd8af89d2791cdccb8a4bb7e33d8e9254e372d2b",
+      "sourceSha256": "04c32cfb6bdb471266dd6141583a2137a36d2fa8c9155bad68626d41bd425302",
+      "source": "art/source/04c32cfb6bdb471266dd6141583a2137a36d2fa8c9155bad68626d41bd425302.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/shield_battery.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:desperate_power",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v2",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/desperate_power.png",
+      "sha256": "98d6200679fd356eab5a992337db67906b65fedcb19cd87af4db84e7caa64064",
+      "sourceSha256": "24cbaaa25754f11ae1b4628b0ca8b06055a6fee57ffd6a1710a2d3ca3ba4be1d",
+      "source": "art/source/24cbaaa25754f11ae1b4628b0ca8b06055a6fee57ffd6a1710a2d3ca3ba4be1d.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/desperate_power.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:ally_warp",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/ally_warp.png",
+      "sha256": "654b51b681592412bf1e14f52c5caf2046c756e70ff3d5d552609fe75732ac6c",
+      "sourceSha256": "bf81c5c16465ac9c0f8725c8c7eefab03801e133fc9448af11024b5370de0276",
+      "source": "art/source/bf81c5c16465ac9c0f8725c8c7eefab03801e133fc9448af11024b5370de0276.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/ally_warp.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:empowered_strike",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/empowered_strike.png",
+      "sha256": "a8bfc01bbc184e253b6eb8e2fd1ed31b9aefb2238e834af8f99c4d66ad21dc50",
+      "sourceSha256": "a3c6422a0e83bb8e8ae86510fd33f366c62ff8d43f692e03d9b50ea7c52f3cf8",
+      "source": "art/source/a3c6422a0e83bb8e8ae86510fd33f366c62ff8d43f692e03d9b50ea7c52f3cf8.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/empowered_strike.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:mystical_charge",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/mystical_charge.png",
+      "sha256": "2660d13c13d32b2679ffe875f99bf13b76987a8cf994f9eaa517840101194fb9",
+      "sourceSha256": "dfbf9e4acd527af9c86d663584a689fb8b6f9e9ac734d7642447ac97e9a75bbd",
+      "source": "art/source/dfbf9e4acd527af9c86d663584a689fb8b6f9e9ac734d7642447ac97e9a75bbd.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/mystical_charge.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:excess_charge",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/excess_charge.png",
+      "sha256": "e8be3f31668e9db54757c551d559f48af48fb1cab78993d6cacf9ef0e3c409d0",
+      "sourceSha256": "94a151a649408718eb578d030802d849290cff29cd9c3b210948c37768ba98a3",
+      "source": "art/source/94a151a649408718eb578d030802d849290cff29cd9c3b210948c37768ba98a3.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/excess_charge.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:soul_eater",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/soul_eater.png",
+      "sha256": "632dc414c9ac303e61a2f7f0c56a963d3e058dc825a3954101b1d1d1a587fd52",
+      "sourceSha256": "765bb75fbfd6895b9887378ed3518daaba05f47b68ea2ce3966c5120e776a8bb",
+      "source": "art/source/765bb75fbfd6895b9887378ed3518daaba05f47b68ea2ce3966c5120e776a8bb.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/soul_eater.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:soul_siphon",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/soul_siphon.png",
+      "sha256": "028799da3b671ba5fce246ab0ae6844b30bb513596614cef8a1db91b1e540b19",
+      "sourceSha256": "ca94dc503488a6423ea15d0baef9c9a95019fe6527ec421ac28bdbbca11d891c",
+      "source": "art/source/ca94dc503488a6423ea15d0baef9c9a95019fe6527ec421ac28bdbbca11d891c.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/soul_siphon.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:necromancers_minions",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/necromancers_minions.png",
+      "sha256": "bb45e6fba0fe958d12fc00c15dcd3c33350d84cea82957e793c332804ef05772",
+      "sourceSha256": "17056750b28aa4898987faee20392ba35e6641c1a226b81373a2d06032f396d3",
+      "source": "art/source/17056750b28aa4898987faee20392ba35e6641c1a226b81373a2d06032f396d3.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/necromancers_minions.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:blast_radius",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/blast_radius.png",
+      "sha256": "2cf86e2b4ffe5cec8fbc6deff4ac248ae929993df184081e95dd117f11364c97",
+      "sourceSha256": "ca184d4d4aaa494c8bc63eb6888e775dbd2a3f39053de78ed1b2a6f0c4b12230",
+      "source": "art/source/ca184d4d4aaa494c8bc63eb6888e775dbd2a3f39053de78ed1b2a6f0c4b12230.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/blast_radius.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:elemental_power",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v2",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/elemental_power.png",
+      "sha256": "6fa5c2f1508f15ccbe221524093d6253928b4baa936aeaffddb50c219dcc19d6",
+      "sourceSha256": "2248ae1a2d98c852a551e83ff0ab35fa3c54d69a0dffeb1560b031a5e03da2f0",
+      "source": "art/source/2248ae1a2d98c852a551e83ff0ab35fa3c54d69a0dffeb1560b031a5e03da2f0.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/elemental_power.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:reactive_barrier",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/reactive_barrier.png",
+      "sha256": "0884b2da081c266ec0fdc2b58f6b05b09cf9c5c7880abfbbb97d9f1e51eff964",
+      "sourceSha256": "0c6ce87e333a7023479097a328facd853f371a0f792e20732f5bcf4e9d0c05fa",
+      "source": "art/source/0c6ce87e333a7023479097a328facd853f371a0f792e20732f5bcf4e9d0c05fa.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/reactive_barrier.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:wild_power",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v2",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/wild_power.png",
+      "sha256": "1af710cf28186c68a26cfa2bb15ae940f477b8d00cd9a7e9c35198ddf86a8a27",
+      "sourceSha256": "440e7f054eeb8fa0dbe17c0b16c5cdbef41166c5dc73d030714cab8a9e9a7174",
+      "source": "art/source/440e7f054eeb8fa0dbe17c0b16c5cdbef41166c5dc73d030714cab8a9e9a7174.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/wild_power.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:fire_everything",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v2",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/fire_everything.png",
+      "sha256": "7ae763d5d428f854bb3d1c438f09ecb369c06a7fdfb7abb0af505a699debf673",
+      "sourceSha256": "8d337993b8d734d736eba37764226a40ae3c1b08802a2fda39f93117152e9b2a",
+      "source": "art/source/8d337993b8d734d736eba37764226a40ae3c1b08802a2fda39f93117152e9b2a.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/fire_everything.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:conserved_magic",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/conserved_magic.png",
+      "sha256": "0fe14bc487c1dbebf0e86b802426931047235728d1736862c803efe7d7efd83f",
+      "sourceSha256": "4ee4c800850a0f39efd9dc9436bc0cc407031efba3e3e3ad6ce58c877367c564",
+      "source": "art/source/4ee4c800850a0f39efd9dc9436bc0cc407031efba3e3e3ad6ce58c877367c564.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/conserved_magic.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:telefrag",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/telefrag.png",
+      "sha256": "87491df7ca11c04a674a794ba0a40eb79fc9f1cf5f7ec98e1269678ca670b5e7",
+      "sourceSha256": "0955c8076d431fc1a240b94628b238c38e6f52e2c71eb58a641384cd0b3fa5f8",
+      "source": "art/source/0955c8076d431fc1a240b94628b238c38e6f52e2c71eb58a641384cd0b3fa5f8.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/telefrag.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:remote_beacon",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/remote_beacon.png",
+      "sha256": "64a08191aea87e1e80e1ca9b9fd4a3f7a7fdfa3ca54bed1af30a8657c19b04d9",
+      "sourceSha256": "a556d15e13b16e36ea24175c4bdeab2f31e060fbcbed0854b5c6ad1789222d84",
+      "source": "art/source/a556d15e13b16e36ea24175c4bdeab2f31e060fbcbed0854b5c6ad1789222d84.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/remote_beacon.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:longrange_warp",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v4",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/longrange_warp.png",
+      "sha256": "65e08ed8b8cf2995f124895b261f6869a874cb73d1fec7e91c9773e38907a698",
+      "sourceSha256": "62c6996aac0ecdad8ac1baad491039e2677d16f0981528ad0ab93a21db410b2f",
+      "source": "art/source/62c6996aac0ecdad8ac1baad491039e2677d16f0981528ad0ab93a21db410b2f.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/longrange_warp.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-talent:heroic_energy",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/talents/heroic_energy.png",
+      "sha256": "27e0a0f5460478d2b822b84d894eb52dd3a3697c59c4fc39fb251aa07ba98ae1",
+      "sourceSha256": "d57205cc02c8a9fd46010c4485027f38611f47922fbc2240515fabd7e121bf46",
+      "source": "art/source/d57205cc02c8a9fd46010c4485027f38611f47922fbc2240515fabd7e121bf46.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/talents/heroic_energy.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-status:recharging-16",
+      "character": "amiya",
+      "kind": "status",
+      "version": "v2",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/status/recharging-16.png",
+      "sha256": "972bac85959bbe15a7fed33c820450303ec43e6796c848fea621f9e482c4225c",
+      "sourceSha256": "3a34720336fdb99fa6824facb866ec6f1a32264b986615eff165c5ebd24a9d17",
+      "source": "art/source/3a34720336fdb99fa6824facb866ec6f1a32264b986615eff165c5ebd24a9d17.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/status/recharging-16.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-status:recharging-7",
+      "character": "amiya",
+      "kind": "status",
+      "version": "v2",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/status/recharging-7.png",
+      "sha256": "de02eb105416ea0e57ef527c1d6a6c6debf230348993b31db674ceb7cdaec5ee",
+      "sourceSha256": "70417ccd3a02e138dcd568094f26bc7556101edae5cf1c8578b008587d066be8",
+      "source": "art/source/70417ccd3a02e138dcd568094f26bc7556101edae5cf1c8578b008587d066be8.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/status/recharging-7.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-status:barrier-16",
+      "character": "amiya",
+      "kind": "status",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/status/barrier-16.png",
+      "sha256": "ffbe5f08277609ea091da9d89da9087d45fd98a8f52ae3b52f2417c5ae94873f",
+      "sourceSha256": "cce57d654d49fa5e4d398b25750d1d78310c9333110fe116f29f4d2ea5fa5acc",
+      "source": "art/source/cce57d654d49fa5e4d398b25750d1d78310c9333110fe116f29f4d2ea5fa5acc.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/status/barrier-16.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-status:barrier-7",
+      "character": "amiya",
+      "kind": "status",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/status/barrier-7.png",
+      "sha256": "fc3ea3847c4b853151db111d9f401bd310d6eb10d4a758261ca4a6cecec7a5da",
+      "sourceSha256": "7a4ed387a46100bd7e0ed9d8bd42ed665944c452c966fc11c28dfb77f636a4d1",
+      "source": "art/source/7a4ed387a46100bd7e0ed9d8bd42ed665944c452c966fc11c28dfb77f636a4d1.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/status/barrier-7.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-status:wand-empower-16",
+      "character": "amiya",
+      "kind": "status",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/status/wand-empower-16.png",
+      "sha256": "d01d65486d1f2ed7a6b67d36eb1b1c48de69c4bfc015d0e34fe39c81c13dd8f4",
+      "sourceSha256": "1916eea947d011491ca86ae9f6cf9e2a1e4dcca58ff00d30e3e3c3ebf8f45c88",
+      "source": "art/source/1916eea947d011491ca86ae9f6cf9e2a1e4dcca58ff00d30e3e3c3ebf8f45c88.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/status/wand-empower-16.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-status:wand-empower-7",
+      "character": "amiya",
+      "kind": "status",
+      "version": "v1",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/status/wand-empower-7.png",
+      "sha256": "9d4006906430d61b07cdbf966f2d86aea7fdf3a25d2b25e479907af9d7626408",
+      "sourceSha256": "9d2c1f4f1f4adc1789254889abde8c26f4922045d43199a2b55a57da6078e219",
+      "source": "art/source/9d2c1f4f1f4adc1789254889abde8c26f4922045d43199a2b55a57da6078e219.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/status/wand-empower-7.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-status:artifact-recharge-16",
+      "character": "amiya",
+      "kind": "status",
+      "version": "v2",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/status/artifact-recharge-16.png",
+      "sha256": "9cba534a63dc9f14a8bbd74d3418037fdeb526a35412b09c752c416dc678b379",
+      "sourceSha256": "5991a2f8dd95edd940f24d65c500ea193994a96942164f8f54516508a7fab61f",
+      "source": "art/source/5991a2f8dd95edd940f24d65c500ea193994a96942164f8f54516508a7fab61f.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/status/artifact-recharge-16.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-status:artifact-recharge-7",
+      "character": "amiya",
+      "kind": "status",
+      "version": "v2",
+      "runtime": "core/src/main/assets/interfaces/operators/amiya/status/artifact-recharge-7.png",
+      "sha256": "ad0730061c89e9917d237fe4de263539c50eccae9091e92e20b830bf80616cd2",
+      "sourceSha256": "8df12e7e9add22ca45f6e459c41345b621f0a59256905c818004b87272bb2f09",
+      "source": "art/source/8df12e7e9add22ca45f6e459c41345b621f0a59256905c818004b87272bb2f09.aseprite",
+      "export": "core/src/main/assets/interfaces/operators/amiya/status/artifact-recharge-7.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-effect:beacon-idle",
+      "character": "amiya",
+      "kind": "effect",
+      "version": "v1",
+      "durationsMs": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "runtime": "core/src/main/assets/effects/operators/amiya/beacon-idle.png",
+      "sha256": "b3301a09bb59aae32f27d5ff6808b53bf2a0a96c49f7c776c595e2a2a7d3d125",
+      "sourceSha256": "fb4e78735b6b8044772bf95e8cb8f7e70bcaf058f63f0cec37f216fe404c7979",
+      "source": "art/source/fb4e78735b6b8044772bf95e8cb8f7e70bcaf058f63f0cec37f216fe404c7979.aseprite",
+      "export": "core/src/main/assets/effects/operators/amiya/beacon-idle.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-effect:warp-depart",
+      "character": "amiya",
+      "kind": "effect",
+      "version": "v1",
+      "durationsMs": [
+        80,
+        80,
+        80,
+        100
+      ],
+      "runtime": "core/src/main/assets/effects/operators/amiya/warp-depart.png",
+      "sha256": "7eb170afc9ab6567e6114d3395ff037031330191043e4b7d0f31c2da2023444c",
+      "sourceSha256": "747382280bba354ed0759754a46cb833da86673575b3ba9dee579986abe63279",
+      "source": "art/source/747382280bba354ed0759754a46cb833da86673575b3ba9dee579986abe63279.aseprite",
+      "export": "core/src/main/assets/effects/operators/amiya/warp-depart.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
+    },
+    {
+      "id": "amiya-effect:warp-arrive",
+      "character": "amiya",
+      "kind": "effect",
+      "version": "v1",
+      "durationsMs": [
+        80,
+        80,
+        100,
+        120
+      ],
+      "runtime": "core/src/main/assets/effects/operators/amiya/warp-arrive.png",
+      "sha256": "abeb4c3a8e42b844a740732bcb9df1f8bdaa3b71676e9c45e4fdbd9385fd4762",
+      "sourceSha256": "32a099145dd5ecaf9dedc92926f948e3ab70902d775b67292f8fbd0101828674",
+      "source": "art/source/32a099145dd5ecaf9dedc92926f948e3ab70902d775b67292f8fbd0101828674.aseprite",
+      "export": "core/src/main/assets/effects/operators/amiya/warp-arrive.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed"
     },
     {
       "id": "sprite:hellagur_base",
@@ -271,7 +1267,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/2a4c1aaafe6d38e7ad0415c7d927e8326a502bf3c8a6ca4e779a20fee43b7441.png",
-      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
     },
     {
       "id": "sprite:hellagur_berserker",
@@ -314,7 +1310,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/7bef4c35a93a258fc027c9e2d88aa06e0aa38e643e76f1b85ff51e1c072edd79.png",
-      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
     },
     {
       "id": "icon:hellagur_berserker",
@@ -381,7 +1377,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/3836b636bcd1fa4491fc4cb30a23eaab187071bdc377ca35e47313a585b679c1.png",
-      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
     },
     {
       "id": "icon:hellagur_gladiator",
@@ -462,7 +1458,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/16fd0f59ed589da799ffa72d9f2c03f78a59856bcf5b99d18c18caeb9436d5ce.png",
-      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
     },
     {
       "id": "sprite:crownslayer_assassin",
@@ -505,7 +1501,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/83c79c9c738eb9736008e81802a156c2d816895616e85667459ac5d2e49edfdc.png",
-      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
     },
     {
       "id": "icon:crownslayer_assassin",
@@ -572,7 +1568,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/4d5651cc0d48506f0f43ca3bb0216175bb8785c2a66b6631e910f56afde1224c.png",
-      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
     },
     {
       "id": "icon:crownslayer_freerunner",
@@ -653,7 +1649,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/8be41ecf839e2b9620dd9336c1b7bb3dc162e0df86eadb2e3f12536fbd2d0c15.png",
-      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
     },
     {
       "id": "sprite:typhon_sniper",
@@ -696,7 +1692,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/4a245712818cf8618f7038e17f42998dc025f4705369077a2ad18af7eaa27e3e.png",
-      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
     },
     {
       "id": "icon:typhon_sniper",
@@ -763,7 +1759,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/4d374b30cbf626065f3d9a6e98d355aa16a2b81f6adaaa82bf9f626c68d77115.png",
-      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
     },
     {
       "id": "icon:typhon_warden",
@@ -844,7 +1840,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/d7ccd0184769c2f8705fe695b69f5cfe6eecea45e0986ee3e449fb111fb47ad3.png",
-      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
     },
     {
       "id": "sprite:degenbrecher_champion",
@@ -887,7 +1883,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/a4f625b155f29a48b23a6beddea2704abb3d0ae12e6b7a743a765ec7391fd71e.png",
-      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
     },
     {
       "id": "icon:degenbrecher_champion",
@@ -954,7 +1950,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/e7ce1ec32e040b66d00c7d5cacc510b528b99ad99f2450fa15f5c7f0eb3ebbd8.png",
-      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
     },
     {
       "id": "icon:degenbrecher_monk",
@@ -1035,7 +2031,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/92f9ae81c61955203b04906b8385399f5c9c112154279704e43d09bfb2b9ac6d.png",
-      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
     },
     {
       "id": "sprite:shining_priest",
@@ -1078,7 +2074,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/3f67a60ccd156192363dcdc8338f9fc2d76697b0581860016a3f482785ff7fd8.png",
-      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
     },
     {
       "id": "icon:shining_priest",
@@ -1145,7 +2141,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/ae16d08608240eefd536680a0f8e9df163f712b7439cb57c821bc9e4943edd29.png",
-      "runtimeAtlasSha256": "06a1044862de125a19504a2990dd99b26401b9eb1ec457473993544d6ac76100"
+      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
     },
     {
       "id": "icon:shining_paladin",
@@ -1184,199 +2180,106 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "core/src/main/assets/splashes/operators/shining.jpg"
-    },
-    {
-      "id": "splash:amiya",
-      "character": "amiya",
-      "kind": "splash",
-      "form": "base",
-      "note": "既有阿米娅立绘，未修改。",
-      "sha256": "f71c6fbce642be6f44c489746bd1ca91c3c18a9ab8eff0d15c02f00e96a6272e",
-      "sourceSha256": "8add8132f9df8ac6770545ce78b7e37c0f58a00b08e368472927b41525c9f76e",
-      "runtime": "core/src/main/assets/splashes/amiya.jpg",
-      "source": "art/source/8add8132f9df8ac6770545ce78b7e37c0f58a00b08e368472927b41525c9f76e.aseprite",
-      "reviewStatus": "development-art-not-final",
-      "implementationStatus": "installed",
-      "export": "core/src/main/assets/splashes/amiya.jpg"
-    },
-    {
-      "id": "effect:amiya_arts-projectile",
-      "character": "amiya",
-      "kind": "effect",
-      "form": "shared",
-      "note": "术式弹道；仅阿米娅外观，元素法杖语义与原版机制保留。",
-      "sha256": "bc17bd4914557e214fd5f0bb6696986c693ae0ae4a2131d8b932ea02520057b3",
-      "sourceSha256": "afebdf1355c8ecc38e9038c26bf2da8adc1e67c23b55ac592e3db5348b0dd08c",
-      "runtime": "core/src/main/assets/effects/operators/amiya/arts-projectile.png",
-      "sourceFrames": 4,
-      "version": "amiya-effects-core-v1",
-      "frameSize": [
-        24,
-        24
-      ],
-      "durationsMs": [
-        80,
-        80,
-        80,
-        80
-      ],
-      "source": "art/source/afebdf1355c8ecc38e9038c26bf2da8adc1e67c23b55ac592e3db5348b0dd08c.aseprite",
-      "export": "core/src/main/assets/effects/operators/amiya/arts-projectile.png",
-      "reviewStatus": "approved",
-      "implementationStatus": "installed",
-      "provenance": "art/provenance/amiya-0.0.2.json",
-      "animationMetadata": "art/animations/amiya/arts-projectile.json",
-      "animationMetadataSha256": "45db2785875eb22b65242bd1dbc5892a4c59c11aed9893f60bb7c13462a0eb2e"
-    },
-    {
-      "id": "effect:amiya_arts-impact",
-      "character": "amiya",
-      "kind": "effect",
-      "form": "shared",
-      "note": "法术命中；仅阿米娅外观，元素法杖语义与原版机制保留。",
-      "sha256": "b45e72c6dc84363f3b14926f92ea4bbbf0364840516361643a4511ce388abc91",
-      "sourceSha256": "587607d8b2ab39883777ec81152c0dab0d59bcd146f4065b144dc558e08a8efa",
-      "runtime": "core/src/main/assets/effects/operators/amiya/arts-impact.png",
-      "sourceFrames": 4,
-      "version": "amiya-effects-core-v1",
-      "frameSize": [
-        24,
-        24
-      ],
-      "durationsMs": [
-        45,
-        65,
-        80,
-        100
-      ],
-      "source": "art/source/587607d8b2ab39883777ec81152c0dab0d59bcd146f4065b144dc558e08a8efa.aseprite",
-      "export": "core/src/main/assets/effects/operators/amiya/arts-impact.png",
-      "reviewStatus": "approved",
-      "implementationStatus": "installed",
-      "provenance": "art/provenance/amiya-0.0.2.json",
-      "animationMetadata": "art/animations/amiya/arts-impact.json",
-      "animationMetadataSha256": "0df3e1b37e3c8e949d7b42f76aee695cfaa86ae95101ceea16cb7e0545067981"
-    },
-    {
-      "id": "effect:amiya_sword-arc",
-      "character": "amiya",
-      "kind": "effect",
-      "form": "shared",
-      "note": "挥剑轨迹；仅阿米娅外观，元素法杖语义与原版机制保留。",
-      "sha256": "94af4f10fee914f075dcd40c3d7f3935ac2bda6fbf7114d3ca48e26d705bc119",
-      "sourceSha256": "7ca5b642040d1bbe71e9bbad5faf7df1ea3279e0cdf86b6446b53e8b73e0aabf",
-      "runtime": "core/src/main/assets/effects/operators/amiya/sword-arc.png",
-      "sourceFrames": 4,
-      "version": "amiya-effects-core-v1",
-      "frameSize": [
-        24,
-        24
-      ],
-      "durationsMs": [
-        35,
-        45,
-        45,
-        65
-      ],
-      "source": "art/source/7ca5b642040d1bbe71e9bbad5faf7df1ea3279e0cdf86b6446b53e8b73e0aabf.aseprite",
-      "export": "core/src/main/assets/effects/operators/amiya/sword-arc.png",
-      "reviewStatus": "approved",
-      "implementationStatus": "installed",
-      "provenance": "art/provenance/amiya-0.0.2.json",
-      "animationMetadata": "art/animations/amiya/sword-arc.json",
-      "animationMetadataSha256": "00580fce0b394ecd81d9d325af867166e693eabbbce54b1f1cd689d79e1301ee"
-    },
-    {
-      "id": "effect:amiya_sword-impact",
-      "character": "amiya",
-      "kind": "effect",
-      "form": "shared",
-      "note": "剑击命中；仅阿米娅外观，元素法杖语义与原版机制保留。",
-      "sha256": "89c0e505c72b643cfd9cac4473ebc7f72fef1f14922a835bd92c946fd133def2",
-      "sourceSha256": "74af97754b15281fcbe5eb882338840996080ea02d6446d804a5c53102881d93",
-      "runtime": "core/src/main/assets/effects/operators/amiya/sword-impact.png",
-      "sourceFrames": 4,
-      "version": "amiya-effects-core-v1",
-      "frameSize": [
-        24,
-        24
-      ],
-      "durationsMs": [
-        35,
-        45,
-        55,
-        75
-      ],
-      "source": "art/source/74af97754b15281fcbe5eb882338840996080ea02d6446d804a5c53102881d93.aseprite",
-      "export": "core/src/main/assets/effects/operators/amiya/sword-impact.png",
-      "reviewStatus": "approved",
-      "implementationStatus": "installed",
-      "provenance": "art/provenance/amiya-0.0.2.json",
-      "animationMetadata": "art/animations/amiya/sword-impact.json",
-      "animationMetadataSha256": "986f81f22e62d51de1a055d453afd6b5d6da275de1c2cda745558814c718a32b"
-    },
-    {
-      "id": "effect:amiya_staff-release",
-      "character": "amiya",
-      "kind": "effect",
-      "form": "shared",
-      "note": "白杖施法；仅阿米娅外观，元素法杖语义与原版机制保留。",
-      "sha256": "09c586a773aced94f4f00c023252e21c7bbe68d75164e5e7a4ae4bfac665e273",
-      "sourceSha256": "a7eaa5350c9468d22e3c1a17dbc4ec2278c75f5bb2060afd32aaafc397a632f2",
-      "runtime": "core/src/main/assets/effects/operators/amiya/staff-release.png",
-      "sourceFrames": 4,
-      "version": "amiya-effects-core-v1",
-      "frameSize": [
-        24,
-        24
-      ],
-      "durationsMs": [
-        40,
-        50,
-        60,
-        80
-      ],
-      "source": "art/source/a7eaa5350c9468d22e3c1a17dbc4ec2278c75f5bb2060afd32aaafc397a632f2.aseprite",
-      "export": "core/src/main/assets/effects/operators/amiya/staff-release.png",
-      "reviewStatus": "approved",
-      "implementationStatus": "installed",
-      "provenance": "art/provenance/amiya-0.0.2.json",
-      "animationMetadata": "art/animations/amiya/staff-release.json",
-      "animationMetadataSha256": "4182012ee2d953127c505d651e5c0d0a9366bdf26560a79b49e3123cb0d2f264"
-    },
-    {
-      "id": "effect:amiya_heal-return",
-      "character": "amiya",
-      "kind": "effect",
-      "form": "shared",
-      "note": "恢复反馈；仅阿米娅外观，元素法杖语义与原版机制保留。",
-      "sha256": "27841852b585bbb465aee81c7edbfcf9c54e27ea644885c31fb0713a2b7553c0",
-      "sourceSha256": "ec92c2b98015e20503417dda8d8a2712e15aad1f62d2c19bb6adf26713c56cfb",
-      "runtime": "core/src/main/assets/effects/operators/amiya/heal-return.png",
-      "sourceFrames": 4,
-      "version": "amiya-effects-core-v1",
-      "frameSize": [
-        24,
-        24
-      ],
-      "durationsMs": [
-        120,
-        140,
-        160,
-        180
-      ],
-      "source": "art/source/ec92c2b98015e20503417dda8d8a2712e15aad1f62d2c19bb6adf26713c56cfb.aseprite",
-      "export": "core/src/main/assets/effects/operators/amiya/heal-return.png",
-      "reviewStatus": "approved",
-      "implementationStatus": "installed",
-      "provenance": "art/provenance/amiya-0.0.2.json",
-      "animationMetadata": "art/animations/amiya/heal-return.json",
-      "animationMetadataSha256": "4669ac8d00dc85532980b39a10961396d8fb7df12ef237f4f7e806dc2fe9f1d1"
     }
   ],
   "publicationBaseline": "39bd1a7132bf61bd05534a7f072d596ecb899670",
   "amiyaApprovedVersions": [
     "reskin-polish-v4",
     "effects-core-v1"
-  ]
+  ],
+  "tintReferences": [
+    {
+      "runtimeAtlas": "core/src/main/assets/interfaces/large_buffs.png",
+      "sha256": "4dedcacff45306996bc3ea120291eec851d0a13a34655b23f11bbac424a97e80",
+      "character": "amiya",
+      "sourceSha256": "50bb4b50b2431781601dd0e9f12912dd26d3cbc41735d87f4981e9ad3ab8a52d",
+      "source": "art/source/50bb4b50b2431781601dd0e9f12912dd26d3cbc41735d87f4981e9ad3ab8a52d.aseprite",
+      "export": "art/exports/4dedcacff45306996bc3ea120291eec851d0a13a34655b23f11bbac424a97e80.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "key": "lingering-magic-16",
+      "runtimeStrategy": "original_shared_atlas_with_Amiya_only_tint",
+      "bakedPNGInstalled": false,
+      "implementationStatus": "source-only-tint-reference",
+      "runtimeAtlasSha256": "5dd1947598f59b2bb818c4cc358342529094e876c294095888892b5835ae7cdc",
+      "tint": "#45B5E0"
+    },
+    {
+      "runtimeAtlas": "core/src/main/assets/interfaces/buffs.png",
+      "sha256": "d4f06199bf5f9c546e79423cfaef5343036f9b7c4e0c22e402077417b3d28e77",
+      "character": "amiya",
+      "sourceSha256": "c8e5586fca9761f62bc02f48db574c829675a407fefbe74b782b2de4011d1627",
+      "source": "art/source/c8e5586fca9761f62bc02f48db574c829675a407fefbe74b782b2de4011d1627.aseprite",
+      "export": "art/exports/d4f06199bf5f9c546e79423cfaef5343036f9b7c4e0c22e402077417b3d28e77.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "key": "lingering-magic-7",
+      "runtimeStrategy": "original_shared_atlas_with_Amiya_only_tint",
+      "bakedPNGInstalled": false,
+      "implementationStatus": "source-only-tint-reference",
+      "runtimeAtlasSha256": "11d49af66f384d24ec1fc0fec100b9ba9a12cb599f1bd1c6476ba87dfbdfd875",
+      "tint": "#45B5E0"
+    },
+    {
+      "runtimeAtlas": "core/src/main/assets/interfaces/large_buffs.png",
+      "sha256": "9c53021ee63743ededb0e7a193e640bdc3e975d890f0b15cacd3050da277f4f5",
+      "character": "amiya",
+      "sourceSha256": "a9f8f846ed90866566ac16418f20d58a8f890316438e9e025bd44e85493e3acb",
+      "source": "art/source/a9f8f846ed90866566ac16418f20d58a8f890316438e9e025bd44e85493e3acb.aseprite",
+      "export": "art/exports/9c53021ee63743ededb0e7a193e640bdc3e975d890f0b15cacd3050da277f4f5.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "key": "scroll-empower-16",
+      "runtimeStrategy": "original_shared_atlas_with_Amiya_only_tint",
+      "bakedPNGInstalled": false,
+      "implementationStatus": "source-only-tint-reference",
+      "runtimeAtlasSha256": "5dd1947598f59b2bb818c4cc358342529094e876c294095888892b5835ae7cdc",
+      "tint": "#45B5E0"
+    },
+    {
+      "runtimeAtlas": "core/src/main/assets/interfaces/buffs.png",
+      "sha256": "486b0645055424b11821741b7fd751831126a25c7e6425c4dcaea370cc44dd36",
+      "character": "amiya",
+      "sourceSha256": "e77a59149eb99e235bb065b5f081b64d7333471319c2efa47894e7f038544b7f",
+      "source": "art/source/e77a59149eb99e235bb065b5f081b64d7333471319c2efa47894e7f038544b7f.aseprite",
+      "export": "art/exports/486b0645055424b11821741b7fd751831126a25c7e6425c4dcaea370cc44dd36.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "key": "scroll-empower-7",
+      "runtimeStrategy": "original_shared_atlas_with_Amiya_only_tint",
+      "bakedPNGInstalled": false,
+      "implementationStatus": "source-only-tint-reference",
+      "runtimeAtlasSha256": "11d49af66f384d24ec1fc0fec100b9ba9a12cb599f1bd1c6476ba87dfbdfd875",
+      "tint": "#45B5E0"
+    },
+    {
+      "runtimeAtlas": "core/src/main/assets/interfaces/large_buffs.png",
+      "sha256": "51e22a2d0ee0a8bc045d8442811fddc909019577a78ede56be3777238ea9d0bd",
+      "character": "amiya",
+      "sourceSha256": "ed71985576f60bdd14db1b2fd40d54f789d59f79e1f0cf717cf1a1b89ee43aea",
+      "source": "art/source/ed71985576f60bdd14db1b2fd40d54f789d59f79e1f0cf717cf1a1b89ee43aea.aseprite",
+      "export": "art/exports/51e22a2d0ee0a8bc045d8442811fddc909019577a78ede56be3777238ea9d0bd.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "key": "magic-charge-16",
+      "runtimeStrategy": "original_shared_atlas_with_Amiya_only_tint",
+      "bakedPNGInstalled": false,
+      "implementationStatus": "source-only-tint-reference",
+      "runtimeAtlasSha256": "5dd1947598f59b2bb818c4cc358342529094e876c294095888892b5835ae7cdc",
+      "tint": "#45B5E0"
+    },
+    {
+      "runtimeAtlas": "core/src/main/assets/interfaces/buffs.png",
+      "sha256": "e1d5e993b039b42a6f46526993fd862f2c9bbdff550d7713422de17cbbb34fce",
+      "character": "amiya",
+      "sourceSha256": "0093ef784d0ff340be2f04f5f3ab4981fc1b298d64eef861b976c565d43212f9",
+      "source": "art/source/0093ef784d0ff340be2f04f5f3ab4981fc1b298d64eef861b976c565d43212f9.aseprite",
+      "export": "art/exports/e1d5e993b039b42a6f46526993fd862f2c9bbdff550d7713422de17cbbb34fce.png",
+      "provenance": "art/provenance/amiya-frozen-20261020.json",
+      "key": "magic-charge-7",
+      "runtimeStrategy": "original_shared_atlas_with_Amiya_only_tint",
+      "bakedPNGInstalled": false,
+      "implementationStatus": "source-only-tint-reference",
+      "runtimeAtlasSha256": "11d49af66f384d24ec1fc0fec100b9ba9a12cb599f1bd1c6476ba87dfbdfd875",
+      "tint": "#45B5E0"
+    }
+  ],
+  "amiyaStatus": "frozen",
+  "freezeDate": "2026-10-20",
+  "releaseTag": "amiya-reskin-frozen-20261020-public"
 }

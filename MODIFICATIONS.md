@@ -1,3 +1,15 @@
+# Modification notice — Amiya frozen public baseline, 2026-10-20
+
+Maintainer: **holy1ow**. Selectively imports the already-approved frozen Amiya display integration into the existing 0.0.2 public desktop project. Artwork is copied without regenerating or modifying pixels/animation. This adds approved portraits, staff/item/crown/mask/armor visuals, charge and imbue feedback, soul mark, the final 27 talent icons and status selections, and beacon/teleport visuals. Three statuses retain original shared graphics with Amiya-only tint. The matching two item-message resources are copied byte-for-byte from the frozen integration; no new translations or wording are authored.
+
+The gameplay code imports are the exact frozen implementations (only attribution/header and line-ending adaptation). Combat, healing, charge consumption, turn timing, class/subclass rules and original shields remain inherited. The six-reskin selection pool, independent package and .holy1ow saves, original unlock/tutorial behavior, About credits and JSON-java 20240303 are retained from the public edition. No new mechanics, artwork or feature branch is created. Internal version remains 0.0.2; the dated tag identifies this release.
+
+This is a new public build, **not** a byte-identical copy of the historical 04 runtime. That original runtime used JSON-java 20170516 and upstream save identity, and remains preserved privately without repacking. The original 05 source archive omitted three disabled trainer build-support files; 06 supplements historical recovery. The corresponding source for the new public Windows binary is the dated public tag, not 05/06. The original five archives and their original checksum records are unchanged.
+
+Full frozen histories and test evidence are retained as Release assets. Existing third-party source attachment from v0.0.1 still matches the unchanged public dependencies; no redundant upload. GPL and all upstream notices remain.
+
+## Historical 0.0.2 modification record
+
 # Modification notice — 0.0.2
 
 Adapted by **holy1ow**, 2026-10-18, on top of published v0.0.1 (`39bd1a7132bf61bd05534a7f072d596ecb899670`). Approved Amiya v4 sprite sources and six effects were selectively imported from the developer workspace. All approved image/source bytes are preserved and tracked by `art/manifest.json` and `art/provenance/amiya-0.0.2.json`.

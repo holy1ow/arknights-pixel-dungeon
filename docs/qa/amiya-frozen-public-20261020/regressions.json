@@ -1,0 +1,26 @@
+{
+  "regressions": {
+    "armor": "PASS 397 assertions; 14 actual render scenarios",
+    "effects": "PASS 436 assertions; 13 real-render scenarios",
+    "icon": "PASS 2086 assertions; 11 actual render scenarios",
+    "item": "PASS 573 assertions; 19 actual render scenarios",
+    "portrait": "PASS 5 actual SurfaceScene portrait render scenarios",
+    "statustint": "PASS 495 assertions; 11 real OpenGL screenshots; all hero identities; original shield retained"
+  },
+  "heroAssertions": 48465,
+  "subclassLifecycles": 12,
+  "randomSelection": true,
+  "freshProfile": "only Hellagur unlocked; intro enabled",
+  "canvasChecks": 10584,
+  "clickProbes": 60,
+  "particleSamples": 6912,
+  "oldSaveFixtures": 18,
+  "manualFullPlaythrough": false,
+  "originalFullFlowEvidence": {
+    "routes": 9,
+    "screenshots": 206,
+    "assertions": 784,
+    "fixtureAssisted": true,
+    "rerunOnPublicBuild": false
+  }
+}

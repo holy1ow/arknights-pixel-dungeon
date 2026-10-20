@@ -1,3 +1,6 @@
+// Arknights Pixel Dungeon: Amiya frozen visual integration, holy1ow, 2026-10-20.
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 /*
  * Pixel Dungeon
  * Copyright (C) 2012-2015 Oleg Dolya
@@ -282,6 +285,7 @@ public class ScrollOfTeleportation extends Scroll {
 	}
 
 	public static void appear( Char ch, int pos ) {
+		int departure = ch.pos;
 
 		ch.sprite.interruptMotion();
 
@@ -295,8 +299,10 @@ public class ScrollOfTeleportation extends Scroll {
 
 		ch.move( pos, false );
 		if (ch.pos == pos) {
+			com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaWarpVisuals.teleport(ch, departure, false);
 			ch.sprite.interruptMotion();
 			ch.sprite.place(pos);
+			com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaWarpVisuals.teleport(ch, pos, true);
 		}
 
 		if (ch.invisible == 0) {
@@ -316,6 +322,10 @@ public class ScrollOfTeleportation extends Scroll {
 
 	//just plays the VFX for teleporting, without any position changes, does re-press cells though
 	public static void appearVFX( Char ch ){
+		if (com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene.mode
+				== com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene.Mode.RETURN) {
+			com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaWarpVisuals.arrivalAfterTransition(ch);
+		}
 		if (Dungeon.level.heroFOV[ch.pos]){
 			Sample.INSTANCE.play(Assets.Sounds.TELEPORT);
 		}

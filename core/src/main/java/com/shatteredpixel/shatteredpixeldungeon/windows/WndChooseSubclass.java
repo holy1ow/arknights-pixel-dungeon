@@ -1,5 +1,6 @@
 // Arknights Pixel Dungeon: modified/adapted by holy1ow, 2026-10-18.
 // SPDX-License-Identifier: GPL-3.0-or-later
+
 /*
  * Pixel Dungeon
  * Copyright (C) 2012-2015 Oleg Dolya
@@ -95,7 +96,7 @@ public class WndChooseSubclass extends Window {
 		add(random);
 
 		RenderedTextBlock message = PixelScene.renderTextBlock( 6 );
-		message.text( Messages.get(this, "message"), WIDTH );
+		message.text( (com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaItemVisuals.active() ? Messages.get(tome, "amiya_choice") : Messages.get(this, "message")), WIDTH );
 		message.setPos( titlebar.left(), titlebar.bottom() + GAP );
 		add( message );
 

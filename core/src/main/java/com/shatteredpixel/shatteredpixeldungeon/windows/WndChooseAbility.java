@@ -1,3 +1,6 @@
+// Arknights Pixel Dungeon: Amiya frozen visual integration, holy1ow, 2026-10-20.
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 /*
  * Pixel Dungeon
  * Copyright (C) 2012-2015 Oleg Dolya
@@ -109,7 +112,7 @@ public class WndChooseAbility extends Window {
 			RedButton abilityButton = new RedButton(ability.shortDesc(), 6){
 				@Override
 				protected void onClick() {
-					GameScene.show(new WndOptions( new HeroIcon( ability ),
+					GameScene.show(new WndOptions( new HeroIcon( hero.heroClass, ability ),
 							Messages.titleCase(ability.name()),
 							Messages.get(WndChooseAbility.this, "are_you_sure"),
 							Messages.get(WndChooseAbility.this, "yes"),

@@ -1,5 +1,6 @@
 // Arknights Pixel Dungeon: modified/adapted by holy1ow, 2026-10-18.
 // SPDX-License-Identifier: GPL-3.0-or-later
+
 /*
  * Pixel Dungeon
  * Copyright (C) 2012-2015 Oleg Dolya
@@ -44,6 +45,7 @@ public class WndInfoSubclass extends WndTitledMessage {
 		Talent.initSubclassTalents(subCls, talentList);
 
 		TalentsPane.TalentTierPane talentPane = new TalentsPane.TalentTierPane(talentList.get(2), 3, TalentButton.Mode.INFO);
+		talentPane.appearance(cls);
 		talentPane.title.text( Messages.titleCase(Messages.get(WndHeroInfo.class, "talents")));
 		talentPane.setRect(0, height + 5, width, talentPane.height());
 		add(talentPane);

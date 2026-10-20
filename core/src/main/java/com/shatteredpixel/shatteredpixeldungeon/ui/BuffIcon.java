@@ -1,3 +1,6 @@
+// Arknights Pixel Dungeon: Amiya frozen visual integration, holy1ow, 2026-10-20.
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 /*
  * Pixel Dungeon
  * Copyright (C) 2012-2015 Oleg Dolya
@@ -21,6 +24,7 @@
 
 package com.shatteredpixel.shatteredpixeldungeon.ui;
 
+import com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaItemVisuals;
 import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Buff;
 import com.watabou.noosa.Image;
@@ -49,11 +53,27 @@ public class BuffIcon extends Image {
 	}
 
 	public void refresh(Buff buff){
+        String selected = com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaIconVisuals.status(buff, large);
+        if (selected != null) {
+            texture(selected);
+            frame(0, 0, large ? LRG_SIZE : SML_SIZE, large ? LRG_SIZE : SML_SIZE);
+            resetColor();
+            return;
+        }
+        if(buff instanceof com.shatteredpixel.shatteredpixeldungeon.actors.buffs.SoulMark
+                && ((com.shatteredpixel.shatteredpixeldungeon.actors.buffs.SoulMark)buff).amiyaVisual()){
+            texture(AmiyaItemVisuals.ROOT+(large?"soul-mark":"soul-mark-small")+".png");
+            frame(0,0,large?LRG_SIZE:SML_SIZE,large?LRG_SIZE:SML_SIZE);resetColor();return;
+        }
 		refresh(buff.icon());
-		buff.tintIcon(this);
+		if (!com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaIconVisuals.tintStatus(buff, this)) {
+			buff.tintIcon(this);
+		}
 	}
 
 	public void refresh(int icon){
+        texture(large?Assets.Interfaces.BUFFS_LARGE:Assets.Interfaces.BUFFS_SMALL);
+        resetColor();
 		if (large){
 			if (largeFilm == null) largeFilm = new TextureFilm(texture, LRG_SIZE, LRG_SIZE);
 			frame(largeFilm.get(icon));

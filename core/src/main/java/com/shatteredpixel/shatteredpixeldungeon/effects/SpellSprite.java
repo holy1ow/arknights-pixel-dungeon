@@ -1,3 +1,6 @@
+// Arknights Pixel Dungeon: Amiya frozen visual integration, holy1ow, 2026-10-20.
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 /*
  * Pixel Dungeon
  * Copyright (C) 2012-2015 Oleg Dolya
@@ -21,6 +24,7 @@
 
 package com.shatteredpixel.shatteredpixeldungeon.effects;
 
+import com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaItemVisuals;
 import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
 import com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene;
@@ -33,6 +37,8 @@ import java.util.HashMap;
 //FIXME this is seriously underused atm, should add more of these!
 public class SpellSprite extends Image {
 
+    public static final int AMIYA_INSUFFICIENT = 100;
+    public static final int AMIYA_IMBUE = 101;
 	public static final int FOOD		= 0;
 	public static final int MAP			= 1;
 	public static final int CHARGE		= 2;
@@ -71,7 +77,10 @@ public class SpellSprite extends Image {
 	}
 	
 	public void reset( int index ) {
-		frame( film.get( index ) );
+        String custom=AmiyaItemVisuals.spellTexture(target,index);
+        texture(custom==null?Assets.Effects.SPELL_ICONS:custom);
+        if(custom!=null)frame(0,0,SIZE,SIZE);
+        else frame(film.get(index>=100?CHARGE:index));
 		origin.set( width / 2, height / 2 );
 		
 		phase = Phase.FADE_IN;

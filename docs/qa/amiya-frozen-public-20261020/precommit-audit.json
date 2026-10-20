@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "frozenProductionJavaImplementationsIdentical": 24,
+  "frozenChangedRuntimeFilesByteIdentical": 57,
+  "otherPublicProductionFilesUnchanged": 1811,
+  "portraitChangedPixelsOnlyApprovedCells": 73,
+  "protectedDeveloperFilesAndOriginalArchivesUnchanged": 2242,
+  "sourceOnlyTintPNGsNotInstalled": true,
+  "newMechanics": false
+}

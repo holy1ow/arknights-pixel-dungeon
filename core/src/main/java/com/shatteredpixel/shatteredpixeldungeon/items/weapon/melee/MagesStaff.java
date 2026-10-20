@@ -1,3 +1,6 @@
+// Arknights Pixel Dungeon: Amiya frozen visual integration, holy1ow, 2026-10-20.
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 /*
  * Pixel Dungeon
  * Copyright (C) 2012-2015 Oleg Dolya
@@ -21,6 +24,7 @@
 
 package com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee;
 
+import com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaItemVisuals;
 import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.Badges;
 import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
@@ -62,6 +66,9 @@ import java.util.ArrayList;
 public class MagesStaff extends MeleeWeapon {
 
 	private Wand wand;
+
+	/** Read-only display accessor; retains the actual imbued wand and its identity. */
+	public Wand visualWand() { return wand; }
 
 	public static final String AC_IMBUE = "IMBUE";
 	public static final String AC_ZAP	= "ZAP";
@@ -480,6 +487,7 @@ public class MagesStaff extends MeleeWeapon {
 
 			GLog.p( Messages.get(MagesStaff.class, "imbue", wand.name()));
 			imbueWand( wand, curUser );
+			AmiyaItemVisuals.imbue(curUser);
 
 			updateQuickslot();
 		}

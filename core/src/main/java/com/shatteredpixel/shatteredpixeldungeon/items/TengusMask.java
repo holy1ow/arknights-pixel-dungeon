@@ -1,5 +1,6 @@
 // Arknights Pixel Dungeon: modified/adapted by holy1ow, 2026-10-18.
 // SPDX-License-Identifier: GPL-3.0-or-later
+
 /*
  * Pixel Dungeon
  * Copyright (C) 2012-2015 Oleg Dolya
@@ -23,6 +24,7 @@
 
 package com.shatteredpixel.shatteredpixeldungeon.items;
 
+import com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaItemVisuals;
 import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.Badges;
 import com.shatteredpixel.shatteredpixeldungeon.actors.Actor;
@@ -56,6 +58,12 @@ public class TengusMask extends Item {
 		unique = true;
 	}
 	
+	@Override
+	public String name() { return AmiyaItemVisuals.active() ? Messages.get(this, "amiya_name") : super.name(); }
+
+	@Override
+	public String desc() { return AmiyaItemVisuals.active() ? Messages.get(this, "amiya_desc") : super.desc(); }
+
 	@Override
 	public ArrayList<String> actions( Hero hero ) {
 		ArrayList<String> actions = super.actions( hero );
@@ -116,7 +124,8 @@ public class TengusMask extends Item {
 		Emitter e = curUser.sprite.centerEmitter();
 		e.pos(e.x-2, e.y-6, 4, 4);
 		e.start(Speck.factory(Speck.MASK), 0.05f, 20);
-		GLog.p( Messages.get(this, "used"));
+		if (AmiyaItemVisuals.crown(curUser, false)) e.visible = false;
+		GLog.p( Messages.get(this, AmiyaItemVisuals.active() ? "amiya_used" : "used"));
 		
 	}
 }

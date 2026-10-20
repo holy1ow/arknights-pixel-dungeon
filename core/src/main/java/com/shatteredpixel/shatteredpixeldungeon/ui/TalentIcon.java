@@ -1,3 +1,6 @@
+// Arknights Pixel Dungeon: Amiya frozen visual integration, holy1ow, 2026-10-20.
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 /*
  * Pixel Dungeon
  * Copyright (C) 2012-2015 Oleg Dolya
@@ -22,6 +25,9 @@
 package com.shatteredpixel.shatteredpixeldungeon.ui;
 
 import com.shatteredpixel.shatteredpixeldungeon.Assets;
+import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
+import com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroClass;
+import com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaIconVisuals;
 import com.shatteredpixel.shatteredpixeldungeon.actors.hero.Talent;
 import com.watabou.noosa.Image;
 import com.watabou.noosa.TextureFilm;
@@ -30,9 +36,36 @@ public class TalentIcon extends Image {
 
 	private static TextureFilm film;
 	private static final int SIZE = 16;
+	private Talent talent;
+	private HeroClass displayedClass;
+	private String appearanceTexture;
 
 	public TalentIcon(Talent talent){
 		this(talent.icon());
+		this.talent = talent;
+		appearance(Dungeon.hero == null ? null : Dungeon.hero.heroClass);
+	}
+
+	public void appearance(HeroClass displayedClass) {
+		this.displayedClass = displayedClass;
+		refreshAppearance();
+	}
+
+	private void refreshAppearance() {
+		if (talent == null) return;
+		String selected = AmiyaIconVisuals.talent(displayedClass, talent);
+		String path = selected == null ? Assets.Interfaces.TALENT_ICONS : selected;
+		if (!path.equals(appearanceTexture)) {
+			texture(path);
+			if (selected == null) frame(film.get(talent.icon()));
+			else frame(0, 0, SIZE, SIZE);
+			appearanceTexture = path;
+		}
+	}
+
+	@Override public void update() {
+		super.update();
+		refreshAppearance();
 	}
 
 	public TalentIcon(int icon){

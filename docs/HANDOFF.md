@@ -1,3 +1,7 @@
+# 当前交接：阿米娅封版公开基线 2026-10-20
+
+当前状态以 [本次记录](AMIYA-FROZEN-20261020.md) 为准，以下为旧版交接历史。阿米娅继续 frozen，原版机制不变；不要整目录覆盖开发工程或公开工程。
+
 # 0.0.2 接续说明
 
 维护者 holy1ow。仓库 `holy1ow/arknights-pixel-dungeon`；本版从公开 v0.0.1 / `39bd1a7132bf61bd05534a7f072d596ecb899670` 逐项迁入已批准的阿米娅素材和显示适配。上游仍为 Shattered Pixel Dungeon v4.0.2，继承 Pixel Dungeon；署名与 GPL-3.0-or-later 保留。

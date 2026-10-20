@@ -207,7 +207,7 @@ tasks.register('verifyOperatorCanvas', JavaExec) {
     dependsOn tasks.named('testClasses'), tasks.named('release')
     classpath = files(tasks.named('release', Jar).flatMap { it.archiveFile }) + sourceSets.test.output
     mainClass = 'com.shatteredpixel.shatteredpixeldungeon.desktop.OperatorCanvasChecks'
-    args layout.buildDirectory.dir('release-0.0.2-qa/canvas').get().asFile.absolutePath,
+    args layout.buildDirectory.dir('amiya-freeze-public-qa/canvas').get().asFile.absolutePath,
             providers.gradleProperty('canvasMode').getOrElse('after')
 }
 
@@ -215,5 +215,40 @@ tasks.register('verifyAmiyaEffects', JavaExec) {
     dependsOn tasks.named('testClasses'), tasks.named('release')
     classpath = files(tasks.named('release', Jar).flatMap { it.archiveFile }) + sourceSets.test.output
     mainClass = 'com.shatteredpixel.shatteredpixeldungeon.desktop.AmiyaEffectChecks'
-    args layout.buildDirectory.dir('release-0.0.2-qa/effects').get().asFile.absolutePath
+    args layout.buildDirectory.dir('amiya-freeze-public-qa/effects').get().asFile.absolutePath
+}
+
+tasks.register('verifyAmiyaArmor', JavaExec) {
+    dependsOn tasks.named('testClasses'), tasks.named('release')
+    classpath = files(tasks.named('release', Jar).flatMap { it.archiveFile }) + sourceSets.test.output
+    mainClass = 'com.shatteredpixel.shatteredpixeldungeon.desktop.AmiyaArmorChecks'
+    args layout.buildDirectory.dir('amiya-freeze-public-qa/armor').get().asFile.absolutePath
+}
+
+tasks.register('verifyAmiyaIcons', JavaExec) {
+    dependsOn tasks.named('testClasses'), tasks.named('release')
+    classpath = files(tasks.named('release', Jar).flatMap { it.archiveFile }) + sourceSets.test.output
+    mainClass = 'com.shatteredpixel.shatteredpixeldungeon.desktop.AmiyaIconChecks'
+    args layout.buildDirectory.dir('amiya-freeze-public-qa/icon').get().asFile.absolutePath
+}
+
+tasks.register('verifyAmiyaItems', JavaExec) {
+    dependsOn tasks.named('testClasses'), tasks.named('release')
+    classpath = files(tasks.named('release', Jar).flatMap { it.archiveFile }) + sourceSets.test.output
+    mainClass = 'com.shatteredpixel.shatteredpixeldungeon.desktop.AmiyaItemChecks'
+    args layout.buildDirectory.dir('amiya-freeze-public-qa/item').get().asFile.absolutePath
+}
+
+tasks.register('verifyAmiyaPortraits', JavaExec) {
+    dependsOn tasks.named('testClasses'), tasks.named('release')
+    classpath = files(tasks.named('release', Jar).flatMap { it.archiveFile }) + sourceSets.test.output
+    mainClass = 'com.shatteredpixel.shatteredpixeldungeon.desktop.AmiyaPortraitChecks'
+    args layout.buildDirectory.dir('amiya-freeze-public-qa/portrait').get().asFile.absolutePath
+}
+
+tasks.register('verifyAmiyaStatusTint', JavaExec) {
+    dependsOn tasks.named('testClasses'), tasks.named('release')
+    classpath = files(tasks.named('release', Jar).flatMap { it.archiveFile }) + sourceSets.test.output
+    mainClass = 'com.shatteredpixel.shatteredpixeldungeon.desktop.AmiyaStatusTintChecks'
+    args layout.buildDirectory.dir('amiya-freeze-public-qa/statustint').get().asFile.absolutePath
 }

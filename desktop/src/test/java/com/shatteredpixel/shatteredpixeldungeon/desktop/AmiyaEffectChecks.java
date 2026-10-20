@@ -46,6 +46,9 @@ public class AmiyaEffectChecks {
     static void clearFx(Hero h)throws Exception{for(Gizmo g:members(h.sprite.parent))if(g instanceof AmiyaEffects.Effect)g.killAndErase();}
     public static class TargetRat extends Rat {
         {HP=HT=200;defenseSkill=0;EXP=0;}
+        // A damage probe must not randomly absorb the staff's minimum damage.
+        // Only this isolated fixture changes; production Rat remains untouched.
+        @Override public int drRoll(){return 0;}
         @Override protected boolean act(){spend(TICK);return true;}
     }
     static class Case {

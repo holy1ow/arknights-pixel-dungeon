@@ -1,5 +1,6 @@
 // Arknights Pixel Dungeon: modified/adapted by holy1ow, 2026-10-18.
 // SPDX-License-Identifier: GPL-3.0-or-later
+
 /*
  * Pixel Dungeon
  * Copyright (C) 2012-2015 Oleg Dolya
@@ -260,6 +261,7 @@ public class WndHeroInfo extends WndTabbed {
 			talents.get(2).clear(); //we show T3 talents with subclasses
 
 			talentPane = new TalentsPane(TalentButton.Mode.INFO, talents);
+			talentPane.appearance(cls);
 			add(talentPane);
 		}
 

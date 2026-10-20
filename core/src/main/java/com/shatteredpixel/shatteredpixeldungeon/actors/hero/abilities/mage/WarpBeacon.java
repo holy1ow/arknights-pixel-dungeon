@@ -1,3 +1,6 @@
+// Arknights Pixel Dungeon: Amiya frozen visual integration, holy1ow, 2026-10-20.
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 /*
  * Pixel Dungeon
  * Copyright (C) 2012-2015 Oleg Dolya
@@ -239,12 +242,15 @@ public class WarpBeacon extends ArmorAbility {
 		int branch;
 
 		Emitter e;
+		private Image amiyaBeacon;
 
 		@Override
 		public void fx(boolean on) {
+			if (amiyaBeacon != null) { amiyaBeacon.killAndErase(); amiyaBeacon = null; }
 			if (on && depth == Dungeon.depth) {
 				e = CellEmitter.center(pos);
 				e.pour(MagicMissile.WardParticle.UP, 0.05f);
+				amiyaBeacon = com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaWarpVisuals.beacon(target, this, pos, branch, e);
 			}
 			else if (e != null) e.on = false;
 		}

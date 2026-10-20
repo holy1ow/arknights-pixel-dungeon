@@ -1,3 +1,6 @@
+// Arknights Pixel Dungeon: Amiya frozen visual integration, holy1ow, 2026-10-20.
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 /*
  * Pixel Dungeon
  * Copyright (C) 2012-2015 Oleg Dolya
@@ -21,6 +24,7 @@
 
 package com.shatteredpixel.shatteredpixeldungeon.items;
 
+import com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaItemVisuals;
 import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.actors.Actor;
 import com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero;
@@ -53,6 +57,12 @@ public class KingsCrown extends Item {
 		unique = true;
 	}
 	
+	@Override
+	public String name() { return AmiyaItemVisuals.active() ? Messages.get(this, "amiya_name") : super.name(); }
+
+	@Override
+	public String desc() { return AmiyaItemVisuals.active() ? Messages.get(this, "amiya_desc") : super.desc(); }
+
 	@Override
 	public ArrayList<String> actions( Hero hero ) {
 		ArrayList<String> actions = super.actions( hero );
@@ -92,7 +102,9 @@ public class KingsCrown extends Item {
 		detach(hero.belongings.backpack);
 		Catalog.countUse( getClass() );
 
-		hero.sprite.emitter().burst( Speck.factory( Speck.CROWN), 12 );
+		com.watabou.noosa.particles.Emitter crownEmitter = hero.sprite.emitter();
+		crownEmitter.burst(Speck.factory(Speck.CROWN), 12);
+		if (AmiyaItemVisuals.crown(hero, true)) crownEmitter.visible = false;
 		hero.spend(Actor.TICK);
 		hero.busy();
 
@@ -101,7 +113,7 @@ public class KingsCrown extends Item {
 			if (ability instanceof Ratmogrify){
 				GLog.p(Messages.get(this, "ratgraded"));
 			} else {
-				GLog.p(Messages.get(this, "upgraded"));
+				GLog.p(Messages.get(this, AmiyaItemVisuals.active() ? "amiya_upgraded" : "upgraded"));
 			}
 
 			ClassArmor classArmor = ClassArmor.upgrade(hero, armor);

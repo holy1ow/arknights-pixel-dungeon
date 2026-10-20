@@ -36,15 +36,20 @@ for a in manifest['assets']:
         cells += 1
 amiya = [a['sha256'] for a in manifest['assets'] if a['character']=='amiya' and a['kind']=='sprite']
 assert len(amiya)==3 and len(set(amiya))==3, 'Expected three distinct approved Amiya forms'
-effects = [a for a in manifest['assets'] if a['character']=='amiya' and a['kind']=='effect']
+effects = [a for a in manifest['assets'] if a['character']=='amiya' and a['kind']=='effect' and a['id'].startswith('effect:amiya_')]
 assert {a['id'].split('_',1)[1] for a in effects} == {'arts-projectile','arts-impact','sword-arc','sword-impact','staff-release','heal-return'}
 for a in effects:
     meta=json.loads((ROOT/a['animationMetadata']).read_text(encoding='utf-8'))
     assert [f['duration'] for f in meta['frames']]==a['durationsMs'], a['id']
     assert Image.open(ROOT/a['runtime']).size == (96,24), a['id']
 for a in manifest['assets']:
-    if a['character']=='amiya' and a['kind'] in {'sprite','effect'}:
+    if a['character']=='amiya':
         assert a['reviewStatus']=='approved' and a['implementationStatus']=='installed', a['id']
+for a in manifest['tintReferences']:
+    assert a['bakedPNGInstalled'] is False
+    assert sha((ROOT/a['source']).read_bytes()) == a['sourceSha256']
+    assert sha((ROOT/a['export']).read_bytes()) == a['sha256']
+    assert sha((ROOT/a['runtimeAtlas']).read_bytes()) == a['runtimeAtlasSha256']
 result = {'artItems':len(manifest['assets']), 'atlasCells':cells, 'approvedAmiyaForms':3, 'approvedCoreEffects':len(effects), 'unapprovedCandidatesInstalled':False}
 if len(sys.argv)>1:
     app=Path(sys.argv[1])/'app'

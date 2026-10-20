@@ -1,3 +1,6 @@
+// Arknights Pixel Dungeon: Amiya frozen visual integration, holy1ow, 2026-10-20.
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 /*
  * Pixel Dungeon
  * Copyright (C) 2012-2015 Oleg Dolya
@@ -21,6 +24,7 @@
 
 package com.shatteredpixel.shatteredpixeldungeon.sprites;
 
+import com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaItemVisuals;
 import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
 import com.shatteredpixel.shatteredpixeldungeon.effects.CellEmitter;
@@ -57,6 +61,10 @@ public class ItemSprite extends MovieClip {
 	public Heap heap;
 	
 	private Glowing glowing;
+	private int displayedImage;
+	private String amiyaTexture;
+	private Item displayedItem;
+	private Image elementBadge;
 	//FIXME: a lot of this emitter functionality isn't very well implemented.
 	//right now I want to ship 0.3.0, but should refactor in the future.
 	protected Emitter emitter;
@@ -129,6 +137,11 @@ public class ItemSprite extends MovieClip {
 	@Override
 	public void copy(Image other) {
 		super.copy(other);
+		if (other instanceof ItemSprite) {
+			ItemSprite source=(ItemSprite)other;
+			displayedImage=source.displayedImage; displayedItem=source.displayedItem;
+			amiyaTexture=source.amiyaTexture;
+		}
 
 		if (other instanceof ItemSprite && ((ItemSprite) other).glowing != null){
 			glow(((ItemSprite) other).glowing);
@@ -200,6 +213,7 @@ public class ItemSprite extends MovieClip {
 
 	public ItemSprite view( Item item ){
 		view(item.image(), item.glowing());
+		displayedItem = item;
 		Emitter emitter = item.emitter();
 		if (emitter != null && parent != null) {
 			emitter.pos( this );
@@ -241,13 +255,18 @@ public class ItemSprite extends MovieClip {
 	public ItemSprite view( int image, Glowing glowing ) {
 		if (this.emitter != null) this.emitter.killAndErase();
 		emitter = null;
+		displayedItem = null;
 		frame( image );
 		glow( glowing );
 		return this;
 	}
 
 	public void frame( int image ){
-		frame( ItemSpriteSheet.film.get( image ));
+		displayedImage = image;
+        amiyaTexture = AmiyaItemVisuals.itemTexture(image);
+        texture(amiyaTexture == null ? Assets.Sprites.ITEMS : amiyaTexture);
+        if (amiyaTexture != null) { frame(0, 0, 16, 16); perspectiveRaise=5/16f; return; }
+        frame( ItemSpriteSheet.film.get( image ));
 
 		float height = ItemSpriteSheet.film.height( image );
 		//adds extra raise to very short items, so they are visible
@@ -285,6 +304,8 @@ public class ItemSprite extends MovieClip {
 
 	@Override
 	public void draw() {
+        String selected = AmiyaItemVisuals.itemTexture(displayedImage);
+        if (!java.util.Objects.equals(selected, amiyaTexture)) frame(displayedImage);
 		if (texture == null || (!dirty && buffer == null))
 			return;
 
@@ -316,7 +337,15 @@ public class ItemSprite extends MovieClip {
 		}
 
 		super.draw();
-
+        com.shatteredpixel.shatteredpixeldungeon.items.wands.Wand element=AmiyaItemVisuals.element(displayedItem);
+        if(element!=null && amiyaTexture!=null){
+            if(elementBadge==null)elementBadge=new Image(Assets.Sprites.ITEMS);
+            elementBadge.frame(ItemSpriteSheet.film.get(element.image()));
+            float fit=8f/Math.max(elementBadge.width,elementBadge.height);
+            elementBadge.scale.set(scale.x*fit,scale.y*fit);elementBadge.camera=camera();
+            elementBadge.x=x+width()*0.5f;elementBadge.y=y+height()-elementBadge.height();
+            elementBadge.alpha(am);elementBadge.draw();
+        }
 	}
 
 	@Override
@@ -391,6 +420,11 @@ public class ItemSprite extends MovieClip {
 		int col = index % rows;
 		return tx.getPixel( col * SIZE + x, row * SIZE + y );
 	}
+
+    @Override public void destroy() {
+        if (elementBadge != null) { elementBadge.destroy(); elementBadge = null; }
+        super.destroy();
+    }
 	
 	public static class Glowing {
 		

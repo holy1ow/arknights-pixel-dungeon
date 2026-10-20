@@ -1,3 +1,6 @@
+// Arknights Pixel Dungeon: Amiya frozen visual integration, holy1ow, 2026-10-20.
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 /*
  * Pixel Dungeon
  * Copyright (C) 2012-2015 Oleg Dolya
@@ -51,6 +54,12 @@ public class TalentButton extends Button {
 	Mode mode;
 
 	TalentIcon icon;
+	private com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroClass displayedClass;
+
+	public void appearance(com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroClass cls) {
+		displayedClass = cls;
+		icon.appearance(cls);
+	}
 	Image bg;
 
 	ColorBlock fill;
@@ -74,6 +83,7 @@ public class TalentButton extends Button {
 		bg.frame(20*(talent.maxPoints()-1), 0, WIDTH, HEIGHT);
 
 		icon = new TalentIcon( talent );
+		displayedClass = Dungeon.hero == null ? null : Dungeon.hero.heroClass;
 		add(icon);
 	}
 
@@ -215,6 +225,7 @@ public class TalentButton extends Button {
 			toAdd = new WndInfoTalent(talent, pointsInTalent, null);
 		}
 
+		((WndInfoTalent)toAdd).appearance(displayedClass);
 		if (ShatteredPixelDungeon.scene() instanceof GameScene){
 			GameScene.show(toAdd);
 		} else {
