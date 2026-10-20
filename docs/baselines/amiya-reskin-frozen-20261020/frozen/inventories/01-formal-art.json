@@ -1,0 +1,1702 @@
+[
+  {
+    "path": "art-source/library/current/amiya/armor-ui/class-armor/export.png",
+    "bytes": 420,
+    "sha256": "f5ccf9a56577e58634675da1f33306ab02fcd47ff01bdf1bf23b3736430739c2"
+  },
+  {
+    "path": "art-source/library/current/amiya/armor-ui/class-armor/frame.json",
+    "bytes": 588,
+    "sha256": "7b0430e6e26dba56317badd89f13e17cc05797b1243f8f5238dc5bc5ec3b74e8"
+  },
+  {
+    "path": "art-source/library/current/amiya/armor-ui/class-armor/source.aseprite",
+    "bytes": 633,
+    "sha256": "c2d3ed8f93ea55ccaf6f5a84a1233100f172d22c1def54d8b14cbd68933c6e99"
+  },
+  {
+    "path": "art-source/library/current/amiya/armor-ui/elemental-blast/export.png",
+    "bytes": 378,
+    "sha256": "e9434e70f7eb760eb0d0ef9e9707e25d3f7c228fcc615cc7ea4fe2466b2d8c6b"
+  },
+  {
+    "path": "art-source/library/current/amiya/armor-ui/elemental-blast/frame.json",
+    "bytes": 596,
+    "sha256": "27b421b1ef24b90d25c194c8b99328d76712431ee3cfebd0458a1c1a14f248fd"
+  },
+  {
+    "path": "art-source/library/current/amiya/armor-ui/elemental-blast/source.aseprite",
+    "bytes": 588,
+    "sha256": "f337fe0c1a6ae78c052d790fa252fd35d6de2d38a04d9004d8bd0ea9e9a5557c"
+  },
+  {
+    "path": "art-source/library/current/amiya/armor-ui/manifest.json",
+    "bytes": 5533,
+    "sha256": "aa5cf1befb52f5360a7bede1d9e8c9ca9501510b89e2fde33b50a87cf1768804"
+  },
+  {
+    "path": "art-source/library/current/amiya/armor-ui/warp-beacon/export.png",
+    "bytes": 285,
+    "sha256": "e3a6ca6c36a3d5453f974b60f1beba0c3c5c1153f4a4f24346c6701a08fdd6c9"
+  },
+  {
+    "path": "art-source/library/current/amiya/armor-ui/warp-beacon/frame.json",
+    "bytes": 588,
+    "sha256": "86262880cd26ed00aa39e5baaebfc208cab7df0eb354dba9bfbdcb19e1b0478a"
+  },
+  {
+    "path": "art-source/library/current/amiya/armor-ui/warp-beacon/source.aseprite",
+    "bytes": 547,
+    "sha256": "3895f9d0b361baf289b40093c84c2552bb5252df97567e8ac59135a6def3d696"
+  },
+  {
+    "path": "art-source/library/current/amiya/armor-ui/wild-magic/export.png",
+    "bytes": 224,
+    "sha256": "5cf66142636904a5e77949a10de289372ff4d0097683ee8f124854da85b4d45c"
+  },
+  {
+    "path": "art-source/library/current/amiya/armor-ui/wild-magic/frame.json",
+    "bytes": 586,
+    "sha256": "d92b50a902b44d166f5449539e15d581ab85995889c3c8427bb03d445159121e"
+  },
+  {
+    "path": "art-source/library/current/amiya/armor-ui/wild-magic/source.aseprite",
+    "bytes": 550,
+    "sha256": "e4909f1024bd0c6ba1a84864c3c8d8a9eacf30b416dcb48fcb852019b14c5269"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/arts-impact/animation.json",
+    "bytes": 1459,
+    "sha256": "5229fdc1177103ec59e6dfe12865a1850ed8908fb6063371c7002fc3a384827d"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/arts-impact/atlas.png",
+    "bytes": 444,
+    "sha256": "b45e72c6dc84363f3b14926f92ea4bbbf0364840516361643a4511ce388abc91"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/arts-impact/frames/00.png",
+    "bytes": 111,
+    "sha256": "101741a14270e3726809663e74a8cbb70955c41c9716cf6d739182f4f122de97"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/arts-impact/frames/01.png",
+    "bytes": 254,
+    "sha256": "05106cd20195aa635bdabeede727be84ada618cb65e684bec9ec8b353550e320"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/arts-impact/frames/02.png",
+    "bytes": 223,
+    "sha256": "d8bcecaf114982f335157e976a3cd03bfcd9cb0aa6dc4460ec53a01d714876c2"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/arts-impact/frames/03.png",
+    "bytes": 112,
+    "sha256": "5d4a248c83d230c06390409bae50706b05cf79e763f785791f3ab177ac882b85"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/arts-impact/source.aseprite",
+    "bytes": 825,
+    "sha256": "587607d8b2ab39883777ec81152c0dab0d59bcd146f4065b144dc558e08a8efa"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/arts-projectile/animation.json",
+    "bytes": 1478,
+    "sha256": "4174bf3ca1ed45431373743710c6171511435e11aa047db50de2e7be211a16b8"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/arts-projectile/atlas.png",
+    "bytes": 353,
+    "sha256": "bc17bd4914557e214fd5f0bb6696986c693ae0ae4a2131d8b932ea02520057b3"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/arts-projectile/frames/00.png",
+    "bytes": 145,
+    "sha256": "7cf7fb8c9b83d86104e05f9b8385a71d46aa6e87f9a9c36d9a82dae916395821"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/arts-projectile/frames/01.png",
+    "bytes": 164,
+    "sha256": "cd360e094c882822eadaac7836fdc3b8a7fa4e7927a17f9652bb6f8b1dfa7092"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/arts-projectile/frames/02.png",
+    "bytes": 166,
+    "sha256": "2c3a6e00e259f44746b6a0456d6802df058ddfa2a70f7e523e4a09bf0a15ff12"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/arts-projectile/frames/03.png",
+    "bytes": 140,
+    "sha256": "f6d225f43e591cde30041ecd427f90036a595f62b961088b4d14e5f7657c7792"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/arts-projectile/source.aseprite",
+    "bytes": 719,
+    "sha256": "afebdf1355c8ecc38e9038c26bf2da8adc1e67c23b55ac592e3db5348b0dd08c"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/heal-return/animation.json",
+    "bytes": 1462,
+    "sha256": "94810f13feedd355b6c8b34e2da47972b1579a4a749d2b7252bc6c56a76959f3"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/heal-return/atlas.png",
+    "bytes": 227,
+    "sha256": "27841852b585bbb465aee81c7edbfcf9c54e27ea644885c31fb0713a2b7553c0"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/heal-return/frames/00.png",
+    "bytes": 126,
+    "sha256": "062a54ee815ba607cd2333df88e85393d552f6dffe406a9d39a81c34eab7a8f3"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/heal-return/frames/01.png",
+    "bytes": 114,
+    "sha256": "8951a0c9190154d28759e80eed5f6729d093a6bacae4da51b67aa0d8fe01b234"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/heal-return/frames/02.png",
+    "bytes": 112,
+    "sha256": "4df06a07fb26389d94cd69c182afb875e26355d4bae47fc3faaa8d3cbd637db0"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/heal-return/frames/03.png",
+    "bytes": 106,
+    "sha256": "6758918ee5d451f7d6b3c5f12d7b63aac71349df1986037594f62704ba658447"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/heal-return/source.aseprite",
+    "bytes": 638,
+    "sha256": "ec92c2b98015e20503417dda8d8a2712e15aad1f62d2c19bb6adf26713c56cfb"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/manifest.json",
+    "bytes": 7664,
+    "sha256": "f4c53c911314bb7ed3ba62d6a6e0dcd913a82296f23dee90e465d680e63a7e17"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/staff-release/animation.json",
+    "bytes": 1468,
+    "sha256": "749890c7f5461693dbb4682acf04f173dc8e89c7d88655016fe9bbefabc2283f"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/staff-release/atlas.png",
+    "bytes": 189,
+    "sha256": "09c586a773aced94f4f00c023252e21c7bbe68d75164e5e7a4ae4bfac665e273"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/staff-release/frames/00.png",
+    "bytes": 102,
+    "sha256": "d81800515e2eef477379d442d03f025c44171dcf84963679215c8e57d60674a1"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/staff-release/frames/01.png",
+    "bytes": 123,
+    "sha256": "d5e57c9a3dc11f0c7d696b4ad93297c5dca1606ab2e0aedce3d16524d84964ca"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/staff-release/frames/02.png",
+    "bytes": 119,
+    "sha256": "3885e55c4a4d42076a7def56c73ddc685f42cd60c901d521e4864ad17568f753"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/staff-release/frames/03.png",
+    "bytes": 92,
+    "sha256": "0babb25d3eb452d7d5cf792b64b5de480192400c3c6ddf41faec15184d8fa4a5"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/staff-release/source.aseprite",
+    "bytes": 631,
+    "sha256": "a7eaa5350c9468d22e3c1a17dbc4ec2278c75f5bb2060afd32aaafc397a632f2"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/sword-arc/animation.json",
+    "bytes": 1448,
+    "sha256": "bf1454272f9eae8933f356529d482b9feca2b337124765f6ef7d06878e2a0084"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/sword-arc/atlas.png",
+    "bytes": 232,
+    "sha256": "94af4f10fee914f075dcd40c3d7f3935ac2bda6fbf7114d3ca48e26d705bc119"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/sword-arc/frames/00.png",
+    "bytes": 104,
+    "sha256": "241f66649fa1bd51ad1639ea4b6af558ae1801212b2bdb87ebc850ff51b88b4d"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/sword-arc/frames/01.png",
+    "bytes": 152,
+    "sha256": "f84edb0b4915433da55ee5e7089e87381db12709dd5d3e151b87c60750a0aba2"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/sword-arc/frames/02.png",
+    "bytes": 134,
+    "sha256": "29c09b8bb2339a0f48d5626e9e63fbe6eff19736f9a536a36226682e010194a8"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/sword-arc/frames/03.png",
+    "bytes": 101,
+    "sha256": "2effc0c196a79c009b520a6aebc62e5e46dff04706b77615505aca058d3e4b45"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/sword-arc/source.aseprite",
+    "bytes": 641,
+    "sha256": "7ca5b642040d1bbe71e9bbad5faf7df1ea3279e0cdf86b6446b53e8b73e0aabf"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/sword-impact/animation.json",
+    "bytes": 1463,
+    "sha256": "e196e5733cc6a470fff8cd08ecddeff26f2bb86bbd86e3679f4e5a4038707c7d"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/sword-impact/atlas.png",
+    "bytes": 202,
+    "sha256": "89c0e505c72b643cfd9cac4473ebc7f72fef1f14922a835bd92c946fd133def2"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/sword-impact/frames/00.png",
+    "bytes": 116,
+    "sha256": "995056046aca7034c79c59153047aaa0ea7d3bff5fd79c761a05dcf605fe5d6b"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/sword-impact/frames/01.png",
+    "bytes": 135,
+    "sha256": "fb01a761129de6f512a244ed5bce03dc9586bdd5c3522d35f40251f6c37d45b0"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/sword-impact/frames/02.png",
+    "bytes": 104,
+    "sha256": "143e0730eb6ff83dd5bd86bb73684ad5c7d3ef59365bef8db4e35e4de8cfc8d6"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/sword-impact/frames/03.png",
+    "bytes": 95,
+    "sha256": "baf75bd478b55ed7d4998eb9a5bd36a031afc4474ef2b06475311bacbfa7f5cf"
+  },
+  {
+    "path": "art-source/library/current/amiya/effects/sword-impact/source.aseprite",
+    "bytes": 642,
+    "sha256": "74af97754b15281fcbe5eb882338840996080ea02d6446d804a5c53102881d93"
+  },
+  {
+    "path": "art-source/library/current/amiya/icons/guard/export.png",
+    "bytes": 341,
+    "sha256": "65e173f8f8753eb1c2803a21e9dbf0b7e70cf6cc255c6f5cc6fcc3366eb53493"
+  },
+  {
+    "path": "art-source/library/current/amiya/icons/guard/source.aseprite",
+    "bytes": 512,
+    "sha256": "4341e0b44e65e7c6fa847754c0d0f2ae98ae7313b5637c2fd23d1a0fc72e2cc2"
+  },
+  {
+    "path": "art-source/library/current/amiya/icons/medic/export.png",
+    "bytes": 351,
+    "sha256": "19c5a9981e538b76bf20cf9e1cec69046a0799eff6df82b4720e3a1afbee6314"
+  },
+  {
+    "path": "art-source/library/current/amiya/icons/medic/source.aseprite",
+    "bytes": 470,
+    "sha256": "1cda0257a683228bf3d5fccccfdab63704faaac6095ae0cd476e535e8aebc225"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/caster-focus/animation.json",
+    "bytes": 594,
+    "sha256": "8276219a99028b206d1b522f1fcc32b84e9385a6db6a4cd4befcacc1db13c33f"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/caster-focus/atlas.png",
+    "bytes": 342,
+    "sha256": "4782eb5a617f6b5b48a367083bc596625908738d99370b6a4ff150c03a577a25"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/caster-focus/frames/caster-focus.png",
+    "bytes": 292,
+    "sha256": "7d97ae2f3fb5fc007caf1e79d38972293fa61a79f96548dae3dc32db8a20e833"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/caster-focus/source.aseprite",
+    "bytes": 485,
+    "sha256": "c89c664338b89480f3756b40148e8e98ff2ef039fb773f9ef55c877385befdac"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/charge-feedback/animation.json",
+    "bytes": 600,
+    "sha256": "af1953c3be83a40ca7e2e0bdec94b639d8b9333a18f305858ddd9e8d6b587a95"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/charge-feedback/atlas.png",
+    "bytes": 179,
+    "sha256": "27b8dda265491a30c00cb810edccac21829b66cd0c3d951732c77ee127736cfa"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/charge-feedback/frames/charge-feedback.png",
+    "bytes": 178,
+    "sha256": "6b5978a2699c0f7f54f7e8aaaa2bcc15046fe643b74f21e215f36aabea22da44"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/charge-feedback/source.aseprite",
+    "bytes": 403,
+    "sha256": "506e19da009bdfbab1c9d04eff58d2dd7166919c34b954122c28016898a4b33f"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/charge-insufficient/animation.json",
+    "bytes": 608,
+    "sha256": "f39d2a17a95ead7993d393990c68558dd2fcc0b98f655e86bc0b05c10628764f"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/charge-insufficient/atlas.png",
+    "bytes": 255,
+    "sha256": "a9dbc4d0467d62c427101437d91ac910cfb8bb231c901a9c6d390bd3bf047a41"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/charge-insufficient/frames/charge-insufficient.png",
+    "bytes": 235,
+    "sha256": "fde9961d755dd36a942384433c6b0b7f543f3368544e1205a4859c56a56a6e46"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/charge-insufficient/source.aseprite",
+    "bytes": 408,
+    "sha256": "147fe5e03f1e62e3304e8f8719a1434b71b67d07fbafc6aac483139bc36334f9"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/civilight-item/animation.json",
+    "bytes": 604,
+    "sha256": "29b37ee21ba81dd13bbfba59be45788c645dd6e8d3827ffbc63aecb8118f51d1"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/civilight-item/atlas.png",
+    "bytes": 278,
+    "sha256": "14a00c13fdfe1218a4d28cf91f171fb3675a565dcf089f28847975455d25c618"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/civilight-item/frames/civilight-item-00.png",
+    "bytes": 254,
+    "sha256": "73c2e56be52b2c285358651bf6c70050b2cf2d8f26ba6bb852ec07e655d0e110"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/civilight-item/source.aseprite",
+    "bytes": 460,
+    "sha256": "793bc33095371a045b233c42574940614b203c27c2df238d900a899c0d12ed6d"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/civilight-use/animation.json",
+    "bytes": 1449,
+    "sha256": "f2b51575c52dda22669447e0324e70ebdb4185cb5c5929b4beba685d74de590b"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/civilight-use/atlas.png",
+    "bytes": 750,
+    "sha256": "e5f4915fc79949d4a5a49b31a757072c8a7c31729fd69d37ee3d098702b6a0b4"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/civilight-use/frames/civilight-use-00.png",
+    "bytes": 190,
+    "sha256": "2207bb333dbdda81233d965b2799a1956c1f870551305b5cc4f51e4efa0edf85"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/civilight-use/frames/civilight-use-01.png",
+    "bytes": 334,
+    "sha256": "7f64f544123e9ebb1a9768ce7ce31ee87d03a608efd136ebceedae6c555a1eca"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/civilight-use/frames/civilight-use-02.png",
+    "bytes": 335,
+    "sha256": "77910919b7a14d0db5ce6e3551f8087638ccac6f35120874346165e5d08c991b"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/civilight-use/frames/civilight-use-03.png",
+    "bytes": 143,
+    "sha256": "a208dc2800025c397d0f53b3035dae629c6045dae81a4439835c521eb9670f77"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/civilight-use/source.aseprite",
+    "bytes": 1029,
+    "sha256": "f327a1565a0433839e71908c7a609eea92f6a6d35380f1db2b54efcf419add68"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/echo-item/animation.json",
+    "bytes": 594,
+    "sha256": "28a6a388dd724f3364a1722df54a243d3bf2d40c76f3141ad408f507726c75e8"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/echo-item/atlas.png",
+    "bytes": 294,
+    "sha256": "fa8008abd4f24991dcabf0b2404de0682515253e1ca9e5ab549fb9c1fcb6ea30"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/echo-item/frames/echo-item-00.png",
+    "bytes": 253,
+    "sha256": "fe4f9d330bf8dad62b86095b3e54fdc65a683a9f37e2c075d53e3d88970711fc"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/echo-item/source.aseprite",
+    "bytes": 435,
+    "sha256": "eb5ee0c54c56d1d9c1391cced1fa4c18d375256de99dd5b57d6f8b4c2315ca17"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/echo-use/animation.json",
+    "bytes": 1425,
+    "sha256": "7dbff831037916d34d3f18259dc74d72a1fff760011e63c43e7942976dd14b77"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/echo-use/atlas.png",
+    "bytes": 657,
+    "sha256": "0003c75505e91d5d76ba4dc0e7460e56be018158e4b251537e8a1a6b3c7c6407"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/echo-use/frames/echo-use-00.png",
+    "bytes": 226,
+    "sha256": "898a5994f26040fef07a73f3b190134230a32cbd07c5aa3e7184cb788575bbc0"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/echo-use/frames/echo-use-01.png",
+    "bytes": 274,
+    "sha256": "f729df458437b9d7db7e2e3e1602fa8ad5d3b9f967141d691ddd113179cc0794"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/echo-use/frames/echo-use-02.png",
+    "bytes": 292,
+    "sha256": "31cf3af4176364c535217c2ce35de3cfae625fcb6605220a8410c28c3b0f3ff9"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/echo-use/frames/echo-use-03.png",
+    "bytes": 165,
+    "sha256": "f7db86801f318fe43be4dfbdf0cfdb4d869b6f9bfa9d8a62014d27a2b297608c"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/echo-use/source.aseprite",
+    "bytes": 1007,
+    "sha256": "450e195272888c538154072a93191ebc6f2e643c1b4db12c650c1dc0373093a6"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/guard-sword/animation.json",
+    "bytes": 592,
+    "sha256": "44e5a49591d58d5a64b64c1ce12da4564614447451ef1f5c3d718f326ac5cf2d"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/guard-sword/atlas.png",
+    "bytes": 209,
+    "sha256": "56dd8b72e2d9ee842d64ae50ce105cb66add95c9474e6ac79a0d6cb5ed31ab82"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/guard-sword/frames/guard-sword.png",
+    "bytes": 191,
+    "sha256": "542b4a1bb07f5e9f5dfe85b6f4aaaca1185b602da3ba42f2a5936c79d24650e5"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/guard-sword/source.aseprite",
+    "bytes": 398,
+    "sha256": "9fa17c9bdd247a1ab16b480017fcb9149033a2ce9042fa21bbbefd72758a50b2"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/imbue-transfer/animation.json",
+    "bytes": 598,
+    "sha256": "9fe118c0d4d260cdfef632b3053a89ad2aa342c4a729b015afba7e2aadb4cc6f"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/imbue-transfer/atlas.png",
+    "bytes": 263,
+    "sha256": "a7ebf7997f55a04899cb2b3f4b21e18c0b25f1dfcde2ea10156d7f661b82e3d2"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/imbue-transfer/frames/imbue-transfer.png",
+    "bytes": 223,
+    "sha256": "7c25e690edfdd5b9bff0085fd42a642f06cf1db8dd563737b29cdb0bce066fb6"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/imbue-transfer/source.aseprite",
+    "bytes": 437,
+    "sha256": "cbcdb880132be3fe4d8726e7b093e54dc855cf9e9c8764ab10338a5179e26f94"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/manifest.json",
+    "bytes": 9224,
+    "sha256": "26c8f48bf923c8c14c8bec102c03520e0cb47b77987736d2984ce04d9c16811b"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/medic-staff/animation.json",
+    "bytes": 592,
+    "sha256": "d4506c0d936247e7e3b1ca4e542b24720367842fe41fc938c5719683ef275386"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/medic-staff/atlas.png",
+    "bytes": 144,
+    "sha256": "0ed2d54e676e37c0b74d89f7d8df62e7370f9fb5d59293a6658b7ea457e668fd"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/medic-staff/frames/medic-staff.png",
+    "bytes": 132,
+    "sha256": "ccf0fe3c373e22999ea329ab0017e8014862a3b4f9dd4f5fe181f5812c09292e"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/medic-staff/source.aseprite",
+    "bytes": 349,
+    "sha256": "42b9e735003c676f3f0fb273cc21e4deca6e901ebef9855fc1e9f33e9e80259b"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/soul-mark/animation.json",
+    "bytes": 588,
+    "sha256": "ddc233e5640c3af57e969d0aef5016f4ae5b8ba1271569fcc93dd22afecdbf8a"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/soul-mark/atlas.png",
+    "bytes": 214,
+    "sha256": "2db3886a19a12e25fb6752b7c612597519dd687d4d38823b1c10a7086044405d"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/soul-mark/frames/soul-mark-small.png",
+    "bytes": 112,
+    "sha256": "059c00795db743d2a5a2861cba22cea1abe32ca9d415917f3ed3c323fb70ab23"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/soul-mark/frames/soul-mark.png",
+    "bytes": 201,
+    "sha256": "8e6d7dd552dccbb988ad15c29b6d7a95ecaaa39a17ff38533210820651d2b1de"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/soul-mark/source.aseprite",
+    "bytes": 368,
+    "sha256": "f0a62c1a1c7488492b0014bef7b89e54b5524bbf34cee8d21bd0badc7c706645"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/soul-mark-small/animation.json",
+    "bytes": 592,
+    "sha256": "e3fb8f86c713da3c0211903dbfbfb44e8838abc34be25ec7d82e81371c33a61e"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/soul-mark-small/atlas.png",
+    "bytes": 111,
+    "sha256": "12a5b06969f177f46221d9d4ee995bbb02eade31f2791e07739259b069d7e88d"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/soul-mark-small/frames/soul-mark-small.png",
+    "bytes": 112,
+    "sha256": "059c00795db743d2a5a2861cba22cea1abe32ca9d415917f3ed3c323fb70ab23"
+  },
+  {
+    "path": "art-source/library/current/amiya/items-status/soul-mark-small/source.aseprite",
+    "bytes": 332,
+    "sha256": "21e779b8fb792158d471c564e16bb7745f8b82cbba8909f451b8d3f5f51d41b4"
+  },
+  {
+    "path": "art-source/library/current/amiya/portraits/base/export.png",
+    "bytes": 732,
+    "sha256": "5493d8c062bd3f312a4b53c1b92cc3a1e3da3567df66574f367582ba24c2cf0d"
+  },
+  {
+    "path": "art-source/library/current/amiya/portraits/base/source.aseprite",
+    "bytes": 2631,
+    "sha256": "b7d61b95c793ba72a82d27beb548db32b0e284c13cd02f0968303d4408735a76"
+  },
+  {
+    "path": "art-source/library/current/amiya/portraits/guard/export.png",
+    "bytes": 870,
+    "sha256": "22e9b9f3c4bd3865d0f114a49f628521e89431896dbd33d46c76a3f595c36e43"
+  },
+  {
+    "path": "art-source/library/current/amiya/portraits/guard/frame.json",
+    "bytes": 590,
+    "sha256": "9fe40f6848603e3cd25a6725d13c16a4176683debcf3a74ee3a735671ccee147"
+  },
+  {
+    "path": "art-source/library/current/amiya/portraits/guard/source.aseprite",
+    "bytes": 1052,
+    "sha256": "45cd642e3e74c2a8c1c39b05a7ee35bc07fcc859f241fb1d29c5c82d176a3ef4"
+  },
+  {
+    "path": "art-source/library/current/amiya/portraits/medic/export.png",
+    "bytes": 972,
+    "sha256": "1a3263f16433bfa477ca78f0655304b558b4dc0f2b9b6d420e1bd716fc8f0b39"
+  },
+  {
+    "path": "art-source/library/current/amiya/portraits/medic/frame.json",
+    "bytes": 590,
+    "sha256": "04c5d4ed3b80ec01f5604252f5fd8a6129fb983c43b8af5ec04d6641007ff097"
+  },
+  {
+    "path": "art-source/library/current/amiya/portraits/medic/source.aseprite",
+    "bytes": 1186,
+    "sha256": "44dfc67b40d5d446cc8dae3e859e159219059e5631de7832f84180fdd49fe74f"
+  },
+  {
+    "path": "art-source/library/current/amiya/splash/export.jpg",
+    "bytes": 183954,
+    "sha256": "f71c6fbce642be6f44c489746bd1ca91c3c18a9ab8eff0d15c02f00e96a6272e"
+  },
+  {
+    "path": "art-source/library/current/amiya/splash/high-resolution.png",
+    "bytes": 696869,
+    "sha256": "72c211baadda93aeba42e22579b75375a56a1171d82758f560a27d235af08b63"
+  },
+  {
+    "path": "art-source/library/current/amiya/splash/source.aseprite",
+    "bytes": 3752182,
+    "sha256": "8add8132f9df8ac6770545ce78b7e37c0f58a00b08e368472927b41525c9f76e"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/animations.aseprite",
+    "bytes": 18922,
+    "sha256": "85f1b11b15bf69796b2fa3f2b3d6b0a59d0b94da83f3c69ed70564899d8c35bf"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/animations.json",
+    "bytes": 1763,
+    "sha256": "2d744719159bf7d93159d560ded64646d74060f08bd7160e321ad98df428c135"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/atlas.png",
+    "bytes": 31820,
+    "sha256": "37d5cfa02506f7529c62da3476444347801c1f5433a1ae19054350e5be73899c"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/00.png",
+    "bytes": 514,
+    "sha256": "439bda8030e015496b4d461e983061e9eb0c6561f34857cf991140424092b71a"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/01.png",
+    "bytes": 520,
+    "sha256": "b0f956b2d323d0ad2bbd5c9a1cbd19da1fc54384c33548b4daacadf7db8bef16"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/02.png",
+    "bytes": 543,
+    "sha256": "c8b1f2aa192618c089f8f3570ed25a952dfed1babf6800d6631119706e54c404"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/03.png",
+    "bytes": 524,
+    "sha256": "7d2e4dbd190cfd8de0a6fefbb45ec8aae52f518b7d77345961bf3196366301a8"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/04.png",
+    "bytes": 552,
+    "sha256": "475be286a29c39968551a583e689da9a9d5c423c6712d9a66fe810f58f8e7e44"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/05.png",
+    "bytes": 529,
+    "sha256": "17a97c92bf527d79281f00fa82b3db11ed09bb3a5842a661e91570426a09ceca"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/06.png",
+    "bytes": 543,
+    "sha256": "5f6eb88479ffdb94a2120e8a263012e24bbbf195fc661e55eabd4a5f7e66387e"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/07.png",
+    "bytes": 493,
+    "sha256": "c242f3302022a61b67306311a108e9e3561b6a45b08de2aa8a07719bcf7fca97"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/08.png",
+    "bytes": 456,
+    "sha256": "36dfb52b2a98a8b3d91ceb681528970e56f9f497848a0ed93ca66f437fe444f3"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/09.png",
+    "bytes": 434,
+    "sha256": "e7c21ae5ec0a90272deaac10620e7253082a780dd576fcd5a749222779090a5f"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/10.png",
+    "bytes": 413,
+    "sha256": "e39206ff5f2b33022bfa391f9bf4eb08b018f0d2dec6b95c71ad071563ff9e4a"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/11.png",
+    "bytes": 335,
+    "sha256": "3459d511961f3a677b2ed09c8dd36584528d63a9b4d0b4352106caee02a752a7"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/12.png",
+    "bytes": 228,
+    "sha256": "33ba06a918d0893c01c72f4503c778f737b51d0176b253633d04a3581b55a557"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/13.png",
+    "bytes": 474,
+    "sha256": "e438910eaa7fdd7efbea33ec1ce4d0a2a18e20c2c8833f568a6ecd1c9cf38660"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/14.png",
+    "bytes": 583,
+    "sha256": "bbc420ed574be0d7ed6c0ebc350a9ff88ed343d61c24753f049a34021e167648"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/15.png",
+    "bytes": 545,
+    "sha256": "0bce0ed9a48a7a834a963387f57f56f0494625864c4dccc704a775f7fdb18671"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/16.png",
+    "bytes": 470,
+    "sha256": "f591fe7b3b65f76417cf569ac36dc56816be0cfcc93b9e838675458e91bddf93"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/17.png",
+    "bytes": 389,
+    "sha256": "16eb7d0f18c331b5489a4bccd37943f9e20b0afdda31dac334986e513b0a4cf9"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/18.png",
+    "bytes": 450,
+    "sha256": "c33c9f365601c8d0d289621edc473e5d6fc4fed7647c53dfd404e3ca224aa9b2"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/19.png",
+    "bytes": 461,
+    "sha256": "0812b26266ef0f82416b8e414f7347fc6cbb087afb0e9772251fe2d40b2077bc"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/frames/20.png",
+    "bytes": 422,
+    "sha256": "9ffbaa0a996b70b3c7a3df64a325fd597caee5f275d69d6ba8732d62367c312d"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/previews/attack.gif",
+    "bytes": 3837,
+    "sha256": "8f892b14b772bf251e6b618c749e3be0a645e97a3dd920217a6077d7adcbddd0"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/previews/attack.png",
+    "bytes": 2134,
+    "sha256": "8e11756bf46c27829590be80f71f0afb223e5184d8fb73eead3e43be08bb9f42"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/previews/die.gif",
+    "bytes": 5428,
+    "sha256": "b9a56f6b21e7c865a6bf62f63a2b216d1eb0f9ecbf91748daf11047b20fbdc3c"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/previews/die.png",
+    "bytes": 2151,
+    "sha256": "826d8babb796b05763a430dd774df1283d691ed240c9dc8afb309e3d67811d24"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/previews/fly.gif",
+    "bytes": 981,
+    "sha256": "e14c0cd7b607d9493f4c3320518fcb355b07db3f13308febf3d9f5bdc47aebc9"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/previews/fly.png",
+    "bytes": 450,
+    "sha256": "c33c9f365601c8d0d289621edc473e5d6fc4fed7647c53dfd404e3ca224aa9b2"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/previews/idle.gif",
+    "bytes": 3857,
+    "sha256": "bf2aea0cb7022cd176a1d0b83327cff3c82085c0dd12848bb9cdab1511e5311b"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/previews/idle.png",
+    "bytes": 1977,
+    "sha256": "a0672058083b901827833ab6af941ac0a6bf3c83f7123c40c35662d2e1e62dad"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/previews/operate.gif",
+    "bytes": 3697,
+    "sha256": "1c496ac61f9af53a5666bb94ec0a0787d4b92b8a02255ded1069223891c92f1b"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/previews/operate.png",
+    "bytes": 1716,
+    "sha256": "31638e3b663cc7a43057ed6fe2430428519313c64b4b3716cb2a74fe0aa4342c"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/previews/read.gif",
+    "bytes": 2796,
+    "sha256": "afc022fbde44c1da81e829b721638896855581894ca4e28adfff06f77cb90ef5"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/previews/read.png",
+    "bytes": 1320,
+    "sha256": "13d049054388ffcb5346cc0d4c19c3c9b17309e68dd8fb8c46c8c3ab9d3c01f1"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/previews/run.gif",
+    "bytes": 5766,
+    "sha256": "f86fdfc6a96da4c0c2ef99e614b8135fe8c7c555b62a34ae362c626d24cbc6e4"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/previews/run.png",
+    "bytes": 3129,
+    "sha256": "0d8c65f1f4adfff1ce22926a1de2c8fd8ebedcab9572d726c28546be096415c0"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/previews/zap.gif",
+    "bytes": 3837,
+    "sha256": "8f892b14b772bf251e6b618c749e3be0a645e97a3dd920217a6077d7adcbddd0"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/previews/zap.png",
+    "bytes": 2134,
+    "sha256": "8e11756bf46c27829590be80f71f0afb223e5184d8fb73eead3e43be08bb9f42"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/base/source.aseprite",
+    "bytes": 10477,
+    "sha256": "e0ddb67f9a154f59a69e4cffb7a65e24135457c6d5158260f9acce98702124fe"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/animations.aseprite",
+    "bytes": 20493,
+    "sha256": "ed86bde9a1f230dc43a2b34412915e30daa0775d4a6831d5ae927427e29ed3ec"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/animations.json",
+    "bytes": 1763,
+    "sha256": "2d744719159bf7d93159d560ded64646d74060f08bd7160e321ad98df428c135"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/atlas.png",
+    "bytes": 32156,
+    "sha256": "3338647d5e7e0c666d1edf4ce951b391c1e2f04c57842bc2b6db988f9e09bac8"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/00.png",
+    "bytes": 527,
+    "sha256": "e0aa45bc3339b61dc4fd0fe3e7028ca0a4abec9598004910ca989e6fa1f7bc6a"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/01.png",
+    "bytes": 531,
+    "sha256": "8f90a58791a300292a3e1a36d760d823d64bf157c24708918339f1987fc339f9"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/02.png",
+    "bytes": 558,
+    "sha256": "3af6ea8171514af44452d070c50f7c9ece1bd97b603b4a49215a9e04f1847bb3"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/03.png",
+    "bytes": 541,
+    "sha256": "eabd0808a9e37a450f07ffa6fe7696c4009c629bc0ceb81f7518f9f03b3733f7"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/04.png",
+    "bytes": 573,
+    "sha256": "24ee450a6b7b0346dcc21b28c5aadce3ecbebeb91c60bdae435198e613eb7cc5"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/05.png",
+    "bytes": 541,
+    "sha256": "bf1f9330835c3a0ff28a115d651cccf66a778396431e2600d8ef01e3d0900d29"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/06.png",
+    "bytes": 567,
+    "sha256": "93b03adbe3cc9b323794cebe11ee69fb4c9dfa44c908411a675b0d3b501fcab2"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/07.png",
+    "bytes": 490,
+    "sha256": "36377ecc33424184a2f0d6de3daa9917ef97c2d99b4ba1109ed65402cccd59da"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/08.png",
+    "bytes": 454,
+    "sha256": "811bc53f72050cdc641bd286b4691b25e38d4806aeaabb2cc6bf54e895146ff2"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/09.png",
+    "bytes": 428,
+    "sha256": "6be5b3a8a44cad07b3b547b82a0241d8cb81b60bd6480798562c4a0f5e8ea5b9"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/10.png",
+    "bytes": 424,
+    "sha256": "74a84025c5f98bb08fc0810c7f522f6fb28490db7e3d1c444667a098f0e6ff7d"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/11.png",
+    "bytes": 374,
+    "sha256": "1b9f9b0137036f57a81d1658eafac83e460d5b136235b0fd565f42b0bb173852"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/12.png",
+    "bytes": 266,
+    "sha256": "ccd49a345b8270ac681dd0c4aaaf63470defd6d1ebc3da38b6262c4c477d0a29"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/13.png",
+    "bytes": 482,
+    "sha256": "9c59d4bfad2612b24c6ee0773a88a4c58779c8278862ae5673bea865669df935"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/14.png",
+    "bytes": 574,
+    "sha256": "76259e6358cab3480268b1238716a3cce0ee5c18d2006e62a3ce1c059849017a"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/15.png",
+    "bytes": 597,
+    "sha256": "a391c60aa8995384bb76058141792a35d78b908727cd043746229daa14f5899a"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/16.png",
+    "bytes": 461,
+    "sha256": "5bca3b687c2cd2bc093b283f3b6d8bcad0d7c24b2f6e91f01a4dba313eb20c97"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/17.png",
+    "bytes": 413,
+    "sha256": "96ada9410ba5ed301c3ffe6607c28867dfc0452b1de0430c24e31e4108eb84aa"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/18.png",
+    "bytes": 479,
+    "sha256": "9aca9e64c1b4c611ac93fea4ec3f490d030757511943ce09000545248d795bfb"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/19.png",
+    "bytes": 469,
+    "sha256": "017eeeb7a325f7bc30f48d539fc3114c08ade3ab09ac031b881449db65edce6b"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/frames/20.png",
+    "bytes": 435,
+    "sha256": "6b867919a2648e877697dd7780f1c37d14acf82e4e0605558eb1c237e783a212"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/previews/attack.gif",
+    "bytes": 3854,
+    "sha256": "631d8edf270444f1002b82ce124992ee771b2bf5102f3cf56a3244c6550495e2"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/previews/attack.png",
+    "bytes": 2152,
+    "sha256": "d3267d7d9ad2dd0d8a0a295df8d6d2e58874b11ebb4916d3f2db8d586598f30d"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/previews/die.gif",
+    "bytes": 5494,
+    "sha256": "0fd6a3672000e4db9bfa7b990580b37eb4531af186cada26427e02ff52eb0da8"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/previews/die.png",
+    "bytes": 2128,
+    "sha256": "7d44d3d388076b9480d91ed79ca3fcb73dcac4dd2acf7524bc8ee963ba0a44de"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/previews/fly.gif",
+    "bytes": 991,
+    "sha256": "b8b1bb53c8a0257c1830c66e04a0a33db7fa8fe5f06569ab939655b13db6d25c"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/previews/fly.png",
+    "bytes": 479,
+    "sha256": "9aca9e64c1b4c611ac93fea4ec3f490d030757511943ce09000545248d795bfb"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/previews/idle.gif",
+    "bytes": 3897,
+    "sha256": "2d58dd42a98242ef71bcc6f34fd4e4e4ab2b54dc3257c9ebf8922127e6d40d16"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/previews/idle.png",
+    "bytes": 1913,
+    "sha256": "7b414197af11b2fe077c068ea8ca608f0e288cb36f6bb84b073879770c0efb28"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/previews/operate.gif",
+    "bytes": 3715,
+    "sha256": "029c12e23223d7c451d28da62550593252c0948d63b0aeccdd3388df9d1ae225"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/previews/operate.png",
+    "bytes": 1723,
+    "sha256": "77ef290b15e465e7cee6634ae03194796721d34dcf42e295395f192b5a2e3875"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/previews/read.gif",
+    "bytes": 2819,
+    "sha256": "9d00ef5accebb6060dc4065e01570258d6aea8c54f5f38b01d1f79515ee9fb7f"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/previews/read.png",
+    "bytes": 1334,
+    "sha256": "20773c4d35bab17eff7a3ffaa23287bd812d5056ccb038fd8a9f37c082f0b340"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/previews/run.gif",
+    "bytes": 5813,
+    "sha256": "229e54058f8d60d1d959dbb9ae7c0931345a4a7f43f6bd6ff6631407a425fc99"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/previews/run.png",
+    "bytes": 3191,
+    "sha256": "3ea424ae3f84ff5f219321ed2f9f0cdd3a981b8ee6b41ab1d3fc01aac560dccc"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/previews/zap.gif",
+    "bytes": 3854,
+    "sha256": "631d8edf270444f1002b82ce124992ee771b2bf5102f3cf56a3244c6550495e2"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/previews/zap.png",
+    "bytes": 2152,
+    "sha256": "d3267d7d9ad2dd0d8a0a295df8d6d2e58874b11ebb4916d3f2db8d586598f30d"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/guard/source.aseprite",
+    "bytes": 11169,
+    "sha256": "45e08c3944b6776c2bb97a89d993da8fa68dddbafa989b5d0988030d5cb06029"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/animations.aseprite",
+    "bytes": 20734,
+    "sha256": "d5c5fb35a8bf01aa16ed7d2073dcb20ab90659b50f3eb12da08467e6f412b0e0"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/animations.json",
+    "bytes": 1763,
+    "sha256": "2d744719159bf7d93159d560ded64646d74060f08bd7160e321ad98df428c135"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/atlas.png",
+    "bytes": 35112,
+    "sha256": "7d335f8997efff9f905fa2578078c125893357f8a970af5898e92dc565417a51"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/00.png",
+    "bytes": 551,
+    "sha256": "4dd1e3a9d84d104a6a10b9d130fb93206b045a1dc08e08459a8c4f05d579f757"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/01.png",
+    "bytes": 549,
+    "sha256": "892bf3d072132643e862a2fd39abcd0f943e6be722e463a9555622e1c47187de"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/02.png",
+    "bytes": 589,
+    "sha256": "1bba23696c0e0aeacc72d6b6d42d58f9d89be1e006376189a8473a4bbbdc0fc4"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/03.png",
+    "bytes": 580,
+    "sha256": "bf2662ad9860e1f4e460d37c60559e69b33110606601587e51b2312a6c2d2329"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/04.png",
+    "bytes": 583,
+    "sha256": "e3b8d03add8c39fb472fe8fb4832f2e6741e4a6d59d600b0e6b87233d0593b8c"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/05.png",
+    "bytes": 570,
+    "sha256": "e929bb335346955ca92c8a74a11b6bfa0330043c5e6939bd95ee019dab474d12"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/06.png",
+    "bytes": 590,
+    "sha256": "f2bd1663aa81439a0599c921809a247f592d7ebebfaa4123136da03cecc1b176"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/07.png",
+    "bytes": 507,
+    "sha256": "7f2b1936f763682ff481b1591ea8bdddb03e24b58d683104d26b2d754fb58a92"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/08.png",
+    "bytes": 500,
+    "sha256": "9cffa8bfef7062afe9af017563ba0888c43383638154da7b9f64b26aa0bbb593"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/09.png",
+    "bytes": 441,
+    "sha256": "5ebbbaf46a498a15aae07b13dfb386b20dc95085c4e1ff32f724756f355e056f"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/10.png",
+    "bytes": 397,
+    "sha256": "085c813fa066784bbe3458d69cfca82a88f283c30700dc93625d34000c92c492"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/11.png",
+    "bytes": 361,
+    "sha256": "0acbae704a1d69a975ce7039238cd6944bf883c06ed8bdce209bbfb57048b3a9"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/12.png",
+    "bytes": 259,
+    "sha256": "24a68c02c805ce0d806171c93b7c3d29ff3250e69ad5f0a24c35d5c58f0d05fa"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/13.png",
+    "bytes": 509,
+    "sha256": "36e5c73f349b389a48cdf76eab91be5c3022db5c0990539fe62f1af0aa10a5a8"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/14.png",
+    "bytes": 599,
+    "sha256": "611de95cae51fcf2717d7d8b4a533e40d984109b125ebddee453a6cd918f674b"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/15.png",
+    "bytes": 563,
+    "sha256": "734c96901df451872a84ad7ce26d699e9fa0631419bf9e575a423f39ff32c9b7"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/16.png",
+    "bytes": 501,
+    "sha256": "962374514a830b77f7b4d173ba73ef019c1b515a11ea8f0fd50de81769df1dde"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/17.png",
+    "bytes": 410,
+    "sha256": "839bc93c1b832ecef3b1819f0bad4f55462df74d93592e5ed031f7bba037b97e"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/18.png",
+    "bytes": 489,
+    "sha256": "59e12b0c02963846b9b48ff128e52127ec28b4fcf39d89d4a4993c0d323af94f"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/19.png",
+    "bytes": 491,
+    "sha256": "7ecd2df4cc32ee467f1a0e97faab065dff12d13d78467c10da600905401cb069"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/frames/20.png",
+    "bytes": 469,
+    "sha256": "ce3290fe067b7825cd9c548288802715d81d94bb19dcbb9770eb4d4d669303c7"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/previews/attack.gif",
+    "bytes": 3876,
+    "sha256": "c5a225c1b94b29434db67b75fcb80d78677bd2d963fa3a97f4d2aa155724f0c7"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/previews/attack.png",
+    "bytes": 2216,
+    "sha256": "5446febbefaa16c2f1e21cdb3a687746a96a45cd347771dbc35224752e913427"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/previews/die.gif",
+    "bytes": 5480,
+    "sha256": "9fa4a3c917ce753cc8e51c90ca12c57ed573568f63b198ce0767ef730c2fb57e"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/previews/die.png",
+    "bytes": 2236,
+    "sha256": "f148ddeaec5abab9e96ab7fe1a8839898ce24537291b6ae4d3efcfff9b62bd05"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/previews/fly.gif",
+    "bytes": 1000,
+    "sha256": "d23c783120efd857512f91a4891fa0ad1a0b40d90e5db933752a48f94cf19962"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/previews/fly.png",
+    "bytes": 489,
+    "sha256": "59e12b0c02963846b9b48ff128e52127ec28b4fcf39d89d4a4993c0d323af94f"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/previews/idle.gif",
+    "bytes": 3909,
+    "sha256": "7a57bbb902be9d099f3ea101803d5f0da16e839196771b15ee6c6f21a7f49f7f"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/previews/idle.png",
+    "bytes": 1977,
+    "sha256": "09bee886563b4ad0316b54df8984ee442c55fccc667249761ea3268f27b0bc99"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/previews/operate.gif",
+    "bytes": 3714,
+    "sha256": "bbdffdcf7deecc6c735f2eee5650aa8c67dbb7186782a336cead04806c82ef7b"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/previews/operate.png",
+    "bytes": 1763,
+    "sha256": "2577a62493675aa00bb70fb4a5a4d2b1fb16ddd0f0bbb0c90cc047da95bf1c01"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/previews/read.gif",
+    "bytes": 2843,
+    "sha256": "8f9b4063d71d74dd82baa92a7c702f36f135fb6e46e8133d00b69b7282e68e38"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/previews/read.png",
+    "bytes": 1422,
+    "sha256": "eb67d16c3314b8ff100476aa49074c12643b2223b6125eea08f46d089c71fae9"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/previews/run.gif",
+    "bytes": 5859,
+    "sha256": "0284e292868bcdc2e7beb1c74cb2c7cedfc6976ffc60913a26b0add20a00ce74"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/previews/run.png",
+    "bytes": 3344,
+    "sha256": "bbb8c65aba4b098d2c3785d8a21b32f63d87e937f612158bcd5bd693834f44cf"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/previews/zap.gif",
+    "bytes": 3876,
+    "sha256": "c5a225c1b94b29434db67b75fcb80d78677bd2d963fa3a97f4d2aa155724f0c7"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/previews/zap.png",
+    "bytes": 2216,
+    "sha256": "5446febbefaa16c2f1e21cdb3a687746a96a45cd347771dbc35224752e913427"
+  },
+  {
+    "path": "art-source/library/current/amiya/sprites/medic/source.aseprite",
+    "bytes": 11315,
+    "sha256": "6dda32e70a4e2b5a132a842bc42b23c008136879cae6fe48e291750a8200fe6e"
+  },
+  {
+    "path": "art-source/library/current/amiya/status-original-blue/lingering-magic-16/export.png",
+    "bytes": 213,
+    "sha256": "4dedcacff45306996bc3ea120291eec851d0a13a34655b23f11bbac424a97e80"
+  },
+  {
+    "path": "art-source/library/current/amiya/status-original-blue/lingering-magic-16/source.aseprite",
+    "bytes": 366,
+    "sha256": "50bb4b50b2431781601dd0e9f12912dd26d3cbc41735d87f4981e9ad3ab8a52d"
+  },
+  {
+    "path": "art-source/library/current/amiya/status-original-blue/lingering-magic-7/export.png",
+    "bytes": 107,
+    "sha256": "d4f06199bf5f9c546e79423cfaef5343036f9b7c4e0c22e402077417b3d28e77"
+  },
+  {
+    "path": "art-source/library/current/amiya/status-original-blue/lingering-magic-7/source.aseprite",
+    "bytes": 290,
+    "sha256": "c8e5586fca9761f62bc02f48db574c829675a407fefbe74b782b2de4011d1627"
+  },
+  {
+    "path": "art-source/library/current/amiya/status-original-blue/magic-charge-16/export.png",
+    "bytes": 172,
+    "sha256": "51e22a2d0ee0a8bc045d8442811fddc909019577a78ede56be3777238ea9d0bd"
+  },
+  {
+    "path": "art-source/library/current/amiya/status-original-blue/magic-charge-16/source.aseprite",
+    "bytes": 352,
+    "sha256": "ed71985576f60bdd14db1b2fd40d54f789d59f79e1f0cf717cf1a1b89ee43aea"
+  },
+  {
+    "path": "art-source/library/current/amiya/status-original-blue/magic-charge-7/export.png",
+    "bytes": 116,
+    "sha256": "e1d5e993b039b42a6f46526993fd862f2c9bbdff550d7713422de17cbbb34fce"
+  },
+  {
+    "path": "art-source/library/current/amiya/status-original-blue/magic-charge-7/source.aseprite",
+    "bytes": 309,
+    "sha256": "0093ef784d0ff340be2f04f5f3ab4981fc1b298d64eef861b976c565d43212f9"
+  },
+  {
+    "path": "art-source/library/current/amiya/status-original-blue/manifest.json",
+    "bytes": 5237,
+    "sha256": "1dd386ad2a8816c2c2eb368c0b78a6de981bc4ab8c8d050168e2320a7fcab9d3"
+  },
+  {
+    "path": "art-source/library/current/amiya/status-original-blue/scroll-empower-16/export.png",
+    "bytes": 194,
+    "sha256": "9c53021ee63743ededb0e7a193e640bdc3e975d890f0b15cacd3050da277f4f5"
+  },
+  {
+    "path": "art-source/library/current/amiya/status-original-blue/scroll-empower-16/source.aseprite",
+    "bytes": 347,
+    "sha256": "a9f8f846ed90866566ac16418f20d58a8f890316438e9e025bd44e85493e3acb"
+  },
+  {
+    "path": "art-source/library/current/amiya/status-original-blue/scroll-empower-7/export.png",
+    "bytes": 112,
+    "sha256": "486b0645055424b11821741b7fd751831126a25c7e6425c4dcaea370cc44dd36"
+  },
+  {
+    "path": "art-source/library/current/amiya/status-original-blue/scroll-empower-7/source.aseprite",
+    "bytes": 305,
+    "sha256": "e77a59149eb99e235bb065b5f081b64d7333471319c2efa47894e7f038544b7f"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/effect/beacon-idle/export.png",
+    "bytes": 354,
+    "sha256": "b3301a09bb59aae32f27d5ff6808b53bf2a0a96c49f7c776c595e2a2a7d3d125"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/effect/beacon-idle/source.aseprite",
+    "bytes": 846,
+    "sha256": "fb4e78735b6b8044772bf95e8cb8f7e70bcaf058f63f0cec37f216fe404c7979"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/effect/warp-arrive/export.png",
+    "bytes": 382,
+    "sha256": "abeb4c3a8e42b844a740732bcb9df1f8bdaa3b71676e9c45e4fdbd9385fd4762"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/effect/warp-arrive/source.aseprite",
+    "bytes": 720,
+    "sha256": "32a099145dd5ecaf9dedc92926f948e3ab70902d775b67292f8fbd0101828674"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/effect/warp-depart/export.png",
+    "bytes": 391,
+    "sha256": "7eb170afc9ab6567e6114d3395ff037031330191043e4b7d0f31c2da2023444c"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/effect/warp-depart/source.aseprite",
+    "bytes": 682,
+    "sha256": "747382280bba354ed0759754a46cb833da86673575b3ba9dee579986abe63279"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/manifest.json",
+    "bytes": 42409,
+    "sha256": "c97be6c75af74c6736e31113451c448cd84494cb937da1f9ffe0c4e2f96281d5"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/status/artifact-recharge-16/export.png",
+    "bytes": 273,
+    "sha256": "9cba534a63dc9f14a8bbd74d3418037fdeb526a35412b09c752c416dc678b379"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/status/artifact-recharge-16/source.aseprite",
+    "bytes": 329,
+    "sha256": "5991a2f8dd95edd940f24d65c500ea193994a96942164f8f54516508a7fab61f"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/status/artifact-recharge-7/export.png",
+    "bytes": 123,
+    "sha256": "ad0730061c89e9917d237fe4de263539c50eccae9091e92e20b830bf80616cd2"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/status/artifact-recharge-7/source.aseprite",
+    "bytes": 251,
+    "sha256": "8df12e7e9add22ca45f6e459c41345b621f0a59256905c818004b87272bb2f09"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/status/barrier-16/export.png",
+    "bytes": 160,
+    "sha256": "ffbe5f08277609ea091da9d89da9087d45fd98a8f52ae3b52f2417c5ae94873f"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/status/barrier-16/source.aseprite",
+    "bytes": 275,
+    "sha256": "cce57d654d49fa5e4d398b25750d1d78310c9333110fe116f29f4d2ea5fa5acc"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/status/barrier-7/export.png",
+    "bytes": 121,
+    "sha256": "fc3ea3847c4b853151db111d9f401bd310d6eb10d4a758261ca4a6cecec7a5da"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/status/barrier-7/source.aseprite",
+    "bytes": 252,
+    "sha256": "7a4ed387a46100bd7e0ed9d8bd42ed665944c452c966fc11c28dfb77f636a4d1"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/status/recharging-16/export.png",
+    "bytes": 156,
+    "sha256": "972bac85959bbe15a7fed33c820450303ec43e6796c848fea621f9e482c4225c"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/status/recharging-16/source.aseprite",
+    "bytes": 269,
+    "sha256": "3a34720336fdb99fa6824facb866ec6f1a32264b986615eff165c5ebd24a9d17"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/status/recharging-7/export.png",
+    "bytes": 115,
+    "sha256": "de02eb105416ea0e57ef527c1d6a6c6debf230348993b31db674ceb7cdaec5ee"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/status/recharging-7/source.aseprite",
+    "bytes": 246,
+    "sha256": "70417ccd3a02e138dcd568094f26bc7556101edae5cf1c8578b008587d066be8"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/status/wand-empower-16/export.png",
+    "bytes": 188,
+    "sha256": "d01d65486d1f2ed7a6b67d36eb1b1c48de69c4bfc015d0e34fe39c81c13dd8f4"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/status/wand-empower-16/source.aseprite",
+    "bytes": 286,
+    "sha256": "1916eea947d011491ca86ae9f6cf9e2a1e4dcca58ff00d30e3e3c3ebf8f45c88"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/status/wand-empower-7/export.png",
+    "bytes": 112,
+    "sha256": "9d4006906430d61b07cdbf966f2d86aea7fdf3a25d2b25e479907af9d7626408"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/status/wand-empower-7/source.aseprite",
+    "bytes": 249,
+    "sha256": "9d2c1f4f1f4adc1789254889abde8c26f4922045d43199a2b55a57da6078e219"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/ally_warp/export.png",
+    "bytes": 509,
+    "sha256": "654b51b681592412bf1e14f52c5caf2046c756e70ff3d5d552609fe75732ac6c"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/ally_warp/source.aseprite",
+    "bytes": 544,
+    "sha256": "bf81c5c16465ac9c0f8725c8c7eefab03801e133fc9448af11024b5370de0276"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/arcane_vision/export.png",
+    "bytes": 263,
+    "sha256": "933dee967786ffac3cf8066d9fe7c8800429bdefc444c64354f5e4cad72d86ec"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/arcane_vision/source.aseprite",
+    "bytes": 341,
+    "sha256": "b8673e945a74eb0851c0c13271602918807076396af9cc5ab94d887e76dfcf38"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/backup_barrier/export.png",
+    "bytes": 254,
+    "sha256": "caa521881fac26dd78b99254036b6ddab8eac8eef4af9849e87bbaeb046cfb2b"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/backup_barrier/source.aseprite",
+    "bytes": 335,
+    "sha256": "641351beafc0a0158f26e13b3f022f7d635bc5d3615f794a20100351ddb014e7"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/blast_radius/export.png",
+    "bytes": 284,
+    "sha256": "2cf86e2b4ffe5cec8fbc6deff4ac248ae929993df184081e95dd117f11364c97"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/blast_radius/source.aseprite",
+    "bytes": 343,
+    "sha256": "ca184d4d4aaa494c8bc63eb6888e775dbd2a3f39053de78ed1b2a6f0c4b12230"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/conserved_magic/export.png",
+    "bytes": 259,
+    "sha256": "0fe14bc487c1dbebf0e86b802426931047235728d1736862c803efe7d7efd83f"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/conserved_magic/source.aseprite",
+    "bytes": 360,
+    "sha256": "4ee4c800850a0f39efd9dc9436bc0cc407031efba3e3e3ad6ce58c877367c564"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/desperate_power/export.png",
+    "bytes": 201,
+    "sha256": "98d6200679fd356eab5a992337db67906b65fedcb19cd87af4db84e7caa64064"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/desperate_power/source.aseprite",
+    "bytes": 296,
+    "sha256": "24cbaaa25754f11ae1b4628b0ca8b06055a6fee57ffd6a1710a2d3ca3ba4be1d"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/elemental_power/export.png",
+    "bytes": 328,
+    "sha256": "6fa5c2f1508f15ccbe221524093d6253928b4baa936aeaffddb50c219dcc19d6"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/elemental_power/source.aseprite",
+    "bytes": 385,
+    "sha256": "2248ae1a2d98c852a551e83ff0ab35fa3c54d69a0dffeb1560b031a5e03da2f0"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/empowered_strike/export.png",
+    "bytes": 182,
+    "sha256": "a8bfc01bbc184e253b6eb8e2fd1ed31b9aefb2238e834af8f99c4d66ad21dc50"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/empowered_strike/source.aseprite",
+    "bytes": 320,
+    "sha256": "a3c6422a0e83bb8e8ae86510fd33f366c62ff8d43f692e03d9b50ea7c52f3cf8"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/empowering_meal/export.png",
+    "bytes": 246,
+    "sha256": "0c8f20018e5e914ae6cd38655226b42667743f79694897845b6ca16957569a8e"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/empowering_meal/source.aseprite",
+    "bytes": 316,
+    "sha256": "c91f684f54c8188d12972cacbaf10cd037bfcfc4eb096896cf7bc103b4b3968d"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/energizing_meal/export.png",
+    "bytes": 336,
+    "sha256": "06810a44c66216d197161422c02b0b520e60fe209c41d66022d06efbbec0209b"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/energizing_meal/source.aseprite",
+    "bytes": 385,
+    "sha256": "6f5e758b3eda921efae72fb138069927a733cfad5272a5b34bc1ab55805c18a2"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/excess_charge/export.png",
+    "bytes": 272,
+    "sha256": "e8be3f31668e9db54757c551d559f48af48fb1cab78993d6cacf9ef0e3c409d0"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/excess_charge/source.aseprite",
+    "bytes": 359,
+    "sha256": "94a151a649408718eb578d030802d849290cff29cd9c3b210948c37768ba98a3"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/fire_everything/export.png",
+    "bytes": 319,
+    "sha256": "7ae763d5d428f854bb3d1c438f09ecb369c06a7fdfb7abb0af505a699debf673"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/fire_everything/source.aseprite",
+    "bytes": 384,
+    "sha256": "8d337993b8d734d736eba37764226a40ae3c1b08802a2fda39f93117152e9b2a"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/heroic_energy/export.png",
+    "bytes": 262,
+    "sha256": "27e0a0f5460478d2b822b84d894eb52dd3a3697c59c4fc39fb251aa07ba98ae1"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/heroic_energy/source.aseprite",
+    "bytes": 346,
+    "sha256": "d57205cc02c8a9fd46010c4485027f38611f47922fbc2240515fabd7e121bf46"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/inscribed_power/export.png",
+    "bytes": 348,
+    "sha256": "7ba394986600ac001b6d424d9eccb7c87edbb6b886aedb4eed99482f241f72d6"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/inscribed_power/source.aseprite",
+    "bytes": 369,
+    "sha256": "6aecd6bb45792c180b677fce665781994cae9a3d04e85613ee8312d22f3ea30b"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/lingering_magic/export.png",
+    "bytes": 271,
+    "sha256": "a43f038284b70a4202f9f8b5548772abedbc163801e6ed7331e5172f5fef4cf4"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/lingering_magic/source.aseprite",
+    "bytes": 376,
+    "sha256": "d50c827dfc0462848a9bbf8f3572a3e27eca2157b755cb2f0b0771944cd1f4aa"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/longrange_warp/export.png",
+    "bytes": 227,
+    "sha256": "65e08ed8b8cf2995f124895b261f6869a874cb73d1fec7e91c9773e38907a698"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/longrange_warp/source.aseprite",
+    "bytes": 317,
+    "sha256": "62c6996aac0ecdad8ac1baad491039e2677d16f0981528ad0ab93a21db410b2f"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/mystical_charge/export.png",
+    "bytes": 353,
+    "sha256": "2660d13c13d32b2679ffe875f99bf13b76987a8cf994f9eaa517840101194fb9"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/mystical_charge/source.aseprite",
+    "bytes": 413,
+    "sha256": "dfbf9e4acd527af9c86d663584a689fb8b6f9e9ac734d7642447ac97e9a75bbd"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/necromancers_minions/export.png",
+    "bytes": 321,
+    "sha256": "bb45e6fba0fe958d12fc00c15dcd3c33350d84cea82957e793c332804ef05772"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/necromancers_minions/source.aseprite",
+    "bytes": 384,
+    "sha256": "17056750b28aa4898987faee20392ba35e6641c1a226b81373a2d06032f396d3"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/reactive_barrier/export.png",
+    "bytes": 341,
+    "sha256": "0884b2da081c266ec0fdc2b58f6b05b09cf9c5c7880abfbbb97d9f1e51eff964"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/reactive_barrier/source.aseprite",
+    "bytes": 367,
+    "sha256": "0c6ce87e333a7023479097a328facd853f371a0f792e20732f5bcf4e9d0c05fa"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/remote_beacon/export.png",
+    "bytes": 258,
+    "sha256": "64a08191aea87e1e80e1ca9b9fd4a3f7a7fdfa3ca54bed1af30a8657c19b04d9"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/remote_beacon/source.aseprite",
+    "bytes": 332,
+    "sha256": "a556d15e13b16e36ea24175c4bdeab2f31e060fbcbed0854b5c6ad1789222d84"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/scholars_intuition/export.png",
+    "bytes": 234,
+    "sha256": "46599d355ee87556cb4469af506367acb3ccfa93fb167152750f36239afab1bf"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/scholars_intuition/source.aseprite",
+    "bytes": 352,
+    "sha256": "26ab7bb60a32fd1efaeb5eded896015207d58912e2b803bedd3d3777e92c5ae0"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/shield_battery/export.png",
+    "bytes": 272,
+    "sha256": "8f1660f6621c287ee38d8fd7fd8af89d2791cdccb8a4bb7e33d8e9254e372d2b"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/shield_battery/source.aseprite",
+    "bytes": 343,
+    "sha256": "04c32cfb6bdb471266dd6141583a2137a36d2fa8c9155bad68626d41bd425302"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/soul_eater/export.png",
+    "bytes": 287,
+    "sha256": "632dc414c9ac303e61a2f7f0c56a963d3e058dc825a3954101b1d1d1a587fd52"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/soul_eater/source.aseprite",
+    "bytes": 373,
+    "sha256": "765bb75fbfd6895b9887378ed3518daaba05f47b68ea2ce3966c5120e776a8bb"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/soul_siphon/export.png",
+    "bytes": 328,
+    "sha256": "028799da3b671ba5fce246ab0ae6844b30bb513596614cef8a1db91b1e540b19"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/soul_siphon/source.aseprite",
+    "bytes": 369,
+    "sha256": "ca94dc503488a6423ea15d0baef9c9a95019fe6527ec421ac28bdbbca11d891c"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/telefrag/export.png",
+    "bytes": 613,
+    "sha256": "87491df7ca11c04a674a794ba0a40eb79fc9f1cf5f7ec98e1269678ca670b5e7"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/telefrag/source.aseprite",
+    "bytes": 623,
+    "sha256": "0955c8076d431fc1a240b94628b238c38e6f52e2c71eb58a641384cd0b3fa5f8"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/wand_preservation/export.png",
+    "bytes": 328,
+    "sha256": "9adc188c5d0afa6e6fdeb5b258415ec2291c075c4a30f97fb85d4adefe7a4f7b"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/wand_preservation/source.aseprite",
+    "bytes": 396,
+    "sha256": "1825cb79c08d3ba428db2b9393fdfc8cc759ae1d6dce597f6c64ed472207a538"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/wild_power/export.png",
+    "bytes": 262,
+    "sha256": "1af710cf28186c68a26cfa2bb15ae940f477b8d00cd9a7e9c35198ddf86a8a27"
+  },
+  {
+    "path": "art-source/library/current/amiya/talents-status-beacon/talent/wild_power/source.aseprite",
+    "bytes": 333,
+    "sha256": "440e7f054eeb8fa0dbe17c0b16c5cdbef41166c5dc73d030714cab8a9e9a7174"
+  }
+]

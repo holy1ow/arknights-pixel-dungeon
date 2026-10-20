@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-20",
+  "status": "passed",
+  "archives": [
+    {
+      "name": "01-formal-art.zip",
+      "sha256": "f65a480590841fe6690ff3f73e344cd97b184d3fc145bf94a29fd274a596615e",
+      "bytes": 4979969,
+      "entries": 340,
+      "memberCRCAndSHA256": true
+    },
+    {
+      "name": "02-history-and-candidates.zip",
+      "sha256": "2685bbb9b70d52d60b17e3df7fded1edcfe386cbb740b9b9f5365b3d5f17e74c",
+      "bytes": 116130003,
+      "entries": 3252,
+      "memberCRCAndSHA256": true
+    },
+    {
+      "name": "03-verification-records.zip",
+      "sha256": "c0a9af92741b9a21967d1ba29215c9385f77477fb3b4aa768602f8b94ff390ff",
+      "bytes": 1313893289,
+      "entries": 18579,
+      "memberCRCAndSHA256": true
+    },
+    {
+      "name": "04-verified-desktop-runtime.zip",
+      "sha256": "c81afb872cecbf2ba9b22c73721c14bf77e02b53a9b377397c52dd5f03b792f4",
+      "bytes": 140173020,
+      "entries": 230,
+      "memberCRCAndSHA256": true
+    },
+    {
+      "name": "05-integration-source.zip",
+      "sha256": "afc8898faec690f845d6e5ea0952663d72b777570bf3605d79aae2d51786e11a",
+      "bytes": 66963461,
+      "entries": 2030,
+      "memberCRCAndSHA256": true
+    }
+  ],
+  "archiveEntries": 24431,
+  "originalFilesVerified": 24429,
+  "frozenMetadataChecksumRecords": 26,
+  "installedAndRetainedRecords": 69,
+  "sourceOnlyTintSamples": 6,
+  "selectedIcons": 35,
+  "T26": "v4",
+  "jarSHA256": "b06dc4117b431c5b2540000c932a468eedb78df3a4e68f50c5f823f5d45d71c2",
+  "diskDifferences": [],
+  "credentialPatternMatches": [],
+  "gameTestsRerun": false,
+  "previousGameVerification": "passed_with_stated_coverage",
+  "routes": 9,
+  "screenshots": 206,
+  "scope": "integrity and archival publication; no art/code/language/runtime edits"
+}

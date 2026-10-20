@@ -1,0 +1,31 @@
+// Compile into core's source set: no trainer project and no dependency cycle.
+def trainerEnabled = providers.gradleProperty('trainer').orNull == 'true'
+// Gradle keeps history by task path across both output roots. Its incremental
+// class dependency analysis can refer to the previous variant's deleted inner
+// classes. Full javac on changed inputs avoids that cross-variant stale state.
+tasks.withType(JavaCompile).configureEach { options.incremental = false }
+sourceSets.main.java.srcDir rootProject.file('trainer/src/common/java')
+sourceSets.main.java.srcDir rootProject.file("trainer/src/${trainerEnabled ? 'enabled' : 'disabled'}/java")
+if (trainerEnabled) {
+    layout.buildDirectory = rootProject.layout.projectDirectory.dir('trainer/build/core')
+    sourceSets.test.java.srcDir rootProject.file('trainer/src/test/java')
+    tasks.register('trainerTest', JavaExec) {
+        dependsOn testClasses
+        classpath = sourceSets.test.runtimeClasspath
+        mainClass = 'com.shatteredpixel.shatteredpixeldungeon.trainer.TrainerTests'
+        systemProperty 'trainer.home', rootProject.file('trainer').absolutePath
+    }
+}
+tasks.register('verifyTrainerVariant') {
+    dependsOn tasks.named('jar')
+    doLast {
+        new java.util.jar.JarFile(tasks.named('jar', Jar).get().archiveFile.get().asFile).withCloseable { jar ->
+            def prefix = 'com/shatteredpixel/shatteredpixeldungeon/trainer/'
+            if (jar.getEntry(prefix + 'TrainerBridge.class') == null) throw new GradleException('Missing bridge')
+            def enabledClasses = ['TrainerPanel.class', 'TrainerRoster.class', 'TrainerFlags.class', 'SnapshotStore.class', 'SnapshotStore$AfterInstall.class']
+            enabledClasses.each { name ->
+                if ((jar.getEntry(prefix + name) != null) != trainerEnabled) throw new GradleException("Wrong trainer variant: $name")
+            }
+        }
+    }
+}

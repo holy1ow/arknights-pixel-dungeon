@@ -1,0 +1,38 @@
+[
+  {
+    "path": "trainer/build-support/core.gradle",
+    "bytes": 1892,
+    "sha256": "0a0532b1ee607a89d7dc3fdb2203af608fd3cdfb40b4633760809b4bd1205bf9",
+    "reason": "Referenced by frozen build; omitted by original 05 archive; copied without edits"
+  },
+  {
+    "path": "trainer/build-support/desktop.gradle",
+    "bytes": 4575,
+    "sha256": "d1217006f1f7618198bbbbcbbbac7fc74c272b152f892ca215c885df34e5adcb",
+    "reason": "Referenced by frozen build; omitted by original 05 archive; copied without edits"
+  },
+  {
+    "path": "trainer/src/disabled/java/com/shatteredpixel/shatteredpixeldungeon/trainer/TrainerBridge.java",
+    "bytes": 933,
+    "sha256": "ec3bebf6988caf02392850013b95f239883fe58c9f3b4cb88e03ba109afb364d",
+    "reason": "Referenced by frozen build; omitted by original 05 archive; copied without edits"
+  },
+  {
+    "path": "licenses/json-20170516-sources.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/json/json/20170516/json-20170516-sources.jar",
+    "bytes": 59879,
+    "sha256": "b2da2fc161591725f6f3464027918d2e17a660867dd5f63f28bcb2c40a7e6e58"
+  },
+  {
+    "path": "licenses/json-20170516.pom",
+    "url": "https://repo.maven.apache.org/maven2/org/json/json/20170516/json-20170516.pom",
+    "bytes": 5671,
+    "sha256": "64c15543a3d5db279a20aeb0dfa034a2a79c2159f8cd401dea48ff0f234c18dd"
+  },
+  {
+    "path": "licenses/JSON-20170516-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/stleary/JSON-java/20170516/LICENSE",
+    "bytes": 1178,
+    "sha256": "f3d3f8af4c7f05e7638608debaf1ceab0a284ff0f0e492d06c861161c2f77080"
+  }
+]

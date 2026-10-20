@@ -1,0 +1,10 @@
+{
+  "id": "amiya-reskin-frozen-20261020",
+  "status": "frozen",
+  "date": "2026-10-20",
+  "manifest": "art-source/releases/amiya-reskin-frozen-20261020/manifest.json",
+  "index": "art-source/releases/amiya-reskin-frozen-20261020/index.html",
+  "amiyaArtEditsPaused": true,
+  "mechanicsChangesPaused": true,
+  "scope": "仅阿米娅；其他角色状态不变。历史development-status-20261018.json不是当前阿米娅状态。"
+}

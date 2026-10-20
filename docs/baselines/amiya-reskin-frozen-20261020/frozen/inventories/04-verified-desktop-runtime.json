@@ -1,0 +1,1152 @@
+[
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/.jpackage.xml",
+    "bytes": 210,
+    "sha256": "2f3e5525e8f36df9d7f356485a61285dbd65e08f6cb14006c421da45cc9b0b2b"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/core-4.0.2.jar",
+    "bytes": 4911990,
+    "sha256": "3542db7833e37791a02e3d5386381e39f1d27bddddb916b564d5cae7a5106a84"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/desktop-4.0.2.jar",
+    "bytes": 30073726,
+    "sha256": "7a98260e83ad7adb41fa226744784303d9216c772a57ca16d984e30642472209"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/gdx-1.14.0.jar",
+    "bytes": 2190780,
+    "sha256": "a305895e915fc5f59483de5d399a24a0ca62fe115015ffe8210c36e3d64f8126"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/gdx-backend-lwjgl3-1.14.0.jar",
+    "bytes": 149970,
+    "sha256": "de957af27ca1caffb778eda1a8d31b9835dc73f004701d1676eca33963072020"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/gdx-controllers-core-2.2.4.jar",
+    "bytes": 11886,
+    "sha256": "04da67627b1a3646ef8f214c91d296742a7c05597dbc2167aaab09cbdcc77470"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/gdx-controllers-desktop-2.2.4.jar",
+    "bytes": 51967,
+    "sha256": "8e390e59c6211ed23e0a6fd4018cefa37f8b9865dee69995699053496b801d6c"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/gdx-freetype-1.14.0.jar",
+    "bytes": 37813,
+    "sha256": "3ebfe753299e11834bc88cf3c4c0c2cc8b9c2435ac03e560b0a8764256582bb4"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/gdx-freetype-platform-1.14.0-natives-desktop.jar",
+    "bytes": 3145351,
+    "sha256": "485c2b25d91904b941434066f8102006924730c2c238d04872ae60a02eb739f7"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/gdx-jnigen-loader-2.5.2.jar",
+    "bytes": 9858,
+    "sha256": "df81f23cfd6785c52d35e108eeaa3930f559d4d2770a6102e75ca7bfa6f9f27a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/gdx-platform-1.14.0-natives-desktop.jar",
+    "bytes": 526739,
+    "sha256": "a8a8c9cccf5e9dd518256b3cdf5e6b689a5d696a14e0460af5b0cbc51db5f2f1"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/jamepad-2.26.5.0.jar",
+    "bytes": 3278737,
+    "sha256": "b0ef910ba531cadfe0418496a30d87cbac46021b062547f5b5947e035435711a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/jlayer-1.0.1-gdx.jar",
+    "bytes": 89845,
+    "sha256": "aabcdedc2e3fa41c4e138870523d743337f189931080630ba1a2285538cd00fb"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/jorbis-0.0.17.jar",
+    "bytes": 99701,
+    "sha256": "e067f29a3701426b67ed973036949c6e58ca5bb53eef7240b2e71e286d252a9e"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/json-20170516.jar",
+    "bytes": 57264,
+    "sha256": "813f37e4820f1854e8a4eb4f80df94bf1b1f2ec6c3b72692f23ab9a556256af6"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-3.3.3-natives-linux-arm32.jar",
+    "bytes": 89565,
+    "sha256": "70d3f748d45ac135832a9955ea519ca6fed3aa7d1d47eb6747cb87936846c941"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-3.3.3-natives-linux-arm64.jar",
+    "bytes": 91294,
+    "sha256": "397a79a5d8907286d4018d026cbc37358c53bbb6aabc3a1534f19ff23b7f8558"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-3.3.3-natives-linux.jar",
+    "bytes": 114627,
+    "sha256": "e663738c519a06f6d659882fa8e4e09af7f10e921929ee5cc54a7587f62ed4c9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-3.3.3-natives-macos-arm64.jar",
+    "bytes": 48620,
+    "sha256": "50ac9ca09e59f051dcacf4dc0b2145e9e916e6ab14633b75694231bfe59314a8"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-3.3.3-natives-macos.jar",
+    "bytes": 60543,
+    "sha256": "0294ee4e2dd7ef6befaffafc0bb99a2a89b76070b5cd8302f3d75624b6786d03"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-3.3.3-natives-windows-x86.jar",
+    "bytes": 139653,
+    "sha256": "22a22338262554eb5e133c8441deeedac84da082eb3bac84d032da4faf369749"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-3.3.3-natives-windows.jar",
+    "bytes": 165442,
+    "sha256": "5ee63a19187efe5bb8747fd24f7b13257db348df5ad641113a3695e43f213959"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-3.3.3.jar",
+    "bytes": 785029,
+    "sha256": "dc9c7b2d48e8396d68895f8902ffa01e46253de44dfe927533ff09457ebfeec4"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-glfw-3.3.3-natives-linux-arm32.jar",
+    "bytes": 112560,
+    "sha256": "dd9d4d6714fc9359d47dda0d47c1d8c8bbe49901b7f77c23fca7a9c9bfc29858"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-glfw-3.3.3-natives-linux-arm64.jar",
+    "bytes": 122159,
+    "sha256": "cc6139c83f799d0e1484ea4c201c8ce6d57c8c7a244a5217116a806b1eb4179b"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-glfw-3.3.3-natives-linux.jar",
+    "bytes": 118478,
+    "sha256": "b8306062b17741f34269088751421f1ac21a597bfbbd0c6c61226301cde744b8"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-glfw-3.3.3-natives-macos-arm64.jar",
+    "bytes": 138288,
+    "sha256": "b9451d67bc17c906fb8282a5522f258b022f30569e0b62da001d590a17b45e19"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-glfw-3.3.3-natives-macos.jar",
+    "bytes": 140884,
+    "sha256": "a89b55362aec9e5a3bbd1364601bb85b147db6bae68891ca9a232d6cfb2d55ec"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-glfw-3.3.3-natives-windows-x86.jar",
+    "bytes": 157123,
+    "sha256": "9646555d405f0d2a3a9576b506f57c1632af64f69a8ae58cb0448ae04a9c7824"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-glfw-3.3.3-natives-windows.jar",
+    "bytes": 166368,
+    "sha256": "98155b451dfc6f585089dec77a12f9c05789c4dceb8da472f9d308160101a70d"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-glfw-3.3.3.jar",
+    "bytes": 135546,
+    "sha256": "bedc757fd2b1b255146db26b74b9cbd1fcf5644b89b47b104fa721c741604259"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-jemalloc-3.3.3-natives-linux-arm32.jar",
+    "bytes": 178324,
+    "sha256": "e4833fc2621e2e73020573e629970920f1cd1df984fe1c9cedbb3348dcc3786f"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-jemalloc-3.3.3-natives-linux-arm64.jar",
+    "bytes": 209315,
+    "sha256": "e383d5241c0d47f4012a753e0bfffe45afc30d006219b9bd8903756a103789b5"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-jemalloc-3.3.3-natives-linux.jar",
+    "bytes": 206779,
+    "sha256": "4e4a13d7015d42605bbcf7ef9faead46deac6409e4377a8ed4aea815f14634b3"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-jemalloc-3.3.3-natives-macos-arm64.jar",
+    "bytes": 141418,
+    "sha256": "63956ea246ff64aaa9ce0e1d6e3ccad686cfbf937d1fcd6cb8d5f44f6382160c"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-jemalloc-3.3.3-natives-macos.jar",
+    "bytes": 153131,
+    "sha256": "2024daa5c6aa4078664148b7390fb8b231f2370ea0e17d407894dba7e9e564ec"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-jemalloc-3.3.3-natives-windows-x86.jar",
+    "bytes": 148612,
+    "sha256": "d9b4e06e2a84205583fb05440d2238385a91cb01a060ddb1d376223ae225f14a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-jemalloc-3.3.3-natives-windows.jar",
+    "bytes": 180344,
+    "sha256": "9949c8e49998bd0c878d842884011f1383e2851005091e0b2bcf7b7671b848eb"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-jemalloc-3.3.3.jar",
+    "bytes": 43896,
+    "sha256": "e99e31269e6678a4bfc62ef24c50a481c01cbdd004861ece9a59ba12768c6516"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-openal-3.3.3-natives-linux-arm32.jar",
+    "bytes": 505618,
+    "sha256": "c725d17e1e4626c7f43b6f4d08a467496e091025e71f19f4fb1f3137c4da6e67"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-openal-3.3.3-natives-linux-arm64.jar",
+    "bytes": 592963,
+    "sha256": "abf392487b3587da89b655250008df4a360a2fd5e1ee00abd61f7f52915205a1"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-openal-3.3.3-natives-linux.jar",
+    "bytes": 573224,
+    "sha256": "9030fed928a71eac2fdf4ce1643cc4ec724d8710e3b437bdce750bdc9e982b2a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-openal-3.3.3-natives-macos-arm64.jar",
+    "bytes": 471012,
+    "sha256": "3992463a16a8df19f63117b0883ead0ed928dd4df017f55b5e4e12b7a270489a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-openal-3.3.3-natives-macos.jar",
+    "bytes": 519824,
+    "sha256": "8264ae32ac9f413c4f4501863c5f6e7576a6fdabdc5d052d3281bbacc3377f1d"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-openal-3.3.3-natives-windows-x86.jar",
+    "bytes": 638424,
+    "sha256": "852ca4e36b1fdfdd3efb6ce42f08b7d0f957b04c4bcfbd78057b0c799f399231"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-openal-3.3.3-natives-windows.jar",
+    "bytes": 698720,
+    "sha256": "e3da7c3db25c81db8d425ef1e3dbfa15000b040d669f008b0813c94333ac96c8"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-openal-3.3.3.jar",
+    "bytes": 110586,
+    "sha256": "ae0e82767cacf08921f578fba9d84753ddeb00ceada0510a2b4a882be28fbf95"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-opengl-3.3.3-natives-linux-arm32.jar",
+    "bytes": 59263,
+    "sha256": "05b1a25c3fb722975aa3bf2c88843723da6e1059a192d568ddefc01a457faa47"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-opengl-3.3.3-natives-linux-arm64.jar",
+    "bytes": 58625,
+    "sha256": "0b2b75327d47451634123348d55503ae03e51551b0c8879ae90c8e4b4e1a4f9c"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-opengl-3.3.3-natives-linux.jar",
+    "bytes": 80463,
+    "sha256": "d823a92c6a2810b5112da304dcc6abcd4cb102706f74f7e934a223cea2051250"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-opengl-3.3.3-natives-macos-arm64.jar",
+    "bytes": 42487,
+    "sha256": "f1b3f1de83f973abae3a4bc32db5b229ae5d55cc80dbbc5f7c841812fe20b5fe"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-opengl-3.3.3-natives-macos.jar",
+    "bytes": 41484,
+    "sha256": "4c1073d0e5ae99966d0ef1d6a7795758476d247d930fdc5ec1865e38cb847cce"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-opengl-3.3.3-natives-windows-x86.jar",
+    "bytes": 88612,
+    "sha256": "9d99d203de4e31286cae753a1dfb981367c93734f1944644ba71be521b3af2cc"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-opengl-3.3.3-natives-windows.jar",
+    "bytes": 101535,
+    "sha256": "f45e5f60596b03b2e3d8b98a123c855ebd0b5154c8155dc2a56b890ccc907477"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-opengl-3.3.3.jar",
+    "bytes": 929192,
+    "sha256": "5062da750e5f7ec89e27e8b67b7d40fa8c4b16890159e35f828116ce6c8eca1e"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-stb-3.3.3-natives-linux-arm32.jar",
+    "bytes": 154931,
+    "sha256": "fd6603a416ae50926203157b6a340e88f5fad06c808ef41cb035017139fe2f3c"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-stb-3.3.3-natives-linux-arm64.jar",
+    "bytes": 207418,
+    "sha256": "17f0cf1b8e522eea6b4b97c19070b39e54f5f87ed84fb89585747e40f905e1db"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-stb-3.3.3-natives-linux.jar",
+    "bytes": 231820,
+    "sha256": "c4489068ddc6dc44b103071943f801a2d076634d4b74db470927f84a308219e1"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-stb-3.3.3-natives-macos-arm64.jar",
+    "bytes": 183628,
+    "sha256": "b1f65875fd9ddd28097be6076029e2b8fab5ebc1626e21cef761611dfca715c2"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-stb-3.3.3-natives-macos.jar",
+    "bytes": 216456,
+    "sha256": "32937a352db4bac3e92aa1bbdae2988a958e4b907ab5b557764cba82db20ba97"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-stb-3.3.3-natives-windows-x86.jar",
+    "bytes": 227800,
+    "sha256": "46424e45459733b26c4a7b0dd2695209cb6938dafa3a9012c6a5682c94a2c40e"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-stb-3.3.3-natives-windows.jar",
+    "bytes": 261297,
+    "sha256": "d12ab866fe1169e924ac5b4d6bb7767ae7842a9fc8652798682c0069bb73fcf2"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-stb-3.3.3.jar",
+    "bytes": 120283,
+    "sha256": "0cff7aa46ea9d70fcc20857015293ea80fbf21adcac34600c84da9b81a44ca93"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-tinyfd-3.3.3-natives-linux-arm64.jar",
+    "bytes": 43864,
+    "sha256": "80d34e76d15c04951744148832908391da8b14f68a030b64b0b40702a37391d7"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-tinyfd-3.3.3-natives-linux.jar",
+    "bytes": 44192,
+    "sha256": "a076fa05a4d174762eab5852ee72c29d14ab10a5654f27fb00664ef1b52c0c05"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-tinyfd-3.3.3-natives-macos-arm64.jar",
+    "bytes": 42498,
+    "sha256": "6f7d979414651e343dc8b8b3faade0e2d9e4fdf99d565d5623e12d40dbae4a22"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-tinyfd-3.3.3-natives-macos.jar",
+    "bytes": 45865,
+    "sha256": "4465dd46fdf9309c0ce64c3529a0da6792fb6711c3281e8c5dba935e6a9bfc3c"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-tinyfd-3.3.3-natives-windows.jar",
+    "bytes": 130253,
+    "sha256": "02285911f1c881735fa4d0eb141ffeaafd9a2bb9349d98f7c1fb8a9cb49c0f58"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/lwjgl-tinyfd-3.3.3.jar",
+    "bytes": 13400,
+    "sha256": "ee0515054ee19a3f4088426fee9d879eb2ee657b07e5064e4e2c851f6adcf14b"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/offlineNews-4.0.2.jar",
+    "bytes": 1497,
+    "sha256": "f1ae7310b3d8d0304ed6298b8ed978c432c48136d4d600d7ab7479a0071e16a9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/offlineUpdates-4.0.2.jar",
+    "bytes": 1516,
+    "sha256": "7bb27fb9c8f5f19878f49a1980df4c1e51ef4da57928c224cb891eec499fb8ec"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/services-4.0.2.jar",
+    "bytes": 5327,
+    "sha256": "308d9917725f603c752acc5700e4c88001e647ce6b99cf2a0c9699b787913161"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/Shattered Pixel Dungeon.cfg",
+    "bytes": 4297,
+    "sha256": "8340040872c771b9c8ba50e81ecbef91ea271fd212f5912a22525a315b474292"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/app/SPD-classes-4.0.2.jar",
+    "bytes": 163767,
+    "sha256": "669ec34a600935fb8fbceff76f7aecd060cbcf3903e6e59601a6e7b3aa0124ac"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-console-l1-1-0.dll",
+    "bytes": 22072,
+    "sha256": "88ace577a9c51061cb7d1a36babbbefa48212fadc838ffde98fdfff60de18386"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-console-l1-2-0.dll",
+    "bytes": 22056,
+    "sha256": "c062477ad3bfdc57b0cc402179637a214dab5045c8d644592c7decca7d18aa50"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-datetime-l1-1-0.dll",
+    "bytes": 22056,
+    "sha256": "1bd81dfd19204b44662510d9054852fb77c9f25c1088d647881c9b976cc16818"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-debug-l1-1-0.dll",
+    "bytes": 21944,
+    "sha256": "591358eb4d1531e9563ee0813e4301c552ce364c912ce684d16576eabf195dc3"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-errorhandling-l1-1-0.dll",
+    "bytes": 22096,
+    "sha256": "d56ce7b1cd76108ad6c137326ec694a14c99d48c3d7b0ace8c3ff4d9bcee3ce8"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-fibers-l1-1-0.dll",
+    "bytes": 22072,
+    "sha256": "91d249d7bc0e38ef6bcb17158b1fdc6dd8888dc086615c9b8b750b87e52a5fb3"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-fibers-l1-1-1.dll",
+    "bytes": 22072,
+    "sha256": "fc9d86cec621383eab636ebc87ddd3f5c19a3cb2a33d97be112c051d0b275429"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-file-l1-1-0.dll",
+    "bytes": 26152,
+    "sha256": "1ca895aba4e7435563a6b43e85eba67a0f8c74aa6a6a94d0fc48fa35535e2585"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-file-l1-2-0.dll",
+    "bytes": 22056,
+    "sha256": "4cadbc0c39da7c6722206fdcebd670abe5b8d261e7b041dd94f9397a89d1990d"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-file-l2-1-0.dll",
+    "bytes": 21960,
+    "sha256": "93c624b366ba16c643fc8933070a26f03b073ad0cf7f80173266d67536c61989"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-handle-l1-1-0.dll",
+    "bytes": 21944,
+    "sha256": "39095f59c41d76ec81bb2723d646fde4c148e7cc3402f4980d2ade95cb9c84f9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-heap-l1-1-0.dll",
+    "bytes": 22072,
+    "sha256": "8f105771b236dbcb859de271f0a6822ce1cb79c36988dd42c9e3f6f55c5f7eb9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-interlocked-l1-1-0.dll",
+    "bytes": 22072,
+    "sha256": "53b25e753ca785bf8b695d89dde5818a318890211dc992a89146f16658f0b606"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-kernel32-legacy-l1-1-1.dll",
+    "bytes": 22080,
+    "sha256": "a9b13a1cd1b8c19b0c6b4afcd5bb0dd29c0e2288231ac9e6db8510094ce68ba6"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-libraryloader-l1-1-0.dll",
+    "bytes": 22056,
+    "sha256": "7f39ba298b41e4963047341288cab36b6a241835ee11ba4ad70f44dacd40906c"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-localization-l1-2-0.dll",
+    "bytes": 22080,
+    "sha256": "6ee44dd0d8510dc024c9f7c79b1b9fa88c987b26b6beb6653ddd11751c34e5dc"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-memory-l1-1-0.dll",
+    "bytes": 22056,
+    "sha256": "0512a35316ec9180437f86696a84c5c06a7e4e82e050055a656e5bf9fca206f9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-namedpipe-l1-1-0.dll",
+    "bytes": 22096,
+    "sha256": "c05f1fffe3b5a2738ea54ce9485cca026fb9635f982626fba1e1dcc531897273"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-processenvironment-l1-1-0.dll",
+    "bytes": 21968,
+    "sha256": "c4eca98c3c67b6395d5b005b00ac1eb0318b86b23aa71035a44c2b1602befba9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-processthreads-l1-1-0.dll",
+    "bytes": 22096,
+    "sha256": "5ccb89e93d67bc3288d4e84649c5346e66e15e3d7cd65d989daf3f4cb584be9a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-processthreads-l1-1-1.dll",
+    "bytes": 22072,
+    "sha256": "4ad565a8ba3ef0ea8ab87221ad11f83ee0bc844ce236607958406663b407333e"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-profile-l1-1-0.dll",
+    "bytes": 22080,
+    "sha256": "7809160932f44e59b021699f5bc68799eb7293ee1fa926d6fcca3c3445302e61"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-rtlsupport-l1-1-0.dll",
+    "bytes": 21960,
+    "sha256": "9dc1e91e71c7c054854bd1487cb4e6946d82c9f463430f1c4e8d1471005172b1"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-string-l1-1-0.dll",
+    "bytes": 22056,
+    "sha256": "60fc31d2a0c634412f529dba76af3b9bf991352877c6dae528186d3935704cfd"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-synch-l1-1-0.dll",
+    "bytes": 22056,
+    "sha256": "3a72b4f29f39a265d32ad12f0ce15dbf60129c840e10d84d427829ede45e78ad"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-synch-l1-2-0.dll",
+    "bytes": 22080,
+    "sha256": "efc1e4460984a73cf47a3def033af1c8f3b1dbc1a56cd27781d3aacf3e3330cb"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-sysinfo-l1-1-0.dll",
+    "bytes": 22072,
+    "sha256": "b203d862ddef1dd62bf623fc866c7f7a9c317c1c2ae30d1f52cb41f955b5698e"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-sysinfo-l1-2-0.dll",
+    "bytes": 22080,
+    "sha256": "2703635d835396afd0f138d7c73751afe7e33a24f4225d08c1690b0a371932c0"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-timezone-l1-1-0.dll",
+    "bytes": 22056,
+    "sha256": "33f4fddc181066fce06b2227bded813f95e94ed1f3d785e982c6b6b56c510c57"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-core-util-l1-1-0.dll",
+    "bytes": 21944,
+    "sha256": "6eda016742a6171205a387a14b3c0b331841567740376f56768f8c151724207d"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-crt-conio-l1-1-0.dll",
+    "bytes": 22056,
+    "sha256": "b762061b688aae679afe788904d2c9970f74a7dac98f3b42463d08f25e483d3f"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-crt-convert-l1-1-0.dll",
+    "bytes": 26056,
+    "sha256": "ebb2ae5535a64f65daeab8235585114fc9dd2cf1a49f5852d446250b998b6ae4"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-crt-environment-l1-1-0.dll",
+    "bytes": 22080,
+    "sha256": "17d63275d00bdd8670422b95bd264c532998e0a1b041079e54fce4b6b7a55819"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-crt-filesystem-l1-1-0.dll",
+    "bytes": 22056,
+    "sha256": "9a9e2a65a281644e368d0f272b95ba5f6b445d1c35910d06056c5ebeb77402db"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-crt-heap-l1-1-0.dll",
+    "bytes": 22096,
+    "sha256": "bab9ac3ec83e380ae51e4295ef3bf2c738627812d3a49d1e713661abbc8dc57a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-crt-locale-l1-1-0.dll",
+    "bytes": 22080,
+    "sha256": "bd14c67ea28e21d6257ad780a37122c9b5773f69e693f5db6bffaee4d839526e"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-crt-math-l1-1-0.dll",
+    "bytes": 30248,
+    "sha256": "606d66d82db562ea7979179d06486a0f94d079941d26b80a1e2c49d29959df6f"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-crt-multibyte-l1-1-0.dll",
+    "bytes": 30248,
+    "sha256": "95f49efbe8107786733fa7c474025cf3fee0ac632f240367b296c736d06572aa"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-crt-private-l1-1-0.dll",
+    "bytes": 75328,
+    "sha256": "1bc82bed6143d2bf1b6b08a7809f4a5e29317d6fddd338a7da3c0223522e4bbf"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-crt-process-l1-1-0.dll",
+    "bytes": 22096,
+    "sha256": "f6156b1020380ec4f0e48577ebedaaef5fb1ab1f337d8b4e72e6a33a7567a9cc"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-crt-runtime-l1-1-0.dll",
+    "bytes": 26152,
+    "sha256": "c5902934d026d7e15fbe9917d474f3322846a41a25e66f4b2b1f758801879f4b"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-crt-stdio-l1-1-0.dll",
+    "bytes": 26168,
+    "sha256": "a9c5a153d8c0286f9b41a2b1c65854ad9e6471b8755b7de87bae4470e60bcab6"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-crt-string-l1-1-0.dll",
+    "bytes": 26176,
+    "sha256": "25b8f83a7767211b11132775a0e27a45aa4ec8ab4e6572599f9c172ae3606b40"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-crt-time-l1-1-0.dll",
+    "bytes": 22096,
+    "sha256": "7c7f6393f06de11750adb09cc5698ae55cd9fb27b2e51e207286feb1b5b2b156"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/api-ms-win-crt-utility-l1-1-0.dll",
+    "bytes": 21952,
+    "sha256": "d8ba5f17b9ffcbf3aeaf3fa1da226832d2fa90f81acce0cd669464e76ce434ac"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/awt.dll",
+    "bytes": 1492136,
+    "sha256": "3a08da4cf9614add3adcc2414a15400464372238101899db914e3c73a8e5d8b2"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/fontmanager.dll",
+    "bytes": 973992,
+    "sha256": "21951c96e6f44c37a413e9fafd6a57aa49674aba6193242f8bd681f0d1d89a40"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/freetype.dll",
+    "bytes": 546984,
+    "sha256": "f9e7df49f9b888a1ab81c85b18ee81532700d9fb032a30d616577e497feab8f9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/j2pkcs11.dll",
+    "bytes": 80040,
+    "sha256": "371b0f3ae8a83faf17b06d4e4582dbc714f121c999bfb5651d59ff4b8e68ff8d"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/java.dll",
+    "bytes": 148136,
+    "sha256": "18b105254c16e1d83614ff4e32cd62ce402fbe6339bdd1b24ccc7d999fed7f5f"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/javajpeg.dll",
+    "bytes": 182952,
+    "sha256": "cffd57c27ea8df642777ad37e4a795140769b6c9dc48ad9272a286d475784889"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/jawt.dll",
+    "bytes": 21672,
+    "sha256": "30475691705580b4a0073f54b26fd7c7e20bb2b7694d2554cb0d40b3fde8a17a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/jimage.dll",
+    "bytes": 34472,
+    "sha256": "f01c057da0222bc70a7f904c3104dedfc6f268446ee797c6dd70f9651a52265f"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/jli.dll",
+    "bytes": 89768,
+    "sha256": "5d6a3581649cf281a2a4db2aeff53ccb1134b45cb04fa282efa7eb9a58cf5b79"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/jsound.dll",
+    "bytes": 61096,
+    "sha256": "b400272a3394ab9bebfa2df42ce02496df63c9a7a40064ebdf2650c5ddce4469"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/lcms.dll",
+    "bytes": 261288,
+    "sha256": "3f0b6392a8a93903a3b2d1aede053778ebfc81ad99ae3deeaf074abc659a5dc8"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/management.dll",
+    "bytes": 29864,
+    "sha256": "4d90ddc5f9ceefc8952b708f9a6f28c18325ed57e8ab65331d6cace79b5f0726"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/management_ext.dll",
+    "bytes": 36520,
+    "sha256": "43e43d079b33651a1aff67b5aa767fd37b520a0608c7a127c11c08d6a374f0c3"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/mlib_image.dll",
+    "bytes": 519848,
+    "sha256": "fb083ef29d4120f2bf84240a4f250f815f131c9e2a186371ed2ce9a5478c9b8a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/msvcp140.dll",
+    "bytes": 575056,
+    "sha256": "a4c2229bdc2a2a630acdc095b4d86008e5c3e3bc7773174354f3da4f5beb9cde"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/net.dll",
+    "bytes": 98472,
+    "sha256": "aa178fbeb19980dfbb6827b3b2532cd110d585192041883032bf2dbb20e4785d"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/nio.dll",
+    "bytes": 80552,
+    "sha256": "1d3f193e94d404a18caa24440e61af652ec705258f5fa5a3cb90bc790e9b98ba"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/prefs.dll",
+    "bytes": 25768,
+    "sha256": "44102e7e881e84a1e888319ca147f444aeed5203dffd8e52b61e9c44d15c7bc7"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/server/jvm.dll",
+    "bytes": 12681896,
+    "sha256": "5539382b75556a9873fafa2d8b7d0b36b169ac436a3608467da4f74c2600cbce"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/splashscreen.dll",
+    "bytes": 218280,
+    "sha256": "b29d5fb8dfb2987feccd38a23b1d7a63b97bc32f4f320fa6fd8779754d625920"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/ucrtbase.dll",
+    "bytes": 1361448,
+    "sha256": "2e5fb14b7bf8540278f3614a12f0226e56a7cc9e64b81cbd976c6fcf2f71cbfb"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/vcruntime140.dll",
+    "bytes": 119888,
+    "sha256": "02c6aa0e6e624411a9f19b0360a7865ab15908e26024510e5c38a9c08362c35a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/vcruntime140_1.dll",
+    "bytes": 49640,
+    "sha256": "7dd9aa02e271c68ca6d5f18d651d23a15d7259715af43326578f7dde27f37637"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/verify.dll",
+    "bytes": 54952,
+    "sha256": "ab1003530e431300e043a3a2b311201a7b6b844b28929863465f1f5f99de4db9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/bin/zip.dll",
+    "bytes": 89256,
+    "sha256": "2cc26c530a65b8a839e40ce820565e531fefcc5a207822e09f7a073fb8676b70"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/conf/net.properties",
+    "bytes": 7504,
+    "sha256": "56dd1f6095c189c1052f6baa32e457efc09de4832e19cdb82bb236dc8abfee9f"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/conf/security/java.policy",
+    "bytes": 2293,
+    "sha256": "1224c11b69032c80e1493416641c82a37e558913a41f959f83ab2f96f097d6c0"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/conf/security/java.security",
+    "bytes": 63790,
+    "sha256": "0b2800e2ba1ba7566dbd628269969f585d8634fdbf088cc64a682d1ee10f713b"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/conf/security/policy/limited/default_local.policy",
+    "bytes": 647,
+    "sha256": "2b2627548e61316150d47ffc3e6cad465ca05b3cccd4785eb7d21aa7baa0f441"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/conf/security/policy/limited/default_US_export.policy",
+    "bytes": 146,
+    "sha256": "758b930a526fc670ab7537f8c26321527050a31f5f42149a2dda623c56a0a1a9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/conf/security/policy/limited/exempt_local.policy",
+    "bytes": 566,
+    "sha256": "8c3d7648abcd95a272ce12db870082937f4d7f6878d730d83cb7fbb31eb8b2c9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/conf/security/policy/README.txt",
+    "bytes": 2390,
+    "sha256": "6da0747334b0fea7592fd92614b2bbc8b126535e129b1fee483774d914e98eb5"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/conf/security/policy/unlimited/default_local.policy",
+    "bytes": 193,
+    "sha256": "8d8a318e6d90dfd7e26612d2b6385aa704f686ca6134c551f8928418d92b851a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/conf/security/policy/unlimited/default_US_export.policy",
+    "bytes": 146,
+    "sha256": "758b930a526fc670ab7537f8c26321527050a31f5f42149a2dda623c56a0a1a9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/conf/sound.properties",
+    "bytes": 1210,
+    "sha256": "299c2360b6155eb28990ec49cd21753f97e43442fe8fab03e04f3e213df43a66"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.base/ADDITIONAL_LICENSE_INFO",
+    "bytes": 2114,
+    "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.base/aes.md",
+    "bytes": 1444,
+    "sha256": "45c6d4da48325edfbff3dcf71c704e504c057904435ed23c6d57046d551eb69d"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.base/asm.md",
+    "bytes": 1584,
+    "sha256": "1ff912740e84e024711def5fa482ffbb46eff64559760c467352dfa7c39a3307"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.base/ASSEMBLY_EXCEPTION",
+    "bytes": 1522,
+    "sha256": "a44eb7b5caf5534c6ef536b21edb40b4d6babf91bf97d9d45596868618b2c6fb"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.base/c-libutl.md",
+    "bytes": 1556,
+    "sha256": "bef40679922d6fdfb7e4ddb223ad6722300f6054ba737bbf6188d60fcec517f9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.base/cldr.md",
+    "bytes": 9130,
+    "sha256": "f2bd33ded550a05d59e8f659416ef382490504548d846e6388b1dffd273aa077"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.base/icu.md",
+    "bytes": 11086,
+    "sha256": "af0057e8553906083f69c2fb9fe9ed4ae8bc2340a0b1e376a424702f00300b29"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.base/LICENSE",
+    "bytes": 19274,
+    "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.base/public_suffix.md",
+    "bytes": 17785,
+    "sha256": "54bd8ebaa51b530b13082da28457ae188f76cc64977607e0bc61e0ab11cd7aa7"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.base/siphash.md",
+    "bytes": 8256,
+    "sha256": "5a792b5a74ad2a5f3d6a7ad8b7a841116e58a772c18bc6e392320a365b222c76"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.base/unicode.md",
+    "bytes": 2384,
+    "sha256": "5e4e6623a21a63f9bc16ea54af4133b8038e490c0d499a74676f9e5a61b9c5b2"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.base/wepoll.md",
+    "bytes": 1454,
+    "sha256": "3ac2992770080453b98c42afa807ba4b2c1738ef756b92a55c645f55e7df48f0"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.base/zlib.md",
+    "bytes": 1010,
+    "sha256": "809b62ba648e02302f7d9ea6b6886c10d5253ac86ad528038a50c73eada5fce2"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.datatransfer/ADDITIONAL_LICENSE_INFO",
+    "bytes": 49,
+    "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.datatransfer/ASSEMBLY_EXCEPTION",
+    "bytes": 44,
+    "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.datatransfer/LICENSE",
+    "bytes": 33,
+    "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.desktop/ADDITIONAL_LICENSE_INFO",
+    "bytes": 49,
+    "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.desktop/ASSEMBLY_EXCEPTION",
+    "bytes": 44,
+    "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.desktop/colorimaging.md",
+    "bytes": 167,
+    "sha256": "04d61e3e8e71dd452ebe52008af5378d9f6640d14578aeb515dc5375973b0189"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.desktop/freetype.md",
+    "bytes": 30422,
+    "sha256": "f49d5fb98475239073dc657e689b85d3125a2b30bf3ee137db17541878f1cbe8"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.desktop/giflib.md",
+    "bytes": 1646,
+    "sha256": "6cd971730d3047ea57f6865b7bdca2509a9876ae24d5c0ed0c4e32def5f9107e"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.desktop/harfbuzz.md",
+    "bytes": 3628,
+    "sha256": "b3f327a8b36d56beb152b3fd1bb5a7f245362cbea123ebbc68f8907f741b552a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.desktop/jpeg.md",
+    "bytes": 3475,
+    "sha256": "580be596216ee11e2554b24ce944973acaede2ebf5ffba34a6bd8cc441c05043"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.desktop/lcms.md",
+    "bytes": 2641,
+    "sha256": "fc1d7f60c7cdc96b5cadafd4f3610c6a74f2d0afa08852036929c7a1474ebab6"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.desktop/libpng.md",
+    "bytes": 7212,
+    "sha256": "4e4c0ecd9795b9181538ea94fa63e6817e6e1f4b51481d720adaee0fde409c20"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.desktop/LICENSE",
+    "bytes": 33,
+    "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.desktop/mesa3d.md",
+    "bytes": 5732,
+    "sha256": "63f4e6f75caebbccb95d903fb43e46ac7111b3624d0a34f146b276d7d9e7b152"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.management/ADDITIONAL_LICENSE_INFO",
+    "bytes": 49,
+    "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.management/ASSEMBLY_EXCEPTION",
+    "bytes": 44,
+    "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.management/LICENSE",
+    "bytes": 33,
+    "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.prefs/ADDITIONAL_LICENSE_INFO",
+    "bytes": 49,
+    "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.prefs/ASSEMBLY_EXCEPTION",
+    "bytes": 44,
+    "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.prefs/LICENSE",
+    "bytes": 33,
+    "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.xml/ADDITIONAL_LICENSE_INFO",
+    "bytes": 49,
+    "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.xml/ASSEMBLY_EXCEPTION",
+    "bytes": 44,
+    "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.xml/bcel.md",
+    "bytes": 11195,
+    "sha256": "853a1e7ce397bb10de0e2b3bde0844bcc651f17d983decd07d2d003c0304c311"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.xml/dom.md",
+    "bytes": 3761,
+    "sha256": "6686e8877667584a3a7c07344baadca1a03e29f677162d87c3c0811e990d1148"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.xml/jcup.md",
+    "bytes": 1448,
+    "sha256": "8d5dcfdf50455a3c34c753a98f21e953248af200415a9084e3f102cb6c43b8bf"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.xml/LICENSE",
+    "bytes": 33,
+    "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.xml/xalan.md",
+    "bytes": 13494,
+    "sha256": "ea67226be5cfe19c7e79725c2c24a16676323264d69f9747c528de0b44541b03"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/java.xml/xerces.md",
+    "bytes": 11852,
+    "sha256": "472224f99de833f4f4c19f2f8a0317f22114e1c641f5d77ffa3a4280a1b80176"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/jdk.crypto.cryptoki/ADDITIONAL_LICENSE_INFO",
+    "bytes": 49,
+    "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/jdk.crypto.cryptoki/ASSEMBLY_EXCEPTION",
+    "bytes": 44,
+    "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/jdk.crypto.cryptoki/LICENSE",
+    "bytes": 33,
+    "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md",
+    "bytes": 4095,
+    "sha256": "1f36ff1342a581142c858f90064e20633d43529ac82adb85345bd902a14e18b2"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/jdk.crypto.cryptoki/pkcs11wrapper.md",
+    "bytes": 2131,
+    "sha256": "371974b1fca3744a3892c7ee1fcc593b8b4281fc218f4cafd2f709e9df5fd81d"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/jdk.crypto.ec/ADDITIONAL_LICENSE_INFO",
+    "bytes": 49,
+    "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/jdk.crypto.ec/ASSEMBLY_EXCEPTION",
+    "bytes": 44,
+    "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/jdk.crypto.ec/LICENSE",
+    "bytes": 33,
+    "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/jdk.management/ADDITIONAL_LICENSE_INFO",
+    "bytes": 49,
+    "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/jdk.management/ASSEMBLY_EXCEPTION",
+    "bytes": 44,
+    "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/jdk.management/LICENSE",
+    "bytes": 33,
+    "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO",
+    "bytes": 49,
+    "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/jdk.unsupported/ASSEMBLY_EXCEPTION",
+    "bytes": 44,
+    "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/legal/jdk.unsupported/LICENSE",
+    "bytes": 33,
+    "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/lib/classlist",
+    "bytes": 72950,
+    "sha256": "5e70bc24a91a857eb0d01eefe04a9a2d4726010a89046d972b37378336ea046d"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/lib/fontconfig.bfc",
+    "bytes": 4630,
+    "sha256": "968ac99bbaaf8a49a474c934e73ad58f88c6c7f2a363cb44771e0378444e36ba"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/lib/fontconfig.properties.src",
+    "bytes": 12345,
+    "sha256": "b44540473b97364e0f7a8a0002dd21d7a0717028fa1533f139bc98f40c91c0f0"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/lib/jawt.lib",
+    "bytes": 1682,
+    "sha256": "af64af138d14b9fd0849d7f66ad6b529a4e5ec9c25476557bf6b3d65a8ac6884"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/lib/jrt-fs.jar",
+    "bytes": 110511,
+    "sha256": "27e91a5584ca721eedd3577bdc104994b40dea4a8fa492b71c5a18f4015a8816"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/lib/jvm.cfg",
+    "bytes": 14,
+    "sha256": "91e6531363501d02f9abc6522d440891b096313a6e45aa3d18fdd923da0561b0"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/lib/jvm.lib",
+    "bytes": 1040306,
+    "sha256": "edd4a1a4668e3037ebddb632fad132276d56e808165d6d1bc3854a9f305e73a6"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/lib/modules",
+    "bytes": 21836991,
+    "sha256": "58e86efce6e819bb88741666a6f0fcc7c48dbe3654e053bceefdc54ccba35586"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/lib/psfont.properties.ja",
+    "bytes": 3793,
+    "sha256": "5a4bd51b969bf187ff86d94f4a71fdfbfa602762975fa3c73d264b4575f7c78f"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/lib/psfontj2d.properties",
+    "bytes": 11390,
+    "sha256": "780c565d5af3ee6f68b887b75c041cdf46a0592f67012f12eeb691283e92630a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/lib/security/blocked.certs",
+    "bytes": 2527,
+    "sha256": "583500b76965eb54b03493372989ab4d3426f85462d1db232c5ae6706a4d6c58"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/lib/security/cacerts",
+    "bytes": 169941,
+    "sha256": "44926c840e9a3dab7fef5c7f2be199ee4a3e96c47366605f799bfd63ad5c7f61"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/lib/security/default.policy",
+    "bytes": 10936,
+    "sha256": "f6340c1f4084d6927dc6491d9a1747e5d9b761f9f8158c0e36cb4d3ce519fcda"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/lib/security/public_suffix_list.dat",
+    "bytes": 230382,
+    "sha256": "3a2e10e573625dab5489812711b874c05a115ac2471bf90776e45561e8f52e8a"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/lib/tzdb.dat",
+    "bytes": 102492,
+    "sha256": "7be2a3adf10ff841579629f7725b15f0db41e8856527ec72847b5477073a3d29"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/lib/tzmappings",
+    "bytes": 22143,
+    "sha256": "36dc51c4bf787f640a4b45cbb84ab6954f6e595cbd3617c2f5a4e1e607b38bff"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/runtime/release",
+    "bytes": 177,
+    "sha256": "3dbf4959786fab723098e0fd4ff5eedf58c4c596a1043de47bd905e3d887ba91"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/Shattered Pixel Dungeon.exe",
+    "bytes": 439296,
+    "sha256": "c3e8486da96d08dc186d70f901f520da39809d6625db3e8e526aebf8a27e33e2"
+  },
+  {
+    "path": "desktop/build/jpackage/Shattered Pixel Dungeon/Shattered Pixel Dungeon.ico",
+    "bytes": 17356,
+    "sha256": "e676e30be090a668ce4035be6d7f1669fc060dde564df2d070e567ac842698cd"
+  },
+  {
+    "path": "desktop/build/libs/desktop-4.0.2-all.jar",
+    "bytes": 55963969,
+    "sha256": "b06dc4117b431c5b2540000c932a468eedb78df3a4e68f50c5f823f5d45d71c2"
+  },
+  {
+    "path": "Start-Game.cmd",
+    "bytes": 316,
+    "sha256": "0e7d11df659fb8b4e3801f87e9d1b22d92964f2efb088af13e2bd6754c86e722"
+  }
+]

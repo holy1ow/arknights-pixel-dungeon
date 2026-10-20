@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "amiya-reskin-frozen-20261020",
+  "date": "2026-10-20",
+  "status": "frozen",
+  "scope": "Amiya vanilla-mechanics reskin only; shared desktop build included as an exact recovery artifact",
+  "newArtworkPaused": true,
+  "mechanicsChangesPaused": true,
+  "resumePolicy": "等待用户后续明确新任务；本次封版不继续新增素材或修改机制。",
+  "allCharacterArtAccepted": false,
+  "featureMechanicsBranchCreated": false,
+  "publishedToGitHub": false,
+  "formalRoot": "art-source/library/current/amiya",
+  "installedInventory": "installed-assets.json",
+  "selectedIcons": "approved-icon-selection.json",
+  "candidateIndex": "candidate-index.json",
+  "verificationSource": "docs/qa/amiya-full-flow-20261020/verification.json",
+  "verificationStatus": "passed_with_stated_coverage",
+  "coverageLimits": [
+    "Rewards and region transitions supplied by fixture; not an unaided floor-1-to-ending playthrough.",
+    "No exhaustive seed, boss combat or random-state combination coverage.",
+    "Portrait layout is desktop OpenGL at 540x960, not Android/iOS execution.",
+    "Blessed Ankh, fatal death, Amulet victory and SurfaceScene visuals covered; full ascension quest not played."
+  ],
+  "releaseSHA256": "b06dc4117b431c5b2540000c932a468eedb78df3a4e68f50c5f823f5d45d71c2",
+  "launcherCoreSHA256": "3542db7833e37791a02e3d5386381e39f1d27bddddb916b564d5cae7a5106a84",
+  "gitHead": "981b647dbb8978a21e3ea03d51689631f4354863",
+  "gitBranch": "master",
+  "workingTreeNote": "原工作区包含未提交修改，HEAD不是完整封版内容。以本目录逐文件SHA256与ZIP为准；本次不提交、不清理、不推送。",
+  "archives": [
+    {
+      "path": "art-source/releases/amiya-reskin-frozen-20261020/archives/01-formal-art.zip",
+      "bytes": 4979969,
+      "sha256": "f65a480590841fe6690ff3f73e344cd97b184d3fc145bf94a29fd274a596615e",
+      "files": 340,
+      "uncompressedBytes": 5152686,
+      "inventory": "inventories/01-formal-art.json",
+      "entrySHA256Verified": true
+    },
+    {
+      "path": "art-source/releases/amiya-reskin-frozen-20261020/archives/02-history-and-candidates.zip",
+      "bytes": 116130003,
+      "sha256": "2685bbb9b70d52d60b17e3df7fded1edcfe386cbb740b9b9f5365b3d5f17e74c",
+      "files": 3252,
+      "uncompressedBytes": 146307845,
+      "inventory": "inventories/02-history-and-candidates.json",
+      "entrySHA256Verified": true
+    },
+    {
+      "path": "art-source/releases/amiya-reskin-frozen-20261020/archives/03-verification-records.zip",
+      "bytes": 1313893289,
+      "sha256": "c0a9af92741b9a21967d1ba29215c9385f77477fb3b4aa768602f8b94ff390ff",
+      "files": 18579,
+      "uncompressedBytes": 1477458210,
+      "inventory": "inventories/03-verification-records.json",
+      "entrySHA256Verified": true
+    },
+    {
+      "path": "art-source/releases/amiya-reskin-frozen-20261020/archives/04-verified-desktop-runtime.zip",
+      "bytes": 140173020,
+      "sha256": "c81afb872cecbf2ba9b22c73721c14bf77e02b53a9b377397c52dd5f03b792f4",
+      "files": 230,
+      "uncompressedBytes": 157328016,
+      "inventory": "inventories/04-verified-desktop-runtime.json",
+      "entrySHA256Verified": true
+    },
+    {
+      "path": "art-source/releases/amiya-reskin-frozen-20261020/archives/05-integration-source.zip",
+      "bytes": 66963461,
+      "sha256": "afc8898faec690f845d6e5ea0952663d72b777570bf3605d79aae2d51786e11a",
+      "files": 2030,
+      "uncompressedBytes": 87441888,
+      "inventory": "inventories/05-integration-source.json",
+      "entrySHA256Verified": true
+    }
+  ],
+  "backupLocation": "local_same_disk",
+  "originalPathsRetained": true
+}

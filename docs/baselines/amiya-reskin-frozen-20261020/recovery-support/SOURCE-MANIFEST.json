@@ -1,0 +1,20 @@
+[
+  {
+    "path": "trainer/build-support/core.gradle",
+    "bytes": 1892,
+    "sha256": "0a0532b1ee607a89d7dc3fdb2203af608fd3cdfb40b4633760809b4bd1205bf9",
+    "reason": "Referenced by frozen build; omitted by original 05 archive; copied without edits"
+  },
+  {
+    "path": "trainer/build-support/desktop.gradle",
+    "bytes": 4575,
+    "sha256": "d1217006f1f7618198bbbbcbbbac7fc74c272b152f892ca215c885df34e5adcb",
+    "reason": "Referenced by frozen build; omitted by original 05 archive; copied without edits"
+  },
+  {
+    "path": "trainer/src/disabled/java/com/shatteredpixel/shatteredpixeldungeon/trainer/TrainerBridge.java",
+    "bytes": 933,
+    "sha256": "ec3bebf6988caf02392850013b95f239883fe58c9f3b4cb88e03ba109afb364d",
+    "reason": "Referenced by frozen build; omitted by original 05 archive; copied without edits"
+  }
+]

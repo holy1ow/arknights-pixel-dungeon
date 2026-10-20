@@ -1,0 +1,2236 @@
+{
+  "status": "passed_with_stated_coverage",
+  "date": "2026-10-20",
+  "newArtwork": false,
+  "productionFilesChanged": [],
+  "protectedFiles": 9529,
+  "releaseSHA256": "b06dc4117b431c5b2540000c932a468eedb78df3a4e68f50c5f823f5d45d71c2",
+  "launcherCoreSHA256": "3542db7833e37791a02e3d5386381e39f1d27bddddb916b564d5cae7a5106a84",
+  "launcherCoreClassesMatched": 2733,
+  "continuousCheckpointRoutes": 9,
+  "continuousRouteScreenshots": 206,
+  "suites": {
+    "AmiyaItemChecks": "PASS 573 assertions; 19 actual render scenarios",
+    "AmiyaEffectChecks": "PASS 436 assertions; 13 real-render scenarios",
+    "AmiyaArmorChecks": "PASS 397 assertions; 14 actual render scenarios",
+    "AmiyaIconChecks": "PASS 2086 assertions; 11 actual render scenarios",
+    "AmiyaPortraitChecks": "PASS 5 actual SurfaceScene portrait render scenarios",
+    "AmiyaStatusTintChecks": "PASS 495 assertions; 11 real OpenGL screenshots; all hero identities; original shield retained",
+    "lifecycle-desktop": "PASS 610 assertions; 7 checkpoint progression routes; 160 actual screenshots; 1280x720; rewards/floors injected, not a natural playthrough",
+    "lifecycle-compact": "PASS 174 assertions; 2 checkpoint progression routes; 46 actual screenshots; 540x960; rewards/floors injected, not a natural playthrough",
+    "hero-model": "PASS 48452 checks; isolated profile: D:\\pixel-dungeon\\docs\\qa\\amiya-full-flow-20261020\\hero-model\\profile-6579077255970796417",
+    "canvas": "PASS 10584 frame/flip checks; 60 click probes; 6912 particle samples; 12 identities including six vanilla controls"
+  },
+  "reviewedResolutions": [
+    [
+      1280,
+      720
+    ],
+    [
+      540,
+      960
+    ]
+  ],
+  "fixtureCorrections": [
+    "Initialize window orientation through dimensions, not SPDSettings.landscape before application exists.",
+    "Dungeon.newLevel uses the current depth: corrected fixture floor setting from depth-1 to depth."
+  ],
+  "productionDefectsFound": [],
+  "coverageLimits": [
+    "Rewards and region transitions supplied by fixture; not an unaided floor-1-to-ending playthrough.",
+    "No exhaustive seed, boss combat or random-state combination coverage.",
+    "Portrait layout is desktop OpenGL at 540x960, not Android/iOS execution.",
+    "Blessed Ankh, fatal death, Amulet victory and SurfaceScene visuals covered; full ascension quest not played."
+  ],
+  "sourceRoutes": [
+    {
+      "id": "lifecycle-desktop/guard-elemental",
+      "name": "桌面横向 / 近卫 · 元素风暴",
+      "captures": [
+        {
+          "file": "lifecycle-desktop/guard-elemental-01-start.png",
+          "label": "开局术师",
+          "stage": "01-start",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-02-subclass-choice.png",
+          "label": "转职选择",
+          "stage": "02-subclass-choice",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-03-subclass-confirm.png",
+          "label": "转职确认／取消",
+          "stage": "03-subclass-confirm",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-04-subclass-applied.png",
+          "label": "转职生效",
+          "stage": "04-subclass-applied",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-05-subclass-reload.png",
+          "label": "转职存档重载",
+          "stage": "05-subclass-reload",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-06-plate-armor.png",
+          "label": "装备板甲",
+          "stage": "06-plate-armor",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-07-armor-choice.png",
+          "label": "护甲能力选择",
+          "stage": "07-armor-choice",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-08-armor-confirm.png",
+          "label": "护甲能力确认／取消",
+          "stage": "08-armor-confirm",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-09-class-armor.png",
+          "label": "职业护甲生效",
+          "stage": "09-class-armor",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-10-armor-reload.png",
+          "label": "职业护甲存档重载",
+          "stage": "10-armor-reload",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-11-ability-used.png",
+          "label": "使用护甲能力",
+          "stage": "11-ability-used",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-12-status-reload.png",
+          "label": "状态与护盾重载",
+          "stage": "12-status-reload",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-13-save-summary.png",
+          "label": "存档摘要",
+          "stage": "13-save-summary",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-14-disguise.png",
+          "label": "伪装法师",
+          "stage": "14-disguise",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-15-restored-mirror.png",
+          "label": "恢复外观、翻转与镜像",
+          "stage": "15-restored-mirror",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-16-region-6.png",
+          "label": "区域换层：6层",
+          "stage": "16-region-6",
+          "depth": 6,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-16-region-11.png",
+          "label": "区域换层：11层",
+          "stage": "16-region-11",
+          "depth": 11,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-16-region-16.png",
+          "label": "区域换层：16层",
+          "stage": "16-region-16",
+          "depth": 16,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-16-region-21.png",
+          "label": "区域换层：21层",
+          "stage": "16-region-21",
+          "depth": 21,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-16-region-26.png",
+          "label": "区域换层：26层",
+          "stage": "16-region-26",
+          "depth": 26,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-17-ankh-revived.png",
+          "label": "祝福十字架复活",
+          "stage": "17-ankh-revived",
+          "depth": 26,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-18-amulet-ending.png",
+          "label": "护符结局窗口",
+          "stage": "18-amulet-ending",
+          "depth": 26,
+          "subclass": "BATTLEMAGE",
+          "scene": "AmuletScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-19-victory-ranking.png",
+          "label": "胜利排行榜",
+          "stage": "19-victory-ranking",
+          "depth": 26,
+          "subclass": "BATTLEMAGE",
+          "scene": "RankingsScene"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "lifecycle-desktop/guard-wild",
+      "name": "桌面横向 / 近卫 · 狂野魔法",
+      "captures": [
+        {
+          "file": "lifecycle-desktop/guard-wild-01-start.png",
+          "label": "开局术师",
+          "stage": "01-start",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-02-subclass-choice.png",
+          "label": "转职选择",
+          "stage": "02-subclass-choice",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-03-subclass-confirm.png",
+          "label": "转职确认／取消",
+          "stage": "03-subclass-confirm",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-04-subclass-applied.png",
+          "label": "转职生效",
+          "stage": "04-subclass-applied",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-05-subclass-reload.png",
+          "label": "转职存档重载",
+          "stage": "05-subclass-reload",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-06-plate-armor.png",
+          "label": "装备板甲",
+          "stage": "06-plate-armor",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-07-armor-choice.png",
+          "label": "护甲能力选择",
+          "stage": "07-armor-choice",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-08-armor-confirm.png",
+          "label": "护甲能力确认／取消",
+          "stage": "08-armor-confirm",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-09-class-armor.png",
+          "label": "职业护甲生效",
+          "stage": "09-class-armor",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-10-armor-reload.png",
+          "label": "职业护甲存档重载",
+          "stage": "10-armor-reload",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-11-ability-used.png",
+          "label": "使用护甲能力",
+          "stage": "11-ability-used",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-12-status-reload.png",
+          "label": "状态与护盾重载",
+          "stage": "12-status-reload",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-13-save-summary.png",
+          "label": "存档摘要",
+          "stage": "13-save-summary",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-14-disguise.png",
+          "label": "伪装法师",
+          "stage": "14-disguise",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-15-restored-mirror.png",
+          "label": "恢复外观、翻转与镜像",
+          "stage": "15-restored-mirror",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-16-region-6.png",
+          "label": "区域换层：6层",
+          "stage": "16-region-6",
+          "depth": 6,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-16-region-11.png",
+          "label": "区域换层：11层",
+          "stage": "16-region-11",
+          "depth": 11,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-16-region-16.png",
+          "label": "区域换层：16层",
+          "stage": "16-region-16",
+          "depth": 16,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-16-region-21.png",
+          "label": "区域换层：21层",
+          "stage": "16-region-21",
+          "depth": 21,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-16-region-26.png",
+          "label": "区域换层：26层",
+          "stage": "16-region-26",
+          "depth": 26,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-17-ankh-revived.png",
+          "label": "祝福十字架复活",
+          "stage": "17-ankh-revived",
+          "depth": 26,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-18-amulet-ending.png",
+          "label": "护符结局窗口",
+          "stage": "18-amulet-ending",
+          "depth": 26,
+          "subclass": "BATTLEMAGE",
+          "scene": "AmuletScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-wild-19-victory-ranking.png",
+          "label": "胜利排行榜",
+          "stage": "19-victory-ranking",
+          "depth": 26,
+          "subclass": "BATTLEMAGE",
+          "scene": "RankingsScene"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "lifecycle-desktop/guard-beacon",
+      "name": "桌面横向 / 近卫 · 空间信标",
+      "captures": [
+        {
+          "file": "lifecycle-desktop/guard-beacon-01-start.png",
+          "label": "开局术师",
+          "stage": "01-start",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-02-subclass-choice.png",
+          "label": "转职选择",
+          "stage": "02-subclass-choice",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-03-subclass-confirm.png",
+          "label": "转职确认／取消",
+          "stage": "03-subclass-confirm",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-04-subclass-applied.png",
+          "label": "转职生效",
+          "stage": "04-subclass-applied",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-05-subclass-reload.png",
+          "label": "转职存档重载",
+          "stage": "05-subclass-reload",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-06-plate-armor.png",
+          "label": "装备板甲",
+          "stage": "06-plate-armor",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-07-armor-choice.png",
+          "label": "护甲能力选择",
+          "stage": "07-armor-choice",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-08-armor-confirm.png",
+          "label": "护甲能力确认／取消",
+          "stage": "08-armor-confirm",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-09-class-armor.png",
+          "label": "职业护甲生效",
+          "stage": "09-class-armor",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-10-armor-reload.png",
+          "label": "职业护甲存档重载",
+          "stage": "10-armor-reload",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-11-ability-used.png",
+          "label": "使用护甲能力",
+          "stage": "11-ability-used",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-12-status-reload.png",
+          "label": "状态与护盾重载",
+          "stage": "12-status-reload",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-13-save-summary.png",
+          "label": "存档摘要",
+          "stage": "13-save-summary",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-14-disguise.png",
+          "label": "伪装法师",
+          "stage": "14-disguise",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-15-restored-mirror.png",
+          "label": "恢复外观、翻转与镜像",
+          "stage": "15-restored-mirror",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-16-region-6.png",
+          "label": "区域换层：6层",
+          "stage": "16-region-6",
+          "depth": 6,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-16-region-11.png",
+          "label": "区域换层：11层",
+          "stage": "16-region-11",
+          "depth": 11,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-16-region-16.png",
+          "label": "区域换层：16层",
+          "stage": "16-region-16",
+          "depth": 16,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-16-region-21.png",
+          "label": "区域换层：21层",
+          "stage": "16-region-21",
+          "depth": 21,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-16-region-26.png",
+          "label": "区域换层：26层",
+          "stage": "16-region-26",
+          "depth": 26,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-17-ankh-revived.png",
+          "label": "祝福十字架复活",
+          "stage": "17-ankh-revived",
+          "depth": 26,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-18-amulet-ending.png",
+          "label": "护符结局窗口",
+          "stage": "18-amulet-ending",
+          "depth": 26,
+          "subclass": "BATTLEMAGE",
+          "scene": "AmuletScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-beacon-19-victory-ranking.png",
+          "label": "胜利排行榜",
+          "stage": "19-victory-ranking",
+          "depth": 26,
+          "subclass": "BATTLEMAGE",
+          "scene": "RankingsScene"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "lifecycle-desktop/medic-elemental",
+      "name": "桌面横向 / 医疗 · 元素风暴",
+      "captures": [
+        {
+          "file": "lifecycle-desktop/medic-elemental-01-start.png",
+          "label": "开局术师",
+          "stage": "01-start",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-02-subclass-choice.png",
+          "label": "转职选择",
+          "stage": "02-subclass-choice",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-03-subclass-confirm.png",
+          "label": "转职确认／取消",
+          "stage": "03-subclass-confirm",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-04-subclass-applied.png",
+          "label": "转职生效",
+          "stage": "04-subclass-applied",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-05-subclass-reload.png",
+          "label": "转职存档重载",
+          "stage": "05-subclass-reload",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-06-plate-armor.png",
+          "label": "装备板甲",
+          "stage": "06-plate-armor",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-07-armor-choice.png",
+          "label": "护甲能力选择",
+          "stage": "07-armor-choice",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-08-armor-confirm.png",
+          "label": "护甲能力确认／取消",
+          "stage": "08-armor-confirm",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-09-class-armor.png",
+          "label": "职业护甲生效",
+          "stage": "09-class-armor",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-10-armor-reload.png",
+          "label": "职业护甲存档重载",
+          "stage": "10-armor-reload",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-11-ability-used.png",
+          "label": "使用护甲能力",
+          "stage": "11-ability-used",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-12-status-reload.png",
+          "label": "状态与护盾重载",
+          "stage": "12-status-reload",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-13-save-summary.png",
+          "label": "存档摘要",
+          "stage": "13-save-summary",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-14-disguise.png",
+          "label": "伪装法师",
+          "stage": "14-disguise",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-15-restored-mirror.png",
+          "label": "恢复外观、翻转与镜像",
+          "stage": "15-restored-mirror",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-16-region-6.png",
+          "label": "区域换层：6层",
+          "stage": "16-region-6",
+          "depth": 6,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-16-region-11.png",
+          "label": "区域换层：11层",
+          "stage": "16-region-11",
+          "depth": 11,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-16-region-16.png",
+          "label": "区域换层：16层",
+          "stage": "16-region-16",
+          "depth": 16,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-16-region-21.png",
+          "label": "区域换层：21层",
+          "stage": "16-region-21",
+          "depth": 21,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-16-region-26.png",
+          "label": "区域换层：26层",
+          "stage": "16-region-26",
+          "depth": 26,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-17-ankh-revived.png",
+          "label": "祝福十字架复活",
+          "stage": "17-ankh-revived",
+          "depth": 26,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-18-amulet-ending.png",
+          "label": "护符结局窗口",
+          "stage": "18-amulet-ending",
+          "depth": 26,
+          "subclass": "WARLOCK",
+          "scene": "AmuletScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-elemental-19-victory-ranking.png",
+          "label": "胜利排行榜",
+          "stage": "19-victory-ranking",
+          "depth": 26,
+          "subclass": "WARLOCK",
+          "scene": "RankingsScene"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "lifecycle-desktop/medic-wild",
+      "name": "桌面横向 / 医疗 · 狂野魔法",
+      "captures": [
+        {
+          "file": "lifecycle-desktop/medic-wild-01-start.png",
+          "label": "开局术师",
+          "stage": "01-start",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-02-subclass-choice.png",
+          "label": "转职选择",
+          "stage": "02-subclass-choice",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-03-subclass-confirm.png",
+          "label": "转职确认／取消",
+          "stage": "03-subclass-confirm",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-04-subclass-applied.png",
+          "label": "转职生效",
+          "stage": "04-subclass-applied",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-05-subclass-reload.png",
+          "label": "转职存档重载",
+          "stage": "05-subclass-reload",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-06-plate-armor.png",
+          "label": "装备板甲",
+          "stage": "06-plate-armor",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-07-armor-choice.png",
+          "label": "护甲能力选择",
+          "stage": "07-armor-choice",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-08-armor-confirm.png",
+          "label": "护甲能力确认／取消",
+          "stage": "08-armor-confirm",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-09-class-armor.png",
+          "label": "职业护甲生效",
+          "stage": "09-class-armor",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-10-armor-reload.png",
+          "label": "职业护甲存档重载",
+          "stage": "10-armor-reload",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-11-ability-used.png",
+          "label": "使用护甲能力",
+          "stage": "11-ability-used",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-12-status-reload.png",
+          "label": "状态与护盾重载",
+          "stage": "12-status-reload",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-13-save-summary.png",
+          "label": "存档摘要",
+          "stage": "13-save-summary",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-14-disguise.png",
+          "label": "伪装法师",
+          "stage": "14-disguise",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-15-restored-mirror.png",
+          "label": "恢复外观、翻转与镜像",
+          "stage": "15-restored-mirror",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-16-region-6.png",
+          "label": "区域换层：6层",
+          "stage": "16-region-6",
+          "depth": 6,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-16-region-11.png",
+          "label": "区域换层：11层",
+          "stage": "16-region-11",
+          "depth": 11,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-16-region-16.png",
+          "label": "区域换层：16层",
+          "stage": "16-region-16",
+          "depth": 16,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-16-region-21.png",
+          "label": "区域换层：21层",
+          "stage": "16-region-21",
+          "depth": 21,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-16-region-26.png",
+          "label": "区域换层：26层",
+          "stage": "16-region-26",
+          "depth": 26,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-17-ankh-revived.png",
+          "label": "祝福十字架复活",
+          "stage": "17-ankh-revived",
+          "depth": 26,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-18-amulet-ending.png",
+          "label": "护符结局窗口",
+          "stage": "18-amulet-ending",
+          "depth": 26,
+          "subclass": "WARLOCK",
+          "scene": "AmuletScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-wild-19-victory-ranking.png",
+          "label": "胜利排行榜",
+          "stage": "19-victory-ranking",
+          "depth": 26,
+          "subclass": "WARLOCK",
+          "scene": "RankingsScene"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "lifecycle-desktop/medic-beacon",
+      "name": "桌面横向 / 医疗 · 空间信标",
+      "captures": [
+        {
+          "file": "lifecycle-desktop/medic-beacon-01-start.png",
+          "label": "开局术师",
+          "stage": "01-start",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-02-subclass-choice.png",
+          "label": "转职选择",
+          "stage": "02-subclass-choice",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-03-subclass-confirm.png",
+          "label": "转职确认／取消",
+          "stage": "03-subclass-confirm",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-04-subclass-applied.png",
+          "label": "转职生效",
+          "stage": "04-subclass-applied",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-05-subclass-reload.png",
+          "label": "转职存档重载",
+          "stage": "05-subclass-reload",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-06-plate-armor.png",
+          "label": "装备板甲",
+          "stage": "06-plate-armor",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-07-armor-choice.png",
+          "label": "护甲能力选择",
+          "stage": "07-armor-choice",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-08-armor-confirm.png",
+          "label": "护甲能力确认／取消",
+          "stage": "08-armor-confirm",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-09-class-armor.png",
+          "label": "职业护甲生效",
+          "stage": "09-class-armor",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-10-armor-reload.png",
+          "label": "职业护甲存档重载",
+          "stage": "10-armor-reload",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-11-ability-used.png",
+          "label": "使用护甲能力",
+          "stage": "11-ability-used",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-12-status-reload.png",
+          "label": "状态与护盾重载",
+          "stage": "12-status-reload",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-13-save-summary.png",
+          "label": "存档摘要",
+          "stage": "13-save-summary",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-14-disguise.png",
+          "label": "伪装法师",
+          "stage": "14-disguise",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-15-restored-mirror.png",
+          "label": "恢复外观、翻转与镜像",
+          "stage": "15-restored-mirror",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-16-region-6.png",
+          "label": "区域换层：6层",
+          "stage": "16-region-6",
+          "depth": 6,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-16-region-11.png",
+          "label": "区域换层：11层",
+          "stage": "16-region-11",
+          "depth": 11,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-16-region-16.png",
+          "label": "区域换层：16层",
+          "stage": "16-region-16",
+          "depth": 16,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-16-region-21.png",
+          "label": "区域换层：21层",
+          "stage": "16-region-21",
+          "depth": 21,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-16-region-26.png",
+          "label": "区域换层：26层",
+          "stage": "16-region-26",
+          "depth": 26,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-17-ankh-revived.png",
+          "label": "祝福十字架复活",
+          "stage": "17-ankh-revived",
+          "depth": 26,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-18-amulet-ending.png",
+          "label": "护符结局窗口",
+          "stage": "18-amulet-ending",
+          "depth": 26,
+          "subclass": "WARLOCK",
+          "scene": "AmuletScene"
+        },
+        {
+          "file": "lifecycle-desktop/medic-beacon-19-victory-ranking.png",
+          "label": "胜利排行榜",
+          "stage": "19-victory-ranking",
+          "depth": 26,
+          "subclass": "WARLOCK",
+          "scene": "RankingsScene"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "lifecycle-desktop/guard-elemental-death",
+      "name": "桌面横向 / 近卫 · 元素风暴 · 死亡分支",
+      "captures": [
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-01-start.png",
+          "label": "开局术师",
+          "stage": "01-start",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-02-subclass-choice.png",
+          "label": "转职选择",
+          "stage": "02-subclass-choice",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-03-subclass-confirm.png",
+          "label": "转职确认／取消",
+          "stage": "03-subclass-confirm",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-04-subclass-applied.png",
+          "label": "转职生效",
+          "stage": "04-subclass-applied",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-05-subclass-reload.png",
+          "label": "转职存档重载",
+          "stage": "05-subclass-reload",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-06-plate-armor.png",
+          "label": "装备板甲",
+          "stage": "06-plate-armor",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-07-armor-choice.png",
+          "label": "护甲能力选择",
+          "stage": "07-armor-choice",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-08-armor-confirm.png",
+          "label": "护甲能力确认／取消",
+          "stage": "08-armor-confirm",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-09-class-armor.png",
+          "label": "职业护甲生效",
+          "stage": "09-class-armor",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-10-armor-reload.png",
+          "label": "职业护甲存档重载",
+          "stage": "10-armor-reload",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-11-ability-used.png",
+          "label": "使用护甲能力",
+          "stage": "11-ability-used",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-12-status-reload.png",
+          "label": "状态与护盾重载",
+          "stage": "12-status-reload",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-13-save-summary.png",
+          "label": "存档摘要",
+          "stage": "13-save-summary",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-14-disguise.png",
+          "label": "伪装法师",
+          "stage": "14-disguise",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-15-restored-mirror.png",
+          "label": "恢复外观、翻转与镜像",
+          "stage": "15-restored-mirror",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-16-region-6.png",
+          "label": "区域换层：6层",
+          "stage": "16-region-6",
+          "depth": 6,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-16-region-11.png",
+          "label": "区域换层：11层",
+          "stage": "16-region-11",
+          "depth": 11,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-16-region-16.png",
+          "label": "区域换层：16层",
+          "stage": "16-region-16",
+          "depth": 16,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-16-region-21.png",
+          "label": "区域换层：21层",
+          "stage": "16-region-21",
+          "depth": 21,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-16-region-26.png",
+          "label": "区域换层：26层",
+          "stage": "16-region-26",
+          "depth": 26,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-17-ankh-revived.png",
+          "label": "祝福十字架复活",
+          "stage": "17-ankh-revived",
+          "depth": 26,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-desktop/guard-elemental-death-18-fatal-gameover.png",
+          "label": "真实死亡与结束",
+          "stage": "18-fatal-gameover",
+          "depth": 26,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "lifecycle-compact/guard-beacon",
+      "name": "小屏竖向 / 近卫 · 空间信标",
+      "captures": [
+        {
+          "file": "lifecycle-compact/guard-beacon-01-start.png",
+          "label": "开局术师",
+          "stage": "01-start",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-02-subclass-choice.png",
+          "label": "转职选择",
+          "stage": "02-subclass-choice",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-03-subclass-confirm.png",
+          "label": "转职确认／取消",
+          "stage": "03-subclass-confirm",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-04-subclass-applied.png",
+          "label": "转职生效",
+          "stage": "04-subclass-applied",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-05-subclass-reload.png",
+          "label": "转职存档重载",
+          "stage": "05-subclass-reload",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-06-plate-armor.png",
+          "label": "装备板甲",
+          "stage": "06-plate-armor",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-07-armor-choice.png",
+          "label": "护甲能力选择",
+          "stage": "07-armor-choice",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-08-armor-confirm.png",
+          "label": "护甲能力确认／取消",
+          "stage": "08-armor-confirm",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-09-class-armor.png",
+          "label": "职业护甲生效",
+          "stage": "09-class-armor",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-10-armor-reload.png",
+          "label": "职业护甲存档重载",
+          "stage": "10-armor-reload",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-11-ability-used.png",
+          "label": "使用护甲能力",
+          "stage": "11-ability-used",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-12-status-reload.png",
+          "label": "状态与护盾重载",
+          "stage": "12-status-reload",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-13-save-summary.png",
+          "label": "存档摘要",
+          "stage": "13-save-summary",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-14-disguise.png",
+          "label": "伪装法师",
+          "stage": "14-disguise",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-15-restored-mirror.png",
+          "label": "恢复外观、翻转与镜像",
+          "stage": "15-restored-mirror",
+          "depth": 1,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-16-region-6.png",
+          "label": "区域换层：6层",
+          "stage": "16-region-6",
+          "depth": 6,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-16-region-11.png",
+          "label": "区域换层：11层",
+          "stage": "16-region-11",
+          "depth": 11,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-16-region-16.png",
+          "label": "区域换层：16层",
+          "stage": "16-region-16",
+          "depth": 16,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-16-region-21.png",
+          "label": "区域换层：21层",
+          "stage": "16-region-21",
+          "depth": 21,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-16-region-26.png",
+          "label": "区域换层：26层",
+          "stage": "16-region-26",
+          "depth": 26,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-17-ankh-revived.png",
+          "label": "祝福十字架复活",
+          "stage": "17-ankh-revived",
+          "depth": 26,
+          "subclass": "BATTLEMAGE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-18-amulet-ending.png",
+          "label": "护符结局窗口",
+          "stage": "18-amulet-ending",
+          "depth": 26,
+          "subclass": "BATTLEMAGE",
+          "scene": "AmuletScene"
+        },
+        {
+          "file": "lifecycle-compact/guard-beacon-19-victory-ranking.png",
+          "label": "胜利排行榜",
+          "stage": "19-victory-ranking",
+          "depth": 26,
+          "subclass": "BATTLEMAGE",
+          "scene": "RankingsScene"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "lifecycle-compact/medic-beacon",
+      "name": "小屏竖向 / 医疗 · 空间信标",
+      "captures": [
+        {
+          "file": "lifecycle-compact/medic-beacon-01-start.png",
+          "label": "开局术师",
+          "stage": "01-start",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-02-subclass-choice.png",
+          "label": "转职选择",
+          "stage": "02-subclass-choice",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-03-subclass-confirm.png",
+          "label": "转职确认／取消",
+          "stage": "03-subclass-confirm",
+          "depth": 1,
+          "subclass": "NONE",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-04-subclass-applied.png",
+          "label": "转职生效",
+          "stage": "04-subclass-applied",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-05-subclass-reload.png",
+          "label": "转职存档重载",
+          "stage": "05-subclass-reload",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-06-plate-armor.png",
+          "label": "装备板甲",
+          "stage": "06-plate-armor",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-07-armor-choice.png",
+          "label": "护甲能力选择",
+          "stage": "07-armor-choice",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-08-armor-confirm.png",
+          "label": "护甲能力确认／取消",
+          "stage": "08-armor-confirm",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-09-class-armor.png",
+          "label": "职业护甲生效",
+          "stage": "09-class-armor",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-10-armor-reload.png",
+          "label": "职业护甲存档重载",
+          "stage": "10-armor-reload",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-11-ability-used.png",
+          "label": "使用护甲能力",
+          "stage": "11-ability-used",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-12-status-reload.png",
+          "label": "状态与护盾重载",
+          "stage": "12-status-reload",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-13-save-summary.png",
+          "label": "存档摘要",
+          "stage": "13-save-summary",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-14-disguise.png",
+          "label": "伪装法师",
+          "stage": "14-disguise",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-15-restored-mirror.png",
+          "label": "恢复外观、翻转与镜像",
+          "stage": "15-restored-mirror",
+          "depth": 1,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-16-region-6.png",
+          "label": "区域换层：6层",
+          "stage": "16-region-6",
+          "depth": 6,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-16-region-11.png",
+          "label": "区域换层：11层",
+          "stage": "16-region-11",
+          "depth": 11,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-16-region-16.png",
+          "label": "区域换层：16层",
+          "stage": "16-region-16",
+          "depth": 16,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-16-region-21.png",
+          "label": "区域换层：21层",
+          "stage": "16-region-21",
+          "depth": 21,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-16-region-26.png",
+          "label": "区域换层：26层",
+          "stage": "16-region-26",
+          "depth": 26,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-17-ankh-revived.png",
+          "label": "祝福十字架复活",
+          "stage": "17-ankh-revived",
+          "depth": 26,
+          "subclass": "WARLOCK",
+          "scene": "GameScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-18-amulet-ending.png",
+          "label": "护符结局窗口",
+          "stage": "18-amulet-ending",
+          "depth": 26,
+          "subclass": "WARLOCK",
+          "scene": "AmuletScene"
+        },
+        {
+          "file": "lifecycle-compact/medic-beacon-19-victory-ranking.png",
+          "label": "胜利排行榜",
+          "stage": "19-victory-ranking",
+          "depth": 26,
+          "subclass": "WARLOCK",
+          "scene": "RankingsScene"
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "animations": [
+    {
+      "file": "caster-right.webp",
+      "label": "术师施法",
+      "source": "AmiyaEffectChecks/caster-right",
+      "crop": [
+        560,
+        245,
+        960,
+        435
+      ],
+      "durations": [
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        650
+      ]
+    },
+    {
+      "file": "guard-right.webp",
+      "label": "近卫剑击",
+      "source": "AmiyaEffectChecks/guard-right",
+      "crop": [
+        560,
+        245,
+        960,
+        435
+      ],
+      "durations": [
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        650
+      ]
+    },
+    {
+      "file": "medic-right.webp",
+      "label": "医疗白杖施法",
+      "source": "AmiyaEffectChecks/medic-right",
+      "crop": [
+        560,
+        245,
+        960,
+        435
+      ],
+      "durations": [
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        650
+      ]
+    },
+    {
+      "file": "medic-recovery.webp",
+      "label": "灵魂标记恢复",
+      "source": "AmiyaEffectChecks/medic-recovery",
+      "crop": [
+        560,
+        245,
+        960,
+        435
+      ],
+      "durations": [
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        650
+      ]
+    },
+    {
+      "file": "medic-fire.webp",
+      "label": "火焰法杖",
+      "source": "AmiyaEffectChecks/medic-fire",
+      "crop": [
+        560,
+        245,
+        960,
+        435
+      ],
+      "durations": [
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        650
+      ]
+    },
+    {
+      "file": "medic-frost.webp",
+      "label": "冰霜法杖",
+      "source": "AmiyaEffectChecks/medic-frost",
+      "crop": [
+        560,
+        245,
+        960,
+        435
+      ],
+      "durations": [
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        650
+      ]
+    },
+    {
+      "file": "medic-lightning.webp",
+      "label": "雷电法杖",
+      "source": "AmiyaEffectChecks/medic-lightning",
+      "crop": [
+        560,
+        245,
+        960,
+        435
+      ],
+      "durations": [
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        650
+      ]
+    }
+  ]
+}

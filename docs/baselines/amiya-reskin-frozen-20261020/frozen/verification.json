@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "date": "2026-10-20",
+  "archiveCount": 5,
+  "archiveEntriesVerified": 24431,
+  "crcAndSHA256Verified": true,
+  "previousBaselineFilesChecked": 9529,
+  "allowedMetadataChanges": [
+    "art-source/library/index.html",
+    "art-source/library/manifest.json",
+    "art-source/library/README.md"
+  ],
+  "productionArtworkCodeAndRuntimeChanged": false,
+  "originalFilesRetained": true,
+  "priorGameVerification": "passed_with_stated_coverage",
+  "reranGameTests": false,
+  "releaseSHA256": "b06dc4117b431c5b2540000c932a468eedb78df3a4e68f50c5f823f5d45d71c2"
+}

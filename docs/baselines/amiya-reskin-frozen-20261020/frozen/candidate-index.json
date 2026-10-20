@@ -1,0 +1,138 @@
+{
+  "policy": "原路径保留，同时完整压缩存档。混选目录按单个素材判断，不能整包替换。",
+  "directories": [
+    {
+      "directory": "art-source/operators/amiya-subclass-rework-v1/advancement-crowns-v1",
+      "status": "采用",
+      "note": "黑王冠的回响、文明的存续及使用效果。",
+      "files": 129,
+      "bytes": 3706114
+    },
+    {
+      "directory": "art-source/operators/amiya-subclass-rework-v1/armor-ui-v1",
+      "status": "历史候选",
+      "note": "包含未采用的头像、转职图标；保留，禁止整包覆盖。",
+      "files": 118,
+      "bytes": 3943097
+    },
+    {
+      "directory": "art-source/operators/amiya-subclass-rework-v1/armor-ui-v2",
+      "status": "部分采用",
+      "note": "职业护甲与三枚能力图标采用；医疗头像由portrait-face-v1替代，其他头像和转职图标不采用。",
+      "files": 53,
+      "bytes": 1335661
+    },
+    {
+      "directory": "art-source/operators/amiya-subclass-rework-v1/effects-core-v1",
+      "status": "采用",
+      "note": "六组核心效果。",
+      "files": 396,
+      "bytes": 6723939
+    },
+    {
+      "directory": "art-source/operators/amiya-subclass-rework-v1/full-actions-v2",
+      "status": "已被后续版本替代",
+      "note": "早期全动作；保留两套医疗探索，不作为当前安装稿。",
+      "files": 269,
+      "bytes": 6875498
+    },
+    {
+      "directory": "art-source/operators/amiya-subclass-rework-v1/icon-selection-v1",
+      "status": "决策记录",
+      "note": "比较页保留；最终选版以封版中的approved-icon-selection.json为准。",
+      "files": 9,
+      "bytes": 230558
+    },
+    {
+      "directory": "art-source/operators/amiya-subclass-rework-v1/items-status-v1",
+      "status": "采用",
+      "note": "装备、充能灌注提示和灵魂标记。",
+      "files": 141,
+      "bytes": 4814806
+    },
+    {
+      "directory": "art-source/operators/amiya-subclass-rework-v1/longrange-warp-v3",
+      "status": "未采用",
+      "note": "T26中间方案保留。",
+      "files": 25,
+      "bytes": 1413309
+    },
+    {
+      "directory": "art-source/operators/amiya-subclass-rework-v1/longrange-warp-v4",
+      "status": "采用",
+      "note": "T26象牙白楼梯与蓝色传送箭头；替代V1/V2/V3对应单枚。",
+      "files": 27,
+      "bytes": 1276757
+    },
+    {
+      "directory": "art-source/operators/amiya-subclass-rework-v1/portrait-face-v1",
+      "status": "采用",
+      "note": "近卫与医疗头像；术师头像沿用原稿。",
+      "files": 41,
+      "bytes": 1615263
+    },
+    {
+      "directory": "art-source/operators/amiya-subclass-rework-v1/references",
+      "status": "参考档案",
+      "note": "比例、原作造型和历史基准资料。",
+      "files": 25,
+      "bytes": 2351749
+    },
+    {
+      "directory": "art-source/operators/amiya-subclass-rework-v1/reskin-polish-v3",
+      "status": "已被V4替代",
+      "note": "全动作中间版本。",
+      "files": 182,
+      "bytes": 3479825
+    },
+    {
+      "directory": "art-source/operators/amiya-subclass-rework-v1/reskin-polish-v4",
+      "status": "采用",
+      "note": "术师蓝光、近卫剑、医疗白杖蓝光；当前三形态。",
+      "files": 181,
+      "bytes": 3534075
+    },
+    {
+      "directory": "art-source/operators/amiya-subclass-rework-v1/stage-a",
+      "status": "历史探索",
+      "note": "早期关键帧；医疗蓝光方案与白杖方案全部保留。",
+      "files": 155,
+      "bytes": 2770587
+    },
+    {
+      "directory": "art-source/operators/amiya-subclass-rework-v1/status-legibility-v2",
+      "status": "混选采用",
+      "note": "持续充能、神器充能两种尺寸采用；屏障、法杖增伤采用V1。",
+      "files": 143,
+      "bytes": 9064141
+    },
+    {
+      "directory": "art-source/operators/amiya-subclass-rework-v1/status-original-blue-v2",
+      "status": "采用染色方案",
+      "note": "原版图形+阿米娅专属#45B5E0；6张烘焙PNG仅为源稿/预览，运行时仍用共享原版图集。",
+      "files": 184,
+      "bytes": 6549181
+    },
+    {
+      "directory": "art-source/operators/amiya-subclass-rework-v1/status-shield-v1",
+      "status": "未采用",
+      "note": "三种重绘状态及新护盾候选均保留；正式版保留原版护盾。",
+      "files": 159,
+      "bytes": 9947497
+    },
+    {
+      "directory": "art-source/operators/amiya-subclass-rework-v1/talents-legibility-v2",
+      "status": "混选采用",
+      "note": "部分天赋采用；不可将整个V1或V2目录标记为废弃。",
+      "files": 349,
+      "bytes": 40020810
+    },
+    {
+      "directory": "art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1",
+      "status": "混选采用",
+      "note": "部分天赋、部分状态及空间信标/传送表现采用；逐项以approved-icon-selection.json为准。",
+      "files": 509,
+      "bytes": 31324043
+    }
+  ]
+}

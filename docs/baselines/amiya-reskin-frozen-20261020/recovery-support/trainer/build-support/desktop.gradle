@@ -1,0 +1,77 @@
+def trainerMode = providers.gradleProperty('trainer').orNull == 'true'
+tasks.withType(JavaCompile).configureEach { options.incremental = false }
+tasks.named('verifyDesktopArchives') { dependsOn project(':core').tasks.named('verifyTrainerVariant') }
+if (!trainerMode) {
+    def smokeCompile = tasks.register('trainerOrdinarySmokeClasses', JavaCompile) {
+        dependsOn tasks.named('classes')
+        source = rootProject.fileTree('trainer/src/ordinary-test/java') { include '**/*.java' }
+        classpath = sourceSets.main.runtimeClasspath
+        destinationDirectory = rootProject.layout.projectDirectory.dir('trainer/build/ordinary-smoke/classes')
+        options.encoding = 'UTF-8'
+        sourceCompatibility = '11'
+        targetCompatibility = '11'
+    }
+    tasks.register('ordinarySmoke', JavaExec) {
+        dependsOn smokeCompile
+        classpath = sourceSets.main.runtimeClasspath + files(rootProject.file('trainer/build/ordinary-smoke/classes'))
+        mainClass = 'com.shatteredpixel.shatteredpixeldungeon.trainer.OrdinarySmoke'
+        systemProperty 'user.home', rootProject.file('trainer/runtime/ordinary-launch-home').absolutePath
+        systemProperty 'trainer.home', rootProject.file('trainer').absolutePath
+        systemProperty 'Specification-Title', appName
+        systemProperty 'Implementation-Title', appPackageName
+        systemProperty 'Specification-Version', appVersionName
+        systemProperty 'Implementation-Version', appVersionCode
+    }
+}
+if (trainerMode) {
+    layout.buildDirectory = rootProject.layout.projectDirectory.dir('trainer/build/desktop')
+    processResources {
+        from(rootProject.file('trainer/presets')) { into 'trainer/presets' }
+        from(rootProject.file('trainer/config')) { into 'trainer/config' }
+    }
+    tasks.register('trainerScenario', JavaExec) {
+        dependsOn project(':core').tasks.named('testClasses'), tasks.named('classes')
+        classpath = sourceSets.main.runtimeClasspath + project(':core').sourceSets.test.output
+        mainClass = 'com.shatteredpixel.shatteredpixeldungeon.trainer.TrainerGameTests'
+        systemProperty 'trainer.home', rootProject.file('trainer').absolutePath
+        systemProperty 'Specification-Title', appName
+        systemProperty 'Implementation-Title', appPackageName
+        systemProperty 'Specification-Version', appVersionName
+        systemProperty 'Implementation-Version', appVersionCode
+    }
+    tasks.register('trainerUi', JavaExec) {
+        dependsOn project(':core').tasks.named('testClasses'), tasks.named('classes')
+        classpath = sourceSets.main.runtimeClasspath + project(':core').sourceSets.test.output
+        mainClass = 'com.shatteredpixel.shatteredpixeldungeon.trainer.TrainerUiTests'
+        systemProperty 'trainer.home', rootProject.file('trainer').absolutePath
+        systemProperty 'Specification-Title', appName
+        systemProperty 'Implementation-Title', appPackageName
+        systemProperty 'Specification-Version', appVersionName
+        systemProperty 'Implementation-Version', appVersionCode
+    }
+    tasks.register('trainerRoster', JavaExec) {
+        dependsOn project(':core').tasks.named('testClasses'), tasks.named('classes')
+        classpath = sourceSets.main.runtimeClasspath + project(':core').sourceSets.test.output
+        mainClass = 'com.shatteredpixel.shatteredpixeldungeon.trainer.TrainerRosterTests'
+        systemProperty 'trainer.home', rootProject.file('trainer').absolutePath
+        systemProperty 'Specification-Title', appName
+        systemProperty 'Implementation-Title', appPackageName
+        systemProperty 'Specification-Version', appVersionName
+        systemProperty 'Implementation-Version', appVersionCode
+    }
+    tasks.register('trainerRosterPackaged', JavaExec) {
+        dependsOn project(':core').tasks.named('testClasses'), tasks.named('release')
+        classpath = files(tasks.named('release', Jar).flatMap { it.archiveFile }) + project(':core').sourceSets.test.output
+        mainClass = 'com.shatteredpixel.shatteredpixeldungeon.trainer.TrainerRosterTests'
+        systemProperty 'trainer.home', rootProject.file('trainer').absolutePath
+    }
+    // Reuse the installed JDK; keep the packaged runtime independent of normal builds.
+    runtime {
+        targetPlatform('win') {
+            jdkHome = providers.provider { System.getProperty('java.home') }
+            javaHome = System.getProperty('java.home')
+            jpackage { jpackageHome = file(System.getProperty('java.home')) }
+        }
+        jpackage { imageName = 'Pixel Dungeon Trainer' }
+    }
+}

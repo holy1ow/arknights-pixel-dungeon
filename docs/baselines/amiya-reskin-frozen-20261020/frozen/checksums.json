@@ -1,0 +1,132 @@
+[
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/approved-icon-selection.json",
+    "bytes": 22062,
+    "sha256": "290e6b70256a1096944fe51c84da87c187c5fc13ff7d9b8c101c2317222de1ac"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/archives/01-formal-art.zip",
+    "bytes": 4979969,
+    "sha256": "f65a480590841fe6690ff3f73e344cd97b184d3fc145bf94a29fd274a596615e"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/archives/02-history-and-candidates.zip",
+    "bytes": 116130003,
+    "sha256": "2685bbb9b70d52d60b17e3df7fded1edcfe386cbb740b9b9f5365b3d5f17e74c"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/archives/03-verification-records.zip",
+    "bytes": 1313893289,
+    "sha256": "c0a9af92741b9a21967d1ba29215c9385f77477fb3b4aa768602f8b94ff390ff"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/archives/04-verified-desktop-runtime.zip",
+    "bytes": 140173020,
+    "sha256": "c81afb872cecbf2ba9b22c73721c14bf77e02b53a9b377397c52dd5f03b792f4"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/archives/05-integration-source.zip",
+    "bytes": 66963461,
+    "sha256": "afc8898faec690f845d6e5ea0952663d72b777570bf3605d79aae2d51786e11a"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/browser-check.json",
+    "bytes": 106,
+    "sha256": "065b776a099237b0424b6e2f8fb8179ec6fab511c402bfbc9574f64265b32428"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/candidate-index.json",
+    "bytes": 5145,
+    "sha256": "f5044bf8cd9f4a32571904bc330ea14f69b3a7909766e467fd45dd6ecd7d0a09"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/full-flow-handoff.md",
+    "bytes": 3028,
+    "sha256": "f6d90249ee3884b6460f9a622d4ff5164daf1ec43d7df3ff2076fd69c8dba198"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/full-flow-verification.json",
+    "bytes": 66072,
+    "sha256": "f06a3b311eb3de7f122927a978331c863ca9967a989d69ed6373f6d78170db42"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/git-status-before.txt",
+    "bytes": 2333951,
+    "sha256": "e8a3fe0c307ba5c4b632ec6899d3be569e99bb2b767722230d01a950b74d89f5"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/handoff.md",
+    "bytes": 6358,
+    "sha256": "0f4fc57c34b627396f4ba6da5347508f53720267f922bbc83a13d2b3f1c54f8b"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/index.html",
+    "bytes": 7844,
+    "sha256": "2493b6f1d425fc7da5380d7703bb4d22eb767b6883af67b8ac9e74c4fe5655a9"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/installed-assets.json",
+    "bytes": 172319,
+    "sha256": "1ac20a973912303496f7798d3d7a4c07dc8edccc9055e59f6de37dbf3e4dfb2e"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/inventories/01-formal-art.json",
+    "bytes": 68255,
+    "sha256": "41346d8824e5a7ac775115fe84932315c9dc9aa1ddf9be790ec0c76ea19270fb"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/inventories/02-history-and-candidates.json",
+    "bytes": 732886,
+    "sha256": "31096f7c92c187174bedac496a7e81bdc58546e8a7afc6f677f21ea19c1eaaaa"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/inventories/03-verification-records.json",
+    "bytes": 4396385,
+    "sha256": "62bf7021b4a59ab4dd623249840b7cd0be49669e14b6f2a40af22d97aef19068"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/inventories/04-verified-desktop-runtime.json",
+    "bytes": 49383,
+    "sha256": "1cc05e4327156cc05bc5dea027338aa52e8b46084b7278d39f22f8386c5037d1"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/inventories/05-integration-source.json",
+    "bytes": 418045,
+    "sha256": "79a21228f55bd62c052cb465cd5866b7fc079d28b19f429001eed04eb259c093"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/manifest.json",
+    "bytes": 3735,
+    "sha256": "722d0761419bba2548b3ceb0806dfcac85271193823bbf24d4e4a0fc99296f07"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/metadata-before/development-status-20261018.json",
+    "bytes": 113797,
+    "sha256": "02b13aa4e1df264a503a81eac5a657e99ce6536ef20ed24cbedd50d57a518bee"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/metadata-before/index.html",
+    "bytes": 53981,
+    "sha256": "4ceb17878051f31742a89bda607f3d12388b7ec2209cefc5d5b0cbd6f38f0076"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/metadata-before/manifest.json",
+    "bytes": 194672,
+    "sha256": "18ccd50a69c6965f0a6e2580a9d6c3c4e8e5e9b97f8820f5ee7504d8e427b69e"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/metadata-before/README.md",
+    "bytes": 7455,
+    "sha256": "c7bf7d41886806157a006d3b07927628cbfe5650d7635dd997c7a1121f881534"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/overview.png",
+    "bytes": 84402,
+    "sha256": "1a4ccae39af9d29351a0530636ce04f0f8d86ac8bdb70bc25cdcbd3ed836ea60"
+  },
+  {
+    "path": "art-source/releases/amiya-reskin-frozen-20261020/verification.json",
+    "bytes": 598,
+    "sha256": "afd4f4afef2151adc0a6b726cecbd5480222319c0ea1c8f1f2f785cd6bb578b3"
+  }
+]

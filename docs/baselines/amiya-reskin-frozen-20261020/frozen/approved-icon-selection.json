@@ -1,0 +1,639 @@
+{
+  "schemaVersion": 1,
+  "status": "installed_validated",
+  "runtimeIntegrated": true,
+  "source": "User selection in chat, 2026-10-19",
+  "selected": 35,
+  "total": 35,
+  "items": [
+    {
+      "number": "T01",
+      "id": "empowering_meal",
+      "title": "盈能一餐",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:empowering_meal",
+          "size": 16,
+          "version": "v2",
+          "asset": {
+            "url": "../../talents-legibility-v2/exports/empowering_meal.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-legibility-v2/exports/empowering_meal.png",
+            "sha256": "0c8f20018e5e914ae6cd38655226b42667743f79694897845b6ca16957569a8e"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T02",
+      "id": "scholars_intuition",
+      "title": "学者直觉",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:scholars_intuition",
+          "size": 16,
+          "version": "v2",
+          "asset": {
+            "url": "../../talents-legibility-v2/exports/scholars_intuition.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-legibility-v2/exports/scholars_intuition.png",
+            "sha256": "46599d355ee87556cb4469af506367acb3ccfa93fb167152750f36239afab1bf"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T03",
+      "id": "lingering_magic",
+      "title": "波涌余威",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:lingering_magic",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/talents/lingering_magic.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/talents/lingering_magic.png",
+            "sha256": "a43f038284b70a4202f9f8b5548772abedbc163801e6ed7331e5172f5fef4cf4"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T04",
+      "id": "backup_barrier",
+      "title": "备用屏障",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:backup_barrier",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/talents/backup_barrier.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/talents/backup_barrier.png",
+            "sha256": "caa521881fac26dd78b99254036b6ddab8eac8eef4af9849e87bbaeb046cfb2b"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T05",
+      "id": "energizing_meal",
+      "title": "充能一餐",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:energizing_meal",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/talents/energizing_meal.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/talents/energizing_meal.png",
+            "sha256": "06810a44c66216d197161422c02b0b520e60fe209c41d66022d06efbbec0209b"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T06",
+      "id": "inscribed_power",
+      "title": "卷藏秘能",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:inscribed_power",
+          "size": 16,
+          "version": "v2",
+          "asset": {
+            "url": "../../talents-legibility-v2/exports/inscribed_power.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-legibility-v2/exports/inscribed_power.png",
+            "sha256": "7ba394986600ac001b6d424d9eccb7c87edbb6b886aedb4eed99482f241f72d6"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T07",
+      "id": "wand_preservation",
+      "title": "法杖回收",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:wand_preservation",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/talents/wand_preservation.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/talents/wand_preservation.png",
+            "sha256": "9adc188c5d0afa6e6fdeb5b258415ec2291c075c4a30f97fb85d4adefe7a4f7b"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T08",
+      "id": "arcane_vision",
+      "title": "奥术感知",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:arcane_vision",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/talents/arcane_vision.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/talents/arcane_vision.png",
+            "sha256": "933dee967786ffac3cf8066d9fe7c8800429bdefc444c64354f5e4cad72d86ec"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T09",
+      "id": "shield_battery",
+      "title": "储能护盾",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:shield_battery",
+          "size": 16,
+          "version": "v2",
+          "asset": {
+            "url": "../../talents-legibility-v2/exports/shield_battery.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-legibility-v2/exports/shield_battery.png",
+            "sha256": "8f1660f6621c287ee38d8fd7fd8af89d2791cdccb8a4bb7e33d8e9254e372d2b"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T10",
+      "id": "desperate_power",
+      "title": "绝境迫能",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:desperate_power",
+          "size": 16,
+          "version": "v2",
+          "asset": {
+            "url": "../../talents-legibility-v2/exports/desperate_power.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-legibility-v2/exports/desperate_power.png",
+            "sha256": "98d6200679fd356eab5a992337db67906b65fedcb19cd87af4db84e7caa64064"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T11",
+      "id": "ally_warp",
+      "title": "移形换位",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:ally_warp",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/talents/ally_warp.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/talents/ally_warp.png",
+            "sha256": "654b51b681592412bf1e14f52c5caf2046c756e70ff3d5d552609fe75732ac6c"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T12",
+      "id": "empowered_strike",
+      "title": "蓄能打击",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:empowered_strike",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/talents/empowered_strike.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/talents/empowered_strike.png",
+            "sha256": "a8bfc01bbc184e253b6eb8e2fd1ed31b9aefb2238e834af8f99c4d66ad21dc50"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T13",
+      "id": "mystical_charge",
+      "title": "充能秘术",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:mystical_charge",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/talents/mystical_charge.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/talents/mystical_charge.png",
+            "sha256": "2660d13c13d32b2679ffe875f99bf13b76987a8cf994f9eaa517840101194fb9"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T14",
+      "id": "excess_charge",
+      "title": "盈能屏障",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:excess_charge",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/talents/excess_charge.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/talents/excess_charge.png",
+            "sha256": "e8be3f31668e9db54757c551d559f48af48fb1cab78993d6cacf9ef0e3c409d0"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T15",
+      "id": "soul_eater",
+      "title": "噬魂秘法",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:soul_eater",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/talents/soul_eater.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/talents/soul_eater.png",
+            "sha256": "632dc414c9ac303e61a2f7f0c56a963d3e058dc825a3954101b1d1d1a587fd52"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T16",
+      "id": "soul_siphon",
+      "title": "灵魂分食",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:soul_siphon",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/talents/soul_siphon.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/talents/soul_siphon.png",
+            "sha256": "028799da3b671ba5fce246ab0ae6844b30bb513596614cef8a1db91b1e540b19"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T17",
+      "id": "necromancers_minions",
+      "title": "怨灵爪牙",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:necromancers_minions",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/talents/necromancers_minions.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/talents/necromancers_minions.png",
+            "sha256": "bb45e6fba0fe958d12fc00c15dcd3c33350d84cea82957e793c332804ef05772"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T18",
+      "id": "blast_radius",
+      "title": "广域打击",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:blast_radius",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/talents/blast_radius.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/talents/blast_radius.png",
+            "sha256": "2cf86e2b4ffe5cec8fbc6deff4ac248ae929993df184081e95dd117f11364c97"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T19",
+      "id": "elemental_power",
+      "title": "元素之力",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:elemental_power",
+          "size": 16,
+          "version": "v2",
+          "asset": {
+            "url": "../../talents-legibility-v2/exports/elemental_power.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-legibility-v2/exports/elemental_power.png",
+            "sha256": "6fa5c2f1508f15ccbe221524093d6253928b4baa936aeaffddb50c219dcc19d6"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T20",
+      "id": "reactive_barrier",
+      "title": "反应屏障",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:reactive_barrier",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/talents/reactive_barrier.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/talents/reactive_barrier.png",
+            "sha256": "0884b2da081c266ec0fdc2b58f6b05b09cf9c5c7880abfbbb97d9f1e51eff964"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T21",
+      "id": "wild_power",
+      "title": "狂野魔力",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:wild_power",
+          "size": 16,
+          "version": "v2",
+          "asset": {
+            "url": "../../talents-legibility-v2/exports/wild_power.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-legibility-v2/exports/wild_power.png",
+            "sha256": "1af710cf28186c68a26cfa2bb15ae940f477b8d00cd9a7e9c35198ddf86a8a27"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T22",
+      "id": "fire_everything",
+      "title": "法力倾泻",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:fire_everything",
+          "size": 16,
+          "version": "v2",
+          "asset": {
+            "url": "../../talents-legibility-v2/exports/fire_everything.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-legibility-v2/exports/fire_everything.png",
+            "sha256": "7ae763d5d428f854bb3d1c438f09ecb369c06a7fdfb7abb0af505a699debf673"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T23",
+      "id": "conserved_magic",
+      "title": "节能施法",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:conserved_magic",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/talents/conserved_magic.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/talents/conserved_magic.png",
+            "sha256": "0fe14bc487c1dbebf0e86b802426931047235728d1736862c803efe7d7efd83f"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T24",
+      "id": "telefrag",
+      "title": "传送挤压",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:telefrag",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/talents/telefrag.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/talents/telefrag.png",
+            "sha256": "87491df7ca11c04a674a794ba0a40eb79fc9f1cf5f7ec98e1269678ca670b5e7"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T25",
+      "id": "remote_beacon",
+      "title": "彼方信标",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:remote_beacon",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/talents/remote_beacon.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/talents/remote_beacon.png",
+            "sha256": "64a08191aea87e1e80e1ca9b9fd4a3f7a7fdfa3ca54bed1af30a8657c19b04d9"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T26",
+      "id": "longrange_warp",
+      "title": "长途传送",
+      "kind": "talent",
+      "note": "用户确认V4并授权接入换皮版，2026-10-19",
+      "choices": [
+        {
+          "key": "talent:longrange_warp",
+          "size": 16,
+          "version": "v4",
+          "asset": {
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/longrange-warp-v4/exports/longrange_warp.png",
+            "sha256": "65e08ed8b8cf2995f124895b261f6869a874cb73d1fec7e91c9773e38907a698"
+          }
+        }
+      ]
+    },
+    {
+      "number": "T27",
+      "id": "heroic_energy",
+      "title": "英勇能量",
+      "kind": "talent",
+      "note": "",
+      "choices": [
+        {
+          "key": "talent:heroic_energy",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/talents/heroic_energy.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/talents/heroic_energy.png",
+            "sha256": "27e0a0f5460478d2b822b84d894eb52dd3a3697c59c4fc39fb251aa07ba98ae1"
+          }
+        }
+      ]
+    },
+    {
+      "number": "S01",
+      "id": "recharging",
+      "title": "持续充能",
+      "kind": "status",
+      "note": "",
+      "choices": [
+        {
+          "key": "status:recharging:16",
+          "size": 16,
+          "version": "v2",
+          "asset": {
+            "url": "../../status-legibility-v2/exports/recharging-16.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/status-legibility-v2/exports/recharging-16.png",
+            "sha256": "972bac85959bbe15a7fed33c820450303ec43e6796c848fea621f9e482c4225c"
+          }
+        },
+        {
+          "key": "status:recharging:7",
+          "size": 7,
+          "version": "v2",
+          "asset": {
+            "url": "../../status-legibility-v2/exports/recharging-7.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/status-legibility-v2/exports/recharging-7.png",
+            "sha256": "de02eb105416ea0e57ef527c1d6a6c6debf230348993b31db674ceb7cdaec5ee"
+          }
+        }
+      ]
+    },
+    {
+      "number": "S02",
+      "id": "barrier",
+      "title": "护盾屏障",
+      "kind": "status",
+      "note": "",
+      "choices": [
+        {
+          "key": "status:barrier:16",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/status/status-barrier/16.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/status/status-barrier/16.png",
+            "sha256": "ffbe5f08277609ea091da9d89da9087d45fd98a8f52ae3b52f2417c5ae94873f"
+          }
+        },
+        {
+          "key": "status:barrier:7",
+          "size": 7,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/status/status-barrier/7.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/status/status-barrier/7.png",
+            "sha256": "fc3ea3847c4b853151db111d9f401bd310d6eb10d4a758261ca4a6cecec7a5da"
+          }
+        }
+      ]
+    },
+    {
+      "number": "S03",
+      "id": "wand-empower",
+      "title": "法杖增伤",
+      "kind": "status",
+      "note": "",
+      "choices": [
+        {
+          "key": "status:wand-empower:16",
+          "size": 16,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/status/status-wand-empower/16.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/status/status-wand-empower/16.png",
+            "sha256": "d01d65486d1f2ed7a6b67d36eb1b1c48de69c4bfc015d0e34fe39c81c13dd8f4"
+          }
+        },
+        {
+          "key": "status:wand-empower:7",
+          "size": 7,
+          "version": "v1",
+          "asset": {
+            "url": "../../talents-status-beacon-v1/exports/status/status-wand-empower/7.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/talents-status-beacon-v1/exports/status/status-wand-empower/7.png",
+            "sha256": "9d4006906430d61b07cdbf966f2d86aea7fdf3a25d2b25e479907af9d7626408"
+          }
+        }
+      ]
+    },
+    {
+      "number": "S04",
+      "id": "artifact-recharge",
+      "title": "神器充能",
+      "kind": "status",
+      "note": "",
+      "choices": [
+        {
+          "key": "status:artifact-recharge:16",
+          "size": 16,
+          "version": "v2",
+          "asset": {
+            "url": "../../status-legibility-v2/exports/artifact-recharge-16.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/status-legibility-v2/exports/artifact-recharge-16.png",
+            "sha256": "9cba534a63dc9f14a8bbd74d3418037fdeb526a35412b09c752c416dc678b379"
+          }
+        },
+        {
+          "key": "status:artifact-recharge:7",
+          "size": 7,
+          "version": "v2",
+          "asset": {
+            "url": "../../status-legibility-v2/exports/artifact-recharge-7.png",
+            "path": "D:/pixel-dungeon/art-source/operators/amiya-subclass-rework-v1/status-legibility-v2/exports/artifact-recharge-7.png",
+            "sha256": "ad0730061c89e9917d237fe4de263539c50eccae9091e92e20b830bf80616cd2"
+          }
+        }
+      ]
+    }
+  ],
+  "verification": "verification.json"
+}

@@ -1,0 +1,2973 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-18",
+  "snapshot": "4.0.2-common-dev-20261018",
+  "phase": "common_development_snapshot",
+  "allCharacterArtAccepted": false,
+  "medicalSelection": "white_staff_with_blue_cast_light",
+  "amiyaArtEditsPaused": false,
+  "specialMechanicsInScope": false,
+  "futureBranching": "全部角色美术完成并验收后，从共同美术基线拆分原版机制换皮版与角色特色机制版；本轮不拆分。",
+  "authoritativeSourceRoot": "art-source/library/current",
+  "runtimeRoot": "core/src/main/assets",
+  "traceabilityReport": "docs/qa/snapshot-4.0.2-common-dev-20261018/asset-traceability.json",
+  "currentAssets": [
+    {
+      "id": "sprite:amiya_base",
+      "character": "amiya",
+      "kind": "sprite",
+      "form": "base",
+      "source": {
+        "path": "art-source/library/current/amiya/sprites/base/source.aseprite",
+        "bytes": 10477,
+        "sha256": "e0ddb67f9a154f59a69e4cffb7a65e24135457c6d5158260f9acce98702124fe"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/sprites/base/atlas.png",
+        "bytes": 31820,
+        "sha256": "37d5cfa02506f7529c62da3476444347801c1f5433a1ae19054350e5be73899c"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/amiya.png",
+        "bytes": 31820,
+        "sha256": "37d5cfa02506f7529c62da3476444347801c1f5433a1ae19054350e5be73899c"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "portrait:amiya_base",
+      "character": "amiya",
+      "kind": "portrait",
+      "form": "base",
+      "source": {
+        "path": "art-source/library/current/amiya/portraits/base/source.aseprite",
+        "bytes": 2631,
+        "sha256": "b7d61b95c793ba72a82d27beb548db32b0e284c13cd02f0968303d4408735a76"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/portraits/base/export.png",
+        "bytes": 732,
+        "sha256": "5493d8c062bd3f312a4b53c1b92cc3a1e3da3567df66574f367582ba24c2cf0d"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/portraits.png",
+        "bytes": 10044,
+        "sha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      },
+      "slot": 0,
+      "cellSize": [
+        24,
+        32
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "sprite:amiya_guard",
+      "character": "amiya",
+      "kind": "sprite",
+      "form": "guard",
+      "source": {
+        "path": "art-source/library/current/amiya/sprites/guard/source.aseprite",
+        "bytes": 11169,
+        "sha256": "45e08c3944b6776c2bb97a89d993da8fa68dddbafa989b5d0988030d5cb06029"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/sprites/guard/atlas.png",
+        "bytes": 32156,
+        "sha256": "3338647d5e7e0c666d1edf4ce951b391c1e2f04c57842bc2b6db988f9e09bac8"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/amiya_guard.png",
+        "bytes": 32156,
+        "sha256": "3338647d5e7e0c666d1edf4ce951b391c1e2f04c57842bc2b6db988f9e09bac8"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "portrait:amiya_guard",
+      "character": "amiya",
+      "kind": "portrait",
+      "form": "guard",
+      "source": {
+        "path": "art-source/library/current/amiya/portraits/guard/source.aseprite",
+        "bytes": 1052,
+        "sha256": "45cd642e3e74c2a8c1c39b05a7ee35bc07fcc859f241fb1d29c5c82d176a3ef4"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/portraits/guard/export.png",
+        "bytes": 870,
+        "sha256": "22e9b9f3c4bd3865d0f114a49f628521e89431896dbd33d46c76a3f595c36e43"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/portraits.png",
+        "bytes": 10044,
+        "sha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      },
+      "slot": 1,
+      "cellSize": [
+        24,
+        32
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "approved",
+      "version": "portrait-face-v1",
+      "installationReport": "docs/qa/amiya-face-installed-20261019/handoff.md"
+    },
+    {
+      "id": "icon:amiya_guard",
+      "character": "amiya",
+      "kind": "icon",
+      "form": "guard",
+      "source": {
+        "path": "art-source/library/current/amiya/icons/guard/source.aseprite",
+        "bytes": 512,
+        "sha256": "4341e0b44e65e7c6fa847754c0d0f2ae98ae7313b5637c2fd23d1a0fc72e2cc2"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/icons/guard/export.png",
+        "bytes": 341,
+        "sha256": "65e173f8f8753eb1c2803a21e9dbf0b7e70cf6cc255c6f5cc6fcc3366eb53493"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/subclasses.png",
+        "bytes": 2023,
+        "sha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+      },
+      "slot": 0,
+      "cellSize": [
+        16,
+        16
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "sprite:amiya_medic",
+      "character": "amiya",
+      "kind": "sprite",
+      "form": "medic",
+      "source": {
+        "path": "art-source/library/current/amiya/sprites/medic/source.aseprite",
+        "bytes": 11315,
+        "sha256": "6dda32e70a4e2b5a132a842bc42b23c008136879cae6fe48e291750a8200fe6e"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/sprites/medic/atlas.png",
+        "bytes": 35112,
+        "sha256": "7d335f8997efff9f905fa2578078c125893357f8a970af5898e92dc565417a51"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/amiya_medic.png",
+        "bytes": 35112,
+        "sha256": "7d335f8997efff9f905fa2578078c125893357f8a970af5898e92dc565417a51"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "icon:amiya_medic",
+      "character": "amiya",
+      "kind": "icon",
+      "form": "medic",
+      "source": {
+        "path": "art-source/library/current/amiya/icons/medic/source.aseprite",
+        "bytes": 470,
+        "sha256": "1cda0257a683228bf3d5fccccfdab63704faaac6095ae0cd476e535e8aebc225"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/icons/medic/export.png",
+        "bytes": 351,
+        "sha256": "19c5a9981e538b76bf20cf9e1cec69046a0799eff6df82b4720e3a1afbee6314"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/subclasses.png",
+        "bytes": 2023,
+        "sha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+      },
+      "slot": 1,
+      "cellSize": [
+        16,
+        16
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "sprite:hellagur_base",
+      "character": "hellagur",
+      "kind": "sprite",
+      "form": "base",
+      "source": {
+        "path": "art-source/library/current/hellagur/sprites/base/source.aseprite",
+        "bytes": 6126,
+        "sha256": "cccda7b9ac58125698b4189203a10d82fa4018bdd91eeb8dd66a047d95766775"
+      },
+      "export": {
+        "path": "art-source/library/current/hellagur/sprites/base/atlas.png",
+        "bytes": 21450,
+        "sha256": "74df83e923eb60bd6dc97f518756a6dfc22523790a07a1cb304bd85fcb24b902"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/hellagur_base.png",
+        "bytes": 21450,
+        "sha256": "74df83e923eb60bd6dc97f518756a6dfc22523790a07a1cb304bd85fcb24b902"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "portrait:hellagur_base",
+      "character": "hellagur",
+      "kind": "portrait",
+      "form": "base",
+      "source": {
+        "path": "art-source/library/current/hellagur/portraits/base/source.aseprite",
+        "bytes": 866,
+        "sha256": "210979a8474c4758a8539aea5c1fd3eee387a2ddc06d2b0e550189cd988cc7b0"
+      },
+      "export": {
+        "path": "art-source/library/current/hellagur/portraits/base/export.png",
+        "bytes": 835,
+        "sha256": "2a4c1aaafe6d38e7ad0415c7d927e8326a502bf3c8a6ca4e779a20fee43b7441"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/portraits.png",
+        "bytes": 10044,
+        "sha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      },
+      "slot": 3,
+      "cellSize": [
+        24,
+        32
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "sprite:hellagur_berserker",
+      "character": "hellagur",
+      "kind": "sprite",
+      "form": "berserker",
+      "source": {
+        "path": "art-source/library/current/hellagur/sprites/berserker/source.aseprite",
+        "bytes": 6126,
+        "sha256": "cccda7b9ac58125698b4189203a10d82fa4018bdd91eeb8dd66a047d95766775"
+      },
+      "export": {
+        "path": "art-source/library/current/hellagur/sprites/berserker/atlas.png",
+        "bytes": 21450,
+        "sha256": "74df83e923eb60bd6dc97f518756a6dfc22523790a07a1cb304bd85fcb24b902"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/hellagur_berserker.png",
+        "bytes": 21450,
+        "sha256": "74df83e923eb60bd6dc97f518756a6dfc22523790a07a1cb304bd85fcb24b902"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "portrait:hellagur_berserker",
+      "character": "hellagur",
+      "kind": "portrait",
+      "form": "berserker",
+      "source": {
+        "path": "art-source/library/current/hellagur/portraits/berserker/source.aseprite",
+        "bytes": 859,
+        "sha256": "1e1a94fb7d49c520daf9285d05c3c07d346be4f6696aa85a31daea05cf7e3aec"
+      },
+      "export": {
+        "path": "art-source/library/current/hellagur/portraits/berserker/export.png",
+        "bytes": 743,
+        "sha256": "7bef4c35a93a258fc027c9e2d88aa06e0aa38e643e76f1b85ff51e1c072edd79"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/portraits.png",
+        "bytes": 10044,
+        "sha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      },
+      "slot": 4,
+      "cellSize": [
+        24,
+        32
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "icon:hellagur_berserker",
+      "character": "hellagur",
+      "kind": "icon",
+      "form": "berserker",
+      "source": {
+        "path": "art-source/library/current/hellagur/icons/berserker/source.aseprite",
+        "bytes": 444,
+        "sha256": "2683e95afab53072473118be191d798d3aefea4c7da0546cd74b923323afc9bd"
+      },
+      "export": {
+        "path": "art-source/library/current/hellagur/icons/berserker/export.png",
+        "bytes": 274,
+        "sha256": "3296bc8d1585c2bbfbaed6b8f63032471577a37474463c2a5b4b2fbb3adeaa8c"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/subclasses.png",
+        "bytes": 2023,
+        "sha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+      },
+      "slot": 2,
+      "cellSize": [
+        16,
+        16
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "sprite:hellagur_gladiator",
+      "character": "hellagur",
+      "kind": "sprite",
+      "form": "gladiator",
+      "source": {
+        "path": "art-source/library/current/hellagur/sprites/gladiator/source.aseprite",
+        "bytes": 6126,
+        "sha256": "cccda7b9ac58125698b4189203a10d82fa4018bdd91eeb8dd66a047d95766775"
+      },
+      "export": {
+        "path": "art-source/library/current/hellagur/sprites/gladiator/atlas.png",
+        "bytes": 21450,
+        "sha256": "74df83e923eb60bd6dc97f518756a6dfc22523790a07a1cb304bd85fcb24b902"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/hellagur_gladiator.png",
+        "bytes": 21450,
+        "sha256": "74df83e923eb60bd6dc97f518756a6dfc22523790a07a1cb304bd85fcb24b902"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "portrait:hellagur_gladiator",
+      "character": "hellagur",
+      "kind": "portrait",
+      "form": "gladiator",
+      "source": {
+        "path": "art-source/library/current/hellagur/portraits/gladiator/source.aseprite",
+        "bytes": 876,
+        "sha256": "8dd50365e1eb66330c5f65c96a48120cf2901a2fdd8bfc8623acad607548ec46"
+      },
+      "export": {
+        "path": "art-source/library/current/hellagur/portraits/gladiator/export.png",
+        "bytes": 747,
+        "sha256": "3836b636bcd1fa4491fc4cb30a23eaab187071bdc377ca35e47313a585b679c1"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/portraits.png",
+        "bytes": 10044,
+        "sha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      },
+      "slot": 5,
+      "cellSize": [
+        24,
+        32
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "icon:hellagur_gladiator",
+      "character": "hellagur",
+      "kind": "icon",
+      "form": "gladiator",
+      "source": {
+        "path": "art-source/library/current/hellagur/icons/gladiator/source.aseprite",
+        "bytes": 427,
+        "sha256": "2913c81e412acd1f19f829b6aad7b91305aa61628db9d4250e6e985c84fc9481"
+      },
+      "export": {
+        "path": "art-source/library/current/hellagur/icons/gladiator/export.png",
+        "bytes": 297,
+        "sha256": "36805d37b089f8aed5649b52c474013461ac47b05df9d6d454b86ccb699f6fc1"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/subclasses.png",
+        "bytes": 2023,
+        "sha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+      },
+      "slot": 3,
+      "cellSize": [
+        16,
+        16
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "splash:hellagur",
+      "character": "hellagur",
+      "kind": "splash",
+      "form": "base",
+      "source": {
+        "path": "art-source/library/current/hellagur/splash/source.aseprite",
+        "bytes": 3895026,
+        "sha256": "e3e639ed8bd2ce9055c480e48302f923efd541c075d272e4fbe55d2ee2f1a590"
+      },
+      "export": {
+        "path": "art-source/library/current/hellagur/splash/export.jpg",
+        "bytes": 239238,
+        "sha256": "7081cc5922aceb8db1bf7e48cebad58de58a88710bb4bcd079d44388d6dd21d6"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/splashes/operators/hellagur.jpg",
+        "bytes": 239238,
+        "sha256": "7081cc5922aceb8db1bf7e48cebad58de58a88710bb4bcd079d44388d6dd21d6"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "sprite:crownslayer_base",
+      "character": "crownslayer",
+      "kind": "sprite",
+      "form": "base",
+      "source": {
+        "path": "art-source/library/current/crownslayer/sprites/base/source.aseprite",
+        "bytes": 5538,
+        "sha256": "62c3b04a5fd2c40da2b98d60de97d6e61126bce2b1c15748dee68da9f574d55a"
+      },
+      "export": {
+        "path": "art-source/library/current/crownslayer/sprites/base/atlas.png",
+        "bytes": 18562,
+        "sha256": "59ece8c500a9d9d91f763134979f08f095b3880908e43744c4ee6d8a69a957f8"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/crownslayer_base.png",
+        "bytes": 18562,
+        "sha256": "59ece8c500a9d9d91f763134979f08f095b3880908e43744c4ee6d8a69a957f8"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "portrait:crownslayer_base",
+      "character": "crownslayer",
+      "kind": "portrait",
+      "form": "base",
+      "source": {
+        "path": "art-source/library/current/crownslayer/portraits/base/source.aseprite",
+        "bytes": 893,
+        "sha256": "75940315af404e52dd86d5b180292c1bb6f25e892837cb7cfc080d128a36f1fa"
+      },
+      "export": {
+        "path": "art-source/library/current/crownslayer/portraits/base/export.png",
+        "bytes": 795,
+        "sha256": "16fd0f59ed589da799ffa72d9f2c03f78a59856bcf5b99d18c18caeb9436d5ce"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/portraits.png",
+        "bytes": 10044,
+        "sha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      },
+      "slot": 6,
+      "cellSize": [
+        24,
+        32
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "sprite:crownslayer_assassin",
+      "character": "crownslayer",
+      "kind": "sprite",
+      "form": "assassin",
+      "source": {
+        "path": "art-source/library/current/crownslayer/sprites/assassin/source.aseprite",
+        "bytes": 5538,
+        "sha256": "62c3b04a5fd2c40da2b98d60de97d6e61126bce2b1c15748dee68da9f574d55a"
+      },
+      "export": {
+        "path": "art-source/library/current/crownslayer/sprites/assassin/atlas.png",
+        "bytes": 18562,
+        "sha256": "59ece8c500a9d9d91f763134979f08f095b3880908e43744c4ee6d8a69a957f8"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/crownslayer_assassin.png",
+        "bytes": 18562,
+        "sha256": "59ece8c500a9d9d91f763134979f08f095b3880908e43744c4ee6d8a69a957f8"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "portrait:crownslayer_assassin",
+      "character": "crownslayer",
+      "kind": "portrait",
+      "form": "assassin",
+      "source": {
+        "path": "art-source/library/current/crownslayer/portraits/assassin/source.aseprite",
+        "bytes": 881,
+        "sha256": "a7013974398e33e85125123fbc70a4612b0b4a8b24923a67763c43b95e1a5460"
+      },
+      "export": {
+        "path": "art-source/library/current/crownslayer/portraits/assassin/export.png",
+        "bytes": 856,
+        "sha256": "83c79c9c738eb9736008e81802a156c2d816895616e85667459ac5d2e49edfdc"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/portraits.png",
+        "bytes": 10044,
+        "sha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      },
+      "slot": 7,
+      "cellSize": [
+        24,
+        32
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "icon:crownslayer_assassin",
+      "character": "crownslayer",
+      "kind": "icon",
+      "form": "assassin",
+      "source": {
+        "path": "art-source/library/current/crownslayer/icons/assassin/source.aseprite",
+        "bytes": 450,
+        "sha256": "9dcba2f63ae06cccf575e4316e760aace4898c4ecdc4740caaae0f0d80bb7b47"
+      },
+      "export": {
+        "path": "art-source/library/current/crownslayer/icons/assassin/export.png",
+        "bytes": 305,
+        "sha256": "f775c3fe3608820962bd3d4eaa93f3de93c5d2c96e56f85763acdbd43a693454"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/subclasses.png",
+        "bytes": 2023,
+        "sha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+      },
+      "slot": 4,
+      "cellSize": [
+        16,
+        16
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "sprite:crownslayer_freerunner",
+      "character": "crownslayer",
+      "kind": "sprite",
+      "form": "freerunner",
+      "source": {
+        "path": "art-source/library/current/crownslayer/sprites/freerunner/source.aseprite",
+        "bytes": 5538,
+        "sha256": "62c3b04a5fd2c40da2b98d60de97d6e61126bce2b1c15748dee68da9f574d55a"
+      },
+      "export": {
+        "path": "art-source/library/current/crownslayer/sprites/freerunner/atlas.png",
+        "bytes": 18562,
+        "sha256": "59ece8c500a9d9d91f763134979f08f095b3880908e43744c4ee6d8a69a957f8"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/crownslayer_freerunner.png",
+        "bytes": 18562,
+        "sha256": "59ece8c500a9d9d91f763134979f08f095b3880908e43744c4ee6d8a69a957f8"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "portrait:crownslayer_freerunner",
+      "character": "crownslayer",
+      "kind": "portrait",
+      "form": "freerunner",
+      "source": {
+        "path": "art-source/library/current/crownslayer/portraits/freerunner/source.aseprite",
+        "bytes": 856,
+        "sha256": "e26ce105452b4148dee1c47073ddfb90060703a70dd1726ec58b487cc280a27e"
+      },
+      "export": {
+        "path": "art-source/library/current/crownslayer/portraits/freerunner/export.png",
+        "bytes": 720,
+        "sha256": "4d5651cc0d48506f0f43ca3bb0216175bb8785c2a66b6631e910f56afde1224c"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/portraits.png",
+        "bytes": 10044,
+        "sha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      },
+      "slot": 8,
+      "cellSize": [
+        24,
+        32
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "icon:crownslayer_freerunner",
+      "character": "crownslayer",
+      "kind": "icon",
+      "form": "freerunner",
+      "source": {
+        "path": "art-source/library/current/crownslayer/icons/freerunner/source.aseprite",
+        "bytes": 410,
+        "sha256": "78752ccffec9ed936a3a1ef4805d32ece2807a7bc21356eef5139f70c2237327"
+      },
+      "export": {
+        "path": "art-source/library/current/crownslayer/icons/freerunner/export.png",
+        "bytes": 293,
+        "sha256": "214f3f7d704e1a6ae803577677296dbb83ff499e9e42cc1681716e35c332ccb0"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/subclasses.png",
+        "bytes": 2023,
+        "sha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+      },
+      "slot": 5,
+      "cellSize": [
+        16,
+        16
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "splash:crownslayer",
+      "character": "crownslayer",
+      "kind": "splash",
+      "form": "base",
+      "source": {
+        "path": "art-source/library/current/crownslayer/splash/source.aseprite",
+        "bytes": 3702335,
+        "sha256": "c28fd003e0a670494e141bf2ac3dffb6da73572cbb91103f61d91e1cdfb61c4a"
+      },
+      "export": {
+        "path": "art-source/library/current/crownslayer/splash/export.jpg",
+        "bytes": 248183,
+        "sha256": "f81563984128bd99e6a14ec9380e2a14adc8ec91ee14a5c926b6a49a1b5432ba"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/splashes/operators/crownslayer.jpg",
+        "bytes": 248183,
+        "sha256": "f81563984128bd99e6a14ec9380e2a14adc8ec91ee14a5c926b6a49a1b5432ba"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "sprite:typhon_base",
+      "character": "typhon",
+      "kind": "sprite",
+      "form": "base",
+      "source": {
+        "path": "art-source/library/current/typhon/sprites/base/source.aseprite",
+        "bytes": 7987,
+        "sha256": "3ee6c84535aad4de3ab33437ad9ccf671bebe828a04c6fb7d1094db73123269f"
+      },
+      "export": {
+        "path": "art-source/library/current/typhon/sprites/base/atlas.png",
+        "bytes": 34507,
+        "sha256": "0ed0a3056b69ddfc8a6d2779cb4193b1e8f775377be0ebd7f1aa13c99cd3b046"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/typhon_base.png",
+        "bytes": 34507,
+        "sha256": "0ed0a3056b69ddfc8a6d2779cb4193b1e8f775377be0ebd7f1aa13c99cd3b046"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "portrait:typhon_base",
+      "character": "typhon",
+      "kind": "portrait",
+      "form": "base",
+      "source": {
+        "path": "art-source/library/current/typhon/portraits/base/source.aseprite",
+        "bytes": 928,
+        "sha256": "cc4dc657ad9d2223961b0bcce3ee3e8a6f4b8736e108f82e5f8e3ad0d52f65b5"
+      },
+      "export": {
+        "path": "art-source/library/current/typhon/portraits/base/export.png",
+        "bytes": 910,
+        "sha256": "8be41ecf839e2b9620dd9336c1b7bb3dc162e0df86eadb2e3f12536fbd2d0c15"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/portraits.png",
+        "bytes": 10044,
+        "sha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      },
+      "slot": 9,
+      "cellSize": [
+        24,
+        32
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "sprite:typhon_sniper",
+      "character": "typhon",
+      "kind": "sprite",
+      "form": "sniper",
+      "source": {
+        "path": "art-source/library/current/typhon/sprites/sniper/source.aseprite",
+        "bytes": 7987,
+        "sha256": "3ee6c84535aad4de3ab33437ad9ccf671bebe828a04c6fb7d1094db73123269f"
+      },
+      "export": {
+        "path": "art-source/library/current/typhon/sprites/sniper/atlas.png",
+        "bytes": 34507,
+        "sha256": "0ed0a3056b69ddfc8a6d2779cb4193b1e8f775377be0ebd7f1aa13c99cd3b046"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/typhon_sniper.png",
+        "bytes": 34507,
+        "sha256": "0ed0a3056b69ddfc8a6d2779cb4193b1e8f775377be0ebd7f1aa13c99cd3b046"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "portrait:typhon_sniper",
+      "character": "typhon",
+      "kind": "portrait",
+      "form": "sniper",
+      "source": {
+        "path": "art-source/library/current/typhon/portraits/sniper/source.aseprite",
+        "bytes": 961,
+        "sha256": "52e91616a288fdd3371105261c4208f17d3bd6937628bbb63a11bf737bafff2b"
+      },
+      "export": {
+        "path": "art-source/library/current/typhon/portraits/sniper/export.png",
+        "bytes": 966,
+        "sha256": "4a245712818cf8618f7038e17f42998dc025f4705369077a2ad18af7eaa27e3e"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/portraits.png",
+        "bytes": 10044,
+        "sha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      },
+      "slot": 10,
+      "cellSize": [
+        24,
+        32
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "icon:typhon_sniper",
+      "character": "typhon",
+      "kind": "icon",
+      "form": "sniper",
+      "source": {
+        "path": "art-source/library/current/typhon/icons/sniper/source.aseprite",
+        "bytes": 402,
+        "sha256": "c66bdd59ea1e2498eb927279e0010fe3c1b1d5017027b668eaa965d80d7df2ee"
+      },
+      "export": {
+        "path": "art-source/library/current/typhon/icons/sniper/export.png",
+        "bytes": 254,
+        "sha256": "be1b8fa256c2f581f74de92d86f28bdaed8f359b5d10afec16420dcd010358ea"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/subclasses.png",
+        "bytes": 2023,
+        "sha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+      },
+      "slot": 6,
+      "cellSize": [
+        16,
+        16
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "sprite:typhon_warden",
+      "character": "typhon",
+      "kind": "sprite",
+      "form": "warden",
+      "source": {
+        "path": "art-source/library/current/typhon/sprites/warden/source.aseprite",
+        "bytes": 7987,
+        "sha256": "3ee6c84535aad4de3ab33437ad9ccf671bebe828a04c6fb7d1094db73123269f"
+      },
+      "export": {
+        "path": "art-source/library/current/typhon/sprites/warden/atlas.png",
+        "bytes": 34507,
+        "sha256": "0ed0a3056b69ddfc8a6d2779cb4193b1e8f775377be0ebd7f1aa13c99cd3b046"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/typhon_warden.png",
+        "bytes": 34507,
+        "sha256": "0ed0a3056b69ddfc8a6d2779cb4193b1e8f775377be0ebd7f1aa13c99cd3b046"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "portrait:typhon_warden",
+      "character": "typhon",
+      "kind": "portrait",
+      "form": "warden",
+      "source": {
+        "path": "art-source/library/current/typhon/portraits/warden/source.aseprite",
+        "bytes": 945,
+        "sha256": "787c5b91cb3d4a7c852049f773f3ada6eef27dd880a12be2e0cfdb549423d008"
+      },
+      "export": {
+        "path": "art-source/library/current/typhon/portraits/warden/export.png",
+        "bytes": 992,
+        "sha256": "4d374b30cbf626065f3d9a6e98d355aa16a2b81f6adaaa82bf9f626c68d77115"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/portraits.png",
+        "bytes": 10044,
+        "sha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      },
+      "slot": 11,
+      "cellSize": [
+        24,
+        32
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "icon:typhon_warden",
+      "character": "typhon",
+      "kind": "icon",
+      "form": "warden",
+      "source": {
+        "path": "art-source/library/current/typhon/icons/warden/source.aseprite",
+        "bytes": 463,
+        "sha256": "ff71daa2e471fa9f4115c0d242ca978ed30fc031a2c6e8f6536b446dff7e3309"
+      },
+      "export": {
+        "path": "art-source/library/current/typhon/icons/warden/export.png",
+        "bytes": 364,
+        "sha256": "553fd7f28d61f1d12165dbe56679d8084ed8a169c35ba77b17dbe9e0485a79ce"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/subclasses.png",
+        "bytes": 2023,
+        "sha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+      },
+      "slot": 7,
+      "cellSize": [
+        16,
+        16
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "splash:typhon",
+      "character": "typhon",
+      "kind": "splash",
+      "form": "base",
+      "source": {
+        "path": "art-source/library/current/typhon/splash/source.aseprite",
+        "bytes": 4118047,
+        "sha256": "f6ad6d978513a88af160a5e9136adfe338338976d54f35a569e8029143c6872a"
+      },
+      "export": {
+        "path": "art-source/library/current/typhon/splash/export.jpg",
+        "bytes": 250093,
+        "sha256": "affd4e57e72c684c47c1c310f1b41003a82aa02c4f89769a4278c2f3fb680369"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/splashes/operators/typhon.jpg",
+        "bytes": 250093,
+        "sha256": "affd4e57e72c684c47c1c310f1b41003a82aa02c4f89769a4278c2f3fb680369"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "sprite:degenbrecher_base",
+      "character": "degenbrecher",
+      "kind": "sprite",
+      "form": "base",
+      "source": {
+        "path": "art-source/library/current/degenbrecher/sprites/base/source.aseprite",
+        "bytes": 7668,
+        "sha256": "822b05a83a0d9608344f1ee4bd24e42c8eaa47c599101145eaf3cac269f1c977"
+      },
+      "export": {
+        "path": "art-source/library/current/degenbrecher/sprites/base/atlas.png",
+        "bytes": 27167,
+        "sha256": "934c20b1d951c1370d43b36312e2b4c173545aac34e946515638fb193fe07a8b"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/degenbrecher_base.png",
+        "bytes": 27167,
+        "sha256": "934c20b1d951c1370d43b36312e2b4c173545aac34e946515638fb193fe07a8b"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "portrait:degenbrecher_base",
+      "character": "degenbrecher",
+      "kind": "portrait",
+      "form": "base",
+      "source": {
+        "path": "art-source/library/current/degenbrecher/portraits/base/source.aseprite",
+        "bytes": 895,
+        "sha256": "a4ccf63bed5baac0da36f1a30ab17f55f08b04b9ef5c4c90d01dce637003165e"
+      },
+      "export": {
+        "path": "art-source/library/current/degenbrecher/portraits/base/export.png",
+        "bytes": 935,
+        "sha256": "d7ccd0184769c2f8705fe695b69f5cfe6eecea45e0986ee3e449fb111fb47ad3"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/portraits.png",
+        "bytes": 10044,
+        "sha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      },
+      "slot": 12,
+      "cellSize": [
+        24,
+        32
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "sprite:degenbrecher_champion",
+      "character": "degenbrecher",
+      "kind": "sprite",
+      "form": "champion",
+      "source": {
+        "path": "art-source/library/current/degenbrecher/sprites/champion/source.aseprite",
+        "bytes": 7668,
+        "sha256": "822b05a83a0d9608344f1ee4bd24e42c8eaa47c599101145eaf3cac269f1c977"
+      },
+      "export": {
+        "path": "art-source/library/current/degenbrecher/sprites/champion/atlas.png",
+        "bytes": 27167,
+        "sha256": "934c20b1d951c1370d43b36312e2b4c173545aac34e946515638fb193fe07a8b"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/degenbrecher_champion.png",
+        "bytes": 27167,
+        "sha256": "934c20b1d951c1370d43b36312e2b4c173545aac34e946515638fb193fe07a8b"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "portrait:degenbrecher_champion",
+      "character": "degenbrecher",
+      "kind": "portrait",
+      "form": "champion",
+      "source": {
+        "path": "art-source/library/current/degenbrecher/portraits/champion/source.aseprite",
+        "bytes": 979,
+        "sha256": "61626d415a1797d4db463b50bd28ad4e525de4a83bd25dc1d22e71532ad0107d"
+      },
+      "export": {
+        "path": "art-source/library/current/degenbrecher/portraits/champion/export.png",
+        "bytes": 997,
+        "sha256": "a4f625b155f29a48b23a6beddea2704abb3d0ae12e6b7a743a765ec7391fd71e"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/portraits.png",
+        "bytes": 10044,
+        "sha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      },
+      "slot": 13,
+      "cellSize": [
+        24,
+        32
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "icon:degenbrecher_champion",
+      "character": "degenbrecher",
+      "kind": "icon",
+      "form": "champion",
+      "source": {
+        "path": "art-source/library/current/degenbrecher/icons/champion/source.aseprite",
+        "bytes": 497,
+        "sha256": "d0b6cd088020ef056274288117e3bda98d0b3f9bbee4c9bdcd7c6d3da3706107"
+      },
+      "export": {
+        "path": "art-source/library/current/degenbrecher/icons/champion/export.png",
+        "bytes": 380,
+        "sha256": "522844bbb5c3ee1d1ccf4d0ec15c1dc5935e3e3729c8c7e9491cd30469cea058"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/subclasses.png",
+        "bytes": 2023,
+        "sha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+      },
+      "slot": 8,
+      "cellSize": [
+        16,
+        16
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "sprite:degenbrecher_monk",
+      "character": "degenbrecher",
+      "kind": "sprite",
+      "form": "monk",
+      "source": {
+        "path": "art-source/library/current/degenbrecher/sprites/monk/source.aseprite",
+        "bytes": 7668,
+        "sha256": "822b05a83a0d9608344f1ee4bd24e42c8eaa47c599101145eaf3cac269f1c977"
+      },
+      "export": {
+        "path": "art-source/library/current/degenbrecher/sprites/monk/atlas.png",
+        "bytes": 27167,
+        "sha256": "934c20b1d951c1370d43b36312e2b4c173545aac34e946515638fb193fe07a8b"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/degenbrecher_monk.png",
+        "bytes": 27167,
+        "sha256": "934c20b1d951c1370d43b36312e2b4c173545aac34e946515638fb193fe07a8b"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "portrait:degenbrecher_monk",
+      "character": "degenbrecher",
+      "kind": "portrait",
+      "form": "monk",
+      "source": {
+        "path": "art-source/library/current/degenbrecher/portraits/monk/source.aseprite",
+        "bytes": 847,
+        "sha256": "d438f857ae4e1c933e5241ad7e70a09790e6f3fe9d063c3246de6553f8ea01b5"
+      },
+      "export": {
+        "path": "art-source/library/current/degenbrecher/portraits/monk/export.png",
+        "bytes": 835,
+        "sha256": "e7ce1ec32e040b66d00c7d5cacc510b528b99ad99f2450fa15f5c7f0eb3ebbd8"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/portraits.png",
+        "bytes": 10044,
+        "sha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      },
+      "slot": 14,
+      "cellSize": [
+        24,
+        32
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "icon:degenbrecher_monk",
+      "character": "degenbrecher",
+      "kind": "icon",
+      "form": "monk",
+      "source": {
+        "path": "art-source/library/current/degenbrecher/icons/monk/source.aseprite",
+        "bytes": 478,
+        "sha256": "56fb86b1873d340c4a07ea8b6a751e64f53c7c3b4c896fde24a25f605891ca86"
+      },
+      "export": {
+        "path": "art-source/library/current/degenbrecher/icons/monk/export.png",
+        "bytes": 346,
+        "sha256": "f01f65007e889ae7918a361fc4115e506a10b2bb7e07430b946834a1f6100f6d"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/subclasses.png",
+        "bytes": 2023,
+        "sha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+      },
+      "slot": 9,
+      "cellSize": [
+        16,
+        16
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "splash:degenbrecher",
+      "character": "degenbrecher",
+      "kind": "splash",
+      "form": "base",
+      "source": {
+        "path": "art-source/library/current/degenbrecher/splash/source.aseprite",
+        "bytes": 3849367,
+        "sha256": "02168c0fed2a108756fb492000ee8c944a4c9dc4651d7b6635eea5dbdd187fa8"
+      },
+      "export": {
+        "path": "art-source/library/current/degenbrecher/splash/export.jpg",
+        "bytes": 221902,
+        "sha256": "047fe6f6c5bc1faeaf82b6d02c04e147e4a52d99fcae50a9ebfa3f13beea706d"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/splashes/operators/degenbrecher.jpg",
+        "bytes": 221902,
+        "sha256": "047fe6f6c5bc1faeaf82b6d02c04e147e4a52d99fcae50a9ebfa3f13beea706d"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "sprite:shining_base",
+      "character": "shining",
+      "kind": "sprite",
+      "form": "base",
+      "source": {
+        "path": "art-source/library/current/shining/sprites/base/source.aseprite",
+        "bytes": 7202,
+        "sha256": "ebc32b6cc9f0ce3cc764048540fbb62694951b5d53b7737211ade7f3cffdc06e"
+      },
+      "export": {
+        "path": "art-source/library/current/shining/sprites/base/atlas.png",
+        "bytes": 25026,
+        "sha256": "7b39f5b0958a42da59edd107aa0b30af474969a8885769f1071847ce5677e4ab"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/shining_base.png",
+        "bytes": 25026,
+        "sha256": "7b39f5b0958a42da59edd107aa0b30af474969a8885769f1071847ce5677e4ab"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "portrait:shining_base",
+      "character": "shining",
+      "kind": "portrait",
+      "form": "base",
+      "source": {
+        "path": "art-source/library/current/shining/portraits/base/source.aseprite",
+        "bytes": 829,
+        "sha256": "2849ad89f1b7722450ce1b65ce496ffede229c490e7a0c042075071710d58c14"
+      },
+      "export": {
+        "path": "art-source/library/current/shining/portraits/base/export.png",
+        "bytes": 798,
+        "sha256": "92f9ae81c61955203b04906b8385399f5c9c112154279704e43d09bfb2b9ac6d"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/portraits.png",
+        "bytes": 10044,
+        "sha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      },
+      "slot": 15,
+      "cellSize": [
+        24,
+        32
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "sprite:shining_priest",
+      "character": "shining",
+      "kind": "sprite",
+      "form": "priest",
+      "source": {
+        "path": "art-source/library/current/shining/sprites/priest/source.aseprite",
+        "bytes": 7202,
+        "sha256": "ebc32b6cc9f0ce3cc764048540fbb62694951b5d53b7737211ade7f3cffdc06e"
+      },
+      "export": {
+        "path": "art-source/library/current/shining/sprites/priest/atlas.png",
+        "bytes": 25026,
+        "sha256": "7b39f5b0958a42da59edd107aa0b30af474969a8885769f1071847ce5677e4ab"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/shining_priest.png",
+        "bytes": 25026,
+        "sha256": "7b39f5b0958a42da59edd107aa0b30af474969a8885769f1071847ce5677e4ab"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "portrait:shining_priest",
+      "character": "shining",
+      "kind": "portrait",
+      "form": "priest",
+      "source": {
+        "path": "art-source/library/current/shining/portraits/priest/source.aseprite",
+        "bytes": 825,
+        "sha256": "5f33b8cf36da4354102f3bc97ad1407653d8249b65e715ad4dee68d1e0ddec17"
+      },
+      "export": {
+        "path": "art-source/library/current/shining/portraits/priest/export.png",
+        "bytes": 744,
+        "sha256": "3f67a60ccd156192363dcdc8338f9fc2d76697b0581860016a3f482785ff7fd8"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/portraits.png",
+        "bytes": 10044,
+        "sha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      },
+      "slot": 16,
+      "cellSize": [
+        24,
+        32
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "icon:shining_priest",
+      "character": "shining",
+      "kind": "icon",
+      "form": "priest",
+      "source": {
+        "path": "art-source/library/current/shining/icons/priest/source.aseprite",
+        "bytes": 413,
+        "sha256": "0907cfb7e41d6daa1e56dc6c1f2ee86683e8b2465dc69e6badf3dc0f400bf513"
+      },
+      "export": {
+        "path": "art-source/library/current/shining/icons/priest/export.png",
+        "bytes": 265,
+        "sha256": "776445536c4a26bfb4ad1454628da3e0120f33b1f6a728c03582a5d39fc7df9b"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/subclasses.png",
+        "bytes": 2023,
+        "sha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+      },
+      "slot": 10,
+      "cellSize": [
+        16,
+        16
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "sprite:shining_paladin",
+      "character": "shining",
+      "kind": "sprite",
+      "form": "paladin",
+      "source": {
+        "path": "art-source/library/current/shining/sprites/paladin/source.aseprite",
+        "bytes": 7202,
+        "sha256": "ebc32b6cc9f0ce3cc764048540fbb62694951b5d53b7737211ade7f3cffdc06e"
+      },
+      "export": {
+        "path": "art-source/library/current/shining/sprites/paladin/atlas.png",
+        "bytes": 25026,
+        "sha256": "7b39f5b0958a42da59edd107aa0b30af474969a8885769f1071847ce5677e4ab"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/shining_paladin.png",
+        "bytes": 25026,
+        "sha256": "7b39f5b0958a42da59edd107aa0b30af474969a8885769f1071847ce5677e4ab"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "portrait:shining_paladin",
+      "character": "shining",
+      "kind": "portrait",
+      "form": "paladin",
+      "source": {
+        "path": "art-source/library/current/shining/portraits/paladin/source.aseprite",
+        "bytes": 840,
+        "sha256": "79314dc172423d11e6afd6279274bda5dc61f2a0ff8bee651efe4457fdb09d22"
+      },
+      "export": {
+        "path": "art-source/library/current/shining/portraits/paladin/export.png",
+        "bytes": 813,
+        "sha256": "ae16d08608240eefd536680a0f8e9df163f712b7439cb57c821bc9e4943edd29"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/portraits.png",
+        "bytes": 10044,
+        "sha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      },
+      "slot": 17,
+      "cellSize": [
+        24,
+        32
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "icon:shining_paladin",
+      "character": "shining",
+      "kind": "icon",
+      "form": "paladin",
+      "source": {
+        "path": "art-source/library/current/shining/icons/paladin/source.aseprite",
+        "bytes": 442,
+        "sha256": "4770269abb2fcdd029beddc543085a7fba48c343a84ffedcd8f6fd3acc9c0a00"
+      },
+      "export": {
+        "path": "art-source/library/current/shining/icons/paladin/export.png",
+        "bytes": 240,
+        "sha256": "d929f44362215b0d7bcec31cd35f51995d7cbbc81a0359607e69659ab51f5d1c"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/subclasses.png",
+        "bytes": 2023,
+        "sha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
+      },
+      "slot": 11,
+      "cellSize": [
+        16,
+        16
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "splash:shining",
+      "character": "shining",
+      "kind": "splash",
+      "form": "base",
+      "source": {
+        "path": "art-source/library/current/shining/splash/source.aseprite",
+        "bytes": 4240372,
+        "sha256": "ca388b50805baff3d70a8815eba78608a850b3a4ee85d901696dab110c16b8b5"
+      },
+      "export": {
+        "path": "art-source/library/current/shining/splash/export.jpg",
+        "bytes": 267556,
+        "sha256": "a1b6d1394fe1b2aa83f916c9662f579fa67ece0cbddde3a68b3f94c6dbc1caa2"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/splashes/operators/shining.jpg",
+        "bytes": 267556,
+        "sha256": "a1b6d1394fe1b2aa83f916c9662f579fa67ece0cbddde3a68b3f94c6dbc1caa2"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "splash:amiya",
+      "character": "amiya",
+      "kind": "splash",
+      "form": "base",
+      "source": {
+        "path": "art-source/library/current/amiya/splash/source.aseprite",
+        "bytes": 3752182,
+        "sha256": "8add8132f9df8ac6770545ce78b7e37c0f58a00b08e368472927b41525c9f76e"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/splash/export.jpg",
+        "bytes": 183954,
+        "sha256": "f71c6fbce642be6f44c489746bd1ca91c3c18a9ab8eff0d15c02f00e96a6272e"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/splashes/amiya.jpg",
+        "bytes": 183954,
+        "sha256": "f71c6fbce642be6f44c489746bd1ca91c3c18a9ab8eff0d15c02f00e96a6272e"
+      },
+      "slot": null,
+      "cellSize": null,
+      "installationStatus": "installed",
+      "reviewStatus": "current_baseline_only_not_final_art_acceptance"
+    },
+    {
+      "id": "effect:amiya_arts-projectile",
+      "character": "amiya",
+      "kind": "effect",
+      "form": "shared",
+      "reviewStatus": "approved",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/effects/arts-projectile/source.aseprite",
+        "bytes": 719,
+        "sha256": "afebdf1355c8ecc38e9038c26bf2da8adc1e67c23b55ac592e3db5348b0dd08c"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/effects/arts-projectile/atlas.png",
+        "bytes": 353,
+        "sha256": "bc17bd4914557e214fd5f0bb6696986c693ae0ae4a2131d8b932ea02520057b3"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/effects/operators/amiya/arts-projectile.png",
+        "bytes": 353,
+        "sha256": "bc17bd4914557e214fd5f0bb6696986c693ae0ae4a2131d8b932ea02520057b3"
+      }
+    },
+    {
+      "id": "effect:amiya_arts-impact",
+      "character": "amiya",
+      "kind": "effect",
+      "form": "shared",
+      "reviewStatus": "approved",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/effects/arts-impact/source.aseprite",
+        "bytes": 825,
+        "sha256": "587607d8b2ab39883777ec81152c0dab0d59bcd146f4065b144dc558e08a8efa"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/effects/arts-impact/atlas.png",
+        "bytes": 444,
+        "sha256": "b45e72c6dc84363f3b14926f92ea4bbbf0364840516361643a4511ce388abc91"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/effects/operators/amiya/arts-impact.png",
+        "bytes": 444,
+        "sha256": "b45e72c6dc84363f3b14926f92ea4bbbf0364840516361643a4511ce388abc91"
+      }
+    },
+    {
+      "id": "effect:amiya_sword-arc",
+      "character": "amiya",
+      "kind": "effect",
+      "form": "shared",
+      "reviewStatus": "approved",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/effects/sword-arc/source.aseprite",
+        "bytes": 641,
+        "sha256": "7ca5b642040d1bbe71e9bbad5faf7df1ea3279e0cdf86b6446b53e8b73e0aabf"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/effects/sword-arc/atlas.png",
+        "bytes": 232,
+        "sha256": "94af4f10fee914f075dcd40c3d7f3935ac2bda6fbf7114d3ca48e26d705bc119"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/effects/operators/amiya/sword-arc.png",
+        "bytes": 232,
+        "sha256": "94af4f10fee914f075dcd40c3d7f3935ac2bda6fbf7114d3ca48e26d705bc119"
+      }
+    },
+    {
+      "id": "effect:amiya_sword-impact",
+      "character": "amiya",
+      "kind": "effect",
+      "form": "shared",
+      "reviewStatus": "approved",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/effects/sword-impact/source.aseprite",
+        "bytes": 642,
+        "sha256": "74af97754b15281fcbe5eb882338840996080ea02d6446d804a5c53102881d93"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/effects/sword-impact/atlas.png",
+        "bytes": 202,
+        "sha256": "89c0e505c72b643cfd9cac4473ebc7f72fef1f14922a835bd92c946fd133def2"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/effects/operators/amiya/sword-impact.png",
+        "bytes": 202,
+        "sha256": "89c0e505c72b643cfd9cac4473ebc7f72fef1f14922a835bd92c946fd133def2"
+      }
+    },
+    {
+      "id": "effect:amiya_staff-release",
+      "character": "amiya",
+      "kind": "effect",
+      "form": "shared",
+      "reviewStatus": "approved",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/effects/staff-release/source.aseprite",
+        "bytes": 631,
+        "sha256": "a7eaa5350c9468d22e3c1a17dbc4ec2278c75f5bb2060afd32aaafc397a632f2"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/effects/staff-release/atlas.png",
+        "bytes": 189,
+        "sha256": "09c586a773aced94f4f00c023252e21c7bbe68d75164e5e7a4ae4bfac665e273"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/effects/operators/amiya/staff-release.png",
+        "bytes": 189,
+        "sha256": "09c586a773aced94f4f00c023252e21c7bbe68d75164e5e7a4ae4bfac665e273"
+      }
+    },
+    {
+      "id": "effect:amiya_heal-return",
+      "character": "amiya",
+      "kind": "effect",
+      "form": "shared",
+      "reviewStatus": "approved",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/effects/heal-return/source.aseprite",
+        "bytes": 638,
+        "sha256": "ec92c2b98015e20503417dda8d8a2712e15aad1f62d2c19bb6adf26713c56cfb"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/effects/heal-return/atlas.png",
+        "bytes": 227,
+        "sha256": "27841852b585bbb465aee81c7edbfcf9c54e27ea644885c31fb0713a2b7553c0"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/effects/operators/amiya/heal-return.png",
+        "bytes": 227,
+        "sha256": "27841852b585bbb465aee81c7edbfcf9c54e27ea644885c31fb0713a2b7553c0"
+      }
+    },
+    {
+      "id": "item-visual:amiya_caster-focus",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "installationStatus": "installed",
+      "reviewStatus": "approved",
+      "source": {
+        "path": "art-source/library/current/amiya/items-status/caster-focus/source.aseprite",
+        "bytes": 485,
+        "sha256": "c89c664338b89480f3756b40148e8e98ff2ef039fb773f9ef55c877385befdac"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/items-status/caster-focus/atlas.png",
+        "bytes": 342,
+        "sha256": "4782eb5a617f6b5b48a367083bc596625908738d99370b6a4ff150c03a577a25"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/caster-focus.png",
+        "bytes": 342,
+        "sha256": "4782eb5a617f6b5b48a367083bc596625908738d99370b6a4ff150c03a577a25"
+      }
+    },
+    {
+      "id": "item-visual:amiya_guard-sword",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "installationStatus": "installed",
+      "reviewStatus": "approved",
+      "source": {
+        "path": "art-source/library/current/amiya/items-status/guard-sword/source.aseprite",
+        "bytes": 398,
+        "sha256": "9fa17c9bdd247a1ab16b480017fcb9149033a2ce9042fa21bbbefd72758a50b2"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/items-status/guard-sword/atlas.png",
+        "bytes": 209,
+        "sha256": "56dd8b72e2d9ee842d64ae50ce105cb66add95c9474e6ac79a0d6cb5ed31ab82"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/guard-sword.png",
+        "bytes": 209,
+        "sha256": "56dd8b72e2d9ee842d64ae50ce105cb66add95c9474e6ac79a0d6cb5ed31ab82"
+      }
+    },
+    {
+      "id": "item-visual:amiya_medic-staff",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "installationStatus": "installed",
+      "reviewStatus": "approved",
+      "source": {
+        "path": "art-source/library/current/amiya/items-status/medic-staff/source.aseprite",
+        "bytes": 349,
+        "sha256": "42b9e735003c676f3f0fb273cc21e4deca6e901ebef9855fc1e9f33e9e80259b"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/items-status/medic-staff/atlas.png",
+        "bytes": 144,
+        "sha256": "0ed2d54e676e37c0b74d89f7d8df62e7370f9fb5d59293a6658b7ea457e668fd"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/medic-staff.png",
+        "bytes": 144,
+        "sha256": "0ed2d54e676e37c0b74d89f7d8df62e7370f9fb5d59293a6658b7ea457e668fd"
+      }
+    },
+    {
+      "id": "item-visual:amiya_charge-feedback",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "installationStatus": "installed",
+      "reviewStatus": "approved",
+      "source": {
+        "path": "art-source/library/current/amiya/items-status/charge-feedback/source.aseprite",
+        "bytes": 403,
+        "sha256": "506e19da009bdfbab1c9d04eff58d2dd7166919c34b954122c28016898a4b33f"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/items-status/charge-feedback/atlas.png",
+        "bytes": 179,
+        "sha256": "27b8dda265491a30c00cb810edccac21829b66cd0c3d951732c77ee127736cfa"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/charge-feedback.png",
+        "bytes": 179,
+        "sha256": "27b8dda265491a30c00cb810edccac21829b66cd0c3d951732c77ee127736cfa"
+      }
+    },
+    {
+      "id": "item-visual:amiya_charge-insufficient",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "installationStatus": "installed",
+      "reviewStatus": "approved",
+      "source": {
+        "path": "art-source/library/current/amiya/items-status/charge-insufficient/source.aseprite",
+        "bytes": 408,
+        "sha256": "147fe5e03f1e62e3304e8f8719a1434b71b67d07fbafc6aac483139bc36334f9"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/items-status/charge-insufficient/atlas.png",
+        "bytes": 255,
+        "sha256": "a9dbc4d0467d62c427101437d91ac910cfb8bb231c901a9c6d390bd3bf047a41"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/charge-insufficient.png",
+        "bytes": 255,
+        "sha256": "a9dbc4d0467d62c427101437d91ac910cfb8bb231c901a9c6d390bd3bf047a41"
+      }
+    },
+    {
+      "id": "item-visual:amiya_imbue-transfer",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "installationStatus": "installed",
+      "reviewStatus": "approved",
+      "source": {
+        "path": "art-source/library/current/amiya/items-status/imbue-transfer/source.aseprite",
+        "bytes": 437,
+        "sha256": "cbcdb880132be3fe4d8726e7b093e54dc855cf9e9c8764ab10338a5179e26f94"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/items-status/imbue-transfer/atlas.png",
+        "bytes": 263,
+        "sha256": "a7ebf7997f55a04899cb2b3f4b21e18c0b25f1dfcde2ea10156d7f661b82e3d2"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/imbue-transfer.png",
+        "bytes": 263,
+        "sha256": "a7ebf7997f55a04899cb2b3f4b21e18c0b25f1dfcde2ea10156d7f661b82e3d2"
+      }
+    },
+    {
+      "id": "item-visual:amiya_soul-mark",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "installationStatus": "installed",
+      "reviewStatus": "approved",
+      "source": {
+        "path": "art-source/library/current/amiya/items-status/soul-mark/source.aseprite",
+        "bytes": 368,
+        "sha256": "f0a62c1a1c7488492b0014bef7b89e54b5524bbf34cee8d21bd0badc7c706645"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/items-status/soul-mark/atlas.png",
+        "bytes": 214,
+        "sha256": "2db3886a19a12e25fb6752b7c612597519dd687d4d38823b1c10a7086044405d"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/soul-mark.png",
+        "bytes": 214,
+        "sha256": "2db3886a19a12e25fb6752b7c612597519dd687d4d38823b1c10a7086044405d"
+      }
+    },
+    {
+      "id": "item-visual:amiya_soul-mark-small",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "installationStatus": "installed",
+      "reviewStatus": "approved",
+      "source": {
+        "path": "art-source/library/current/amiya/items-status/soul-mark-small/source.aseprite",
+        "bytes": 332,
+        "sha256": "21e779b8fb792158d471c564e16bb7745f8b82cbba8909f451b8d3f5f51d41b4"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/items-status/soul-mark-small/atlas.png",
+        "bytes": 111,
+        "sha256": "12a5b06969f177f46221d9d4ee995bbb02eade31f2791e07739259b069d7e88d"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/soul-mark-small.png",
+        "bytes": 111,
+        "sha256": "12a5b06969f177f46221d9d4ee995bbb02eade31f2791e07739259b069d7e88d"
+      }
+    },
+    {
+      "id": "item-visual:amiya_civilight-item",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "installationStatus": "installed",
+      "reviewStatus": "approved",
+      "source": {
+        "path": "art-source/library/current/amiya/items-status/civilight-item/source.aseprite",
+        "bytes": 460,
+        "sha256": "793bc33095371a045b233c42574940614b203c27c2df238d900a899c0d12ed6d"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/items-status/civilight-item/atlas.png",
+        "bytes": 278,
+        "sha256": "14a00c13fdfe1218a4d28cf91f171fb3675a565dcf089f28847975455d25c618"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/civilight-item.png",
+        "bytes": 278,
+        "sha256": "14a00c13fdfe1218a4d28cf91f171fb3675a565dcf089f28847975455d25c618"
+      }
+    },
+    {
+      "id": "item-visual:amiya_echo-item",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "installationStatus": "installed",
+      "reviewStatus": "approved",
+      "source": {
+        "path": "art-source/library/current/amiya/items-status/echo-item/source.aseprite",
+        "bytes": 435,
+        "sha256": "eb5ee0c54c56d1d9c1391cced1fa4c18d375256de99dd5b57d6f8b4c2315ca17"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/items-status/echo-item/atlas.png",
+        "bytes": 294,
+        "sha256": "fa8008abd4f24991dcabf0b2404de0682515253e1ca9e5ab549fb9c1fcb6ea30"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/echo-item.png",
+        "bytes": 294,
+        "sha256": "fa8008abd4f24991dcabf0b2404de0682515253e1ca9e5ab549fb9c1fcb6ea30"
+      }
+    },
+    {
+      "id": "item-visual:amiya_echo-use",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "installationStatus": "installed",
+      "reviewStatus": "approved",
+      "source": {
+        "path": "art-source/library/current/amiya/items-status/echo-use/source.aseprite",
+        "bytes": 1007,
+        "sha256": "450e195272888c538154072a93191ebc6f2e643c1b4db12c650c1dc0373093a6"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/items-status/echo-use/atlas.png",
+        "bytes": 657,
+        "sha256": "0003c75505e91d5d76ba4dc0e7460e56be018158e4b251537e8a1a6b3c7c6407"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/echo-use.png",
+        "bytes": 657,
+        "sha256": "0003c75505e91d5d76ba4dc0e7460e56be018158e4b251537e8a1a6b3c7c6407"
+      }
+    },
+    {
+      "id": "item-visual:amiya_civilight-use",
+      "character": "amiya",
+      "kind": "item-visual",
+      "form": "shared",
+      "installationStatus": "installed",
+      "reviewStatus": "approved",
+      "source": {
+        "path": "art-source/library/current/amiya/items-status/civilight-use/source.aseprite",
+        "bytes": 1029,
+        "sha256": "f327a1565a0433839e71908c7a609eea92f6a6d35380f1db2b54efcf419add68"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/items-status/civilight-use/atlas.png",
+        "bytes": 750,
+        "sha256": "e5f4915fc79949d4a5a49b31a757072c8a7c31729fd69d37ee3d098702b6a0b4"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/civilight-use.png",
+        "bytes": 750,
+        "sha256": "e5f4915fc79949d4a5a49b31a757072c8a7c31729fd69d37ee3d098702b6a0b4"
+      }
+    },
+    {
+      "id": "armor-ui:amiya_class-armor",
+      "character": "amiya",
+      "kind": "armor-ui",
+      "form": "shared",
+      "source": {
+        "path": "art-source/library/current/amiya/armor-ui/class-armor/source.aseprite",
+        "bytes": 633,
+        "sha256": "c2d3ed8f93ea55ccaf6f5a84a1233100f172d22c1def54d8b14cbd68933c6e99"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/armor-ui/class-armor/export.png",
+        "bytes": 420,
+        "sha256": "f5ccf9a56577e58634675da1f33306ab02fcd47ff01bdf1bf23b3736430739c2"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/class-armor.png",
+        "bytes": 420,
+        "sha256": "f5ccf9a56577e58634675da1f33306ab02fcd47ff01bdf1bf23b3736430739c2"
+      },
+      "installationStatus": "installed",
+      "reviewStatus": "approved",
+      "version": "armor-ui-v2",
+      "installationReport": "docs/qa/amiya-armor-installed-20261019/handoff.md"
+    },
+    {
+      "id": "armor-ui:amiya_elemental-blast",
+      "character": "amiya",
+      "kind": "armor-ui",
+      "form": "shared",
+      "source": {
+        "path": "art-source/library/current/amiya/armor-ui/elemental-blast/source.aseprite",
+        "bytes": 588,
+        "sha256": "f337fe0c1a6ae78c052d790fa252fd35d6de2d38a04d9004d8bd0ea9e9a5557c"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/armor-ui/elemental-blast/export.png",
+        "bytes": 378,
+        "sha256": "e9434e70f7eb760eb0d0ef9e9707e25d3f7c228fcc615cc7ea4fe2466b2d8c6b"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/elemental-blast.png",
+        "bytes": 378,
+        "sha256": "e9434e70f7eb760eb0d0ef9e9707e25d3f7c228fcc615cc7ea4fe2466b2d8c6b"
+      },
+      "installationStatus": "installed",
+      "reviewStatus": "approved",
+      "version": "armor-ui-v2",
+      "installationReport": "docs/qa/amiya-armor-installed-20261019/handoff.md"
+    },
+    {
+      "id": "armor-ui:amiya_wild-magic",
+      "character": "amiya",
+      "kind": "armor-ui",
+      "form": "shared",
+      "source": {
+        "path": "art-source/library/current/amiya/armor-ui/wild-magic/source.aseprite",
+        "bytes": 550,
+        "sha256": "e4909f1024bd0c6ba1a84864c3c8d8a9eacf30b416dcb48fcb852019b14c5269"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/armor-ui/wild-magic/export.png",
+        "bytes": 224,
+        "sha256": "5cf66142636904a5e77949a10de289372ff4d0097683ee8f124854da85b4d45c"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/wild-magic.png",
+        "bytes": 224,
+        "sha256": "5cf66142636904a5e77949a10de289372ff4d0097683ee8f124854da85b4d45c"
+      },
+      "installationStatus": "installed",
+      "reviewStatus": "approved",
+      "version": "armor-ui-v2",
+      "installationReport": "docs/qa/amiya-armor-installed-20261019/handoff.md"
+    },
+    {
+      "id": "armor-ui:amiya_warp-beacon",
+      "character": "amiya",
+      "kind": "armor-ui",
+      "form": "shared",
+      "source": {
+        "path": "art-source/library/current/amiya/armor-ui/warp-beacon/source.aseprite",
+        "bytes": 547,
+        "sha256": "3895f9d0b361baf289b40093c84c2552bb5252df97567e8ac59135a6def3d696"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/armor-ui/warp-beacon/export.png",
+        "bytes": 285,
+        "sha256": "e3a6ca6c36a3d5453f974b60f1beba0c3c5c1153f4a4f24346c6701a08fdd6c9"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/warp-beacon.png",
+        "bytes": 285,
+        "sha256": "e3a6ca6c36a3d5453f974b60f1beba0c3c5c1153f4a4f24346c6701a08fdd6c9"
+      },
+      "installationStatus": "installed",
+      "reviewStatus": "approved",
+      "version": "armor-ui-v2",
+      "installationReport": "docs/qa/amiya-armor-installed-20261019/handoff.md"
+    },
+    {
+      "id": "portrait:amiya_medic",
+      "character": "amiya",
+      "kind": "portrait",
+      "form": "medic",
+      "source": {
+        "path": "art-source/library/current/amiya/portraits/medic/source.aseprite",
+        "bytes": 1186,
+        "sha256": "44dfc67b40d5d446cc8dae3e859e159219059e5631de7832f84180fdd49fe74f"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/portraits/medic/export.png",
+        "bytes": 972,
+        "sha256": "1a3263f16433bfa477ca78f0655304b558b4dc0f2b9b6d420e1bd716fc8f0b39"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/sprites/operators/portraits.png",
+        "bytes": 10044,
+        "sha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      },
+      "slot": 2,
+      "cellSize": [
+        24,
+        32
+      ],
+      "installationStatus": "installed",
+      "reviewStatus": "approved",
+      "version": "portrait-face-v1",
+      "installationReport": "docs/qa/amiya-face-installed-20261019/handoff.md"
+    },
+    {
+      "id": "amiya-talent:empowering_meal",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v2",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/empowering_meal/source.aseprite",
+        "bytes": 316,
+        "sha256": "c91f684f54c8188d12972cacbaf10cd037bfcfc4eb096896cf7bc103b4b3968d"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/empowering_meal/export.png",
+        "bytes": 246,
+        "sha256": "0c8f20018e5e914ae6cd38655226b42667743f79694897845b6ca16957569a8e"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/empowering_meal.png",
+        "bytes": 246,
+        "sha256": "0c8f20018e5e914ae6cd38655226b42667743f79694897845b6ca16957569a8e"
+      }
+    },
+    {
+      "id": "amiya-talent:scholars_intuition",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v2",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/scholars_intuition/source.aseprite",
+        "bytes": 352,
+        "sha256": "26ab7bb60a32fd1efaeb5eded896015207d58912e2b803bedd3d3777e92c5ae0"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/scholars_intuition/export.png",
+        "bytes": 234,
+        "sha256": "46599d355ee87556cb4469af506367acb3ccfa93fb167152750f36239afab1bf"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/scholars_intuition.png",
+        "bytes": 234,
+        "sha256": "46599d355ee87556cb4469af506367acb3ccfa93fb167152750f36239afab1bf"
+      }
+    },
+    {
+      "id": "amiya-talent:lingering_magic",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/lingering_magic/source.aseprite",
+        "bytes": 376,
+        "sha256": "d50c827dfc0462848a9bbf8f3572a3e27eca2157b755cb2f0b0771944cd1f4aa"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/lingering_magic/export.png",
+        "bytes": 271,
+        "sha256": "a43f038284b70a4202f9f8b5548772abedbc163801e6ed7331e5172f5fef4cf4"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/lingering_magic.png",
+        "bytes": 271,
+        "sha256": "a43f038284b70a4202f9f8b5548772abedbc163801e6ed7331e5172f5fef4cf4"
+      }
+    },
+    {
+      "id": "amiya-talent:backup_barrier",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/backup_barrier/source.aseprite",
+        "bytes": 335,
+        "sha256": "641351beafc0a0158f26e13b3f022f7d635bc5d3615f794a20100351ddb014e7"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/backup_barrier/export.png",
+        "bytes": 254,
+        "sha256": "caa521881fac26dd78b99254036b6ddab8eac8eef4af9849e87bbaeb046cfb2b"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/backup_barrier.png",
+        "bytes": 254,
+        "sha256": "caa521881fac26dd78b99254036b6ddab8eac8eef4af9849e87bbaeb046cfb2b"
+      }
+    },
+    {
+      "id": "amiya-talent:energizing_meal",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/energizing_meal/source.aseprite",
+        "bytes": 385,
+        "sha256": "6f5e758b3eda921efae72fb138069927a733cfad5272a5b34bc1ab55805c18a2"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/energizing_meal/export.png",
+        "bytes": 336,
+        "sha256": "06810a44c66216d197161422c02b0b520e60fe209c41d66022d06efbbec0209b"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/energizing_meal.png",
+        "bytes": 336,
+        "sha256": "06810a44c66216d197161422c02b0b520e60fe209c41d66022d06efbbec0209b"
+      }
+    },
+    {
+      "id": "amiya-talent:inscribed_power",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v2",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/inscribed_power/source.aseprite",
+        "bytes": 369,
+        "sha256": "6aecd6bb45792c180b677fce665781994cae9a3d04e85613ee8312d22f3ea30b"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/inscribed_power/export.png",
+        "bytes": 348,
+        "sha256": "7ba394986600ac001b6d424d9eccb7c87edbb6b886aedb4eed99482f241f72d6"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/inscribed_power.png",
+        "bytes": 348,
+        "sha256": "7ba394986600ac001b6d424d9eccb7c87edbb6b886aedb4eed99482f241f72d6"
+      }
+    },
+    {
+      "id": "amiya-talent:wand_preservation",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/wand_preservation/source.aseprite",
+        "bytes": 396,
+        "sha256": "1825cb79c08d3ba428db2b9393fdfc8cc759ae1d6dce597f6c64ed472207a538"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/wand_preservation/export.png",
+        "bytes": 328,
+        "sha256": "9adc188c5d0afa6e6fdeb5b258415ec2291c075c4a30f97fb85d4adefe7a4f7b"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/wand_preservation.png",
+        "bytes": 328,
+        "sha256": "9adc188c5d0afa6e6fdeb5b258415ec2291c075c4a30f97fb85d4adefe7a4f7b"
+      }
+    },
+    {
+      "id": "amiya-talent:arcane_vision",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/arcane_vision/source.aseprite",
+        "bytes": 341,
+        "sha256": "b8673e945a74eb0851c0c13271602918807076396af9cc5ab94d887e76dfcf38"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/arcane_vision/export.png",
+        "bytes": 263,
+        "sha256": "933dee967786ffac3cf8066d9fe7c8800429bdefc444c64354f5e4cad72d86ec"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/arcane_vision.png",
+        "bytes": 263,
+        "sha256": "933dee967786ffac3cf8066d9fe7c8800429bdefc444c64354f5e4cad72d86ec"
+      }
+    },
+    {
+      "id": "amiya-talent:shield_battery",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v2",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/shield_battery/source.aseprite",
+        "bytes": 343,
+        "sha256": "04c32cfb6bdb471266dd6141583a2137a36d2fa8c9155bad68626d41bd425302"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/shield_battery/export.png",
+        "bytes": 272,
+        "sha256": "8f1660f6621c287ee38d8fd7fd8af89d2791cdccb8a4bb7e33d8e9254e372d2b"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/shield_battery.png",
+        "bytes": 272,
+        "sha256": "8f1660f6621c287ee38d8fd7fd8af89d2791cdccb8a4bb7e33d8e9254e372d2b"
+      }
+    },
+    {
+      "id": "amiya-talent:desperate_power",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v2",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/desperate_power/source.aseprite",
+        "bytes": 296,
+        "sha256": "24cbaaa25754f11ae1b4628b0ca8b06055a6fee57ffd6a1710a2d3ca3ba4be1d"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/desperate_power/export.png",
+        "bytes": 201,
+        "sha256": "98d6200679fd356eab5a992337db67906b65fedcb19cd87af4db84e7caa64064"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/desperate_power.png",
+        "bytes": 201,
+        "sha256": "98d6200679fd356eab5a992337db67906b65fedcb19cd87af4db84e7caa64064"
+      }
+    },
+    {
+      "id": "amiya-talent:ally_warp",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/ally_warp/source.aseprite",
+        "bytes": 544,
+        "sha256": "bf81c5c16465ac9c0f8725c8c7eefab03801e133fc9448af11024b5370de0276"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/ally_warp/export.png",
+        "bytes": 509,
+        "sha256": "654b51b681592412bf1e14f52c5caf2046c756e70ff3d5d552609fe75732ac6c"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/ally_warp.png",
+        "bytes": 509,
+        "sha256": "654b51b681592412bf1e14f52c5caf2046c756e70ff3d5d552609fe75732ac6c"
+      }
+    },
+    {
+      "id": "amiya-talent:empowered_strike",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/empowered_strike/source.aseprite",
+        "bytes": 320,
+        "sha256": "a3c6422a0e83bb8e8ae86510fd33f366c62ff8d43f692e03d9b50ea7c52f3cf8"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/empowered_strike/export.png",
+        "bytes": 182,
+        "sha256": "a8bfc01bbc184e253b6eb8e2fd1ed31b9aefb2238e834af8f99c4d66ad21dc50"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/empowered_strike.png",
+        "bytes": 182,
+        "sha256": "a8bfc01bbc184e253b6eb8e2fd1ed31b9aefb2238e834af8f99c4d66ad21dc50"
+      }
+    },
+    {
+      "id": "amiya-talent:mystical_charge",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/mystical_charge/source.aseprite",
+        "bytes": 413,
+        "sha256": "dfbf9e4acd527af9c86d663584a689fb8b6f9e9ac734d7642447ac97e9a75bbd"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/mystical_charge/export.png",
+        "bytes": 353,
+        "sha256": "2660d13c13d32b2679ffe875f99bf13b76987a8cf994f9eaa517840101194fb9"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/mystical_charge.png",
+        "bytes": 353,
+        "sha256": "2660d13c13d32b2679ffe875f99bf13b76987a8cf994f9eaa517840101194fb9"
+      }
+    },
+    {
+      "id": "amiya-talent:excess_charge",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/excess_charge/source.aseprite",
+        "bytes": 359,
+        "sha256": "94a151a649408718eb578d030802d849290cff29cd9c3b210948c37768ba98a3"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/excess_charge/export.png",
+        "bytes": 272,
+        "sha256": "e8be3f31668e9db54757c551d559f48af48fb1cab78993d6cacf9ef0e3c409d0"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/excess_charge.png",
+        "bytes": 272,
+        "sha256": "e8be3f31668e9db54757c551d559f48af48fb1cab78993d6cacf9ef0e3c409d0"
+      }
+    },
+    {
+      "id": "amiya-talent:soul_eater",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/soul_eater/source.aseprite",
+        "bytes": 373,
+        "sha256": "765bb75fbfd6895b9887378ed3518daaba05f47b68ea2ce3966c5120e776a8bb"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/soul_eater/export.png",
+        "bytes": 287,
+        "sha256": "632dc414c9ac303e61a2f7f0c56a963d3e058dc825a3954101b1d1d1a587fd52"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/soul_eater.png",
+        "bytes": 287,
+        "sha256": "632dc414c9ac303e61a2f7f0c56a963d3e058dc825a3954101b1d1d1a587fd52"
+      }
+    },
+    {
+      "id": "amiya-talent:soul_siphon",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/soul_siphon/source.aseprite",
+        "bytes": 369,
+        "sha256": "ca94dc503488a6423ea15d0baef9c9a95019fe6527ec421ac28bdbbca11d891c"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/soul_siphon/export.png",
+        "bytes": 328,
+        "sha256": "028799da3b671ba5fce246ab0ae6844b30bb513596614cef8a1db91b1e540b19"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/soul_siphon.png",
+        "bytes": 328,
+        "sha256": "028799da3b671ba5fce246ab0ae6844b30bb513596614cef8a1db91b1e540b19"
+      }
+    },
+    {
+      "id": "amiya-talent:necromancers_minions",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/necromancers_minions/source.aseprite",
+        "bytes": 384,
+        "sha256": "17056750b28aa4898987faee20392ba35e6641c1a226b81373a2d06032f396d3"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/necromancers_minions/export.png",
+        "bytes": 321,
+        "sha256": "bb45e6fba0fe958d12fc00c15dcd3c33350d84cea82957e793c332804ef05772"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/necromancers_minions.png",
+        "bytes": 321,
+        "sha256": "bb45e6fba0fe958d12fc00c15dcd3c33350d84cea82957e793c332804ef05772"
+      }
+    },
+    {
+      "id": "amiya-talent:blast_radius",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/blast_radius/source.aseprite",
+        "bytes": 343,
+        "sha256": "ca184d4d4aaa494c8bc63eb6888e775dbd2a3f39053de78ed1b2a6f0c4b12230"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/blast_radius/export.png",
+        "bytes": 284,
+        "sha256": "2cf86e2b4ffe5cec8fbc6deff4ac248ae929993df184081e95dd117f11364c97"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/blast_radius.png",
+        "bytes": 284,
+        "sha256": "2cf86e2b4ffe5cec8fbc6deff4ac248ae929993df184081e95dd117f11364c97"
+      }
+    },
+    {
+      "id": "amiya-talent:elemental_power",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v2",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/elemental_power/source.aseprite",
+        "bytes": 385,
+        "sha256": "2248ae1a2d98c852a551e83ff0ab35fa3c54d69a0dffeb1560b031a5e03da2f0"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/elemental_power/export.png",
+        "bytes": 328,
+        "sha256": "6fa5c2f1508f15ccbe221524093d6253928b4baa936aeaffddb50c219dcc19d6"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/elemental_power.png",
+        "bytes": 328,
+        "sha256": "6fa5c2f1508f15ccbe221524093d6253928b4baa936aeaffddb50c219dcc19d6"
+      }
+    },
+    {
+      "id": "amiya-talent:reactive_barrier",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/reactive_barrier/source.aseprite",
+        "bytes": 367,
+        "sha256": "0c6ce87e333a7023479097a328facd853f371a0f792e20732f5bcf4e9d0c05fa"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/reactive_barrier/export.png",
+        "bytes": 341,
+        "sha256": "0884b2da081c266ec0fdc2b58f6b05b09cf9c5c7880abfbbb97d9f1e51eff964"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/reactive_barrier.png",
+        "bytes": 341,
+        "sha256": "0884b2da081c266ec0fdc2b58f6b05b09cf9c5c7880abfbbb97d9f1e51eff964"
+      }
+    },
+    {
+      "id": "amiya-talent:wild_power",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v2",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/wild_power/source.aseprite",
+        "bytes": 333,
+        "sha256": "440e7f054eeb8fa0dbe17c0b16c5cdbef41166c5dc73d030714cab8a9e9a7174"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/wild_power/export.png",
+        "bytes": 262,
+        "sha256": "1af710cf28186c68a26cfa2bb15ae940f477b8d00cd9a7e9c35198ddf86a8a27"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/wild_power.png",
+        "bytes": 262,
+        "sha256": "1af710cf28186c68a26cfa2bb15ae940f477b8d00cd9a7e9c35198ddf86a8a27"
+      }
+    },
+    {
+      "id": "amiya-talent:fire_everything",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v2",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/fire_everything/source.aseprite",
+        "bytes": 384,
+        "sha256": "8d337993b8d734d736eba37764226a40ae3c1b08802a2fda39f93117152e9b2a"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/fire_everything/export.png",
+        "bytes": 319,
+        "sha256": "7ae763d5d428f854bb3d1c438f09ecb369c06a7fdfb7abb0af505a699debf673"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/fire_everything.png",
+        "bytes": 319,
+        "sha256": "7ae763d5d428f854bb3d1c438f09ecb369c06a7fdfb7abb0af505a699debf673"
+      }
+    },
+    {
+      "id": "amiya-talent:conserved_magic",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/conserved_magic/source.aseprite",
+        "bytes": 360,
+        "sha256": "4ee4c800850a0f39efd9dc9436bc0cc407031efba3e3e3ad6ce58c877367c564"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/conserved_magic/export.png",
+        "bytes": 259,
+        "sha256": "0fe14bc487c1dbebf0e86b802426931047235728d1736862c803efe7d7efd83f"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/conserved_magic.png",
+        "bytes": 259,
+        "sha256": "0fe14bc487c1dbebf0e86b802426931047235728d1736862c803efe7d7efd83f"
+      }
+    },
+    {
+      "id": "amiya-talent:telefrag",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/telefrag/source.aseprite",
+        "bytes": 623,
+        "sha256": "0955c8076d431fc1a240b94628b238c38e6f52e2c71eb58a641384cd0b3fa5f8"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/telefrag/export.png",
+        "bytes": 613,
+        "sha256": "87491df7ca11c04a674a794ba0a40eb79fc9f1cf5f7ec98e1269678ca670b5e7"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/telefrag.png",
+        "bytes": 613,
+        "sha256": "87491df7ca11c04a674a794ba0a40eb79fc9f1cf5f7ec98e1269678ca670b5e7"
+      }
+    },
+    {
+      "id": "amiya-talent:remote_beacon",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/remote_beacon/source.aseprite",
+        "bytes": 332,
+        "sha256": "a556d15e13b16e36ea24175c4bdeab2f31e060fbcbed0854b5c6ad1789222d84"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/remote_beacon/export.png",
+        "bytes": 258,
+        "sha256": "64a08191aea87e1e80e1ca9b9fd4a3f7a7fdfa3ca54bed1af30a8657c19b04d9"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/remote_beacon.png",
+        "bytes": 258,
+        "sha256": "64a08191aea87e1e80e1ca9b9fd4a3f7a7fdfa3ca54bed1af30a8657c19b04d9"
+      }
+    },
+    {
+      "id": "amiya-talent:longrange_warp",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v4",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/longrange_warp/source.aseprite",
+        "bytes": 317,
+        "sha256": "62c6996aac0ecdad8ac1baad491039e2677d16f0981528ad0ab93a21db410b2f"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/longrange_warp/export.png",
+        "bytes": 227,
+        "sha256": "65e08ed8b8cf2995f124895b261f6869a874cb73d1fec7e91c9773e38907a698"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/longrange_warp.png",
+        "bytes": 227,
+        "sha256": "65e08ed8b8cf2995f124895b261f6869a874cb73d1fec7e91c9773e38907a698"
+      }
+    },
+    {
+      "id": "amiya-talent:heroic_energy",
+      "character": "amiya",
+      "kind": "talent",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/heroic_energy/source.aseprite",
+        "bytes": 346,
+        "sha256": "d57205cc02c8a9fd46010c4485027f38611f47922fbc2240515fabd7e121bf46"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/talent/heroic_energy/export.png",
+        "bytes": 262,
+        "sha256": "27e0a0f5460478d2b822b84d894eb52dd3a3697c59c4fc39fb251aa07ba98ae1"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/talents/heroic_energy.png",
+        "bytes": 262,
+        "sha256": "27e0a0f5460478d2b822b84d894eb52dd3a3697c59c4fc39fb251aa07ba98ae1"
+      }
+    },
+    {
+      "id": "amiya-status:recharging-16",
+      "character": "amiya",
+      "kind": "status",
+      "version": "v2",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/status/recharging-16/source.aseprite",
+        "bytes": 269,
+        "sha256": "3a34720336fdb99fa6824facb866ec6f1a32264b986615eff165c5ebd24a9d17"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/status/recharging-16/export.png",
+        "bytes": 156,
+        "sha256": "972bac85959bbe15a7fed33c820450303ec43e6796c848fea621f9e482c4225c"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/status/recharging-16.png",
+        "bytes": 156,
+        "sha256": "972bac85959bbe15a7fed33c820450303ec43e6796c848fea621f9e482c4225c"
+      }
+    },
+    {
+      "id": "amiya-status:recharging-7",
+      "character": "amiya",
+      "kind": "status",
+      "version": "v2",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/status/recharging-7/source.aseprite",
+        "bytes": 246,
+        "sha256": "70417ccd3a02e138dcd568094f26bc7556101edae5cf1c8578b008587d066be8"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/status/recharging-7/export.png",
+        "bytes": 115,
+        "sha256": "de02eb105416ea0e57ef527c1d6a6c6debf230348993b31db674ceb7cdaec5ee"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/status/recharging-7.png",
+        "bytes": 115,
+        "sha256": "de02eb105416ea0e57ef527c1d6a6c6debf230348993b31db674ceb7cdaec5ee"
+      }
+    },
+    {
+      "id": "amiya-status:barrier-16",
+      "character": "amiya",
+      "kind": "status",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/status/barrier-16/source.aseprite",
+        "bytes": 275,
+        "sha256": "cce57d654d49fa5e4d398b25750d1d78310c9333110fe116f29f4d2ea5fa5acc"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/status/barrier-16/export.png",
+        "bytes": 160,
+        "sha256": "ffbe5f08277609ea091da9d89da9087d45fd98a8f52ae3b52f2417c5ae94873f"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/status/barrier-16.png",
+        "bytes": 160,
+        "sha256": "ffbe5f08277609ea091da9d89da9087d45fd98a8f52ae3b52f2417c5ae94873f"
+      }
+    },
+    {
+      "id": "amiya-status:barrier-7",
+      "character": "amiya",
+      "kind": "status",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/status/barrier-7/source.aseprite",
+        "bytes": 252,
+        "sha256": "7a4ed387a46100bd7e0ed9d8bd42ed665944c452c966fc11c28dfb77f636a4d1"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/status/barrier-7/export.png",
+        "bytes": 121,
+        "sha256": "fc3ea3847c4b853151db111d9f401bd310d6eb10d4a758261ca4a6cecec7a5da"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/status/barrier-7.png",
+        "bytes": 121,
+        "sha256": "fc3ea3847c4b853151db111d9f401bd310d6eb10d4a758261ca4a6cecec7a5da"
+      }
+    },
+    {
+      "id": "amiya-status:wand-empower-16",
+      "character": "amiya",
+      "kind": "status",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/status/wand-empower-16/source.aseprite",
+        "bytes": 286,
+        "sha256": "1916eea947d011491ca86ae9f6cf9e2a1e4dcca58ff00d30e3e3c3ebf8f45c88"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/status/wand-empower-16/export.png",
+        "bytes": 188,
+        "sha256": "d01d65486d1f2ed7a6b67d36eb1b1c48de69c4bfc015d0e34fe39c81c13dd8f4"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/status/wand-empower-16.png",
+        "bytes": 188,
+        "sha256": "d01d65486d1f2ed7a6b67d36eb1b1c48de69c4bfc015d0e34fe39c81c13dd8f4"
+      }
+    },
+    {
+      "id": "amiya-status:wand-empower-7",
+      "character": "amiya",
+      "kind": "status",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/status/wand-empower-7/source.aseprite",
+        "bytes": 249,
+        "sha256": "9d2c1f4f1f4adc1789254889abde8c26f4922045d43199a2b55a57da6078e219"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/status/wand-empower-7/export.png",
+        "bytes": 112,
+        "sha256": "9d4006906430d61b07cdbf966f2d86aea7fdf3a25d2b25e479907af9d7626408"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/status/wand-empower-7.png",
+        "bytes": 112,
+        "sha256": "9d4006906430d61b07cdbf966f2d86aea7fdf3a25d2b25e479907af9d7626408"
+      }
+    },
+    {
+      "id": "amiya-status:artifact-recharge-16",
+      "character": "amiya",
+      "kind": "status",
+      "version": "v2",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/status/artifact-recharge-16/source.aseprite",
+        "bytes": 329,
+        "sha256": "5991a2f8dd95edd940f24d65c500ea193994a96942164f8f54516508a7fab61f"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/status/artifact-recharge-16/export.png",
+        "bytes": 273,
+        "sha256": "9cba534a63dc9f14a8bbd74d3418037fdeb526a35412b09c752c416dc678b379"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/status/artifact-recharge-16.png",
+        "bytes": 273,
+        "sha256": "9cba534a63dc9f14a8bbd74d3418037fdeb526a35412b09c752c416dc678b379"
+      }
+    },
+    {
+      "id": "amiya-status:artifact-recharge-7",
+      "character": "amiya",
+      "kind": "status",
+      "version": "v2",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/status/artifact-recharge-7/source.aseprite",
+        "bytes": 251,
+        "sha256": "8df12e7e9add22ca45f6e459c41345b621f0a59256905c818004b87272bb2f09"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/status/artifact-recharge-7/export.png",
+        "bytes": 123,
+        "sha256": "ad0730061c89e9917d237fe4de263539c50eccae9091e92e20b830bf80616cd2"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/interfaces/operators/amiya/status/artifact-recharge-7.png",
+        "bytes": 123,
+        "sha256": "ad0730061c89e9917d237fe4de263539c50eccae9091e92e20b830bf80616cd2"
+      }
+    },
+    {
+      "id": "amiya-effect:beacon-idle",
+      "character": "amiya",
+      "kind": "effect",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/effect/beacon-idle/source.aseprite",
+        "bytes": 846,
+        "sha256": "fb4e78735b6b8044772bf95e8cb8f7e70bcaf058f63f0cec37f216fe404c7979"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/effect/beacon-idle/export.png",
+        "bytes": 354,
+        "sha256": "b3301a09bb59aae32f27d5ff6808b53bf2a0a96c49f7c776c595e2a2a7d3d125"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/effects/operators/amiya/beacon-idle.png",
+        "bytes": 354,
+        "sha256": "b3301a09bb59aae32f27d5ff6808b53bf2a0a96c49f7c776c595e2a2a7d3d125"
+      }
+    },
+    {
+      "id": "amiya-effect:warp-depart",
+      "character": "amiya",
+      "kind": "effect",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/effect/warp-depart/source.aseprite",
+        "bytes": 682,
+        "sha256": "747382280bba354ed0759754a46cb833da86673575b3ba9dee579986abe63279"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/effect/warp-depart/export.png",
+        "bytes": 391,
+        "sha256": "7eb170afc9ab6567e6114d3395ff037031330191043e4b7d0f31c2da2023444c"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/effects/operators/amiya/warp-depart.png",
+        "bytes": 391,
+        "sha256": "7eb170afc9ab6567e6114d3395ff037031330191043e4b7d0f31c2da2023444c"
+      }
+    },
+    {
+      "id": "amiya-effect:warp-arrive",
+      "character": "amiya",
+      "kind": "effect",
+      "version": "v1",
+      "reviewStatus": "approved",
+      "installationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md",
+      "installationStatus": "installed",
+      "source": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/effect/warp-arrive/source.aseprite",
+        "bytes": 720,
+        "sha256": "32a099145dd5ecaf9dedc92926f948e3ab70902d775b67292f8fbd0101828674"
+      },
+      "export": {
+        "path": "art-source/library/current/amiya/talents-status-beacon/effect/warp-arrive/export.png",
+        "bytes": 382,
+        "sha256": "abeb4c3a8e42b844a740732bcb9df1f8bdaa3b71676e9c45e4fdbd9385fd4762"
+      },
+      "runtime": {
+        "path": "core/src/main/assets/effects/operators/amiya/warp-arrive.png",
+        "bytes": 382,
+        "sha256": "abeb4c3a8e42b844a740732bcb9df1f8bdaa3b71676e9c45e4fdbd9385fd4762"
+      }
+    }
+  ],
+  "candidateGroups": [
+    {
+      "path": "art-source/operators/amiya-subclass-rework-v1/full-actions-v2",
+      "reviewStatus": "review_ready",
+      "installationStatus": "not_installed",
+      "workflowState": "awaiting_character_design",
+      "medicalSelection": null,
+      "manifest": {
+        "path": "art-source/operators/amiya-subclass-rework-v1/full-actions-v2/manifest.json",
+        "bytes": 30744,
+        "sha256": "cc503aacde1d7e209b2e004057cd1595ba79e77d2d1431726dcbc98a967af30b"
+      },
+      "hold": {
+        "path": "art-source/operators/amiya-subclass-rework-v1/full-actions-v2/design-hold.json",
+        "bytes": 31852,
+        "sha256": "0216c97ceca4e4fba7e507a6884a9041824590b83e07ae1f29988c605521e1ac"
+      },
+      "assets": [
+        {
+          "id": "amiya_guard_sword",
+          "atlas": {
+            "path": "art-source/operators/amiya-subclass-rework-v1/full-actions-v2/exports/amiya_guard_sword-candidate-24x24.png",
+            "bytes": 32316,
+            "sha256": "7dff99c3cbf6e471ec169fc22570c9d934b31615b5842428102630e3097f5640"
+          },
+          "source": {
+            "path": "art-source/operators/amiya-subclass-rework-v1/full-actions-v2/sources/amiya_guard_sword.aseprite",
+            "bytes": 11206,
+            "sha256": "270793c0645ac527e80b89b42f9ea94793e94786babf4a7f259442f2681bfecc"
+          },
+          "reviewStatus": "review_ready",
+          "installationStatus": "not_installed",
+          "foundInRuntimeAssets": false
+        },
+        {
+          "id": "amiya_medic_bluehand",
+          "atlas": {
+            "path": "art-source/operators/amiya-subclass-rework-v1/full-actions-v2/exports/amiya_medic_bluehand-candidate-24x24.png",
+            "bytes": 31638,
+            "sha256": "1ff59205fa05203195d9d4ff5651342594a3301b7ee308c5ed762442c3a7d6c2"
+          },
+          "source": {
+            "path": "art-source/operators/amiya-subclass-rework-v1/full-actions-v2/sources/amiya_medic_bluehand.aseprite",
+            "bytes": 10857,
+            "sha256": "8e15bf8693a20ffd1d5c25b35b6e537e4fa5d3ff5d7442d6752e01c69a2110fc"
+          },
+          "reviewStatus": "review_ready",
+          "installationStatus": "not_installed",
+          "foundInRuntimeAssets": false
+        },
+        {
+          "id": "amiya_medic_whitestaff",
+          "atlas": {
+            "path": "art-source/operators/amiya-subclass-rework-v1/full-actions-v2/exports/amiya_medic_whitestaff-candidate-24x24.png",
+            "bytes": 36048,
+            "sha256": "8fcc16e6183fb062d4e888a8f1fa05e48b606aa9fc67fb7e95fc6241bce13857"
+          },
+          "source": {
+            "path": "art-source/operators/amiya-subclass-rework-v1/full-actions-v2/sources/amiya_medic_whitestaff.aseprite",
+            "bytes": 11337,
+            "sha256": "e89de45939de8f85b0051904b39af56ce21af5f5c9085209c97cba2574428c4f"
+          },
+          "reviewStatus": "review_ready",
+          "installationStatus": "not_installed",
+          "foundInRuntimeAssets": false
+        }
+      ]
+    },
+    {
+      "path": "art-source/operators/amiya-subclass-rework-v1/reskin-polish-v4",
+      "reviewStatus": "approved",
+      "installationStatus": "installed",
+      "note": "v4获用户认可；旧候选记录保持历史状态。"
+    }
+  ],
+  "historicalDraftIndex": "art-source/library/manifest.json#drafts",
+  "historicalStatusWarning": "旧drafts内的status和note可能记录不同时间；本索引不重新审批或改写历史。最终实装以运行资源哈希为准。",
+  "amiyaCurrentVersion": "reskin-polish-v4",
+  "amiyaInstallationReport": "docs/qa/amiya-v4-installed-20261018/handoff.md",
+  "amiyaEffectsVersion": "effects-core-v1",
+  "amiyaEffectsInstallationReport": "docs/qa/amiya-effects-installed-20261018/handoff.md",
+  "amiyaItemVisualsInstallationReport": "docs/qa/amiya-items-installed-20261018/handoff.md",
+  "amiyaArmorUiVersion": "armor-ui-v2",
+  "amiyaArmorUiInstallationReport": "docs/qa/amiya-armor-installed-20261019/handoff.md",
+  "amiyaFacePortraitVersion": "portrait-face-v1",
+  "amiyaFacePortraitInstallationReport": "docs/qa/amiya-face-installed-20261019/handoff.md",
+  "amiyaIconsInstallationReport": "docs/qa/amiya-icons-installed-20261019/handoff.md"
+}
