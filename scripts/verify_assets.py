@@ -13,7 +13,7 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parents[1]
 def sha(data): return hashlib.sha256(data).hexdigest()
 manifest = json.loads((ROOT / 'art/manifest.json').read_text(encoding='utf-8'))
-assert manifest['version'] == '0.0.2'
+assert manifest['version'] == '0.0.3'
 assert manifest['amiyaMedicalSelection'] == 'white-staff-blue-tip'
 assert manifest['amiyaCandidateInstallation'] is False
 cells = 0

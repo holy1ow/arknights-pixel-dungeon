@@ -1,6 +1,6 @@
 # Copyright and source notice
 
-Arknights Pixel Dungeon 0.0.2 — adaptation maintained by **holy1ow**, 2026-10-20.
+Arknights Pixel Dungeon 0.0.3 — adaptation maintained by **holy1ow**, 2026-10-20.
 
 - Pixel Dungeon: Copyright (C) 2012–2015 Oleg Dolya (Watabou).
 - Shattered Pixel Dungeon: Copyright (C) 2014–2026 Evan Debenham and contributors.
@@ -10,11 +10,11 @@ This is a modified, unofficial edition based on Shattered Pixel Dungeon 4.0.2, u
 
 Corresponding source, build scripts, editable installed artwork and changes for this release are available at:
 
-https://github.com/holy1ow/arknights-pixel-dungeon/tree/amiya-reskin-frozen-20261020-public
+https://github.com/holy1ow/arknights-pixel-dungeon/tree/v0.0.3
 
 Source archive:
 
-https://github.com/holy1ow/arknights-pixel-dungeon/archive/refs/tags/amiya-reskin-frozen-20261020-public.zip
+https://github.com/holy1ow/arknights-pixel-dungeon/archive/refs/tags/v0.0.3.zip
 
 The source repository and Windows executable are distributed from the same GitHub project. When redistributing, keep the applicable notices and provide the corresponding source as required by GPL; this URL does not replace your own obligations as a redistributor. License reference: https://www.gnu.org/licenses/gpl.en.html
 

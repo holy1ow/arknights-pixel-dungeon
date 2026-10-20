@@ -5,7 +5,7 @@ allprojects {
         appPackageName = 'com.holy1ow.arknightspixeldungeon'
         // Keep upstream's save-format/migration version; this is not the public release number.
         appVersionCode = 922
-        appVersionName = '0.0.2'
+        appVersionName = '0.0.3'
         appJavaCompatibility = JavaVersion.VERSION_11
         gdxVersion = '1.14.0'
         gdxControllersVersion = '2.2.4'

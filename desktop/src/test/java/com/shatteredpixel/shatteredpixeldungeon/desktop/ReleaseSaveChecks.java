@@ -16,7 +16,7 @@ import com.watabou.utils.FileUtils;
 import java.lang.reflect.Proxy;
 import java.nio.file.Path;
 
-/** Run the same fixture writer against v0.0.1, then its reader against v0.0.2.
+/** Run the same fixture writer against v0.0.1, then its reader against v0.0.3.
  * The fixture directory must be a dedicated test directory, never a player profile. */
 public class ReleaseSaveChecks {
     public static void main(String[] args) throws Exception {
@@ -32,7 +32,7 @@ public class ReleaseSaveChecks {
         try(java.util.jar.JarFile jar=new java.util.jar.JarFile(Path.of(DesktopLauncher.class.getProtectionDomain().getCodeSource().getLocation().toURI()).toFile())) {
             Game.version=jar.getManifest().getMainAttributes().getValue("Specification-Version");
         }
-        if (!(write?"0.0.1":"0.0.2").equals(Game.version)) throw new AssertionError("Wrong runtime version: "+Game.version);
+        if (!(write?"0.0.1":"0.0.3").equals(Game.version)) throw new AssertionError("Wrong runtime version: "+Game.version);
         Game.versionCode=922;Game.platform=new DesktopPlatformSupport();new ShatteredPixelDungeon(Game.platform);
         SPDSettings.challenges(0);Messages.setup(Languages.ENGLISH);
         int count=0;

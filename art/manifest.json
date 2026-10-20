@@ -1,5 +1,5 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.3",
   "sourceBaseline": "981b647dbb8978a21e3ea03d51689631f4354863",
   "artAcceptance": "incomplete",
   "amiyaMedicalSelection": "white-staff-blue-tip",
@@ -2281,5 +2281,5 @@
   ],
   "amiyaStatus": "frozen",
   "freezeDate": "2026-10-20",
-  "releaseTag": "amiya-reskin-frozen-20261020-public"
+  "releaseTag": "v0.0.3"
 }

@@ -17,7 +17,7 @@ APP='Arknights Pixel Dungeon'
 VERSION=re.search(r"appVersionName = '([^']+)'", (ROOT/'build.gradle').read_text(encoding='utf-8')).group(1)
 image=ROOT/'desktop/build/jpackage'/APP
 dest=Path(sys.argv[1]).resolve()
-archive=dest.parent/'arknights-pixel-dungeon-amiya-frozen-20261020-windows-x64.zip'
+archive=dest.parent/'01-Game-Windows.zip'
 if dest.exists() or archive.exists():raise SystemExit('Refusing to overwrite an existing release')
 assert (image/(APP+'.exe')).is_file()
 dest.mkdir(parents=True)
@@ -36,10 +36,10 @@ for filename in ['LICENSE.txt','NOTICE.md','THIRD-PARTY-NOTICES.md','MODIFICATIO
 shutil.copytree(ROOT/'licenses',dest/'licenses')
 (dest/'Start-Game.cmd').write_text('@echo off\ncd /d "%~dp0"\nstart "" "%~dp0Arknights Pixel Dungeon\\Arknights Pixel Dungeon.exe"\n',encoding='ascii',newline='\r\n')
 commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
-(dest/'README.txt').write_text('Arknights Pixel Dungeon '+VERSION+' — holy1ow\nWindows x64 / bundled Java 17.0.17\n\n完整解压后运行 Start-Game.cmd。首次运行创建全新进度，仅赫拉格默认解锁，原版新手引导保留。\n阿米娅 v4 三形态与六组核心效果已接入；医疗造型为贴身白杖与蓝色杖端光。\n这是开发快照，全角色美术尚未全部验收，特色技能尚未开发。阿米娅 2026-10-20 封版素材已接入，原版机制、护盾、元素法杖与其他角色保持。\n基于 Shattered Pixel Dungeon 4.0.2，游戏代码 GNU GPL v3 或后续版本。\n对应源码：https://github.com/holy1ow/arknights-pixel-dungeon/tree/amiya-reskin-frozen-20261020-public\nCommit: '+commit+'\n第三方依赖未改变，对应源码沿用：https://github.com/holy1ow/arknights-pixel-dungeon/releases/download/v0.0.1/third-party-sources.zip\n普通玩家无需下载源码。个人存档不在本目录内，游戏使用独立用户目录。\n',encoding='utf-8')
+(dest/'README.txt').write_text('Arknights Pixel Dungeon '+VERSION+' — holy1ow\nWindows x64 / bundled Java 17.0.17\n\n完整解压后运行 Start-Game.cmd。首次运行创建全新进度，仅赫拉格默认解锁，原版新手引导保留。\n阿米娅 v4 三形态与六组核心效果已接入；医疗造型为贴身白杖与蓝色杖端光。\n这是开发快照，全角色美术尚未全部验收，特色技能尚未开发。阿米娅 2026-10-20 封版素材已接入，原版机制、护盾、元素法杖与其他角色保持。\n基于 Shattered Pixel Dungeon 4.0.2，游戏代码 GNU GPL v3 或后续版本。\n对应源码：https://github.com/holy1ow/arknights-pixel-dungeon/tree/v0.0.3\nCommit: '+commit+'\n第三方依赖未改变，对应源码沿用：https://github.com/holy1ow/arknights-pixel-dungeon/releases/download/v0.0.1/third-party-sources.zip\n普通玩家无需下载源码。个人存档不在本目录内，游戏使用独立用户目录。\n',encoding='utf-8')
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 files=[{'path':p.relative_to(dest).as_posix(),'bytes':p.stat().st_size,'sha256':sha(p)} for p in sorted(dest.rglob('*')) if p.is_file()]
-manifest={'version':VERSION,'date':'2026-10-20','releaseTag':'amiya-reskin-frozen-20261020-public','commit':commit,'excludedOtherPlatformNatives':excluded,'files':files}
+manifest={'version':VERSION,'date':'2026-10-20','releaseTag':'v0.0.3','commit':commit,'excludedOtherPlatformNatives':excluded,'files':files}
 (dest.parent/'windows-files.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
     for row in files:z.write(dest/row['path'],row['path'])

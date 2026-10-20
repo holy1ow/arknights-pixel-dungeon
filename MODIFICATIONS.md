@@ -1,3 +1,9 @@
+# Modification notice — 0.0.3, 2026-10-20
+
+Maintainer: holy1ow. Corrects the public game version from 0.0.2 to 0.0.3 in build metadata and the About screen. Simplifies the Release download names and puts the self-contained Windows game first. Approved Amiya artwork, frozen visual integration, all gameplay, dependencies, package/save identity and upstream save migration version 922 are unchanged. Source: https://github.com/holy1ow/arknights-pixel-dungeon/tree/v0.0.3 .
+
+## Previous frozen baseline record
+
 # Modification notice — Amiya frozen public baseline, 2026-10-20
 
 Maintainer: **holy1ow**. Selectively imports the already-approved frozen Amiya display integration into the existing 0.0.2 public desktop project. Artwork is copied without regenerating or modifying pixels/animation. This adds approved portraits, staff/item/crown/mask/armor visuals, charge and imbue feedback, soul mark, the final 27 talent icons and status selections, and beacon/teleport visuals. Three statuses retain original shared graphics with Amiya-only tint. The matching two item-message resources are copied byte-for-byte from the frozen integration; no new translations or wording are authored.

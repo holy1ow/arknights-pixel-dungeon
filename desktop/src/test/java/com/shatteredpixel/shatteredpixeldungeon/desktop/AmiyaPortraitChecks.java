@@ -17,7 +17,7 @@ import java.nio.file.Path;
 /** Exercise the actual production SurfaceScene portrait consumer; isolated profile only. */
 public class AmiyaPortraitChecks {
     public static void main(String[] args)throws Exception{
-        Path out=Path.of(args[0]);java.nio.file.Files.createDirectories(out);Path profile=java.nio.file.Files.createTempDirectory(out,"profile-");Gdx.files=new Lwjgl3Files();SPDSettings.set(new Lwjgl3Preferences(new Lwjgl3FileHandle(profile.resolve("settings.xml").toString(),Files.FileType.Absolute)));FileUtils.setDefaultFileProperties(Files.FileType.Absolute,profile+"/");SPDSettings.language(Languages.CHI_SMPL);SPDSettings.music(false);SPDSettings.soundFx(false);SPDSettings.intro(false);Game.version="0.0.2";Game.versionCode=922;
+        Path out=Path.of(args[0]);java.nio.file.Files.createDirectories(out);Path profile=java.nio.file.Files.createTempDirectory(out,"profile-");Gdx.files=new Lwjgl3Files();SPDSettings.set(new Lwjgl3Preferences(new Lwjgl3FileHandle(profile.resolve("settings.xml").toString(),Files.FileType.Absolute)));FileUtils.setDefaultFileProperties(Files.FileType.Absolute,profile+"/");SPDSettings.language(Languages.CHI_SMPL);SPDSettings.music(false);SPDSettings.soundFx(false);SPDSettings.intro(false);Game.version="0.0.3";Game.versionCode=922;
         String[] names={"medic-surface","caster-surface","guard-surface","mage-surface","shining-surface"};
         Lwjgl3ApplicationConfiguration config=new Lwjgl3ApplicationConfiguration();config.setInitialVisible(false);config.setWindowedMode(1280,720);config.setForegroundFPS(60);
         new Lwjgl3Application(new ShatteredPixelDungeon(new DesktopPlatformSupport(){@Override public void updateSystemUI(){}}){

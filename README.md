@@ -1,16 +1,16 @@
 # Arknights Pixel Dungeon · 明日方舟像素地牢
 
-**作者 / 维护者：holy1ow · 当前版本：0.0.2**
+**作者 / 维护者：holy1ow · 当前版本：0.0.3**
 
-**当前发行：阿米娅原版机制换皮版封版 · 2026-10-20**。阿米娅素材与显示适配已按封版清单接入本公开工程，保持冻结。发行标签为 `amiya-reskin-frozen-20261020-public`，游戏内部版本沿用 0.0.2；这是含其他角色的项目共同构建，不是阿米娅独立游戏。见 [本次改版与验证记录](docs/AMIYA-FROZEN-20261020.md) 和 [原始封版证据](docs/baselines/amiya-reskin-frozen-20261020/README.md)。
+**当前发行：v0.0.3 · 阿米娅原版机制换皮封版**。已修正上一日期包仍显示 0.0.2 的版本标识；游戏内、Windows 包和 Git 标签统一为 0.0.3。阿米娅已冻结，本次没有改动美术和玩法。见 [版本说明](docs/RELEASE-0.0.3.md)。
 
 基于 [Shattered Pixel Dungeon（破碎的像素地牢）4.0.2](https://github.com/00-Evan/shattered-pixel-dungeon/tree/v4.0.2) 开发的非官方同人项目；破碎的像素地牢又基于 [Pixel Dungeon（像素地牢）](https://github.com/watabou/pixel-dungeon)。感谢 Oleg Dolya（Watabou）、Evan Debenham 和所有上游贡献者。
 
-**0.0.2 是当前开发快照，以角色贴图替换及必要的显示适配为主。** 角色选择界面只保留六位换皮角色，职业、战斗、成长、道具机制及职业解锁条件沿用破碎的像素地牢，没有加入角色专属技能或新机制。全角色美术尚未全部验收，本版本不代表美术最终完成。
+**0.0.3 是当前开发快照，以角色贴图替换及必要的显示适配为主。** 角色选择界面只保留六位换皮角色，职业、战斗、成长、道具机制及职业解锁条件沿用破碎的像素地牢，没有加入角色专属技能或新机制。全角色美术尚未全部验收，本版本不代表美术最终完成。
 
 ## 下载与运行
 
-前往 [Releases](https://github.com/holy1ow/arknights-pixel-dungeon/releases) 下载 `arknights-pixel-dungeon-amiya-frozen-20261020-windows-x64.zip`，完整解压后运行 `Start-Game.cmd`，或进入游戏目录双击 `Arknights Pixel Dungeon.exe`。Windows 10/11 x64，显卡需支持 OpenGL 2.0；包内含 Java 17 运行时，无需另装 Java。不要直接在压缩包内启动。
+[下载 Windows 游戏包（77.7 MB）](https://github.com/holy1ow/arknights-pixel-dungeon/releases/download/v0.0.3/01-Game-Windows.zip)。只需下载第一个附件 **01-Game-Windows.zip**，完整解压后运行 **Start-Game.cmd** 或 **Arknights Pixel Dungeon.exe**。Windows 10/11 x64，显卡需支持 OpenGL 2.0；内含 Java 17，无需另装。
 
 发行包不附带存档。首次运行创建全新进度，默认仅解锁战士对应的 **赫拉格**，其他角色按原版条件解锁；新手引导及教程提示保留。存档目录独立于上游游戏：`%USERPROFILE%\AppData\Roaming\.holy1ow\Arknights Pixel Dungeon\`。测试存档、个人存档、制作候选稿和 trainer 均不随包发布。
 
@@ -53,7 +53,7 @@
 
 本次继续接入已认可头像、装备、进阶物品、职业护甲和三枚护甲能力图标、充能灌注提示与灵魂标记、27 枚天赋最终混选图标、常用状态图标以及空间信标与传送表现。T26 采用 V4，其余按逐项选版记录；波涌余威、卷轴赋能、魔力强化保留原版图形，仅对符合条件的阿米娅蓝色染色，样稿 PNG 没有覆盖共享运行图集。原版护盾保持。
 
-以下三图是本次公开工程回归时实际渲染的未改动截图（测试夹具提供装备与天赋点，不代表自然游玩进度）：
+以下三图是 2026-10-20 封版工程回归时实际渲染的未改动截图（测试夹具提供装备与天赋点，不代表自然游玩进度）：
 
 ![封版装备与元素法杖](docs/images/amiya-frozen-20261020/inventory.png)
 
@@ -90,6 +90,6 @@ Start-Game.cmd
 
 游戏代码采用 **GNU GPL v3 或后续版本（GPL-3.0-or-later）**，完整协议见 [LICENSE.txt](LICENSE.txt)。继承的版权声明和贡献者署名保留；本项目改编署名为 holy1ow。修改范围与日期见 [MODIFICATIONS.md](MODIFICATIONS.md)，第三方素材、依赖及 Java 运行时另见 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) 与 [NOTICE.md](NOTICE.md)。软件按现状提供，不作担保。
 
-分发修改版时须遵守 GPL，保留版权和许可声明、注明修改，并提供对应版本的完整可修改源码及构建脚本。此仓库的 `amiya-reskin-frozen-20261020-public` 标签对应本次 Windows 发行；当前实装美术的可编辑文件也随源码提供。
+分发修改版时须遵守 GPL，保留版权和许可声明、注明修改，并提供对应版本的完整可修改源码及构建脚本。此仓库的 `v0.0.3` 标签对应本次 Windows 发行；当前实装美术的可编辑文件也随源码提供。
 
 本项目与鹰角网络、Hypergryph、Gryphline/Yostar 及 Pixel Dungeon、Shattered Pixel Dungeon 官方均无隶属或授权背书关系。《明日方舟》角色设计、名称及相关商标的权利归各自权利人所有；GPL 声明不授予这些第三方商标或角色 IP 的额外权利。本项目新增代码及由贡献者可授权的原创修改按 GPL-3.0-or-later 提供。

@@ -59,7 +59,7 @@ public class HeroClassChecks {
             if (m.getName().equals("log") || m.getName().equals("error")) System.out.println(Arrays.toString(a));
             return null;
         });
-        Game.version="0.0.2"; Game.versionCode=922;
+        Game.version="0.0.3"; Game.versionCode=922;
         Game.platform=new DesktopPlatformSupport();
         new ShatteredPixelDungeon(Game.platform);
         SPDSettings.challenges(0);
