@@ -25,4 +25,4 @@
 
 复现入口：`desktop:check`、`desktop:verifyHeroSelection`、`desktop:verifyPackagedOperators`、`desktop:verifyOperatorCanvas`、各`verifyAmiya*`任务，以及`verifyAmiyaLifecycle`、`verifyHellagurLifecycle`、`verifyHellagurEffects`、`verifyHellagurSubclasses`、`verifyCurrentPortraits`、`verifyCompactCopy`。传入`-PqaWidth=540 -PqaHeight=960`可运行支持宽高参数的窄屏检查。`scripts/verify_assets.py`检查源/运行资源与可选app-image。
 
-完整本轮日志、原始截图、外部探针、失败记录及旧验证证据存于Release `04-Tests.zip` / `05-Tests-2.zip` / `05-Tests-2.zip`；相同文件按SHA-256去重存储，附恢复脚本和路径索引。测试存档/私人数据不进入上传包；旧运行包原件本地保留，归档内记录其哈希。最终解压启动及公开下载、附件顺序、SHA-256核对记录在发行归档目录中，不等同于人工完整通关。
+完整本轮日志、原始截图、外部探针、失败记录及旧验证证据存于Release `04-Tests.zip` / `05-Tests-2.zip`；相同文件按SHA-256去重存储，附恢复脚本和路径索引。测试存档/私人数据不进入上传包；旧运行包原件本地保留，归档内记录其哈希。最终解压启动及公开下载、附件顺序、SHA-256核对记录在发行归档目录中，不等同于人工完整通关。
