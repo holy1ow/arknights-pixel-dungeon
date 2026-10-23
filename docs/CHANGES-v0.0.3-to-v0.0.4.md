@@ -23,4 +23,4 @@
 
 验证覆盖详见 [联合验收](QA-0.0.4.md)：六角色两转职及随机选择、两主角18条桌面/窄屏检查点路线、v0.0.3→v0.0.4实际EXE冷继续、进阶、保存重载、跨层、8组身份/形态96次攻击与法杖消耗、新用户首次开局。测试夹具提供部分物品、楼层与目标，不冒称自然完整游玩。
 
-运行包仅保留游戏、Windows运行依赖、Java、许可与启动说明。当前可编辑源在仓库；赫拉格v1–v22旧稿/未选稿在 `03-Art-History.zip`，验证资料在 `04-Tests.zip` / `05-Tests-2.zip`。历史测试档和旧运行包在本地保留，网络验证归档提供证据与保留索引，不把测试存档分发给玩家。既有阿米娅历史继续使用[原封版归档](https://github.com/holy1ow/arknights-pixel-dungeon/releases/tag/amiya-reskin-frozen-20261020-public)，旧标签、旧发布及旧附件不覆盖。
+运行包仅保留游戏、Windows运行依赖、Java、许可与启动说明。本次 Release 只附游戏包和校验文件；对应源码、构建脚本、当前实装美术可编辑源及必要许可署名随仓库提供。赫拉格v1–v22旧稿/未选稿、完整验证资料、历史测试档和旧运行包均保留在本地，不额外上传。既有阿米娅历史继续使用[原封版归档](https://github.com/holy1ow/arknights-pixel-dungeon/releases/tag/amiya-reskin-frozen-20261020-public)，旧标签、旧发布及旧附件不覆盖。
