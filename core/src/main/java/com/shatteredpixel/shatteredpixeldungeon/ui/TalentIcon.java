@@ -28,6 +28,7 @@ import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
 import com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroClass;
 import com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaIconVisuals;
+import com.shatteredpixel.shatteredpixeldungeon.effects.HellagurVisuals;
 import com.shatteredpixel.shatteredpixeldungeon.actors.hero.Talent;
 import com.watabou.noosa.Image;
 import com.watabou.noosa.TextureFilm;
@@ -54,6 +55,7 @@ public class TalentIcon extends Image {
 	private void refreshAppearance() {
 		if (talent == null) return;
 		String selected = AmiyaIconVisuals.talent(displayedClass, talent);
+		if (selected == null) selected = HellagurVisuals.talent(displayedClass, talent);
 		String path = selected == null ? Assets.Interfaces.TALENT_ICONS : selected;
 		if (!path.equals(appearanceTexture)) {
 			texture(path);

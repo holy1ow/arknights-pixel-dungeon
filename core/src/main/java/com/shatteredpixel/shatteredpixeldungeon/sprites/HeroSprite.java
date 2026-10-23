@@ -23,6 +23,7 @@
 
 package com.shatteredpixel.shatteredpixeldungeon.sprites;
 
+import com.shatteredpixel.shatteredpixeldungeon.effects.HellagurEffects;
 import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
 import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.HeroDisguise;
@@ -144,9 +145,12 @@ public class HeroSprite extends CharSprite {
 	}
 
 	@Override
-	public synchronized void attack(int cell, Callback callback) {
+	public void attack(int cell, Callback callback) {
+		// The base method locks animation state; release that lock before adding effects
+		// to the parent group, whose render update locks the group before the sprite.
 		super.attack(cell, callback);
 		if (ch instanceof Hero) AmiyaEffects.swordSwing((Hero) ch, cell);
+		if (ch instanceof Hero && callback == null) HellagurEffects.melee((Hero) ch, cell);
 	}
 
 	@Override

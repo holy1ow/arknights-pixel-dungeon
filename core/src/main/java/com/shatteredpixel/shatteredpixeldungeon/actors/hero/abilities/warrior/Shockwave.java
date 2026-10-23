@@ -21,6 +21,7 @@
 
 package com.shatteredpixel.shatteredpixeldungeon.actors.hero.abilities.warrior;
 
+import com.shatteredpixel.shatteredpixeldungeon.effects.HellagurEffects;
 import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.actors.Actor;
 import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
@@ -98,6 +99,7 @@ public class Shockwave extends ArmorAbility {
 		}
 
 		hero.sprite.zap(target);
+		HellagurEffects.shockwave(hero, target);
 		Sample.INSTANCE.play(Assets.Sounds.BLAST, 1f, 0.5f);
 		PixelScene.shake(2, 0.5f);
 		//final zap at 2/3 distance, for timing of the actual effect

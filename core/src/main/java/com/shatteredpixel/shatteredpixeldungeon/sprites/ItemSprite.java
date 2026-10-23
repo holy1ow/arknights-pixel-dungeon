@@ -25,6 +25,7 @@
 package com.shatteredpixel.shatteredpixeldungeon.sprites;
 
 import com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaItemVisuals;
+import com.shatteredpixel.shatteredpixeldungeon.effects.HellagurVisuals;
 import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
 import com.shatteredpixel.shatteredpixeldungeon.effects.CellEmitter;
@@ -264,8 +265,16 @@ public class ItemSprite extends MovieClip {
 	public void frame( int image ){
 		displayedImage = image;
         amiyaTexture = AmiyaItemVisuals.itemTexture(image);
+        if (amiyaTexture == null) amiyaTexture = HellagurVisuals.itemTexture(image);
         texture(amiyaTexture == null ? Assets.Sprites.ITEMS : amiyaTexture);
-        if (amiyaTexture != null) { frame(0, 0, 16, 16); perspectiveRaise=5/16f; return; }
+        if (amiyaTexture != null) {
+            // The tinted short sword keeps its original trim; redrawn items use their full canvas.
+            if (amiyaTexture.startsWith(HellagurVisuals.ROOT) && image == ItemSpriteSheet.WORN_SHORTSWORD)
+                frame(0, 0, Math.round(ItemSpriteSheet.film.width(image)), Math.round(ItemSpriteSheet.film.height(image)));
+            else frame(0, 0, 16, 16);
+            perspectiveRaise=5/16f;
+            return;
+        }
         frame( ItemSpriteSheet.film.get( image ));
 
 		float height = ItemSpriteSheet.film.height( image );
@@ -305,6 +314,7 @@ public class ItemSprite extends MovieClip {
 	@Override
 	public void draw() {
         String selected = AmiyaItemVisuals.itemTexture(displayedImage);
+        if (selected == null) selected = HellagurVisuals.itemTexture(displayedImage);
         if (!java.util.Objects.equals(selected, amiyaTexture)) frame(displayedImage);
 		if (texture == null || (!dirty && buffer == null))
 			return;

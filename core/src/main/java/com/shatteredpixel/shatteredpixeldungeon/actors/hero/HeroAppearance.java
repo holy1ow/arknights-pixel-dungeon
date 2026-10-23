@@ -67,13 +67,17 @@ public final class HeroAppearance {
         identity=cls; subclass=sub; this.key=key; portraitSlot=portrait; iconSlot=icon; armorTier=tier;
         // Extra canvas preserves horns, weapons, and complete attack/death poses.
         // This changes frame bounds, not the character's pixel scale.
-        width=(cls==HeroClass.DEGENBRECHER || cls==HeroClass.SHINING)?36:cls==HeroClass.TYPHON?32:cls==HeroClass.AMIYA?24:cls==HeroClass.HELLAGUR?20:cls.isOperator()?16:12;
-        height=cls==HeroClass.AMIYA?24:cls.isOperator()?21:15;
+        boolean hellagurSubclass = cls==HeroClass.HELLAGUR
+                && (sub==HeroSubClass.BERSERKER || sub==HeroSubClass.GLADIATOR);
+        width=hellagurSubclass?36:(cls==HeroClass.DEGENBRECHER || cls==HeroClass.SHINING)?36:cls==HeroClass.TYPHON?32:cls==HeroClass.AMIYA?24:cls==HeroClass.HELLAGUR?20:cls.isOperator()?16:12;
+        height=hellagurSubclass?28:cls==HeroClass.AMIYA?24:cls.isOperator()?21:15;
         // v4 keeps the approved 16x21 body at (2,2) inside a 24x24 art frame.
-        paddingLeft=cls==HeroClass.AMIYA?2:0;
-        paddingTop=cls==HeroClass.AMIYA?2:0;
-        paddingRight=cls==HeroClass.AMIYA?6:0;
-        paddingBottom=cls==HeroClass.AMIYA?1:0;
+        // Hellagur's subclass art keeps the existing 20x21 world bounds and 16px
+        // logical body: the art foot (18,24) maps to world foot (10,21).
+        paddingLeft=hellagurSubclass?8:cls==HeroClass.AMIYA?2:0;
+        paddingTop=hellagurSubclass?3:cls==HeroClass.AMIYA?2:0;
+        paddingRight=hellagurSubclass?8:cls==HeroClass.AMIYA?6:0;
+        paddingBottom=hellagurSubclass?4:cls==HeroClass.AMIYA?1:0;
         sprite=cls.isOperator() ? (key.equals("amiya_base")?Assets.Sprites.AMIYA:"sprites/operators/"+key+".png") : cls.spritesheet();
     }
     public int displayWidth() { return width-paddingLeft-paddingRight; }

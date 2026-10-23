@@ -1,0 +1,33 @@
+{
+  "id": "F03",
+  "key": "F03-slam",
+  "title": "撞击",
+  "group": 2,
+  "size": [
+    32,
+    32
+  ],
+  "anchor": [
+    16,
+    24
+  ],
+  "durations_ms": [
+    35,
+    65,
+    65,
+    65,
+    40
+  ],
+  "frames": 5,
+  "placement": "target",
+  "source": "generated/F03-slam.png",
+  "terminal_frame": "transparent clear, intentional",
+  "sheet": "exports/effects/F03-slam/sheet.png",
+  "source_file": "sources/effects/F03-slam.aseprite",
+  "animation": "previews/animations/F03-slam.png",
+  "status": "review_ready",
+  "installed": false,
+  "choice": null,
+  "total_ms": 270,
+  "sha256": "60bd6eb317ad3aeca7bf668ee4f0715bd2e161628417a5e249312d771d0a5c27"
+}

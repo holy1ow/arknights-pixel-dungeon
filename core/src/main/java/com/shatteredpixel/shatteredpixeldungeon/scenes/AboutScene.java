@@ -62,7 +62,7 @@ public class AboutScene extends PixelScene {
 
 		CreditsBlock license = new CreditsBlock(true, Window.TITLE_COLOR,
 				Messages.get(this, "title"), null,
-				"Arknights Pixel Dungeon 0.0.3\n" +
+				"Arknights Pixel Dungeon 0.0.4\n" +
 				"Modified by holy1ow, 2026-10-18.\nBased on Shattered Pixel Dungeon 4.0.2.\n" +
 				"GNU GPL v3 or later; no warranty.\n\n" +
 				"Pixel Dungeon: Copyright (C) 2012-2015 Oleg Dolya (Watabou)\n" +

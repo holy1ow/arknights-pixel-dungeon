@@ -1,0 +1,33 @@
+{
+  "id": "F10",
+  "key": "F10-endure",
+  "title": "苦痛坚忍反击就绪",
+  "group": 4,
+  "size": [
+    40,
+    32
+  ],
+  "anchor": [
+    20,
+    28
+  ],
+  "durations_ms": [
+    60,
+    100,
+    100,
+    100,
+    40
+  ],
+  "frames": 5,
+  "placement": "behind-hero",
+  "source": "generated/F10-endure.png",
+  "terminal_frame": "transparent clear, intentional",
+  "sheet": "exports/effects/F10-endure/sheet.png",
+  "source_file": "sources/effects/F10-endure.aseprite",
+  "animation": "previews/animations/F10-endure.png",
+  "status": "review_ready",
+  "installed": false,
+  "choice": null,
+  "total_ms": 400,
+  "sha256": "b87c7b5c21ef47cdfcd8ff80255cf0c2492b75a6f3c3cb5c5b160d3a9d639446"
+}

@@ -383,6 +383,7 @@ public class StatusPane extends Component {
 		if (tier != lastTier) {
 			lastTier = tier;
 			avatar.copy( HeroSprite.avatar( Dungeon.hero ) );
+			alignHellagurAvatar();
 		}
 
 		counter.setSweep((1f - Actor.now()%1f)%1f);
@@ -390,6 +391,16 @@ public class StatusPane extends Component {
 
 	public void updateAvatar(){
 		avatar.copy( HeroSprite.avatar( Dungeon.hero ) );
+		alignHellagurAvatar();
+	}
+
+	private void alignHellagurAvatar(){
+		// A subclass canvas can grow while the existing status pane stays open.
+		if (Dungeon.hero.heroClass == com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroClass.HELLAGUR) {
+			avatar.x = bg.x - avatar.width / 2f + 15;
+			avatar.y = bg.y - avatar.height / 2f + 16;
+			PixelScene.align(avatar);
+		}
 	}
 
 	public void alpha( float value ){

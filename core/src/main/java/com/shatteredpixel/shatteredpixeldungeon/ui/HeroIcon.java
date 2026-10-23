@@ -28,6 +28,7 @@ import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
 import com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroClass;
 import com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaItemVisuals;
+import com.shatteredpixel.shatteredpixeldungeon.effects.HellagurVisuals;
 import com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroSubClass;
 import com.shatteredpixel.shatteredpixeldungeon.actors.hero.abilities.ArmorAbility;
 import com.shatteredpixel.shatteredpixeldungeon.actors.hero.spells.ClericSpell;
@@ -42,6 +43,7 @@ public class HeroIcon extends Image {
 	private int armorAbilityIcon = -1;
 	private HeroClass displayedClass;
 	private String armorTexture;
+	private ActionIndicator.Action displayedAction;
 
 	//transparent icon
 	public static final int NONE    = 127;
@@ -155,12 +157,17 @@ public class HeroIcon extends Image {
 	}
 
 	private void refreshArmorAppearance(){
-		if (armorAbilityIcon < 0) return;
-		String selected = AmiyaItemVisuals.armorAbilityTexture(displayedClass, armorAbilityIcon);
+		if (armorAbilityIcon < 0 && displayedAction == null) return;
+		int originalIcon = displayedAction == null ? armorAbilityIcon : displayedAction.actionIcon();
+		String selected = displayedAction == null
+				? AmiyaItemVisuals.armorAbilityTexture(displayedClass, armorAbilityIcon)
+				: HellagurVisuals.actionTexture(displayedAction);
+		if (selected == null && displayedAction == null)
+			selected = HellagurVisuals.armorAbilityTexture(displayedClass, armorAbilityIcon);
 		if (!java.util.Objects.equals(selected, armorTexture)) {
 			armorTexture = selected;
 			texture(selected == null ? Assets.Interfaces.HERO_ICONS : selected);
-			if (selected == null) frame(film.get(armorAbilityIcon));
+			if (selected == null) frame(film.get(originalIcon));
 			else frame(0, 0, SIZE, SIZE);
 		}
 	}
@@ -177,6 +184,8 @@ public class HeroIcon extends Image {
 			film = new TextureFilm(texture, SIZE, SIZE);
 		}
 		frame(film.get(action.actionIcon()));
+		displayedAction = action;
+		refreshArmorAppearance();
 	}
 
 	public HeroIcon(ClericSpell spell){

@@ -1,0 +1,39 @@
+{
+  "id": "F15",
+  "key": "F15-endure-brace",
+  "title": "苦痛坚忍起势",
+  "group": 4,
+  "size": [
+    40,
+    32
+  ],
+  "anchor": [
+    20,
+    28
+  ],
+  "durations_ms": [
+    50,
+    70,
+    70,
+    40
+  ],
+  "frames": 4,
+  "placement": "behind-hero",
+  "source": "generated/F10-endure.png",
+  "terminal_frame": "transparent clear, intentional",
+  "derived_from": "F10-endure",
+  "frame_mapping": [
+    0,
+    1,
+    0,
+    4
+  ],
+  "sheet": "exports/effects/F15-endure-brace/sheet.png",
+  "source_file": "sources/effects/F15-endure-brace.aseprite",
+  "animation": "previews/animations/F15-endure-brace.png",
+  "status": "review_ready",
+  "installed": false,
+  "choice": null,
+  "total_ms": 230,
+  "sha256": "419967cf7d9f3020c1ffc884fef8a441550fd858455c0f3d5b52dfb177b7da1f"
+}

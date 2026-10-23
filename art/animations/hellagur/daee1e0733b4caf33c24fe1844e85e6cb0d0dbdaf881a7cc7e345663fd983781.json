@@ -1,0 +1,33 @@
+{
+  "id": "F12",
+  "key": "F12-crown",
+  "title": "王冠进阶",
+  "group": 6,
+  "size": [
+    32,
+    40
+  ],
+  "anchor": [
+    16,
+    34
+  ],
+  "durations_ms": [
+    120,
+    200,
+    220,
+    240,
+    80
+  ],
+  "frames": 5,
+  "placement": "behind-hero",
+  "source": "generated/F12-crown.png",
+  "terminal_frame": "transparent clear, intentional",
+  "sheet": "exports/effects/F12-crown/sheet.png",
+  "source_file": "sources/effects/F12-crown.aseprite",
+  "animation": "previews/animations/F12-crown.png",
+  "status": "review_ready",
+  "installed": false,
+  "choice": null,
+  "total_ms": 860,
+  "sha256": "cf89caa752d10f56eb1f15615bed1da9280c8953b0eaae7580e59d3fb2e54fc2"
+}

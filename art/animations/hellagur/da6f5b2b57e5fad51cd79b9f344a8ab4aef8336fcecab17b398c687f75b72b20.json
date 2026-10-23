@@ -1,0 +1,33 @@
+{
+  "id": "F06",
+  "key": "F06-fury",
+  "title": "暴雨单次挥击",
+  "group": 2,
+  "size": [
+    32,
+    32
+  ],
+  "anchor": [
+    16,
+    24
+  ],
+  "durations_ms": [
+    25,
+    35,
+    35,
+    25,
+    30
+  ],
+  "frames": 5,
+  "placement": "hero-front-side",
+  "source": "generated/F01-melee.png",
+  "reuse": "Same approved-internal sample pixels; F06 plays once per existing attack callback",
+  "sheet": "exports/effects/F06-fury/sheet.png",
+  "source_file": "sources/effects/F06-fury.aseprite",
+  "animation": "previews/animations/F06-fury.png",
+  "status": "review_ready",
+  "installed": false,
+  "choice": null,
+  "total_ms": 150,
+  "sha256": "bc472c7ac2c432ca64927afcc1d1981736f02e80218031b77e2c12001b6b92c6"
+}

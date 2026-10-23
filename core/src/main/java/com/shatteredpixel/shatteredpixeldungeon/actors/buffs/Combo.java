@@ -21,6 +21,7 @@
 
 package com.shatteredpixel.shatteredpixeldungeon.actors.buffs;
 
+import com.shatteredpixel.shatteredpixeldungeon.effects.HellagurEffects;
 import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.Badges;
 import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
@@ -368,6 +369,7 @@ public class Combo extends Buff implements ActionIndicator.Action {
 
 		int oldPos = enemy.pos;
 		if (hero.attack(enemy, dmgMulti, dmgBonus, Char.INFINITE_ACCURACY)){
+			HellagurEffects.combo(hero, enemy, moveBeingUsed);
 			//special on-hit effects
 			switch (moveBeingUsed) {
 				case CLOBBER:

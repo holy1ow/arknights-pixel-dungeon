@@ -1,0 +1,33 @@
+{
+  "id": "F11",
+  "key": "F11-mask",
+  "title": "面具转职",
+  "group": 6,
+  "size": [
+    32,
+    40
+  ],
+  "anchor": [
+    16,
+    34
+  ],
+  "durations_ms": [
+    160,
+    220,
+    260,
+    260,
+    100
+  ],
+  "frames": 5,
+  "placement": "behind-hero",
+  "source": "generated/F11-mask.png",
+  "terminal_frame": "transparent clear, intentional",
+  "sheet": "exports/effects/F11-mask/sheet.png",
+  "source_file": "sources/effects/F11-mask.aseprite",
+  "animation": "previews/animations/F11-mask.png",
+  "status": "review_ready",
+  "installed": false,
+  "choice": null,
+  "total_ms": 1000,
+  "sha256": "6cfb83aadd143f024e82afa019a2f06cf92484ff46e5a8bf0d80d90efb22d5c7"
+}

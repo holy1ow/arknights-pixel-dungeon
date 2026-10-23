@@ -1,0 +1,33 @@
+{
+  "id": "F05",
+  "key": "F05-crush",
+  "title": "横扫",
+  "group": 2,
+  "size": [
+    48,
+    32
+  ],
+  "anchor": [
+    24,
+    24
+  ],
+  "durations_ms": [
+    45,
+    65,
+    65,
+    65,
+    40
+  ],
+  "frames": 5,
+  "placement": "ground",
+  "source": "generated/F05-crush.png",
+  "terminal_frame": "transparent clear, intentional",
+  "sheet": "exports/effects/F05-crush/sheet.png",
+  "source_file": "sources/effects/F05-crush.aseprite",
+  "animation": "previews/animations/F05-crush.png",
+  "status": "review_ready",
+  "installed": false,
+  "choice": null,
+  "total_ms": 280,
+  "sha256": "fbfc56e026f42918f6fb617a0ce116ea64d6959f966e3cbcfdacc90420e8648e"
+}

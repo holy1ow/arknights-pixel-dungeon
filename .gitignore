@@ -14,3 +14,4 @@ local.properties
 *.p12
 __pycache__/
 *.pyc
+.lwjgl/

@@ -1,0 +1,33 @@
+{
+  "id": "F08",
+  "key": "F08-leap",
+  "title": "英勇之跃落地",
+  "group": 4,
+  "size": [
+    48,
+    32
+  ],
+  "anchor": [
+    24,
+    24
+  ],
+  "durations_ms": [
+    50,
+    90,
+    100,
+    110,
+    50
+  ],
+  "frames": 5,
+  "placement": "ground",
+  "source": "generated/F08-leap.png",
+  "terminal_frame": "transparent clear, intentional",
+  "sheet": "exports/effects/F08-leap/sheet.png",
+  "source_file": "sources/effects/F08-leap.aseprite",
+  "animation": "previews/animations/F08-leap.png",
+  "status": "review_ready",
+  "installed": false,
+  "choice": null,
+  "total_ms": 400,
+  "sha256": "3f6778220cbff9009fe2c9b145d0de202a24f9fc9f088fd222a075437ccfaf3e"
+}

@@ -21,6 +21,7 @@
 
 package com.shatteredpixel.shatteredpixeldungeon.actors.hero.abilities.warrior;
 
+import com.shatteredpixel.shatteredpixeldungeon.effects.HellagurEffects;
 import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
 import com.shatteredpixel.shatteredpixeldungeon.actors.Actor;
 import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
@@ -116,6 +117,7 @@ public class HeroicLeap extends ArmorAbility {
 					}
 
 					WandOfBlastWave.BlastWave.blast(dest);
+					HellagurEffects.show(hero, HellagurEffects.Kind.F08);
 					PixelScene.shake(2, 0.5f);
 
 					Invisibility.dispel();

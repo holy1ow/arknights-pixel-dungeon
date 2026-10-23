@@ -1,0 +1,33 @@
+{
+  "id": "F04",
+  "key": "F04-parry",
+  "title": "招架",
+  "group": 2,
+  "size": [
+    32,
+    32
+  ],
+  "anchor": [
+    16,
+    16
+  ],
+  "durations_ms": [
+    30,
+    45,
+    45,
+    50,
+    40
+  ],
+  "frames": 5,
+  "placement": "contact",
+  "source": "generated/F04-parry.png",
+  "terminal_frame": "transparent clear, intentional",
+  "sheet": "exports/effects/F04-parry/sheet.png",
+  "source_file": "sources/effects/F04-parry.aseprite",
+  "animation": "previews/animations/F04-parry.png",
+  "status": "review_ready",
+  "installed": false,
+  "choice": null,
+  "total_ms": 210,
+  "sha256": "3670b147e993bede3b5916ad88ccc880a3924d6b555d1f036b7bcb1d29a1271c"
+}

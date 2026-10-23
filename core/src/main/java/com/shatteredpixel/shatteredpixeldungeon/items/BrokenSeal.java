@@ -23,6 +23,7 @@
 
 package com.shatteredpixel.shatteredpixeldungeon.items;
 
+import com.shatteredpixel.shatteredpixeldungeon.effects.HellagurEffects;
 import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
 import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Combo;
@@ -318,6 +319,7 @@ public class BrokenSeal extends Item {
 
 		@Override
 		public synchronized boolean act() {
+			boolean wasCoolingDown = cooldown > 0;
 			if (cooldown > 0 && Regeneration.regenOn()){
 				cooldown--;
 			}
@@ -338,6 +340,7 @@ public class BrokenSeal extends Item {
 				}
 			}
 			
+			if (wasCoolingDown && cooldown == 0) HellagurEffects.show(target, HellagurEffects.Kind.F14);
 			if (shielding() <= 0 && maxShield() <= 0 && cooldown == 0){
 				detach();
 			}
@@ -351,6 +354,7 @@ public class BrokenSeal extends Item {
 			cooldown = Math.max(0, cooldown+COOLDOWN_START);
 			turnsSinceEnemies = 0;
 			initialShield = maxShield();
+			if (initialShield > 0) HellagurEffects.show(target, HellagurEffects.Kind.F13);
 		}
 
 		public boolean coolingDown(){

@@ -21,6 +21,7 @@
 
 package com.shatteredpixel.shatteredpixeldungeon.actors.hero.abilities.warrior;
 
+import com.shatteredpixel.shatteredpixeldungeon.effects.HellagurEffects;
 import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
 import com.shatteredpixel.shatteredpixeldungeon.actors.Actor;
@@ -61,6 +62,7 @@ public class Endure extends ArmorAbility {
 			combo.addTime(3f);
 		}
 		hero.sprite.operate(hero.pos);
+		HellagurEffects.show(hero, HellagurEffects.Kind.F15);
 
 		armor.charge -= chargeUse(hero);
 		armor.updateQuickslot();
@@ -136,7 +138,7 @@ public class Endure extends ArmorAbility {
 			if (damageBonus > 0) {
 				target.sprite.centerEmitter().start( Speck.factory( Speck.SCREAM ), 0.3f, 3 );
 				Sample.INSTANCE.play(Assets.Sounds.CHALLENGE);
-				SpellSprite.show(target, SpellSprite.BERSERK);
+				if (!HellagurEffects.show(target, HellagurEffects.Kind.F10)) SpellSprite.show(target, SpellSprite.BERSERK);
 			} else {
 				detach();
 			}

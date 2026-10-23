@@ -1,0 +1,33 @@
+{
+  "id": "F13",
+  "key": "F13-seal",
+  "title": "纹章护盾触发",
+  "group": 7,
+  "size": [
+    40,
+    40
+  ],
+  "anchor": [
+    20,
+    34
+  ],
+  "durations_ms": [
+    50,
+    80,
+    90,
+    100,
+    40
+  ],
+  "frames": 5,
+  "placement": "behind-hero",
+  "source": "generated/F13-seal.png",
+  "terminal_frame": "transparent clear, intentional",
+  "sheet": "exports/effects/F13-seal/sheet.png",
+  "source_file": "sources/effects/F13-seal.aseprite",
+  "animation": "previews/animations/F13-seal.png",
+  "status": "review_ready",
+  "installed": false,
+  "choice": null,
+  "total_ms": 360,
+  "sha256": "dc82c039dc0147ab515a727506f7fcf82ca83f0f75bb966c2c32295a9262785c"
+}

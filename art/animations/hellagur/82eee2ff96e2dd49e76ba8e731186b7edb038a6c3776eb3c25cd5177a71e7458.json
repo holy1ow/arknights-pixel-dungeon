@@ -1,0 +1,33 @@
+{
+  "id": "F01",
+  "key": "F01-melee",
+  "title": "普通近战",
+  "group": 1,
+  "size": [
+    32,
+    32
+  ],
+  "anchor": [
+    16,
+    24
+  ],
+  "durations_ms": [
+    35,
+    60,
+    60,
+    45,
+    40
+  ],
+  "frames": 5,
+  "placement": "hero-front-side",
+  "source": "generated/F01-melee.png",
+  "reuse": null,
+  "sheet": "exports/effects/F01-melee/sheet.png",
+  "source_file": "sources/effects/F01-melee.aseprite",
+  "animation": "previews/animations/F01-melee.png",
+  "status": "review_ready",
+  "installed": false,
+  "choice": null,
+  "total_ms": 240,
+  "sha256": "bc472c7ac2c432ca64927afcc1d1981736f02e80218031b77e2c12001b6b92c6"
+}

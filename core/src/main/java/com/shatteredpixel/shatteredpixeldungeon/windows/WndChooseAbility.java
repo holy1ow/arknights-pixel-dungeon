@@ -51,6 +51,7 @@ public class WndChooseAbility extends Window {
 	public WndChooseAbility(final KingsCrown crown, final Armor armor, final Hero hero){
 
 		super();
+		final boolean hellagur = com.shatteredpixel.shatteredpixeldungeon.effects.HellagurVisuals.eligible(hero);
 
 		//crown can be null if hero is choosing from armor
 		IconTitle titlebar = new IconTitle();
@@ -99,9 +100,9 @@ public class WndChooseAbility extends Window {
 
 		RenderedTextBlock body = PixelScene.renderTextBlock( 6 );
 		if (crown != null) {
-			body.text(Messages.get(this, "message"), WIDTH);
+			body.text(Messages.get(this, hellagur ? "hellagur_message" : "message"), WIDTH);
 		} else {
-			body.text(Messages.get(this, "message_no_crown"), WIDTH);
+			body.text(Messages.get(this, hellagur ? "hellagur_message_no_crown" : "message_no_crown"), WIDTH);
 		}
 		body.setPos( titlebar.left(), titlebar.bottom() + GAP );
 		add( body );
@@ -114,9 +115,9 @@ public class WndChooseAbility extends Window {
 				protected void onClick() {
 					GameScene.show(new WndOptions( new HeroIcon( hero.heroClass, ability ),
 							Messages.titleCase(ability.name()),
-							Messages.get(WndChooseAbility.this, "are_you_sure"),
-							Messages.get(WndChooseAbility.this, "yes"),
-							Messages.get(WndChooseAbility.this, "no")){
+							Messages.get(WndChooseAbility.this, hellagur ? "hellagur_are_you_sure" : "are_you_sure"),
+							Messages.get(WndChooseAbility.this, hellagur ? "hellagur_yes" : "yes"),
+							Messages.get(WndChooseAbility.this, hellagur ? "hellagur_no" : "no")){
 
 						@Override
 						protected void onSelect(int index) {
@@ -152,7 +153,7 @@ public class WndChooseAbility extends Window {
 			pos = abilityButton.bottom() + GAP;
 		}
 
-		RedButton cancelButton = new RedButton(Messages.get(this, "cancel")){
+		RedButton cancelButton = new RedButton(Messages.get(this, hellagur ? "hellagur_cancel" : "cancel")){
 			@Override
 			protected void onClick() {
 				hide();

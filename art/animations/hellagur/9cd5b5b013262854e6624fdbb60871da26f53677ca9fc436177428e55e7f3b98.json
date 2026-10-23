@@ -1,0 +1,39 @@
+{
+  "id": "F14",
+  "key": "F14-seal-ready",
+  "title": "纹章冷却结束就绪",
+  "group": 7,
+  "size": [
+    40,
+    40
+  ],
+  "anchor": [
+    20,
+    34
+  ],
+  "durations_ms": [
+    40,
+    70,
+    70,
+    40
+  ],
+  "frames": 4,
+  "placement": "behind-hero",
+  "source": "generated/F13-seal.png",
+  "terminal_frame": "transparent clear, intentional",
+  "derived_from": "F13-seal",
+  "frame_mapping": [
+    3,
+    0,
+    3,
+    4
+  ],
+  "sheet": "exports/effects/F14-seal-ready/sheet.png",
+  "source_file": "sources/effects/F14-seal-ready.aseprite",
+  "animation": "previews/animations/F14-seal-ready.png",
+  "status": "review_ready",
+  "installed": false,
+  "choice": null,
+  "total_ms": 220,
+  "sha256": "e7caacf6af44201b691e8a21d5539582306bfb9c1aed163e963d7fb9db91d323"
+}

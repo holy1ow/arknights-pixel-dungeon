@@ -21,6 +21,7 @@
 
 package com.shatteredpixel.shatteredpixeldungeon.actors.buffs;
 
+import com.shatteredpixel.shatteredpixeldungeon.effects.HellagurEffects;
 import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
 import com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero;
@@ -187,7 +188,7 @@ public class Berserk extends ShieldBuff implements ActionIndicator.Action {
 
 	private void startBerserking(){
 		state = State.BERSERK;
-		SpellSprite.show(target, SpellSprite.BERSERK);
+		if (!HellagurEffects.show(target, HellagurEffects.Kind.F07)) SpellSprite.show(target, SpellSprite.BERSERK);
 		Sample.INSTANCE.play( Assets.Sounds.CHALLENGE );
 		GameScene.flash(0xFF0000);
 

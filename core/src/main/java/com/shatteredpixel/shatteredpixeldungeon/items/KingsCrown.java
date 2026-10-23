@@ -24,6 +24,9 @@
 
 package com.shatteredpixel.shatteredpixeldungeon.items;
 
+import com.shatteredpixel.shatteredpixeldungeon.effects.HellagurEffects;
+import com.shatteredpixel.shatteredpixeldungeon.effects.HellagurVisuals;
+import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
 import com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaItemVisuals;
 import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.actors.Actor;
@@ -58,10 +61,16 @@ public class KingsCrown extends Item {
 	}
 	
 	@Override
-	public String name() { return AmiyaItemVisuals.active() ? Messages.get(this, "amiya_name") : super.name(); }
+	public String name() { return HellagurVisuals.eligible(Dungeon.hero) ? Messages.get(this, "hellagur_name") : AmiyaItemVisuals.active() ? Messages.get(this, "amiya_name") : super.name(); }
 
 	@Override
-	public String desc() { return AmiyaItemVisuals.active() ? Messages.get(this, "amiya_desc") : super.desc(); }
+	public String desc() { return HellagurVisuals.eligible(Dungeon.hero) ? Messages.get(this, "hellagur_desc") : AmiyaItemVisuals.active() ? Messages.get(this, "amiya_desc") : super.desc(); }
+
+	@Override
+	public String actionName(String action, Hero hero) {
+		return AC_WEAR.equals(action) && HellagurVisuals.eligible(hero)
+				? Messages.get(this, "hellagur_ac_wear") : super.actionName(action, hero);
+	}
 
 	@Override
 	public ArrayList<String> actions( Hero hero ) {
@@ -81,7 +90,7 @@ public class KingsCrown extends Item {
 			if (hero.belongings.armor() != null){
 				GameScene.show( new WndChooseAbility(this, hero.belongings.armor(), hero));
 			} else {
-				GLog.w( Messages.get(this, "naked"));
+				GLog.w( Messages.get(this, HellagurVisuals.eligible(hero) ? "hellagur_naked" : "naked"));
 			}
 			
 		}
@@ -113,7 +122,7 @@ public class KingsCrown extends Item {
 			if (ability instanceof Ratmogrify){
 				GLog.p(Messages.get(this, "ratgraded"));
 			} else {
-				GLog.p(Messages.get(this, AmiyaItemVisuals.active() ? "amiya_upgraded" : "upgraded"));
+				GLog.p(Messages.get(this, HellagurVisuals.eligible(hero) ? "hellagur_upgraded" : AmiyaItemVisuals.active() ? "amiya_upgraded" : "upgraded"));
 			}
 
 			ClassArmor classArmor = ClassArmor.upgrade(hero, armor);
@@ -135,6 +144,7 @@ public class KingsCrown extends Item {
 		Talent.initArmorTalents(hero);
 
 		hero.sprite.operate( hero.pos );
+		if (HellagurEffects.show(hero, HellagurEffects.Kind.F12)) crownEmitter.visible = false;
 		Sample.INSTANCE.play( Assets.Sounds.MASTERY );
 	}
 

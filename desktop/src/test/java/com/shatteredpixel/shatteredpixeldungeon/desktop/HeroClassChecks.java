@@ -59,7 +59,7 @@ public class HeroClassChecks {
             if (m.getName().equals("log") || m.getName().equals("error")) System.out.println(Arrays.toString(a));
             return null;
         });
-        Game.version="0.0.3"; Game.versionCode=922;
+        Game.version="0.0.4"; Game.versionCode=922;
         Game.platform=new DesktopPlatformSupport();
         new ShatteredPixelDungeon(Game.platform);
         SPDSettings.challenges(0);
@@ -144,19 +144,29 @@ public class HeroClassChecks {
             if (cl==HeroClass.HELLAGUR) {
                 for (HeroSubClass sub : new HeroSubClass[]{HeroSubClass.NONE,HeroSubClass.BERSERKER,HeroSubClass.GLADIATOR}) {
                     HeroAppearance appearance=HeroAppearance.resolve(cl,sub,0);
-                    eq(appearance.width,20);
+                    boolean base=sub==HeroSubClass.NONE;
+                    int fw=base?20:36,fh=base?21:28;
+                    eq(appearance.width,fw);eq(appearance.height,fh);
+                    eq(appearance.displayWidth(),20);eq(appearance.displayHeight(),21);
+                    if(!base){eq(18-appearance.paddingLeft,10);eq(24-appearance.paddingTop,21);}
                     com.badlogic.gdx.graphics.Pixmap atlas=new com.badlogic.gdx.graphics.Pixmap(Gdx.files.internal(appearance.sprite));
                     try {
                         for (int tier=0;tier<7;tier++) {
                             for (int frame=0;frame<21;frame++) {
-                                for (int y=0;y<21;y++) {
-                                    check((atlas.getPixel(frame*20,tier*21+y)&255)==0 && (atlas.getPixel(frame*20+1,tier*21+y)&255)==0,"Hellagur left anchor padding");
+                                RectF uv=HeroSprite.film(HeroAppearance.resolve(cl,sub,tier)).get(frame);
+                                eq(uv.left*atlas.getWidth(),frame*fw);eq(uv.top*atlas.getHeight(),tier*fh);
+                                eq(uv.width()*atlas.getWidth(),fw);eq(uv.height()*atlas.getHeight(),fh);
+                                for (int y=0;y<fh;y++) {
+                                    check((atlas.getPixel(frame*fw,tier*fh+y)&255)==0,"Hellagur left safety margin");
+                                    if(!base)check((atlas.getPixel(frame*fw+fw-1,tier*fh+y)&255)==0,"Hellagur right safety margin");
                                 }
                             }
                             for (int frame : new int[]{11,12}) {
                                 int edgePixels=0;
-                                for (int x=18;x<20;x++) for (int y=0;y<21;y++) if ((atlas.getPixel(frame*20+x,tier*21+y)&255)!=0) edgePixels++;
-                                check(edgePixels>0,"Hellagur death head retained beyond original frame: "+sub+" / "+frame);
+                                if(base){
+                                    for (int x=18;x<20;x++) for (int y=0;y<21;y++) if ((atlas.getPixel(frame*20+x,tier*21+y)&255)!=0) edgePixels++;
+                                    check(edgePixels>0,"Hellagur base death head retained beyond original frame: "+frame);
+                                }
                             }
                         }
                     } finally { atlas.dispose(); }

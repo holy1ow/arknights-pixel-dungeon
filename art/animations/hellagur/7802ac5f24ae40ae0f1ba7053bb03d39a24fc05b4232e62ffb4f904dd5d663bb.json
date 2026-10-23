@@ -1,0 +1,33 @@
+{
+  "id": "F09",
+  "key": "F09-shockwave",
+  "title": "震地冲击",
+  "group": 4,
+  "size": [
+    48,
+    40
+  ],
+  "anchor": [
+    4,
+    20
+  ],
+  "durations_ms": [
+    70,
+    120,
+    130,
+    140,
+    40
+  ],
+  "frames": 5,
+  "placement": "direction-right",
+  "source": "generated/F09-shockwave-v2.png",
+  "terminal_frame": "transparent clear, intentional",
+  "sheet": "exports/effects/F09-shockwave/sheet.png",
+  "source_file": "sources/effects/F09-shockwave.aseprite",
+  "animation": "previews/animations/F09-shockwave.png",
+  "status": "review_ready",
+  "installed": false,
+  "choice": null,
+  "total_ms": 500,
+  "sha256": "b42a94181217beb848006714f29f3034d21b109f4dfd5adc7dfbdaa04a2cede0"
+}

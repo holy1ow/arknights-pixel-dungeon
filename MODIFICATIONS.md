@@ -1,3 +1,13 @@
+# Modification notice — 0.0.4, 2026-10-23
+
+Maintainer: holy1ow. Selectively integrates approved Hellagur subclass sprites (B v14 / A v16), progression items (watch / Hot Snow), portraits (v20 D / v22 F), 27 talent selections, item/ability/status icons, 15 display effects and scoped Chinese/English progression text into public v0.0.3. The larger transparent subclass canvas preserves the original world body, feet, hit/click bounds and action timeline. Shared portrait atlas changes are limited to Hellagur cells 4 and 5. Amiya frozen artwork and the other four operators remain unchanged.
+
+Visual hooks preserve original actions, combat callbacks, damage/healing/charge calculations, item consumption and save identifiers. The already-verified HeroSprite attack lock-order fix releases the outer sprite lock before inserting visual effects; the original CharSprite animation synchronization remains. No new mechanic or gameplay shortcut is added. Public six-operator selection, unlock/tutorial rules, package/save identity, disabled trainer, dependencies and save migration version 922 remain. Public game/build/Windows version is 0.0.4 (tag v0.0.4).
+
+The playable ZIP contains no save or development/test material. New approved sources, reproducible tests, comparison and acceptance records are supplied separately. Existing historical versions and archives remain; third-party dependency source archive from v0.0.1 still applies. Corresponding source: https://github.com/holy1ow/arknights-pixel-dungeon/tree/v0.0.4 .
+
+## Historical modification records
+
 # Modification notice — 0.0.3, 2026-10-20
 
 Maintainer: holy1ow. Corrects the public game version from 0.0.2 to 0.0.3 in build metadata and the About screen. Simplifies the Release download names and puts the self-contained Windows game first. Approved Amiya artwork, frozen visual integration, all gameplay, dependencies, package/save identity and upstream save migration version 922 are unchanged. Source: https://github.com/holy1ow/arknights-pixel-dungeon/tree/v0.0.3 .

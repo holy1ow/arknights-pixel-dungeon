@@ -252,3 +252,45 @@ tasks.register('verifyAmiyaStatusTint', JavaExec) {
     mainClass = 'com.shatteredpixel.shatteredpixeldungeon.desktop.AmiyaStatusTintChecks'
     args layout.buildDirectory.dir('amiya-freeze-public-qa/statustint').get().asFile.absolutePath
 }
+
+tasks.register('verifyAmiyaLifecycle', JavaExec) {
+    dependsOn tasks.named('testClasses'), tasks.named('release')
+    classpath = files(tasks.named('release', Jar).flatMap { it.archiveFile }) + sourceSets.test.output
+    mainClass = 'com.shatteredpixel.shatteredpixeldungeon.desktop.AmiyaLifecycleChecks'
+    args layout.buildDirectory.dir('release-0.0.4-qa/AmiyaLifecycleChecks').get().asFile.absolutePath, providers.gradleProperty('qaWidth').getOrElse('1280'), providers.gradleProperty('qaHeight').getOrElse('720')
+}
+
+tasks.register('verifyHellagurLifecycle', JavaExec) {
+    dependsOn tasks.named('testClasses'), tasks.named('release')
+    classpath = files(tasks.named('release', Jar).flatMap { it.archiveFile }) + sourceSets.test.output
+    mainClass = 'com.shatteredpixel.shatteredpixeldungeon.desktop.HellagurEffectsLifecycleChecks'
+    args layout.buildDirectory.dir('release-0.0.4-qa/HellagurEffectsLifecycleChecks').get().asFile.absolutePath, providers.gradleProperty('qaWidth').getOrElse('1280'), providers.gradleProperty('qaHeight').getOrElse('720')
+}
+
+tasks.register('verifyHellagurEffects', JavaExec) {
+    dependsOn tasks.named('testClasses'), tasks.named('release')
+    classpath = files(tasks.named('release', Jar).flatMap { it.archiveFile }) + sourceSets.test.output
+    mainClass = 'com.shatteredpixel.shatteredpixeldungeon.desktop.HellagurEffectChecks'
+    args layout.buildDirectory.dir('release-0.0.4-qa/HellagurEffectChecks').get().asFile.absolutePath
+}
+
+tasks.register('verifyHellagurSubclasses', JavaExec) {
+    dependsOn tasks.named('testClasses'), tasks.named('release')
+    classpath = files(tasks.named('release', Jar).flatMap { it.archiveFile }) + sourceSets.test.output
+    mainClass = 'com.shatteredpixel.shatteredpixeldungeon.desktop.HellagurSubclassChecks'
+    args layout.buildDirectory.dir('release-0.0.4-qa/HellagurSubclassChecks').get().asFile.absolutePath
+}
+
+tasks.register('verifyCurrentPortraits', JavaExec) {
+    dependsOn tasks.named('testClasses'), tasks.named('release')
+    classpath = files(tasks.named('release', Jar).flatMap { it.archiveFile }) + sourceSets.test.output
+    mainClass = 'com.shatteredpixel.shatteredpixeldungeon.desktop.PortraitChecks'
+    args layout.buildDirectory.dir('release-0.0.4-qa/PortraitChecks').get().asFile.absolutePath, providers.gradleProperty('qaWidth').getOrElse('1280'), providers.gradleProperty('qaHeight').getOrElse('720')
+}
+
+tasks.register('verifyCompactCopy', JavaExec) {
+    dependsOn tasks.named('testClasses'), tasks.named('release')
+    classpath = files(tasks.named('release', Jar).flatMap { it.archiveFile }) + sourceSets.test.output
+    mainClass = 'com.shatteredpixel.shatteredpixeldungeon.desktop.CompactCopyChecks'
+    args layout.buildDirectory.dir('release-0.0.4-qa/CompactCopyChecks').get().asFile.absolutePath
+}

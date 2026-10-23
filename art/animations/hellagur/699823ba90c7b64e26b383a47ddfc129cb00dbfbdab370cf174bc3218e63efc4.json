@@ -1,0 +1,33 @@
+{
+  "id": "F02",
+  "key": "F02-clobber",
+  "title": "冲击",
+  "group": 2,
+  "size": [
+    32,
+    32
+  ],
+  "anchor": [
+    16,
+    16
+  ],
+  "durations_ms": [
+    35,
+    50,
+    45,
+    40,
+    40
+  ],
+  "frames": 5,
+  "placement": "center",
+  "source": "generated/F02-clobber.png",
+  "terminal_frame": "transparent clear, intentional",
+  "sheet": "exports/effects/F02-clobber/sheet.png",
+  "source_file": "sources/effects/F02-clobber.aseprite",
+  "animation": "previews/animations/F02-clobber.png",
+  "status": "review_ready",
+  "installed": false,
+  "choice": null,
+  "total_ms": 210,
+  "sha256": "b014c9ba7f4161f8136aaffc6fbc44572efcae2024c2bd8f3b7b42faaeab3765"
+}

@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "sourceBaseline": "981b647dbb8978a21e3ea03d51689631f4354863",
   "artAcceptance": "incomplete",
   "amiyaMedicalSelection": "white-staff-blue-tip",
@@ -62,7 +62,7 @@
       "provenance": "art/provenance/amiya-frozen-20261020.json",
       "reviewStatus": "approved",
       "implementationStatus": "installed",
-      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      "runtimeAtlasSha256": "0c30270d4f58ae2877d02719f61d85db9e2932e3fbc4e860657c9778b084cea3"
     },
     {
       "id": "sprite:amiya_guard",
@@ -122,7 +122,7 @@
       "provenance": "art/provenance/amiya-frozen-20261020.json",
       "reviewStatus": "approved",
       "implementationStatus": "installed",
-      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      "runtimeAtlasSha256": "0c30270d4f58ae2877d02719f61d85db9e2932e3fbc4e860657c9778b084cea3"
     },
     {
       "id": "icon:amiya_guard",
@@ -674,7 +674,7 @@
       "provenance": "art/provenance/amiya-frozen-20261020.json",
       "reviewStatus": "approved",
       "implementationStatus": "installed",
-      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      "runtimeAtlasSha256": "0c30270d4f58ae2877d02719f61d85db9e2932e3fbc4e860657c9778b084cea3"
     },
     {
       "id": "amiya-talent:empowering_meal",
@@ -1267,50 +1267,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/2a4c1aaafe6d38e7ad0415c7d927e8326a502bf3c8a6ca4e779a20fee43b7441.png",
-      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
-    },
-    {
-      "id": "sprite:hellagur_berserker",
-      "character": "hellagur",
-      "kind": "sprite",
-      "form": "berserker",
-      "note": "用户确认头部右移2像素；基础、不屈、连斩暂共用，左右各2像素原帧留边保持身体中心，倒地不裁切。",
-      "sha256": "74df83e923eb60bd6dc97f518756a6dfc22523790a07a1cb304bd85fcb24b902",
-      "sourceSha256": "cccda7b9ac58125698b4189203a10d82fa4018bdd91eeb8dd66a047d95766775",
-      "runtime": "core/src/main/assets/sprites/operators/hellagur_berserker.png",
-      "sourceFrames": 21,
-      "sourceSize": [
-        20,
-        21
-      ],
-      "source": "art/source/cccda7b9ac58125698b4189203a10d82fa4018bdd91eeb8dd66a047d95766775.aseprite",
-      "reviewStatus": "development-art-not-final",
-      "implementationStatus": "installed",
-      "export": "core/src/main/assets/sprites/operators/hellagur_berserker.png"
-    },
-    {
-      "id": "portrait:hellagur_berserker",
-      "character": "hellagur",
-      "kind": "portrait",
-      "form": "berserker",
-      "sha256": "7bef4c35a93a258fc027c9e2d88aa06e0aa38e643e76f1b85ff51e1c072edd79",
-      "sourceSha256": "1e1a94fb7d49c520daf9285d05c3c07d346be4f6696aa85a31daea05cf7e3aec",
-      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
-      "slot": 4,
-      "cellSize": [
-        24,
-        32
-      ],
-      "sourceFrames": 1,
-      "sourceSize": [
-        24,
-        32
-      ],
-      "source": "art/source/1e1a94fb7d49c520daf9285d05c3c07d346be4f6696aa85a31daea05cf7e3aec.aseprite",
-      "reviewStatus": "development-art-not-final",
-      "implementationStatus": "installed",
-      "export": "art/exports/7bef4c35a93a258fc027c9e2d88aa06e0aa38e643e76f1b85ff51e1c072edd79.png",
-      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      "runtimeAtlasSha256": "0c30270d4f58ae2877d02719f61d85db9e2932e3fbc4e860657c9778b084cea3"
     },
     {
       "id": "icon:hellagur_berserker",
@@ -1335,49 +1292,6 @@
       "implementationStatus": "installed",
       "export": "art/exports/3296bc8d1585c2bbfbaed6b8f63032471577a37474463c2a5b4b2fbb3adeaa8c.png",
       "runtimeAtlasSha256": "4d24c53e15804a6502567bb417bad5ce467064335ab041da4f660daacb3c9758"
-    },
-    {
-      "id": "sprite:hellagur_gladiator",
-      "character": "hellagur",
-      "kind": "sprite",
-      "form": "gladiator",
-      "note": "用户确认头部右移2像素；基础、不屈、连斩暂共用，左右各2像素原帧留边保持身体中心，倒地不裁切。",
-      "sha256": "74df83e923eb60bd6dc97f518756a6dfc22523790a07a1cb304bd85fcb24b902",
-      "sourceSha256": "cccda7b9ac58125698b4189203a10d82fa4018bdd91eeb8dd66a047d95766775",
-      "runtime": "core/src/main/assets/sprites/operators/hellagur_gladiator.png",
-      "sourceFrames": 21,
-      "sourceSize": [
-        20,
-        21
-      ],
-      "source": "art/source/cccda7b9ac58125698b4189203a10d82fa4018bdd91eeb8dd66a047d95766775.aseprite",
-      "reviewStatus": "development-art-not-final",
-      "implementationStatus": "installed",
-      "export": "core/src/main/assets/sprites/operators/hellagur_gladiator.png"
-    },
-    {
-      "id": "portrait:hellagur_gladiator",
-      "character": "hellagur",
-      "kind": "portrait",
-      "form": "gladiator",
-      "sha256": "3836b636bcd1fa4491fc4cb30a23eaab187071bdc377ca35e47313a585b679c1",
-      "sourceSha256": "8dd50365e1eb66330c5f65c96a48120cf2901a2fdd8bfc8623acad607548ec46",
-      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
-      "slot": 5,
-      "cellSize": [
-        24,
-        32
-      ],
-      "sourceFrames": 1,
-      "sourceSize": [
-        24,
-        32
-      ],
-      "source": "art/source/8dd50365e1eb66330c5f65c96a48120cf2901a2fdd8bfc8623acad607548ec46.aseprite",
-      "reviewStatus": "development-art-not-final",
-      "implementationStatus": "installed",
-      "export": "art/exports/3836b636bcd1fa4491fc4cb30a23eaab187071bdc377ca35e47313a585b679c1.png",
-      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
     },
     {
       "id": "icon:hellagur_gladiator",
@@ -1458,7 +1372,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/16fd0f59ed589da799ffa72d9f2c03f78a59856bcf5b99d18c18caeb9436d5ce.png",
-      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      "runtimeAtlasSha256": "0c30270d4f58ae2877d02719f61d85db9e2932e3fbc4e860657c9778b084cea3"
     },
     {
       "id": "sprite:crownslayer_assassin",
@@ -1501,7 +1415,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/83c79c9c738eb9736008e81802a156c2d816895616e85667459ac5d2e49edfdc.png",
-      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      "runtimeAtlasSha256": "0c30270d4f58ae2877d02719f61d85db9e2932e3fbc4e860657c9778b084cea3"
     },
     {
       "id": "icon:crownslayer_assassin",
@@ -1568,7 +1482,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/4d5651cc0d48506f0f43ca3bb0216175bb8785c2a66b6631e910f56afde1224c.png",
-      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      "runtimeAtlasSha256": "0c30270d4f58ae2877d02719f61d85db9e2932e3fbc4e860657c9778b084cea3"
     },
     {
       "id": "icon:crownslayer_freerunner",
@@ -1649,7 +1563,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/8be41ecf839e2b9620dd9336c1b7bb3dc162e0df86eadb2e3f12536fbd2d0c15.png",
-      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      "runtimeAtlasSha256": "0c30270d4f58ae2877d02719f61d85db9e2932e3fbc4e860657c9778b084cea3"
     },
     {
       "id": "sprite:typhon_sniper",
@@ -1692,7 +1606,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/4a245712818cf8618f7038e17f42998dc025f4705369077a2ad18af7eaa27e3e.png",
-      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      "runtimeAtlasSha256": "0c30270d4f58ae2877d02719f61d85db9e2932e3fbc4e860657c9778b084cea3"
     },
     {
       "id": "icon:typhon_sniper",
@@ -1759,7 +1673,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/4d374b30cbf626065f3d9a6e98d355aa16a2b81f6adaaa82bf9f626c68d77115.png",
-      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      "runtimeAtlasSha256": "0c30270d4f58ae2877d02719f61d85db9e2932e3fbc4e860657c9778b084cea3"
     },
     {
       "id": "icon:typhon_warden",
@@ -1840,7 +1754,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/d7ccd0184769c2f8705fe695b69f5cfe6eecea45e0986ee3e449fb111fb47ad3.png",
-      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      "runtimeAtlasSha256": "0c30270d4f58ae2877d02719f61d85db9e2932e3fbc4e860657c9778b084cea3"
     },
     {
       "id": "sprite:degenbrecher_champion",
@@ -1883,7 +1797,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/a4f625b155f29a48b23a6beddea2704abb3d0ae12e6b7a743a765ec7391fd71e.png",
-      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      "runtimeAtlasSha256": "0c30270d4f58ae2877d02719f61d85db9e2932e3fbc4e860657c9778b084cea3"
     },
     {
       "id": "icon:degenbrecher_champion",
@@ -1950,7 +1864,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/e7ce1ec32e040b66d00c7d5cacc510b528b99ad99f2450fa15f5c7f0eb3ebbd8.png",
-      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      "runtimeAtlasSha256": "0c30270d4f58ae2877d02719f61d85db9e2932e3fbc4e860657c9778b084cea3"
     },
     {
       "id": "icon:degenbrecher_monk",
@@ -2031,7 +1945,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/92f9ae81c61955203b04906b8385399f5c9c112154279704e43d09bfb2b9ac6d.png",
-      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      "runtimeAtlasSha256": "0c30270d4f58ae2877d02719f61d85db9e2932e3fbc4e860657c9778b084cea3"
     },
     {
       "id": "sprite:shining_priest",
@@ -2074,7 +1988,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/3f67a60ccd156192363dcdc8338f9fc2d76697b0581860016a3f482785ff7fd8.png",
-      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      "runtimeAtlasSha256": "0c30270d4f58ae2877d02719f61d85db9e2932e3fbc4e860657c9778b084cea3"
     },
     {
       "id": "icon:shining_priest",
@@ -2141,7 +2055,7 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "art/exports/ae16d08608240eefd536680a0f8e9df163f712b7439cb57c821bc9e4943edd29.png",
-      "runtimeAtlasSha256": "b525334b4de590cbda36bfcce88dfeb8d6944bebe41bbefd43a715e953bf36bb"
+      "runtimeAtlasSha256": "0c30270d4f58ae2877d02719f61d85db9e2932e3fbc4e860657c9778b084cea3"
     },
     {
       "id": "icon:shining_paladin",
@@ -2180,6 +2094,1655 @@
       "reviewStatus": "development-art-not-final",
       "implementationStatus": "installed",
       "export": "core/src/main/assets/splashes/operators/shining.jpg"
+    },
+    {
+      "id": "hellagur:H01",
+      "character": "hellagur",
+      "kind": "ability",
+      "version": "v5",
+      "source": "art/source/aeb496ebfbf795f46cb4e12b52abc6f17af4a3775bb79fc413dd5bd077315ac7.aseprite",
+      "sourceSha256": "aeb496ebfbf795f46cb4e12b52abc6f17af4a3775bb79fc413dd5bd077315ac7",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/abilities/heroic_leap.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/abilities/heroic_leap.png",
+      "sha256": "83f8261707e3f240d2eb28ab1809c586b23004c8d9860ec85597d84f0a0c9421",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "C",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:H02",
+      "character": "hellagur",
+      "kind": "ability",
+      "version": "v5",
+      "source": "art/source/1316d9fd8e6e1a9d124f7593b6bab801907b8ad3700df7320c6c9fd6a4090ceb.aseprite",
+      "sourceSha256": "1316d9fd8e6e1a9d124f7593b6bab801907b8ad3700df7320c6c9fd6a4090ceb",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/abilities/shockwave.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/abilities/shockwave.png",
+      "sha256": "728df135ea85e5fcf6938b7bb86152392f78c1f720f49501188ed99c8857bc3c",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "C",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:H03",
+      "character": "hellagur",
+      "kind": "ability",
+      "version": "v5",
+      "source": "art/source/be3a619a0e4c5872d33597f516b02ae7aa94f138cad8f54087d207bf753a8f35.aseprite",
+      "sourceSha256": "be3a619a0e4c5872d33597f516b02ae7aa94f138cad8f54087d207bf753a8f35",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/abilities/endure.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/abilities/endure.png",
+      "sha256": "2e0f42351a637c680f40ce7bb957b189251df402cd598144a028bb00696a5a58",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "C",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:H05",
+      "character": "hellagur",
+      "kind": "ability",
+      "version": "v5",
+      "source": "art/source/cc5ace06a938f91901eae2c7ff37e24297402e2bea152a17ecac1f8ce89ae6e0.aseprite",
+      "sourceSha256": "cc5ace06a938f91901eae2c7ff37e24297402e2bea152a17ecac1f8ce89ae6e0",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/abilities/combo_action.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/abilities/combo_action.png",
+      "sha256": "3f6007a0f18b378fccd4df2d0c59f30db0d51aa50656fd8c3113141230b15ed1",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:E05",
+      "character": "hellagur",
+      "kind": "item",
+      "version": "v5",
+      "source": "art/source/6d417cf6eb29b6a40b1bcf60635517d9eed4e7029430295700c56b431c2c0509.aseprite",
+      "sourceSha256": "6d417cf6eb29b6a40b1bcf60635517d9eed4e7029430295700c56b431c2c0509",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/items/worn_shortsword.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/items/worn_shortsword.png",
+      "sha256": "bbac549d6030d99e43b669ff64df5f0bbfa918fe213a159fc01f42bdaf901ea1",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:E06",
+      "character": "hellagur",
+      "kind": "item",
+      "version": "v5",
+      "source": "art/source/7a569c925ad38ce0c9eb511c5508236a42ade4a3ee45a6ff3e360f254796f540.aseprite",
+      "sourceSha256": "7a569c925ad38ce0c9eb511c5508236a42ade4a3ee45a6ff3e360f254796f540",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/items/armor_warrior.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/items/armor_warrior.png",
+      "sha256": "6e59158bfc30a13b63b24a874e4edc320eed08f6a89cfe9611d0cf64ee37cb7e",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "C",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T01",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/f93a47fc3c921c759e8d85fa770db7396d8aa5fc97bdab0aeba22093df4655b4.aseprite",
+      "sourceSha256": "f93a47fc3c921c759e8d85fa770db7396d8aa5fc97bdab0aeba22093df4655b4",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/hearty_meal.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/hearty_meal.png",
+      "sha256": "33785e52e9ceaa3c9c449b70f912c63f66f1e4f4325399bb0499ef3ddf44e8da",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "D",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T02",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/920823708a285cc80c5aac23d0fe020516facd34d44ddbbe45e43cf66db0f1e1.aseprite",
+      "sourceSha256": "920823708a285cc80c5aac23d0fe020516facd34d44ddbbe45e43cf66db0f1e1",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/veterans_intuition.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/veterans_intuition.png",
+      "sha256": "80d4070e53a39527c517c1f479edf1f609e53d4e52c7ecc8d220861eea790e87",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "D",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T03",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/f756b6b581c5cf198ef3b7eb85eb6fa50144342149b867b90c1e2e48650fc739.aseprite",
+      "sourceSha256": "f756b6b581c5cf198ef3b7eb85eb6fa50144342149b867b90c1e2e48650fc739",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/provoked_anger.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/provoked_anger.png",
+      "sha256": "e932a4c4b3c937d47382ef77bd0c41c405397f9c6dd4b7ea758582fd943dff17",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T04",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/eac9edff0fd52f4243ab1ff0c3e7e34a516c9fe754c8e8e64decf61a5477ab58.aseprite",
+      "sourceSha256": "eac9edff0fd52f4243ab1ff0c3e7e34a516c9fe754c8e8e64decf61a5477ab58",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/iron_will.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/iron_will.png",
+      "sha256": "bf96aa0b3ce52b5a4c54a595092296b8cf3d0c87acebbe77d6a51b1e4a42f3a3",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "D",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T05",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/b4a4fb53f787e335d214ca305a0e54e3b9b00c5ac673b2a1e8b3f3e2c6274b65.aseprite",
+      "sourceSha256": "b4a4fb53f787e335d214ca305a0e54e3b9b00c5ac673b2a1e8b3f3e2c6274b65",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/iron_stomach.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/iron_stomach.png",
+      "sha256": "8e01c5021340c2e21dd1d419c0cb860603b8a1a3a9fa09b0f3bd0bd9f4d6e37f",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "D",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T06",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/7ce3d15a253ab9822418d0e44798727ec7c84d87668fb9f15606d2e1b758d320.aseprite",
+      "sourceSha256": "7ce3d15a253ab9822418d0e44798727ec7c84d87668fb9f15606d2e1b758d320",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/liquid_willpower.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/liquid_willpower.png",
+      "sha256": "13e19eb235f771006623a025347ac317f464cd4ad072da3fc6a5450f09122376",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "D",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T07",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/3450d3e57b3b077f435c93506bcb47f8311c2766afef75236611efad58d94f41.aseprite",
+      "sourceSha256": "3450d3e57b3b077f435c93506bcb47f8311c2766afef75236611efad58d94f41",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/runic_transference.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/runic_transference.png",
+      "sha256": "7a3c0c8aae97227e848828ed0e981b3250ac4e505095aeb9d98db2f1a90e9d90",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "D",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T08",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/f3cf7237eeb7c657f42da2d3966ca8c0bf3dc4cac272a35bab824e498f897b4b.aseprite",
+      "sourceSha256": "f3cf7237eeb7c657f42da2d3966ca8c0bf3dc4cac272a35bab824e498f897b4b",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/lethal_momentum.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/lethal_momentum.png",
+      "sha256": "cb0dabc86be72bb2322495183a48512bbda00d9aa0693a104f2912a5e06d348f",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T09",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/f12f4137b5b0045ba5402bb5aaef0cdb88515081b18c6446dc41e726ff6bbe9c.aseprite",
+      "sourceSha256": "f12f4137b5b0045ba5402bb5aaef0cdb88515081b18c6446dc41e726ff6bbe9c",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/improvised_projectiles.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/improvised_projectiles.png",
+      "sha256": "b003f0042e5390f37b94e85853084bd11abbae53ba446d435f84e58c54205a74",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T10",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/964fa7baf38b5d6f1766290c8398dc4ae5859c166e7f5f5aed7d4acca0fe5a0a.aseprite",
+      "sourceSha256": "964fa7baf38b5d6f1766290c8398dc4ae5859c166e7f5f5aed7d4acca0fe5a0a",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/hold_fast.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/hold_fast.png",
+      "sha256": "b8d8845f490977db90f03140b40a5eecd5cd0b5c7ccd75ea23e4b9edd73cb85a",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "D",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T11",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/427455cda495ccb156bdf463c09b810b7729e465996bd13a7769b1f2f7ad04c8.aseprite",
+      "sourceSha256": "427455cda495ccb156bdf463c09b810b7729e465996bd13a7769b1f2f7ad04c8",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/strongman.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/strongman.png",
+      "sha256": "da03f04b252d315771a71e8c08aa8942f3bcc636710cbe47ecef653a8e6e68dd",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "D",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T12",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/f517a2e01a0b4b379829d3c2a0a6e788f21589c283c367cdf58e1c0643766b50.aseprite",
+      "sourceSha256": "f517a2e01a0b4b379829d3c2a0a6e788f21589c283c367cdf58e1c0643766b50",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/endless_rage.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/endless_rage.png",
+      "sha256": "c7bc555f39492127076f8c9b8171425a6dfd28d068397d013ac9b99f1588a6d5",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "C",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T13",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/a0ba207ad96e5703dbc53933714c35fc86155f94dc8aee0682aff7f2e5ad701a.aseprite",
+      "sourceSha256": "a0ba207ad96e5703dbc53933714c35fc86155f94dc8aee0682aff7f2e5ad701a",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/deathless_fury.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/deathless_fury.png",
+      "sha256": "06319cc29c7b46ca37f544468fa21b962ab7048ef49f1d3a4eec9b4417e9bf6b",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "D",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T14",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/bdea58a5f5c91af8ef2f55b4364d2bbcce3b81d77b5a110240582ee3a74c75a4.aseprite",
+      "sourceSha256": "bdea58a5f5c91af8ef2f55b4364d2bbcce3b81d77b5a110240582ee3a74c75a4",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/enraged_catalyst.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/enraged_catalyst.png",
+      "sha256": "d009d288f0db7f35bae6a81db2c6355bb2f21a3ec01e83a44a74bfe012cc8e1b",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "C",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T15",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/202d0393eef5015b02156c3d48eb3ed5949b208b75275778e025205c124b6b51.aseprite",
+      "sourceSha256": "202d0393eef5015b02156c3d48eb3ed5949b208b75275778e025205c124b6b51",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/cleave.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/cleave.png",
+      "sha256": "089ab5909610502c130d2497870589a6a488c034408d3c98210e6a041b43b945",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "D",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T16",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/4a644c5f5487160447c292cb8af4669098cbf9c1a45875ba4788682dba5c58b6.aseprite",
+      "sourceSha256": "4a644c5f5487160447c292cb8af4669098cbf9c1a45875ba4788682dba5c58b6",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/lethal_defense.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/lethal_defense.png",
+      "sha256": "3be2cd9b5cf10c9c3f4f695b3af928489642ad7d44959e6e46d16886a03ad1c3",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "D",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T17",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/093bcfc4c30e169c4cd12ec200597f456bb4fdff3e4072987e0a95d97e8e035a.aseprite",
+      "sourceSha256": "093bcfc4c30e169c4cd12ec200597f456bb4fdff3e4072987e0a95d97e8e035a",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/enhanced_combo.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/enhanced_combo.png",
+      "sha256": "b7fbc7ec17371538c606547f10f3174927c77d1e9d3cda2004881e5a1d87ef92",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "D",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T18",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/ef8c3e1fe2f2929c15b330d06bc164d7cc86382a63350a3f68cd991244068a7c.aseprite",
+      "sourceSha256": "ef8c3e1fe2f2929c15b330d06bc164d7cc86382a63350a3f68cd991244068a7c",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/body_slam.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/body_slam.png",
+      "sha256": "b01ce57f69e540b6a32fb68aa85353b546e16693ef9a87e8efa9f783f4c4ad37",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "D",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T19",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/460ebb2419204b5410a4cd6bcfd5d9ffdba6f9128356bbba9129faf09ac8a10b.aseprite",
+      "sourceSha256": "460ebb2419204b5410a4cd6bcfd5d9ffdba6f9128356bbba9129faf09ac8a10b",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/impact_wave.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/impact_wave.png",
+      "sha256": "958796f71f90ec387642ccfa9ede79de8d17728958e845fe1fb53802ce5a6b84",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "D",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T20",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/5f47a045882c02c0cfd5a451a84be0659847058bf3d7232b9d06220e3ca26f85.aseprite",
+      "sourceSha256": "5f47a045882c02c0cfd5a451a84be0659847058bf3d7232b9d06220e3ca26f85",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/double_jump.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/double_jump.png",
+      "sha256": "ac3ae234b1c3525b99ffc593ea56a71e9f72d74b2903a933bd8253b83a358910",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "D",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T21",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/11b062ec96a8bf01f2a15cef508c073e1cfab969afe28dfc56046d459d8e1e51.aseprite",
+      "sourceSha256": "11b062ec96a8bf01f2a15cef508c073e1cfab969afe28dfc56046d459d8e1e51",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/expanding_wave.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/expanding_wave.png",
+      "sha256": "18b9481e5a833bcb88a206fd0328b964bd695956ea0de579dd68bc7b1824eaf6",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "A",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T22",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/871d43270d87b00b661ce68cc71b65bb064f099ee719bbc54deb3070c09b87e9.aseprite",
+      "sourceSha256": "871d43270d87b00b661ce68cc71b65bb064f099ee719bbc54deb3070c09b87e9",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/striking_wave.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/striking_wave.png",
+      "sha256": "40d47b30e4e9a46a5ac05d493317aa0b7a24d195f21602a8d44836b80ddc4dd3",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "A",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T23",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/db9338331cb8e38b89a0849f395924652f20514069e25e75c4e825ac109cc2a0.aseprite",
+      "sourceSha256": "db9338331cb8e38b89a0849f395924652f20514069e25e75c4e825ac109cc2a0",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/shock_force.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/shock_force.png",
+      "sha256": "ed31dfc6a9144e4d2de2018c4547b5bf5d97a523da146a9be762fa6fb0879d19",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "A",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T24",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/38f0b8b8e84ae4e1547bf8c0fd800930c9c348eb62cda1a531d267dcdecaf680.aseprite",
+      "sourceSha256": "38f0b8b8e84ae4e1547bf8c0fd800930c9c348eb62cda1a531d267dcdecaf680",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/sustained_retribution.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/sustained_retribution.png",
+      "sha256": "1c2aa81a6bec95bcffe3edf121749b5a2adde8525ca00940b770dde2e7cef7b3",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T25",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/d3835dc8799209d7cfb4612fa5f2678a8efc9762fc195b13cf5fd38d05f88a31.aseprite",
+      "sourceSha256": "d3835dc8799209d7cfb4612fa5f2678a8efc9762fc195b13cf5fd38d05f88a31",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/shrug_it_off.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/shrug_it_off.png",
+      "sha256": "640e7b68554b8cf96b2022f1277c20feb3a368f4e31afaf65b16eb45bacb35bf",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T26",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/9e0fc9fa41da6bbdf81976328f03f5a76599c4ef50824d644211a175d14e3277.aseprite",
+      "sourceSha256": "9e0fc9fa41da6bbdf81976328f03f5a76599c4ef50824d644211a175d14e3277",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/even_the_odds.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/even_the_odds.png",
+      "sha256": "625ddc80e28ed0c1a09176c77715cd262d0c6167c2bd7eef1bd55de7e2fd4c2b",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "C",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:T27",
+      "character": "hellagur",
+      "kind": "talent",
+      "version": "v5",
+      "source": "art/source/a134ab762bc3863a26db62cf64253d2afd8c1f7d35f9122b5ad6460a20a9ac01.aseprite",
+      "sourceSha256": "a134ab762bc3863a26db62cf64253d2afd8c1f7d35f9122b5ad6460a20a9ac01",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/talents/heroic_energy.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/talents/heroic_energy.png",
+      "sha256": "c63fc074903dfc0dddac341a271d4ba8534f6ef409dfeabe42e6c72d140a0767",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "D",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:E02",
+      "character": "hellagur",
+      "kind": "item",
+      "version": "v17",
+      "source": "art/source/8b246967f6ddd83095bd8bb4d2aed91bc3ec2237aa944be4a1e91522b39a0d20.aseprite",
+      "sourceSha256": "8b246967f6ddd83095bd8bb4d2aed91bc3ec2237aa944be4a1e91522b39a0d20",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/items/mask.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/items/mask.png",
+      "sha256": "c4a84c4d7f0700b301e7b7a012e1bb5cc63cf2c3f45c4cc05034be7579437916",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "E02-C",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:E03",
+      "character": "hellagur",
+      "kind": "item",
+      "version": "v17",
+      "source": "art/source/f2f2eeac195a9260b2c6256bcf0b9fb8f25a8c2d6c03f01099c27acb3f3bdd05.aseprite",
+      "sourceSha256": "f2f2eeac195a9260b2c6256bcf0b9fb8f25a8c2d6c03f01099c27acb3f3bdd05",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/items/crown.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/items/crown.png",
+      "sha256": "819da819f4db997442972ba0672f33f2b0102bd3ed6def17761b5eb20795e618",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "E03-D",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:F01",
+      "character": "hellagur",
+      "kind": "effect",
+      "version": "v6",
+      "source": "art/source/2fa832641fdd2df09954d3baf011edda91bb4b64897b7ccaa910317d32e0d104.aseprite",
+      "sourceSha256": "2fa832641fdd2df09954d3baf011edda91bb4b64897b7ccaa910317d32e0d104",
+      "export": "core/src/main/assets/effects/operators/hellagur/F01-melee.png",
+      "runtime": "core/src/main/assets/effects/operators/hellagur/F01-melee.png",
+      "sha256": "bc472c7ac2c432ca64927afcc1d1981736f02e80218031b77e2c12001b6b92c6",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "animationMetadata": "art/animations/hellagur/82eee2ff96e2dd49e76ba8e731186b7edb038a6c3776eb3c25cd5177a71e7458.json",
+      "animationMetadataSha256": "82eee2ff96e2dd49e76ba8e731186b7edb038a6c3776eb3c25cd5177a71e7458",
+      "sourceFrames": 5,
+      "sourceSize": [
+        32,
+        32
+      ],
+      "durationsMs": [
+        35,
+        60,
+        60,
+        45,
+        40
+      ],
+      "anchor": [
+        16,
+        24
+      ]
+    },
+    {
+      "id": "hellagur:F02",
+      "character": "hellagur",
+      "kind": "effect",
+      "version": "v6",
+      "source": "art/source/459477ad52d31050eda5b08eba50ae04990da81a52b9989e7214821158c4ab29.aseprite",
+      "sourceSha256": "459477ad52d31050eda5b08eba50ae04990da81a52b9989e7214821158c4ab29",
+      "export": "core/src/main/assets/effects/operators/hellagur/F02-clobber.png",
+      "runtime": "core/src/main/assets/effects/operators/hellagur/F02-clobber.png",
+      "sha256": "b014c9ba7f4161f8136aaffc6fbc44572efcae2024c2bd8f3b7b42faaeab3765",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "animationMetadata": "art/animations/hellagur/699823ba90c7b64e26b383a47ddfc129cb00dbfbdab370cf174bc3218e63efc4.json",
+      "animationMetadataSha256": "699823ba90c7b64e26b383a47ddfc129cb00dbfbdab370cf174bc3218e63efc4",
+      "sourceFrames": 5,
+      "sourceSize": [
+        32,
+        32
+      ],
+      "durationsMs": [
+        35,
+        50,
+        45,
+        40,
+        40
+      ],
+      "anchor": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:F03",
+      "character": "hellagur",
+      "kind": "effect",
+      "version": "v6",
+      "source": "art/source/ff7dacf214ec66e7978540015becac871f30edb0446059c252288db64c08f2ae.aseprite",
+      "sourceSha256": "ff7dacf214ec66e7978540015becac871f30edb0446059c252288db64c08f2ae",
+      "export": "core/src/main/assets/effects/operators/hellagur/F03-slam.png",
+      "runtime": "core/src/main/assets/effects/operators/hellagur/F03-slam.png",
+      "sha256": "60bd6eb317ad3aeca7bf668ee4f0715bd2e161628417a5e249312d771d0a5c27",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "animationMetadata": "art/animations/hellagur/23a7412f51d939c633d7627e9b3eb78281f0005ecf75c1df19bd33a8e58b87ed.json",
+      "animationMetadataSha256": "23a7412f51d939c633d7627e9b3eb78281f0005ecf75c1df19bd33a8e58b87ed",
+      "sourceFrames": 5,
+      "sourceSize": [
+        32,
+        32
+      ],
+      "durationsMs": [
+        35,
+        65,
+        65,
+        65,
+        40
+      ],
+      "anchor": [
+        16,
+        24
+      ]
+    },
+    {
+      "id": "hellagur:F04",
+      "character": "hellagur",
+      "kind": "effect",
+      "version": "v6",
+      "source": "art/source/f4d7ac3c4637054d007596214398de8bf2ffbbded65736cfb68be79c72a99d53.aseprite",
+      "sourceSha256": "f4d7ac3c4637054d007596214398de8bf2ffbbded65736cfb68be79c72a99d53",
+      "export": "core/src/main/assets/effects/operators/hellagur/F04-parry.png",
+      "runtime": "core/src/main/assets/effects/operators/hellagur/F04-parry.png",
+      "sha256": "3670b147e993bede3b5916ad88ccc880a3924d6b555d1f036b7bcb1d29a1271c",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "animationMetadata": "art/animations/hellagur/0eeee75781c8dfa4a9e44d0b73e7ed077259e276c5a45639154c2846b75607a4.json",
+      "animationMetadataSha256": "0eeee75781c8dfa4a9e44d0b73e7ed077259e276c5a45639154c2846b75607a4",
+      "sourceFrames": 5,
+      "sourceSize": [
+        32,
+        32
+      ],
+      "durationsMs": [
+        30,
+        45,
+        45,
+        50,
+        40
+      ],
+      "anchor": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:F05",
+      "character": "hellagur",
+      "kind": "effect",
+      "version": "v6",
+      "source": "art/source/07de6f5b66cbcab4eb927cfabade19dc43f84ab201dad888e162d8f1c8cbfc3f.aseprite",
+      "sourceSha256": "07de6f5b66cbcab4eb927cfabade19dc43f84ab201dad888e162d8f1c8cbfc3f",
+      "export": "core/src/main/assets/effects/operators/hellagur/F05-crush.png",
+      "runtime": "core/src/main/assets/effects/operators/hellagur/F05-crush.png",
+      "sha256": "fbfc56e026f42918f6fb617a0ce116ea64d6959f966e3cbcfdacc90420e8648e",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "animationMetadata": "art/animations/hellagur/be1d887da7fffadf03ef456a6520017d2dd6482b989f59f89312b2dda0269b23.json",
+      "animationMetadataSha256": "be1d887da7fffadf03ef456a6520017d2dd6482b989f59f89312b2dda0269b23",
+      "sourceFrames": 5,
+      "sourceSize": [
+        48,
+        32
+      ],
+      "durationsMs": [
+        45,
+        65,
+        65,
+        65,
+        40
+      ],
+      "anchor": [
+        24,
+        24
+      ]
+    },
+    {
+      "id": "hellagur:F06",
+      "character": "hellagur",
+      "kind": "effect",
+      "version": "v6",
+      "source": "art/source/8f25ac68e1b41f5bbb45c691fa6d0156dfbb49aef09db9631126df224435ed33.aseprite",
+      "sourceSha256": "8f25ac68e1b41f5bbb45c691fa6d0156dfbb49aef09db9631126df224435ed33",
+      "export": "core/src/main/assets/effects/operators/hellagur/F06-fury.png",
+      "runtime": "core/src/main/assets/effects/operators/hellagur/F06-fury.png",
+      "sha256": "bc472c7ac2c432ca64927afcc1d1981736f02e80218031b77e2c12001b6b92c6",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "animationMetadata": "art/animations/hellagur/da6f5b2b57e5fad51cd79b9f344a8ab4aef8336fcecab17b398c687f75b72b20.json",
+      "animationMetadataSha256": "da6f5b2b57e5fad51cd79b9f344a8ab4aef8336fcecab17b398c687f75b72b20",
+      "sourceFrames": 5,
+      "sourceSize": [
+        32,
+        32
+      ],
+      "durationsMs": [
+        25,
+        35,
+        35,
+        25,
+        30
+      ],
+      "anchor": [
+        16,
+        24
+      ]
+    },
+    {
+      "id": "hellagur:F07",
+      "character": "hellagur",
+      "kind": "effect",
+      "version": "v6",
+      "source": "art/source/aabc3d03dfdcedb156345c2fdccf4cab80f529b2f1d7508c5f31794f2fe3d3eb.aseprite",
+      "sourceSha256": "aabc3d03dfdcedb156345c2fdccf4cab80f529b2f1d7508c5f31794f2fe3d3eb",
+      "export": "core/src/main/assets/effects/operators/hellagur/F07-berserk.png",
+      "runtime": "core/src/main/assets/effects/operators/hellagur/F07-berserk.png",
+      "sha256": "864dc2d8c0503b205ca6bb6073166bab191cb3c1cf35bb7d7c8a57f6fbee51fa",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "animationMetadata": "art/animations/hellagur/ef4853e19da2826fe19b2e829879dee13032f4dd0d2ae12917f49fc4eee4fb88.json",
+      "animationMetadataSha256": "ef4853e19da2826fe19b2e829879dee13032f4dd0d2ae12917f49fc4eee4fb88",
+      "sourceFrames": 5,
+      "sourceSize": [
+        40,
+        32
+      ],
+      "durationsMs": [
+        50,
+        80,
+        100,
+        100,
+        50
+      ],
+      "anchor": [
+        20,
+        28
+      ]
+    },
+    {
+      "id": "hellagur:F08",
+      "character": "hellagur",
+      "kind": "effect",
+      "version": "v6",
+      "source": "art/source/33c0e72dad0cd03a569e021a873ea0428ca31084056c8e7d4235a21d8c16a3e5.aseprite",
+      "sourceSha256": "33c0e72dad0cd03a569e021a873ea0428ca31084056c8e7d4235a21d8c16a3e5",
+      "export": "core/src/main/assets/effects/operators/hellagur/F08-leap.png",
+      "runtime": "core/src/main/assets/effects/operators/hellagur/F08-leap.png",
+      "sha256": "3f6778220cbff9009fe2c9b145d0de202a24f9fc9f088fd222a075437ccfaf3e",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "animationMetadata": "art/animations/hellagur/47670e25ec9c382020953f07748285017284bd62a38851ec9192a9da29e78892.json",
+      "animationMetadataSha256": "47670e25ec9c382020953f07748285017284bd62a38851ec9192a9da29e78892",
+      "sourceFrames": 5,
+      "sourceSize": [
+        48,
+        32
+      ],
+      "durationsMs": [
+        50,
+        90,
+        100,
+        110,
+        50
+      ],
+      "anchor": [
+        24,
+        24
+      ]
+    },
+    {
+      "id": "hellagur:F09",
+      "character": "hellagur",
+      "kind": "effect",
+      "version": "v6",
+      "source": "art/source/4da58ed5731cb3bbc865ffa1fcb37846b3a062f336ba882baf730125d6e01381.aseprite",
+      "sourceSha256": "4da58ed5731cb3bbc865ffa1fcb37846b3a062f336ba882baf730125d6e01381",
+      "export": "core/src/main/assets/effects/operators/hellagur/F09-shockwave.png",
+      "runtime": "core/src/main/assets/effects/operators/hellagur/F09-shockwave.png",
+      "sha256": "b42a94181217beb848006714f29f3034d21b109f4dfd5adc7dfbdaa04a2cede0",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "animationMetadata": "art/animations/hellagur/7802ac5f24ae40ae0f1ba7053bb03d39a24fc05b4232e62ffb4f904dd5d663bb.json",
+      "animationMetadataSha256": "7802ac5f24ae40ae0f1ba7053bb03d39a24fc05b4232e62ffb4f904dd5d663bb",
+      "sourceFrames": 5,
+      "sourceSize": [
+        48,
+        40
+      ],
+      "durationsMs": [
+        70,
+        120,
+        130,
+        140,
+        40
+      ],
+      "anchor": [
+        4,
+        20
+      ]
+    },
+    {
+      "id": "hellagur:F10",
+      "character": "hellagur",
+      "kind": "effect",
+      "version": "v6",
+      "source": "art/source/37143e71288ef9cb8b1aec139685e9a8ad1b27f6f02074ba671af8385843b533.aseprite",
+      "sourceSha256": "37143e71288ef9cb8b1aec139685e9a8ad1b27f6f02074ba671af8385843b533",
+      "export": "core/src/main/assets/effects/operators/hellagur/F10-endure.png",
+      "runtime": "core/src/main/assets/effects/operators/hellagur/F10-endure.png",
+      "sha256": "b87c7b5c21ef47cdfcd8ff80255cf0c2492b75a6f3c3cb5c5b160d3a9d639446",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "animationMetadata": "art/animations/hellagur/289ce4359af495c8fa2e96e2e730cf7140b5020b5d07405112366cfdd2e3f3f4.json",
+      "animationMetadataSha256": "289ce4359af495c8fa2e96e2e730cf7140b5020b5d07405112366cfdd2e3f3f4",
+      "sourceFrames": 5,
+      "sourceSize": [
+        40,
+        32
+      ],
+      "durationsMs": [
+        60,
+        100,
+        100,
+        100,
+        40
+      ],
+      "anchor": [
+        20,
+        28
+      ]
+    },
+    {
+      "id": "hellagur:F11",
+      "character": "hellagur",
+      "kind": "effect",
+      "version": "v6",
+      "source": "art/source/ab05ee742c7dd729c855bef6bd0d0a4af094f1294e223bd74e3ceebc12f449ef.aseprite",
+      "sourceSha256": "ab05ee742c7dd729c855bef6bd0d0a4af094f1294e223bd74e3ceebc12f449ef",
+      "export": "core/src/main/assets/effects/operators/hellagur/F11-mask.png",
+      "runtime": "core/src/main/assets/effects/operators/hellagur/F11-mask.png",
+      "sha256": "6cfb83aadd143f024e82afa019a2f06cf92484ff46e5a8bf0d80d90efb22d5c7",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "animationMetadata": "art/animations/hellagur/47a76d153aa1cce58a36de1cbae6f8b7451a69160f372d43f39504708e88885e.json",
+      "animationMetadataSha256": "47a76d153aa1cce58a36de1cbae6f8b7451a69160f372d43f39504708e88885e",
+      "sourceFrames": 5,
+      "sourceSize": [
+        32,
+        40
+      ],
+      "durationsMs": [
+        160,
+        220,
+        260,
+        260,
+        100
+      ],
+      "anchor": [
+        16,
+        34
+      ]
+    },
+    {
+      "id": "hellagur:F12",
+      "character": "hellagur",
+      "kind": "effect",
+      "version": "v6",
+      "source": "art/source/8f46990d00f9498034ebfc4f88ce5280517e5f81379b7fece740db70aad74de9.aseprite",
+      "sourceSha256": "8f46990d00f9498034ebfc4f88ce5280517e5f81379b7fece740db70aad74de9",
+      "export": "core/src/main/assets/effects/operators/hellagur/F12-crown.png",
+      "runtime": "core/src/main/assets/effects/operators/hellagur/F12-crown.png",
+      "sha256": "cf89caa752d10f56eb1f15615bed1da9280c8953b0eaae7580e59d3fb2e54fc2",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "animationMetadata": "art/animations/hellagur/daee1e0733b4caf33c24fe1844e85e6cb0d0dbdaf881a7cc7e345663fd983781.json",
+      "animationMetadataSha256": "daee1e0733b4caf33c24fe1844e85e6cb0d0dbdaf881a7cc7e345663fd983781",
+      "sourceFrames": 5,
+      "sourceSize": [
+        32,
+        40
+      ],
+      "durationsMs": [
+        120,
+        200,
+        220,
+        240,
+        80
+      ],
+      "anchor": [
+        16,
+        34
+      ]
+    },
+    {
+      "id": "hellagur:F13",
+      "character": "hellagur",
+      "kind": "effect",
+      "version": "v6",
+      "source": "art/source/76ef56ff0f8fd041968703e1af42de86cf99ccb82996314271bfd65f7dca086e.aseprite",
+      "sourceSha256": "76ef56ff0f8fd041968703e1af42de86cf99ccb82996314271bfd65f7dca086e",
+      "export": "core/src/main/assets/effects/operators/hellagur/F13-seal.png",
+      "runtime": "core/src/main/assets/effects/operators/hellagur/F13-seal.png",
+      "sha256": "dc82c039dc0147ab515a727506f7fcf82ca83f0f75bb966c2c32295a9262785c",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "animationMetadata": "art/animations/hellagur/5a0403ed6427e774462e9c4d731994b6602982512000efb3a59c70b72b3930f9.json",
+      "animationMetadataSha256": "5a0403ed6427e774462e9c4d731994b6602982512000efb3a59c70b72b3930f9",
+      "sourceFrames": 5,
+      "sourceSize": [
+        40,
+        40
+      ],
+      "durationsMs": [
+        50,
+        80,
+        90,
+        100,
+        40
+      ],
+      "anchor": [
+        20,
+        34
+      ]
+    },
+    {
+      "id": "hellagur:F14",
+      "character": "hellagur",
+      "kind": "effect",
+      "version": "v6",
+      "source": "art/source/23f3c76e955951cb04cf3fffeffd17a4ce4a6ff423cd0839a4da6c847157397f.aseprite",
+      "sourceSha256": "23f3c76e955951cb04cf3fffeffd17a4ce4a6ff423cd0839a4da6c847157397f",
+      "export": "core/src/main/assets/effects/operators/hellagur/F14-seal-ready.png",
+      "runtime": "core/src/main/assets/effects/operators/hellagur/F14-seal-ready.png",
+      "sha256": "e7caacf6af44201b691e8a21d5539582306bfb9c1aed163e963d7fb9db91d323",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "animationMetadata": "art/animations/hellagur/9cd5b5b013262854e6624fdbb60871da26f53677ca9fc436177428e55e7f3b98.json",
+      "animationMetadataSha256": "9cd5b5b013262854e6624fdbb60871da26f53677ca9fc436177428e55e7f3b98",
+      "sourceFrames": 4,
+      "sourceSize": [
+        40,
+        40
+      ],
+      "durationsMs": [
+        40,
+        70,
+        70,
+        40
+      ],
+      "anchor": [
+        20,
+        34
+      ]
+    },
+    {
+      "id": "hellagur:F15",
+      "character": "hellagur",
+      "kind": "effect",
+      "version": "v6",
+      "source": "art/source/0b33c3d8a48a996bf9d5fb9576e32d56e21a878ebc14ac82d9a7e7c20a5e0c98.aseprite",
+      "sourceSha256": "0b33c3d8a48a996bf9d5fb9576e32d56e21a878ebc14ac82d9a7e7c20a5e0c98",
+      "export": "core/src/main/assets/effects/operators/hellagur/F15-endure-brace.png",
+      "runtime": "core/src/main/assets/effects/operators/hellagur/F15-endure-brace.png",
+      "sha256": "419967cf7d9f3020c1ffc884fef8a441550fd858455c0f3d5b52dfb177b7da1f",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "animationMetadata": "art/animations/hellagur/d24422def3dfcdd1ecbc12eaf5a1d17df6353c48a35d06bf2a9bf591677f07d6.json",
+      "animationMetadataSha256": "d24422def3dfcdd1ecbc12eaf5a1d17df6353c48a35d06bf2a9bf591677f07d6",
+      "sourceFrames": 4,
+      "sourceSize": [
+        40,
+        32
+      ],
+      "durationsMs": [
+        50,
+        70,
+        70,
+        40
+      ],
+      "anchor": [
+        20,
+        28
+      ]
+    },
+    {
+      "id": "hellagur:S01-7",
+      "character": "hellagur",
+      "kind": "status",
+      "version": "v6",
+      "source": "art/source/9d9ecb6f38633d6b14249a1f2be4fae45a18f5ad578c8c81599b662f48c83fc9.aseprite",
+      "sourceSha256": "9d9ecb6f38633d6b14249a1f2be4fae45a18f5ad578c8c81599b662f48c83fc9",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/status/S01-7.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/status/S01-7.png",
+      "sha256": "385a9706147589de94881a003b1fa6583b4cf29d6998303516f5a3455abfabd2",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "C",
+      "sourceFrames": 1,
+      "sourceSize": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "hellagur:S01-16",
+      "character": "hellagur",
+      "kind": "status",
+      "version": "v6",
+      "source": "art/source/51658c39f378e44f66a44c84b9f7996a0add1bb28c503d5937b5281111e5d710.aseprite",
+      "sourceSha256": "51658c39f378e44f66a44c84b9f7996a0add1bb28c503d5937b5281111e5d710",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/status/S01-16.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/status/S01-16.png",
+      "sha256": "d2d198b03862ca777e5e584a8d20759ca3191550543e2f70b39718b27207288f",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "C",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:S02-7",
+      "character": "hellagur",
+      "kind": "status",
+      "version": "v6",
+      "source": "art/source/6a0654dbf25c6093bb7735151014bd15f84dfbbab6c41fddc20107b149a41abf.aseprite",
+      "sourceSha256": "6a0654dbf25c6093bb7735151014bd15f84dfbbab6c41fddc20107b149a41abf",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/status/S02-7.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/status/S02-7.png",
+      "sha256": "46dd5883dfe2e5366492bb68fb062ec34d9a9ba3f76b6d286c708aaef619e33d",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "C",
+      "sourceFrames": 1,
+      "sourceSize": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "hellagur:S02-16",
+      "character": "hellagur",
+      "kind": "status",
+      "version": "v6",
+      "source": "art/source/1f1293389487bc6dc98c5c1df2586c5e67762ba502f4b20c18c79447ce3b201c.aseprite",
+      "sourceSha256": "1f1293389487bc6dc98c5c1df2586c5e67762ba502f4b20c18c79447ce3b201c",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/status/S02-16.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/status/S02-16.png",
+      "sha256": "b388a509031ca8544597bc8bdada30063095fbca1d4f94a0a95992589c345678",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "C",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:S03-7",
+      "character": "hellagur",
+      "kind": "status",
+      "version": "v6",
+      "source": "art/source/bdf4723bad75d4f0627e90fc8dce58c519b5ad18e0a6da9fc3fe2f3e3dd45eb5.aseprite",
+      "sourceSha256": "bdf4723bad75d4f0627e90fc8dce58c519b5ad18e0a6da9fc3fe2f3e3dd45eb5",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/status/S03-7.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/status/S03-7.png",
+      "sha256": "e71968535c0362b79b40287be3281e52b3bff169b0041ebb864ba33f0a054355",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "sourceFrames": 1,
+      "sourceSize": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "hellagur:S03-16",
+      "character": "hellagur",
+      "kind": "status",
+      "version": "v6",
+      "source": "art/source/28fd5dc09e18e55d5ecef0d255501c8e303850ad90cfe27ab16558d6754728d7.aseprite",
+      "sourceSha256": "28fd5dc09e18e55d5ecef0d255501c8e303850ad90cfe27ab16558d6754728d7",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/status/S03-16.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/status/S03-16.png",
+      "sha256": "860c2cee72578ff0e0de5af8d51d0832fff62978f7378c992e7d5f7f751db0d8",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "C",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:S04-7",
+      "character": "hellagur",
+      "kind": "status",
+      "version": "v6",
+      "source": "art/source/c21245ad25b0707500d52b4470be121bed950d5c99a5a57550eeead1cea01921.aseprite",
+      "sourceSha256": "c21245ad25b0707500d52b4470be121bed950d5c99a5a57550eeead1cea01921",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/status/S04-7.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/status/S04-7.png",
+      "sha256": "067610b86f8272b94e684b990c3ca571d4bf1047336b08131d9fbb57c50d2b78",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "C",
+      "sourceFrames": 1,
+      "sourceSize": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "hellagur:S04-16",
+      "character": "hellagur",
+      "kind": "status",
+      "version": "v6",
+      "source": "art/source/c478c900c17819f51f16f0ebac643a9b8960cfb563e3b27dc7e7f6a8399d71b1.aseprite",
+      "sourceSha256": "c478c900c17819f51f16f0ebac643a9b8960cfb563e3b27dc7e7f6a8399d71b1",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/status/S04-16.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/status/S04-16.png",
+      "sha256": "5ff4a22e22438789de3f1758bd565a5b38e329bdf72eec9de65e13463d3f3ade",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "C",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:S05-7",
+      "character": "hellagur",
+      "kind": "status",
+      "version": "v6",
+      "source": "art/source/b25e1f5490e58b9ad34fd7c49c5689a76b91e38e6db44a5cf0c27f965a39d01c.aseprite",
+      "sourceSha256": "b25e1f5490e58b9ad34fd7c49c5689a76b91e38e6db44a5cf0c27f965a39d01c",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/status/S05-7.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/status/S05-7.png",
+      "sha256": "bb7525bf9a9e7d7ac1e16ecbaad9ec46e6a3ae460f5c29f59a5d70b090f6da0b",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "B",
+      "sourceFrames": 1,
+      "sourceSize": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "hellagur:S05-16",
+      "character": "hellagur",
+      "kind": "status",
+      "version": "v6",
+      "source": "art/source/e1bfdc56c0ef584460e1819669f713954a3cb07e9323af07d692925dc0ede7b9.aseprite",
+      "sourceSha256": "e1bfdc56c0ef584460e1819669f713954a3cb07e9323af07d692925dc0ede7b9",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/status/S05-16.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/status/S05-16.png",
+      "sha256": "36a88702c01ef45c0804c357d57d876c4171746df69cbca4996a9ddf32949636",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "C",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "hellagur:S06-7",
+      "character": "hellagur",
+      "kind": "status",
+      "version": "v6",
+      "source": "art/source/2e4622536f592e3f25dff4d450df08f32b8684476a98c98767bbce719d1582e7.aseprite",
+      "sourceSha256": "2e4622536f592e3f25dff4d450df08f32b8684476a98c98767bbce719d1582e7",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/status/S06-7.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/status/S06-7.png",
+      "sha256": "4b8c004f5a814e30fa043e422ade303074fede046ba8f7af0e753f9005009af2",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "C",
+      "sourceFrames": 1,
+      "sourceSize": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "hellagur:S06-16",
+      "character": "hellagur",
+      "kind": "status",
+      "version": "v6",
+      "source": "art/source/7596c8426b07ecdc5d8f1706a3193312b034fbbbd5383a36154016e2f0d99902.aseprite",
+      "sourceSha256": "7596c8426b07ecdc5d8f1706a3193312b034fbbbd5383a36154016e2f0d99902",
+      "export": "core/src/main/assets/interfaces/operators/hellagur/status/S06-16.png",
+      "runtime": "core/src/main/assets/interfaces/operators/hellagur/status/S06-16.png",
+      "sha256": "bb158ab31466e7b218f2e94736836720a8fa7af3f8cd97db8987d8fb83d9d669",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "selection": "C",
+      "sourceFrames": 1,
+      "sourceSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "sprite:hellagur_berserker",
+      "character": "hellagur",
+      "kind": "sprite",
+      "version": "v14",
+      "source": "art/source/2ca87b06df1a13b87451f5fc54b528b3b3d506c22319292db026b57bc7954304.aseprite",
+      "sourceSha256": "2ca87b06df1a13b87451f5fc54b528b3b3d506c22319292db026b57bc7954304",
+      "export": "core/src/main/assets/sprites/operators/hellagur_berserker.png",
+      "runtime": "core/src/main/assets/sprites/operators/hellagur_berserker.png",
+      "sha256": "2af0628dfd0aab8a3094e0ff59f27531fa6a9dd5b80344617c71270fce6a166c",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "form": "berserker",
+      "sourceFrames": 21,
+      "sourceSize": [
+        36,
+        28
+      ],
+      "frameSize": [
+        36,
+        28
+      ],
+      "bodyRect": [
+        10,
+        3,
+        16,
+        21
+      ],
+      "paddingLTRB": [
+        8,
+        3,
+        8,
+        4
+      ],
+      "artFoot": [
+        18,
+        24
+      ],
+      "worldBounds": [
+        20,
+        21
+      ],
+      "armorRows": 7,
+      "animationSource": "art/source/9f768c6a19fa77e121fcd2bf791315f3eb2e634c9d79efbec32de7ade7d6468e.aseprite",
+      "animationSourceSha256": "9f768c6a19fa77e121fcd2bf791315f3eb2e634c9d79efbec32de7ade7d6468e",
+      "animationMetadata": "art/animations/hellagur/db0849f358cf3ed2d18a300982b6e6730c260fd6b5ff1fb49531138666c8bf83.json",
+      "animationMetadataSha256": "db0849f358cf3ed2d18a300982b6e6730c260fd6b5ff1fb49531138666c8bf83"
+    },
+    {
+      "id": "sprite:hellagur_gladiator",
+      "character": "hellagur",
+      "kind": "sprite",
+      "version": "v16",
+      "source": "art/source/601e0a74facff15739399b83f5e7ba9c732835a867a8d2767f6a97d0d301bb85.aseprite",
+      "sourceSha256": "601e0a74facff15739399b83f5e7ba9c732835a867a8d2767f6a97d0d301bb85",
+      "export": "core/src/main/assets/sprites/operators/hellagur_gladiator.png",
+      "runtime": "core/src/main/assets/sprites/operators/hellagur_gladiator.png",
+      "sha256": "8ccf143fdc817751cd94ec114c3a46b8f2c217fb8c98356f4d37abdf179b40f4",
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "sourceLayers": 1,
+      "form": "gladiator",
+      "sourceFrames": 21,
+      "sourceSize": [
+        36,
+        28
+      ],
+      "frameSize": [
+        36,
+        28
+      ],
+      "bodyRect": [
+        10,
+        3,
+        16,
+        21
+      ],
+      "paddingLTRB": [
+        8,
+        3,
+        8,
+        4
+      ],
+      "artFoot": [
+        18,
+        24
+      ],
+      "worldBounds": [
+        20,
+        21
+      ],
+      "armorRows": 7,
+      "animationSource": "art/source/ba8ec9173a6de364e21c8693ec03df47f712cd02ed20c58a77229d6a8af469a6.aseprite",
+      "animationSourceSha256": "ba8ec9173a6de364e21c8693ec03df47f712cd02ed20c58a77229d6a8af469a6",
+      "animationMetadata": "art/animations/hellagur/db0849f358cf3ed2d18a300982b6e6730c260fd6b5ff1fb49531138666c8bf83.json",
+      "animationMetadataSha256": "db0849f358cf3ed2d18a300982b6e6730c260fd6b5ff1fb49531138666c8bf83"
+    },
+    {
+      "id": "portrait:hellagur_berserker",
+      "character": "hellagur",
+      "kind": "portrait",
+      "form": "berserker",
+      "version": "v20 D",
+      "source": "art/source/2af3243b5e974595e72f8fa05e70381c79a6f597d4cbc468a9fcd0d85814094e.aseprite",
+      "sourceSha256": "2af3243b5e974595e72f8fa05e70381c79a6f597d4cbc468a9fcd0d85814094e",
+      "export": "art/exports/4fbbfb37c146582d991336561159b3952c74f72e68b938e599a56ff5b46a3296.png",
+      "sha256": "4fbbfb37c146582d991336561159b3952c74f72e68b938e599a56ff5b46a3296",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 4,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "sourceLayers": 1,
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "runtimeAtlasSha256": "0c30270d4f58ae2877d02719f61d85db9e2932e3fbc4e860657c9778b084cea3"
+    },
+    {
+      "id": "portrait:hellagur_gladiator",
+      "character": "hellagur",
+      "kind": "portrait",
+      "form": "gladiator",
+      "version": "v22 F",
+      "source": "art/source/e2deef223c90313109d2659f7f5fe1bd664fe844412c051856cb535ae25534ce.aseprite",
+      "sourceSha256": "e2deef223c90313109d2659f7f5fe1bd664fe844412c051856cb535ae25534ce",
+      "export": "art/exports/3837a3915f8530057755f900da37d5bc2048ab66c54fb519b2577a164a9af9f6.png",
+      "sha256": "3837a3915f8530057755f900da37d5bc2048ab66c54fb519b2577a164a9af9f6",
+      "runtimeAtlas": "core/src/main/assets/sprites/operators/portraits.png",
+      "slot": 5,
+      "cellSize": [
+        24,
+        32
+      ],
+      "sourceFrames": 1,
+      "sourceSize": [
+        24,
+        32
+      ],
+      "sourceLayers": 1,
+      "reviewStatus": "approved",
+      "implementationStatus": "installed",
+      "provenance": "art/provenance/hellagur-20261023.json",
+      "runtimeAtlasSha256": "0c30270d4f58ae2877d02719f61d85db9e2932e3fbc4e860657c9778b084cea3"
     }
   ],
   "publicationBaseline": "39bd1a7132bf61bd05534a7f072d596ecb899670",
@@ -2281,5 +3844,7 @@
   ],
   "amiyaStatus": "frozen",
   "freezeDate": "2026-10-20",
-  "releaseTag": "v0.0.3"
+  "releaseTag": "v0.0.4",
+  "previousPublicCommit": "501d9ecfa57c0c96ecb54bc405fccecd26999a51",
+  "hellagurApproval": "user-confirmed selections through v22; see art/provenance/hellagur-20261023.json"
 }

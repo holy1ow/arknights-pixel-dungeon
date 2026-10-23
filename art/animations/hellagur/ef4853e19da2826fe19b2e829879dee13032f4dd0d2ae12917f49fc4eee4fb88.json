@@ -1,0 +1,33 @@
+{
+  "id": "F07",
+  "key": "F07-berserk",
+  "title": "狂暴爆发",
+  "group": 3,
+  "size": [
+    40,
+    32
+  ],
+  "anchor": [
+    20,
+    28
+  ],
+  "durations_ms": [
+    50,
+    80,
+    100,
+    100,
+    50
+  ],
+  "frames": 5,
+  "placement": "behind-hero",
+  "source": "generated/F07-berserk.png",
+  "terminal_frame": "transparent clear, intentional",
+  "sheet": "exports/effects/F07-berserk/sheet.png",
+  "source_file": "sources/effects/F07-berserk.aseprite",
+  "animation": "previews/animations/F07-berserk.png",
+  "status": "review_ready",
+  "installed": false,
+  "choice": null,
+  "total_ms": 380,
+  "sha256": "864dc2d8c0503b205ca6bb6073166bab191cb3c1cf35bb7d7c8a57f6fbee51fa"
+}

@@ -1,0 +1,469 @@
+{
+  "operator": "HELLAGUR",
+  "installedRelease": "0.0.4",
+  "mechanics": "original Warrior; display-only adaptation",
+  "historyRelease": "https://github.com/holy1ow/arknights-pixel-dungeon/releases/tag/v0.0.4",
+  "selections": [
+    {
+      "id": "hellagur:H01",
+      "version": "v5",
+      "selection": "C",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/abilities/heroic_leap.aseprite",
+      "sha256": "83f8261707e3f240d2eb28ab1809c586b23004c8d9860ec85597d84f0a0c9421"
+    },
+    {
+      "id": "hellagur:H02",
+      "version": "v5",
+      "selection": "C",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/abilities/shockwave.aseprite",
+      "sha256": "728df135ea85e5fcf6938b7bb86152392f78c1f720f49501188ed99c8857bc3c"
+    },
+    {
+      "id": "hellagur:H03",
+      "version": "v5",
+      "selection": "C",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/abilities/endure.aseprite",
+      "sha256": "2e0f42351a637c680f40ce7bb957b189251df402cd598144a028bb00696a5a58"
+    },
+    {
+      "id": "hellagur:H05",
+      "version": "v5",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/abilities/combo_action.aseprite",
+      "sha256": "3f6007a0f18b378fccd4df2d0c59f30db0d51aa50656fd8c3113141230b15ed1"
+    },
+    {
+      "id": "hellagur:E05",
+      "version": "v5",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/items/worn_shortsword.aseprite",
+      "sha256": "bbac549d6030d99e43b669ff64df5f0bbfa918fe213a159fc01f42bdaf901ea1"
+    },
+    {
+      "id": "hellagur:E06",
+      "version": "v5",
+      "selection": "C",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/items/armor_warrior.aseprite",
+      "sha256": "6e59158bfc30a13b63b24a874e4edc320eed08f6a89cfe9611d0cf64ee37cb7e"
+    },
+    {
+      "id": "hellagur:T01",
+      "version": "v5",
+      "selection": "D",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/hearty_meal.aseprite",
+      "sha256": "33785e52e9ceaa3c9c449b70f912c63f66f1e4f4325399bb0499ef3ddf44e8da"
+    },
+    {
+      "id": "hellagur:T02",
+      "version": "v5",
+      "selection": "D",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/veterans_intuition.aseprite",
+      "sha256": "80d4070e53a39527c517c1f479edf1f609e53d4e52c7ecc8d220861eea790e87"
+    },
+    {
+      "id": "hellagur:T03",
+      "version": "v5",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/provoked_anger.aseprite",
+      "sha256": "e932a4c4b3c937d47382ef77bd0c41c405397f9c6dd4b7ea758582fd943dff17"
+    },
+    {
+      "id": "hellagur:T04",
+      "version": "v5",
+      "selection": "D",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/iron_will.aseprite",
+      "sha256": "bf96aa0b3ce52b5a4c54a595092296b8cf3d0c87acebbe77d6a51b1e4a42f3a3"
+    },
+    {
+      "id": "hellagur:T05",
+      "version": "v5",
+      "selection": "D",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/iron_stomach.aseprite",
+      "sha256": "8e01c5021340c2e21dd1d419c0cb860603b8a1a3a9fa09b0f3bd0bd9f4d6e37f"
+    },
+    {
+      "id": "hellagur:T06",
+      "version": "v5",
+      "selection": "D",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/liquid_willpower.aseprite",
+      "sha256": "13e19eb235f771006623a025347ac317f464cd4ad072da3fc6a5450f09122376"
+    },
+    {
+      "id": "hellagur:T07",
+      "version": "v5",
+      "selection": "D",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/runic_transference.aseprite",
+      "sha256": "7a3c0c8aae97227e848828ed0e981b3250ac4e505095aeb9d98db2f1a90e9d90"
+    },
+    {
+      "id": "hellagur:T08",
+      "version": "v5",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/lethal_momentum.aseprite",
+      "sha256": "cb0dabc86be72bb2322495183a48512bbda00d9aa0693a104f2912a5e06d348f"
+    },
+    {
+      "id": "hellagur:T09",
+      "version": "v5",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/improvised_projectiles.aseprite",
+      "sha256": "b003f0042e5390f37b94e85853084bd11abbae53ba446d435f84e58c54205a74"
+    },
+    {
+      "id": "hellagur:T10",
+      "version": "v5",
+      "selection": "D",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/hold_fast.aseprite",
+      "sha256": "b8d8845f490977db90f03140b40a5eecd5cd0b5c7ccd75ea23e4b9edd73cb85a"
+    },
+    {
+      "id": "hellagur:T11",
+      "version": "v5",
+      "selection": "D",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/strongman.aseprite",
+      "sha256": "da03f04b252d315771a71e8c08aa8942f3bcc636710cbe47ecef653a8e6e68dd"
+    },
+    {
+      "id": "hellagur:T12",
+      "version": "v5",
+      "selection": "C",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/endless_rage.aseprite",
+      "sha256": "c7bc555f39492127076f8c9b8171425a6dfd28d068397d013ac9b99f1588a6d5"
+    },
+    {
+      "id": "hellagur:T13",
+      "version": "v5",
+      "selection": "D",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/deathless_fury.aseprite",
+      "sha256": "06319cc29c7b46ca37f544468fa21b962ab7048ef49f1d3a4eec9b4417e9bf6b"
+    },
+    {
+      "id": "hellagur:T14",
+      "version": "v5",
+      "selection": "C",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/enraged_catalyst.aseprite",
+      "sha256": "d009d288f0db7f35bae6a81db2c6355bb2f21a3ec01e83a44a74bfe012cc8e1b"
+    },
+    {
+      "id": "hellagur:T15",
+      "version": "v5",
+      "selection": "D",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/cleave.aseprite",
+      "sha256": "089ab5909610502c130d2497870589a6a488c034408d3c98210e6a041b43b945"
+    },
+    {
+      "id": "hellagur:T16",
+      "version": "v5",
+      "selection": "D",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/lethal_defense.aseprite",
+      "sha256": "3be2cd9b5cf10c9c3f4f695b3af928489642ad7d44959e6e46d16886a03ad1c3"
+    },
+    {
+      "id": "hellagur:T17",
+      "version": "v5",
+      "selection": "D",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/enhanced_combo.aseprite",
+      "sha256": "b7fbc7ec17371538c606547f10f3174927c77d1e9d3cda2004881e5a1d87ef92"
+    },
+    {
+      "id": "hellagur:T18",
+      "version": "v5",
+      "selection": "D",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/body_slam.aseprite",
+      "sha256": "b01ce57f69e540b6a32fb68aa85353b546e16693ef9a87e8efa9f783f4c4ad37"
+    },
+    {
+      "id": "hellagur:T19",
+      "version": "v5",
+      "selection": "D",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/impact_wave.aseprite",
+      "sha256": "958796f71f90ec387642ccfa9ede79de8d17728958e845fe1fb53802ce5a6b84"
+    },
+    {
+      "id": "hellagur:T20",
+      "version": "v5",
+      "selection": "D",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/double_jump.aseprite",
+      "sha256": "ac3ae234b1c3525b99ffc593ea56a71e9f72d74b2903a933bd8253b83a358910"
+    },
+    {
+      "id": "hellagur:T21",
+      "version": "v5",
+      "selection": "A",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/expanding_wave.aseprite",
+      "sha256": "18b9481e5a833bcb88a206fd0328b964bd695956ea0de579dd68bc7b1824eaf6"
+    },
+    {
+      "id": "hellagur:T22",
+      "version": "v5",
+      "selection": "A",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/striking_wave.aseprite",
+      "sha256": "40d47b30e4e9a46a5ac05d493317aa0b7a24d195f21602a8d44836b80ddc4dd3"
+    },
+    {
+      "id": "hellagur:T23",
+      "version": "v5",
+      "selection": "A",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/shock_force.aseprite",
+      "sha256": "ed31dfc6a9144e4d2de2018c4547b5bf5d97a523da146a9be762fa6fb0879d19"
+    },
+    {
+      "id": "hellagur:T24",
+      "version": "v5",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/sustained_retribution.aseprite",
+      "sha256": "1c2aa81a6bec95bcffe3edf121749b5a2adde8525ca00940b770dde2e7cef7b3"
+    },
+    {
+      "id": "hellagur:T25",
+      "version": "v5",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/shrug_it_off.aseprite",
+      "sha256": "640e7b68554b8cf96b2022f1277c20feb3a368f4e31afaf65b16eb45bacb35bf"
+    },
+    {
+      "id": "hellagur:T26",
+      "version": "v5",
+      "selection": "C",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/even_the_odds.aseprite",
+      "sha256": "625ddc80e28ed0c1a09176c77715cd262d0c6167c2bd7eef1bd55de7e2fd4c2b"
+    },
+    {
+      "id": "hellagur:T27",
+      "version": "v5",
+      "selection": "D",
+      "developmentSource": "art-source/library/current/hellagur/reskin-ui-v5/sources/talents/heroic_energy.aseprite",
+      "sha256": "c63fc074903dfc0dddac341a271d4ba8534f6ef409dfeabe42e6c72d140a0767"
+    },
+    {
+      "id": "hellagur:E02",
+      "version": "v17",
+      "selection": "E02-C",
+      "developmentSource": "art-source/library/current/hellagur/advancement-v17/sources/E02-C.aseprite",
+      "sha256": "c4a84c4d7f0700b301e7b7a012e1bb5cc63cf2c3f45c4cc05034be7579437916"
+    },
+    {
+      "id": "hellagur:E03",
+      "version": "v17",
+      "selection": "E03-D",
+      "developmentSource": "art-source/library/current/hellagur/advancement-v17/sources/E03-D.aseprite",
+      "sha256": "819da819f4db997442972ba0672f33f2b0102bd3ed6def17761b5eb20795e618"
+    },
+    {
+      "id": "hellagur:F01",
+      "version": "v6",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/F01-melee.aseprite",
+      "sha256": "bc472c7ac2c432ca64927afcc1d1981736f02e80218031b77e2c12001b6b92c6"
+    },
+    {
+      "id": "hellagur:F02",
+      "version": "v6",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/F02-clobber.aseprite",
+      "sha256": "b014c9ba7f4161f8136aaffc6fbc44572efcae2024c2bd8f3b7b42faaeab3765"
+    },
+    {
+      "id": "hellagur:F03",
+      "version": "v6",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/F03-slam.aseprite",
+      "sha256": "60bd6eb317ad3aeca7bf668ee4f0715bd2e161628417a5e249312d771d0a5c27"
+    },
+    {
+      "id": "hellagur:F04",
+      "version": "v6",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/F04-parry.aseprite",
+      "sha256": "3670b147e993bede3b5916ad88ccc880a3924d6b555d1f036b7bcb1d29a1271c"
+    },
+    {
+      "id": "hellagur:F05",
+      "version": "v6",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/F05-crush.aseprite",
+      "sha256": "fbfc56e026f42918f6fb617a0ce116ea64d6959f966e3cbcfdacc90420e8648e"
+    },
+    {
+      "id": "hellagur:F06",
+      "version": "v6",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/F06-fury.aseprite",
+      "sha256": "bc472c7ac2c432ca64927afcc1d1981736f02e80218031b77e2c12001b6b92c6"
+    },
+    {
+      "id": "hellagur:F07",
+      "version": "v6",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/F07-berserk.aseprite",
+      "sha256": "864dc2d8c0503b205ca6bb6073166bab191cb3c1cf35bb7d7c8a57f6fbee51fa"
+    },
+    {
+      "id": "hellagur:F08",
+      "version": "v6",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/F08-leap.aseprite",
+      "sha256": "3f6778220cbff9009fe2c9b145d0de202a24f9fc9f088fd222a075437ccfaf3e"
+    },
+    {
+      "id": "hellagur:F09",
+      "version": "v6",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/F09-shockwave.aseprite",
+      "sha256": "b42a94181217beb848006714f29f3034d21b109f4dfd5adc7dfbdaa04a2cede0"
+    },
+    {
+      "id": "hellagur:F10",
+      "version": "v6",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/F10-endure.aseprite",
+      "sha256": "b87c7b5c21ef47cdfcd8ff80255cf0c2492b75a6f3c3cb5c5b160d3a9d639446"
+    },
+    {
+      "id": "hellagur:F11",
+      "version": "v6",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/F11-mask.aseprite",
+      "sha256": "6cfb83aadd143f024e82afa019a2f06cf92484ff46e5a8bf0d80d90efb22d5c7"
+    },
+    {
+      "id": "hellagur:F12",
+      "version": "v6",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/F12-crown.aseprite",
+      "sha256": "cf89caa752d10f56eb1f15615bed1da9280c8953b0eaae7580e59d3fb2e54fc2"
+    },
+    {
+      "id": "hellagur:F13",
+      "version": "v6",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/F13-seal.aseprite",
+      "sha256": "dc82c039dc0147ab515a727506f7fcf82ca83f0f75bb966c2c32295a9262785c"
+    },
+    {
+      "id": "hellagur:F14",
+      "version": "v6",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/F14-seal-ready.aseprite",
+      "sha256": "e7caacf6af44201b691e8a21d5539582306bfb9c1aed163e963d7fb9db91d323"
+    },
+    {
+      "id": "hellagur:F15",
+      "version": "v6",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/F15-endure-brace.aseprite",
+      "sha256": "419967cf7d9f3020c1ffc884fef8a441550fd858455c0f3d5b52dfb177b7da1f"
+    },
+    {
+      "id": "hellagur:S01-7",
+      "version": "v6",
+      "selection": "C",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/S01-7-C.aseprite",
+      "sha256": "385a9706147589de94881a003b1fa6583b4cf29d6998303516f5a3455abfabd2"
+    },
+    {
+      "id": "hellagur:S01-16",
+      "version": "v6",
+      "selection": "C",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/S01-16-C.aseprite",
+      "sha256": "d2d198b03862ca777e5e584a8d20759ca3191550543e2f70b39718b27207288f"
+    },
+    {
+      "id": "hellagur:S02-7",
+      "version": "v6",
+      "selection": "C",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/S02-7-C.aseprite",
+      "sha256": "46dd5883dfe2e5366492bb68fb062ec34d9a9ba3f76b6d286c708aaef619e33d"
+    },
+    {
+      "id": "hellagur:S02-16",
+      "version": "v6",
+      "selection": "C",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/S02-16-C.aseprite",
+      "sha256": "b388a509031ca8544597bc8bdada30063095fbca1d4f94a0a95992589c345678"
+    },
+    {
+      "id": "hellagur:S03-7",
+      "version": "v6",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/S03-7-B.aseprite",
+      "sha256": "e71968535c0362b79b40287be3281e52b3bff169b0041ebb864ba33f0a054355"
+    },
+    {
+      "id": "hellagur:S03-16",
+      "version": "v6",
+      "selection": "C",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/S03-16-C.aseprite",
+      "sha256": "860c2cee72578ff0e0de5af8d51d0832fff62978f7378c992e7d5f7f751db0d8"
+    },
+    {
+      "id": "hellagur:S04-7",
+      "version": "v6",
+      "selection": "C",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/S04-7-C.aseprite",
+      "sha256": "067610b86f8272b94e684b990c3ca571d4bf1047336b08131d9fbb57c50d2b78"
+    },
+    {
+      "id": "hellagur:S04-16",
+      "version": "v6",
+      "selection": "C",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/S04-16-C.aseprite",
+      "sha256": "5ff4a22e22438789de3f1758bd565a5b38e329bdf72eec9de65e13463d3f3ade"
+    },
+    {
+      "id": "hellagur:S05-7",
+      "version": "v6",
+      "selection": "B",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/S05-7-B.aseprite",
+      "sha256": "bb7525bf9a9e7d7ac1e16ecbaad9ec46e6a3ae460f5c29f59a5d70b090f6da0b"
+    },
+    {
+      "id": "hellagur:S05-16",
+      "version": "v6",
+      "selection": "C",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/S05-16-C.aseprite",
+      "sha256": "36a88702c01ef45c0804c357d57d876c4171746df69cbca4996a9ddf32949636"
+    },
+    {
+      "id": "hellagur:S06-7",
+      "version": "v6",
+      "selection": "C",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/S06-7-C.aseprite",
+      "sha256": "4b8c004f5a814e30fa043e422ade303074fede046ba8f7af0e753f9005009af2"
+    },
+    {
+      "id": "hellagur:S06-16",
+      "version": "v6",
+      "selection": "C",
+      "developmentSource": "art-source/library/current/hellagur/effects-status-v6/sources/S06-16-C.aseprite",
+      "sha256": "bb158ab31466e7b218f2e94736836720a8fa7af3f8cd97db8987d8fb83d9d669"
+    },
+    {
+      "id": "sprite:hellagur_berserker",
+      "version": "v14",
+      "selection": null,
+      "developmentSource": "art-source/library/current/hellagur/subclass-sprites-v16/berserker/slots.aseprite",
+      "sha256": "2af0628dfd0aab8a3094e0ff59f27531fa6a9dd5b80344617c71270fce6a166c"
+    },
+    {
+      "id": "sprite:hellagur_gladiator",
+      "version": "v16",
+      "selection": null,
+      "developmentSource": "art-source/library/current/hellagur/subclass-sprites-v16/gladiator/slots.aseprite",
+      "sha256": "8ccf143fdc817751cd94ec114c3a46b8f2c217fb8c98356f4d37abdf179b40f4"
+    },
+    {
+      "id": "portrait:hellagur_berserker",
+      "version": "v20 D",
+      "developmentSource": "art-source/library/current/hellagur/portraits/berserker/source.aseprite",
+      "sha256": "4fbbfb37c146582d991336561159b3952c74f72e68b938e599a56ff5b46a3296"
+    },
+    {
+      "id": "portrait:hellagur_gladiator",
+      "version": "v22 F",
+      "developmentSource": "art-source/library/current/hellagur/portraits/gladiator/source.aseprite",
+      "sha256": "3837a3915f8530057755f900da37d5bc2048ab66c54fb519b2577a164a9af9f6"
+    }
+  ],
+  "sourceNote": "V6 historical library flattened effect sheet filenames. This release resolves each effect PNG from its original v6 production directory and verifies its original SHA-256; native sources independently re-export to matching pixels. Historical files are not rewritten."
+}

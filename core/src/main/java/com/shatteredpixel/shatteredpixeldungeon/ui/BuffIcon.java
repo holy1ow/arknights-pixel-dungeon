@@ -24,6 +24,7 @@
 
 package com.shatteredpixel.shatteredpixeldungeon.ui;
 
+import com.shatteredpixel.shatteredpixeldungeon.effects.HellagurEffects;
 import com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaItemVisuals;
 import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Buff;
@@ -53,6 +54,14 @@ public class BuffIcon extends Image {
 	}
 
 	public void refresh(Buff buff){
+        String hellagur = HellagurEffects.status(buff, large);
+        if (hellagur != null) {
+            texture(hellagur);
+            frame(0, 0, large ? LRG_SIZE : SML_SIZE, large ? LRG_SIZE : SML_SIZE);
+            resetColor();
+            buff.tintIcon(this);
+            return;
+        }
         String selected = com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaIconVisuals.status(buff, large);
         if (selected != null) {
             texture(selected);

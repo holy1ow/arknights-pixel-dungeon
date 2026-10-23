@@ -24,6 +24,9 @@
 
 package com.shatteredpixel.shatteredpixeldungeon.items;
 
+import com.shatteredpixel.shatteredpixeldungeon.effects.HellagurEffects;
+import com.shatteredpixel.shatteredpixeldungeon.effects.HellagurVisuals;
+import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
 import com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaItemVisuals;
 import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.Badges;
@@ -59,10 +62,16 @@ public class TengusMask extends Item {
 	}
 	
 	@Override
-	public String name() { return AmiyaItemVisuals.active() ? Messages.get(this, "amiya_name") : super.name(); }
+	public String name() { return HellagurVisuals.eligible(Dungeon.hero) ? Messages.get(this, "hellagur_name") : AmiyaItemVisuals.active() ? Messages.get(this, "amiya_name") : super.name(); }
 
 	@Override
-	public String desc() { return AmiyaItemVisuals.active() ? Messages.get(this, "amiya_desc") : super.desc(); }
+	public String desc() { return HellagurVisuals.eligible(Dungeon.hero) ? Messages.get(this, "hellagur_desc") : AmiyaItemVisuals.active() ? Messages.get(this, "amiya_desc") : super.desc(); }
+
+	@Override
+	public String actionName(String action, Hero hero) {
+		return AC_WEAR.equals(action) && HellagurVisuals.eligible(hero)
+				? Messages.get(this, "hellagur_ac_wear") : super.actionName(action, hero);
+	}
 
 	@Override
 	public ArrayList<String> actions( Hero hero ) {
@@ -125,7 +134,8 @@ public class TengusMask extends Item {
 		e.pos(e.x-2, e.y-6, 4, 4);
 		e.start(Speck.factory(Speck.MASK), 0.05f, 20);
 		if (AmiyaItemVisuals.crown(curUser, false)) e.visible = false;
-		GLog.p( Messages.get(this, AmiyaItemVisuals.active() ? "amiya_used" : "used"));
+		if (HellagurEffects.show(curUser, HellagurEffects.Kind.F11)) e.visible = false;
+		GLog.p( Messages.get(this, HellagurVisuals.eligible(curUser) ? "hellagur_used" : AmiyaItemVisuals.active() ? "amiya_used" : "used"));
 		
 	}
 }

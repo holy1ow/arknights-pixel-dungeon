@@ -43,7 +43,8 @@ public class AmiyaIconChecks {
                 String description=t.desc();int max=t.maxPoints();TalentIcon icon=new TalentIcon(t);
                 String p=AmiyaIconVisuals.talent(cls,t);
                 check((p!=null)==eligible,"talent scope "+cls+" "+t);
-                check(icon.texture==TextureCache.get(p==null?Assets.Interfaces.TALENT_ICONS:p),"actual talent texture");
+                String expected=p==null?com.shatteredpixel.shatteredpixeldungeon.effects.HellagurVisuals.talent(cls,t):p;
+                check(icon.texture==TextureCache.get(expected==null?Assets.Interfaces.TALENT_ICONS:expected),"actual talent texture "+cls+" "+t);
                 check(icon.width==16&&icon.height==16,"talent dimensions");
                 icon.appearance(HeroClass.MAGE);check(icon.texture==TextureCache.get(Assets.Interfaces.TALENT_ICONS),"explicit Mage preview");
                 check(description.equals(t.desc())&&max==t.maxPoints(),"talent mechanics untouched");icon.destroy();
@@ -86,7 +87,7 @@ public class AmiyaIconChecks {
     }
     public static void main(String[] args)throws Exception {
         Path output=Path.of(args[0]);java.nio.file.Files.createDirectories(output);AmiyaItemChecks.output=output;AmiyaItemChecks.rows.clear();AmiyaItemChecks.rows.add("scenario,frame,seconds,heroX,heroY");
-        Path profile=java.nio.file.Files.createTempDirectory(output,"profile-");Gdx.files=new Lwjgl3Files();SPDSettings.set(new Lwjgl3Preferences(new Lwjgl3FileHandle(profile.resolve("settings.xml").toString(),Files.FileType.Absolute)));FileUtils.setDefaultFileProperties(Files.FileType.Absolute,profile+"/");SPDSettings.language(Languages.CHI_SMPL);SPDSettings.music(false);SPDSettings.soundFx(false);SPDSettings.intro(false);Game.version="0.0.3";Game.versionCode=922;
+        Path profile=java.nio.file.Files.createTempDirectory(output,"profile-");Gdx.files=new Lwjgl3Files();SPDSettings.set(new Lwjgl3Preferences(new Lwjgl3FileHandle(profile.resolve("settings.xml").toString(),Files.FileType.Absolute)));FileUtils.setDefaultFileProperties(Files.FileType.Absolute,profile+"/");SPDSettings.language(Languages.CHI_SMPL);SPDSettings.music(false);SPDSettings.soundFx(false);SPDSettings.intro(false);Game.version="0.0.4";Game.versionCode=922;
         Lwjgl3ApplicationConfiguration config=new Lwjgl3ApplicationConfiguration();config.setInitialVisible(false);config.setWindowedMode(1280,720);config.setForegroundFPS(60);config.setIdleFPS(60);
         new Lwjgl3Application(new ShatteredPixelDungeon(new DesktopPlatformSupport(){@Override public void updateSystemUI(){}}){
             int scenario,wait=20,frame,destination,originalDepth;boolean started,switching,fired,sawDepart,sawArrive;float time,expectedCharge;MageArmor armor;Method activate;

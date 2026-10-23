@@ -1,0 +1,196 @@
+{
+  "status": "review_ready",
+  "installed": false,
+  "locale": "zh_CN",
+  "rows": [
+    {
+      "id": "W01",
+      "label": "怀表名称",
+      "original_key": "items.tengusmask.name",
+      "candidate_key": "items.tengusmask.hellagur_name",
+      "current": "天狗的面具",
+      "candidate": "旧日怀表",
+      "integration_note": "仅赫拉格物品名称"
+    },
+    {
+      "id": "W02",
+      "label": "怀表详情",
+      "original_key": "items.tengusmask.desc",
+      "candidate_key": "items.tengusmask.hellagur_desc",
+      "current": "天狗死时，这幅面具像褪皮般从他的脸上失落地滑下。你能感受它在波动着一股神妙的魔力，仿佛在极力劝你成为它的新主人。难道天狗戴上它时也是被其力量吸引？\n\n如果你有勇气将其戴上，面具的庞大力量会转嫁到你体内，供你为英雄_选择一种职业专精_。\n\n你会选择哪条道路？",
+      "candidate": "磨损的表壳仍护着清晰的表盘。熟悉的节拍，让那些在战场上反复锤炼的判断重新浮现在心中。\n\n使用后，可_选择一种职业专精_。确认选择后，怀表将被消耗。",
+      "integration_note": "保留专精选择与消耗语义"
+    },
+    {
+      "id": "W03",
+      "label": "怀表动作按钮",
+      "original_key": "items.tengusmask.ac_wear",
+      "candidate_key": "items.tengusmask.hellagur_ac_wear",
+      "current": "佩戴",
+      "candidate": "选择专精",
+      "integration_note": "仅改按钮显示，内部行动仍为 WEAR"
+    },
+    {
+      "id": "W04",
+      "label": "转职选择正文",
+      "original_key": "windows.wndchoosesubclass.message",
+      "candidate_key": "windows.wndchoosesubclass.hellagur_message",
+      "current": "面具激动地贴附到你的脸上。忽然，眼前的景象极速消逝，你什么都看不见了——不，是什么都看得见了，林林总总的新技巧和新能力灌入你的脑海，斑斓琳琅。您想要如何驾驭面具的魔力？",
+      "candidate": "表针轻响，往日交锋中的判断渐渐清晰。是稳守阵线，还是以连绵的斩击打开局面？\n\n请选择一种职业专精。确认后将消耗怀表。",
+      "integration_note": "保留不屈/连斩原规则与按钮"
+    },
+    {
+      "id": "W05",
+      "label": "转职确认询问",
+      "original_key": "windows.wndchoosesubclass.are_you_sure",
+      "candidate_key": "windows.wndchoosesubclass.hellagur_are_you_sure",
+      "current": "您确定要选择这条专精道路吗？",
+      "candidate": "确定选择这条专精道路并消耗怀表吗？",
+      "integration_note": "不替换随机选择的确认逻辑"
+    },
+    {
+      "id": "W06",
+      "label": "转职确认按钮",
+      "original_key": "windows.wndchoosesubclass.yes",
+      "candidate_key": "windows.wndchoosesubclass.hellagur_yes",
+      "current": "是的，我决定好了。",
+      "candidate": "确认选择",
+      "integration_note": "仅显示文字"
+    },
+    {
+      "id": "W07",
+      "label": "转职返回按钮",
+      "original_key": "windows.wndchoosesubclass.no",
+      "candidate_key": "windows.wndchoosesubclass.hellagur_no",
+      "current": "不了，我稍后决定。",
+      "candidate": "再想想",
+      "integration_note": "保留取消不消耗"
+    },
+    {
+      "id": "W08",
+      "label": "转职稍后按钮",
+      "original_key": "windows.wndchoosesubclass.cancel",
+      "candidate_key": "windows.wndchoosesubclass.hellagur_cancel",
+      "current": "我将稍后决定",
+      "candidate": "稍后决定",
+      "integration_note": "保留取消不消耗"
+    },
+    {
+      "id": "W09",
+      "label": "转职成功日志",
+      "original_key": "items.tengusmask.used",
+      "candidate_key": "items.tengusmask.hellagur_used",
+      "current": "面具瓦解了，它所蕴含的能量涌入了你的身体。",
+      "candidate": "指针的轻响渐渐远去，旧日的经验化作此刻的决意。",
+      "integration_note": "只在原确认成功时显示"
+    },
+    {
+      "id": "H01",
+      "label": "进阶道具名称",
+      "original_key": "items.kingscrown.name",
+      "candidate_key": "items.kingscrown.hellagur_name",
+      "current": "矮人国王的皇冠",
+      "candidate": "热的雪",
+      "integration_note": "不更改物品类型"
+    },
+    {
+      "id": "H02",
+      "label": "进阶道具详情",
+      "original_key": "items.kingscrown.desc",
+      "candidate_key": "items.kingscrown.hellagur_desc",
+      "current": "末代矮人国王的皇冠，至强的魔法能量以光芒的形式从中辐射而出。\n\n如果你有决心将其戴上，皇冠的魔力会涌入你正在装备的护甲，将其改造为_拥有特殊技能的独特英雄护甲_。新的护甲会保留原护甲的所有属性与刻印。",
+      "candidate": "旧茶炊上留着长久使用的痕迹。温热的金属，让人想起风雪中的片刻歇息，以及仍需守护的人。\n\n使用后，可将_正在装备的护甲进阶为英雄护甲_，并选择一项护甲技能。原护甲的等级与刻印会被保留。确认进阶后，“热的雪”将被消耗。",
+      "integration_note": "原版护甲进阶，不增加饮用、治疗或充能操作"
+    },
+    {
+      "id": "H03",
+      "label": "进阶动作按钮",
+      "original_key": "items.kingscrown.ac_wear",
+      "candidate_key": "items.kingscrown.hellagur_ac_wear",
+      "current": "加冕",
+      "candidate": "护甲进阶",
+      "integration_note": "仅改按钮显示，内部行动仍为 WEAR"
+    },
+    {
+      "id": "H04",
+      "label": "护甲选择正文",
+      "original_key": "windows.wndchooseability.message",
+      "candidate_key": "windows.wndchooseability.hellagur_message",
+      "current": "手指还未离开，头顶上的皇冠就开始与你的护甲共鸣，发光、发热，好像坐上你的颅骨就是它的创造使命。皇冠的魔力包覆起你的护甲，摩挲起你的意志，像等待帝王下旨的臣子。陛下，哪项护甲技能更合圣意？",
+      "candidate": "茶炊泛起温热的金色微光，与你身上的护甲相映。你将以何种技艺，继续守住眼前的阵线？\n\n请选择一项护甲技能。确认后将消耗“热的雪”，并使当前护甲进阶。",
+      "integration_note": "只用于本次道具进阶窗口"
+    },
+    {
+      "id": "H05",
+      "label": "无道具的护甲选择正文",
+      "original_key": "windows.wndchooseability.message_no_crown",
+      "candidate_key": "windows.wndchooseability.hellagur_message_no_crown",
+      "current": "请陛下选一项护甲技能！",
+      "candidate": "请选择一项护甲技能。",
+      "integration_note": "原 crown==null 窗口：不声称持有或消耗茶炊"
+    },
+    {
+      "id": "H06",
+      "label": "护甲确认询问",
+      "original_key": "windows.wndchooseability.are_you_sure",
+      "candidate_key": "windows.wndchooseability.hellagur_are_you_sure",
+      "current": "陛下确定要选择这项技能吗？",
+      "candidate": "确定选择这项护甲技能吗？",
+      "integration_note": "可供有道具/无道具窗口共用，消耗在道具窗口正文说明"
+    },
+    {
+      "id": "H07",
+      "label": "护甲确认按钮",
+      "original_key": "windows.wndchooseability.yes",
+      "candidate_key": "windows.wndchooseability.hellagur_yes",
+      "current": "正是，朕意已决。",
+      "candidate": "确认选择",
+      "integration_note": "移除帝王口吻，保留原动作"
+    },
+    {
+      "id": "H08",
+      "label": "护甲返回按钮",
+      "original_key": "windows.wndchooseability.no",
+      "candidate_key": "windows.wndchooseability.hellagur_no",
+      "current": "不了，朕稍候再断。",
+      "candidate": "再想想",
+      "integration_note": "保留取消不消耗"
+    },
+    {
+      "id": "H09",
+      "label": "护甲稍后按钮",
+      "original_key": "windows.wndchooseability.cancel",
+      "candidate_key": "windows.wndchooseability.hellagur_cancel",
+      "current": "朕将稍后决断",
+      "candidate": "稍后决定",
+      "integration_note": "保留取消不消耗"
+    },
+    {
+      "id": "H10",
+      "label": "未穿护甲提示",
+      "original_key": "items.kingscrown.naked",
+      "candidate_key": "items.kingscrown.hellagur_naked",
+      "current": "非常遗憾，皇冠的魔力无法强化你的内衣。",
+      "candidate": "请先装备一件护甲，再使用“热的雪”进行进阶。",
+      "integration_note": "只描述现有 armor()!=null 条件，不增加鉴定或等级要求"
+    },
+    {
+      "id": "H11",
+      "label": "护甲进阶成功日志",
+      "original_key": "items.kingscrown.upgraded",
+      "candidate_key": "items.kingscrown.hellagur_upgraded",
+      "current": "皇冠熔为曜日般的金光，而你的护甲在照耀下开始逐渐变形！",
+      "candidate": "茶炊的余温化作金色微光，融入护甲。新的护甲技艺已然明晰。",
+      "integration_note": "只在原非Ratmogrify进阶成功分支显示"
+    }
+  ],
+  "scope": "Only Hellagur real/displayed identity; Amiya and shared base strings stay unchanged. New keys are proposed, no Java/properties in runtime were edited.",
+  "retained": [
+    "discover_hint 原有来源提示",
+    "random_title/random_sure 随机选择提示与机制",
+    "Ratmogrify 鼠王特殊分支原文",
+    "原职业/能力名与规则说明",
+    "F11/F12 原已确认进阶效果"
+  ],
+  "source": "Based on current item/window code and user-selected watch/kettle design. Flavor text is newly adapted prose, not a quotation of original Arknights lore."
+}

@@ -50,6 +50,7 @@ public class WndChooseSubclass extends Window {
 	public WndChooseSubclass(final TengusMask tome, final Hero hero ) {
 		
 		super();
+		final boolean hellagur = com.shatteredpixel.shatteredpixeldungeon.effects.HellagurVisuals.eligible(hero);
 
 		IconTitle titlebar = new IconTitle();
 		titlebar.icon( new ItemSprite( tome.image(), null ) );
@@ -96,7 +97,7 @@ public class WndChooseSubclass extends Window {
 		add(random);
 
 		RenderedTextBlock message = PixelScene.renderTextBlock( 6 );
-		message.text( (com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaItemVisuals.active() ? Messages.get(tome, "amiya_choice") : Messages.get(this, "message")), WIDTH );
+		message.text( (hellagur ? Messages.get(this, "hellagur_message") : com.shatteredpixel.shatteredpixeldungeon.effects.AmiyaItemVisuals.active() ? Messages.get(tome, "amiya_choice") : Messages.get(this, "message")), WIDTH );
 		message.setPos( titlebar.left(), titlebar.bottom() + GAP );
 		add( message );
 
@@ -108,9 +109,9 @@ public class WndChooseSubclass extends Window {
 				protected void onClick() {
 					GameScene.show(new WndOptions(new HeroIcon(hero.heroClass, subCls),
 							Messages.titleCase(subCls.title(hero.heroClass)),
-							Messages.get(WndChooseSubclass.this, "are_you_sure"),
-							Messages.get(WndChooseSubclass.this, "yes"),
-							Messages.get(WndChooseSubclass.this, "no")){
+							Messages.get(WndChooseSubclass.this, hellagur ? "hellagur_are_you_sure" : "are_you_sure"),
+							Messages.get(WndChooseSubclass.this, hellagur ? "hellagur_yes" : "yes"),
+							Messages.get(WndChooseSubclass.this, hellagur ? "hellagur_no" : "no")){
 						@Override
 						protected void onSelect(int index) {
 							hide();
@@ -142,7 +143,7 @@ public class WndChooseSubclass extends Window {
 			pos = btnCls.bottom() + GAP;
 		}
 
-		RedButton btnCancel = new RedButton( Messages.get(this, "cancel") ) {
+		RedButton btnCancel = new RedButton( Messages.get(this, hellagur ? "hellagur_cancel" : "cancel") ) {
 			@Override
 			protected void onClick() {
 				hide();
