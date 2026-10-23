@@ -38,7 +38,8 @@ shutil.copytree(ROOT/'licenses',dest/'licenses')
 commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
 (dest/'README.txt').write_text('Arknights Pixel Dungeon '+VERSION+' — holy1ow\nWindows x64 / bundled Java 17.0.17\n\n完整解压后运行 Start-Game.cmd。包内没有存档、解锁记录或预建角色。全新用户目录首次运行创建全新进度，仅赫拉格默认解锁，原版新手引导保留。\n赫拉格已确认的转职造型、怀表与“热的雪”、头像、图标、特效及文案已接入。阿米娅封版保持。\n这是开发快照，全角色美术尚未全部验收，特色技能尚未开发。阿米娅 2026-10-20 封版素材已接入，原版机制、护盾、元素法杖与其他角色保持。\n基于 Shattered Pixel Dungeon 4.0.2，游戏代码 GNU GPL v3 或后续版本。\n对应源码：https://github.com/holy1ow/arknights-pixel-dungeon/tree/v0.0.4\nCommit: '+commit+'\n第三方依赖未改变，对应源码沿用：https://github.com/holy1ow/arknights-pixel-dungeon/releases/download/v0.0.1/third-party-sources.zip\n普通玩家无需下载源码。个人存档不在本目录内，游戏使用独立用户目录。\n',encoding='utf-8')
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
-assert not any(p.suffix.lower() in {'.dat','.aseprite','.java','.ps1','.py'} or p.name.lower() in {'settings.xml','badges.dat','rankings.dat','journal.dat'} for p in dest.rglob('*') if p.is_file()), 'Private/save/development files in playable package'
+runtime_data = {APP+'/runtime/lib/tzdb.dat', APP+'/runtime/lib/security/public_suffix_list.dat'}
+assert not any((p.suffix.lower() in {'.dat','.aseprite','.java','.ps1','.py'} and p.relative_to(dest).as_posix() not in runtime_data) or p.name.lower() in {'settings.xml','badges.dat','rankings.dat','journal.dat'} for p in dest.rglob('*') if p.is_file()), 'Private/save/development files in playable package'
 files=[{'path':p.relative_to(dest).as_posix(),'bytes':p.stat().st_size,'sha256':sha(p)} for p in sorted(dest.rglob('*')) if p.is_file()]
 manifest={'version':VERSION,'date':'2026-10-23','releaseTag':'v'+VERSION,'commit':commit,'excludedOtherPlatformNatives':excluded,'files':files}
 (dest.parent/'windows-files.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
